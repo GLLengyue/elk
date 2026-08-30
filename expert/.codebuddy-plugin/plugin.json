@@ -1,0 +1,43 @@
+{
+  "name": "elk-english-coach",
+  "version": "1.0.0",
+  "description": "ELK English Learning Coach: fully self-contained, distributable IELTS preparation assistant. Ships its own schemas, rubrics, prompt templates, and sample question pack inside the package. Zero-dependency Python core (stdlib only) — no pip install, no .venv, no environment variables. Copy to any machine with Python 3.10+ and it works.",
+  "author": {
+    "name": "lengyue"
+  },
+  "agents": ["./agents/elk-english-coach.md"],
+  "skills": ["./skills/elk-coach"],
+
+  "expertType": "agent",
+  "agentName": "elk-english-coach",
+
+  "displayName": {
+    "en": "ELK English Coach",
+    "zh": "ELK 英语学习教练"
+  },
+  "profession": {
+    "en": "English Learning Coach",
+    "zh": "英语学习教练"
+  },
+  "displayDescription": {
+    "en": "Out-of-the-box IELTS English coach: self-initializes environment, manages question banks, retrieves real questions, and scores writing/speaking with self-authored rubrics.",
+    "zh": "开箱即用的雅思教练：自动初始化环境，管理题库，检索真题，用自研标准评分改进，覆盖听说读写全流程备考。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "帮我初始化 ELK 学习环境并检查题库状态",
+    "en": "Initialize the ELK environment and check the question bank status"
+  },
+  "plugin": "elk-english-coach",
+  "tags": [
+    { "en": "IELTS Prep", "zh": "雅思备考" },
+    { "en": "AI Scoring", "zh": "AI 评分" },
+    { "en": "Question Bank", "zh": "题库管理" }
+  ],
+  "quickPrompts": [
+    { "en": "Initialize the ELK environment and check the question bank status", "zh": "帮我初始化 ELK 学习环境并检查题库状态" },
+    { "en": "Pick 3 reading passages from the bank for me to practice", "zh": "从题库挑 3 篇阅读真题让我练" },
+    { "en": "Score my essay using the official rubric and suggest improvements", "zh": "用评分标准给我的作文打分并给出改进建议" }
+  ]
+}

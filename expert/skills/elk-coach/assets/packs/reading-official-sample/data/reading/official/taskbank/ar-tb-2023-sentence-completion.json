@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ar-tb-2023-sentence-completion",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.042812+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "ar-tb-2023-sentence-completion-text",
+    "title": "Sentence Completion",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Completion The origins of birds The science of evolutionary relationships has undergone a major change in recent decades. It used to be the case that all the features of organisms were important in working out their family tree. But following the work of German entomologist Willi Hennig, many evolutionary scientists now believe that the only features which carry any useful information are the evolutionary ‘novelties’ shared between organisms. Mice, lizards and fish, for example, all have backbones – so the feature ‘backbone’ tells us nothing about their evolutionary relationship. But the feature ‘four legs’ is useful because it’s an evolutionary novelty – a characteristic shared only between the lizard and the mouse. This would suggest that the lizard and mouse are more closely related to each other than either is to the fish. This revolutionary approach is called cladistics, and it has been central to the idea that birds evolved from dinosaurs. The ‘birds are dinosaurs’ theory was first developed by English palaeontologist Thomas Huxley (1825–1895). According to some accounts, one evening Huxley went to dinner still thinking about a mystery dinosaur bone in his lab. He knew he was dealing with the lower leg bone (tibia) of a meat-eating, two-legged dinosaur belonging to the classification known as theropods, but attached to the tibia was an unidentified extra bone. On the menu that evening was quail, a small bird similar to a pheasant, and Huxley noticed the same strange bone, attached to the quail tibia on his plate. He later realised that it was in fact the bird’s anklebone. More importantly, Huxley concluded that its forms in both dinosaur and bird skeletons were so similar that they must be closely related. Huxley’s idea fell out of favour for fifty years following the 1916 publication of The Origin of Birds by the Danish doctor Gerhard Heilmann. During this time, Heilmann’s theory was widely accepted. Heilmann had noted that two-legged, meat-eating dinosaurs lacked collarbones. In later evolutionary stages these bones fuse together to form the distinctive ‘Y’- shaped bone in a bird’s neck, known as the furcula. Heilmann proposed the notion that such a feature could not be lost and then re-evolve at a later date, so dinosaurs could not be the ancestors of birds. Then, in the late 1960s, John Ostrom from Yale University in the US, noted 22 features in the skeletons of meat-eating dinosaurs that were also found in birds and nowhere else. This reset the thinking on bird ancestry and once again Huxley’s ideas caught the attention of the scientific community. Subsequent work has found up to 85 characteristics that tie dinosaurs and birds together. But what of Heilmann’s missing bones? It turns out that not only did many dinosaurs have collarbones, these were also fused together into a furcula. Unfortunately for Heilmann, the fossil evidence was somewhat lacking in his day, and the few furculae that had been found were misidentified, usually as belly ribs US ornithologist Alan Feduccia and palaeontologist Larry Martin are two vocal opponents of the dinosaur theory. They contend that birds evolved from some unknown reptile at a time long before dinosaurs. Their reasoning is that flight is most likely to have started from a tree-climbing ancestor, yet all the proposed dinosaurian ancestors were ground-dwellers. But the dino-bird supporters contend that an unknown dinosaurian bird-ancestor could have been tree-dwelling, or that birds evolved flight from the ground up by chasing and leaping after insects. Most of Feduccia and Martin’s case against the ‘birds-are-dinosaurs’ hypothesis is based on differences between birds and dinosaurs. Supporters of cladistics, however, maintain that differences between organisms do not matter, as it is the similarities between them that count. Evolution dictates that organisms will change through time, so it is only the features which persist that carry useful information about their origins. Most people on either side of the debate do accept, however, that the ancient winged creature known as Archaeopteryx is an ancestor of today’s birds. This is in spite of the fact that its form is distinctly non-bird-like, with a long bony tail, and teeth instead of a beak. The ‘birds-are- dinosaurs’ supporters contend that, if clearly-preserved feathers had not been found alongside two of the seven Archaeopteryx specimens, it would probably have been identified as a small dinosaur. However, Archaeopteryx does have some bird-like features, such as a furcula and bird-like feet, that suggest that it is too bird-like to be considered a dinosaur. Over the last few decades several dinosaurs with bird-like features and primitive birds with dinosaur-like features have been found in several countries, connecting Archaeopteryx back to dinosaurs, and forwards to modern birds. Sinosauropteryx, excavated from 130-million-year-old rocks in northeast China, is one example. It is a dinosaur skeleton surrounded by a halo of fuzz, thought to be primitive feathers. And a reassessment of other dinosaurs reveals such bird-like features as hollow bones and a foot with three functional toes, characteristics that appeared over Madagascar is more bird-like than Archaeopteryx, yet retains some distinctive dinosaur features, including a long and vicious claw at the end of its wing. Over a century since Huxley’s discovery, it seems that cladistics may have finally settled the ‘dino-bird’ debate. Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer. Write your answers in boxes 1-5 on your answer sheet. called ………… . dinosaurs. early ………… . importance. ‘dino-bird’ argument."
+      }
+    ],
+    "word_count": 895,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "sentence-completion-q1-5",
+      "type": "sentence_completion",
+      "instruction": "Completion The origins of birds The science of evolutionary relationships has undergone a major change in recent decades. It used to be the case that all the features of organisms were important in working out their family tree. But following the work of German entomologist Willi Hennig, many evolutionary scientists now believe that the only features which carry any useful information are the evolutionary ‘novelties’ shared between organisms. Mice, lizards and fish, for example, all have backbones – so the feature ‘backbone’ tells us nothing about their evolutionary relationship. But the featu",
+      "word_limit": "ONE WORD ONLY",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Huxley formulated his theory while studying a dinosaur belonging to a group",
+          "answer": "theropods",
+          "evidence": [
+            {
+              "quote": "He knew he was dealing with the lower leg bone (tibia) of a meat-eating, two-legged dinosaur belonging to the classification known as theropods, but attached to the tibia was an unidentified extra bone. On the menu that evening was quail, a small bird similar to a pheasant, and Huxley noticed the sa",
+              "start": 1186,
+              "end": 1544,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Heilmann rejected Huxley’s theory because of the apparent absence of ................. in",
+          "answer": "collarbones",
+          "evidence": [
+            {
+              "quote": "It turns out that not only did many dinosaurs have collarbones, these were also fused together into a furcula. Unfortunately for Heilmann, the fossil evidence was somewhat lacking in his day, and the few furculae that had been found were misidentified, usually as belly ribs US ornithologist Alan Fed",
+              "start": 2734,
+              "end": 3120,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Feduccia and Martin believe that the ancestor of today’s birds was a kind of",
+          "answer": "reptile",
+          "evidence": [
+            {
+              "quote": "They contend that birds evolved from some unknown reptile at a time long before dinosaurs. Their reasoning is that flight is most likely to have started from a tree-climbing ancestor, yet all the proposed dinosaurian ancestors were ground-dwellers.",
+              "start": 3121,
+              "end": 3369,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "In cladistics, the ............... between organisms’ characteristics are of major",
+          "answer": "similarities",
+          "evidence": [
+            {
+              "quote": "Supporters of cladistics, however, maintain that differences between organisms do not matter, as it is the similarities between them that count.",
+              "start": 3699,
+              "end": 3843,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The dangerous ................ on a primitive bird from Madagascar adds weight to the",
+          "answer": "claw",
+          "evidence": [
+            {
+              "quote": "And a reassessment of other dinosaurs reveals such bird-like features as hollow bones and a foot with three functional toes, characteristics that appeared over Madagascar is more bird-like than Archaeopteryx, yet retains some distinctive dinosaur features, including a long and vicious claw at the en",
+              "start": 5059,
+              "end": 5373,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 5,
+      "answers_matched": 5,
+      "evidence_needs_review": []
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "6cda4cb74fba5fcb",
+    "created_at": "2026-08-29T18:05:32.042812+08:00",
+    "not_official": true
+  }
+}

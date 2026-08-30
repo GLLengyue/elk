@@ -1,0 +1,314 @@
+rubric_version: writing-task2.v1
+task: task-2
+test_types:
+- academic
+- general-training
+scale:
+  min: 0.0
+  max: 9.0
+  step: 0.5
+  rounding: nearest_half
+criteria_ids:
+- TR
+- CC
+- LR
+- GRA
+weights:
+  TR: 0.25
+  CC: 0.25
+  LR: 0.25
+  GRA: 0.25
+overall_rule: 四维算术平均后按 scale.rounding 取整
+objective_anchors:
+- id: word_count
+  how: 按空白切分，去掉题目原文后计数
+  use: <250 词触发 TR 长度扣分信号；Task 2 建议 250-320 词
+- id: paragraph_count
+  how: 空行或首行缩进切分
+  use: CC 判据：主体段 <2 段通常不足以支撑 6 分以上
+- id: rubric_overlap
+  how: 作文与题目文本的 8-gram 字面重叠率
+  use: '检测**分散**抄袭：各处拼凑题目原句。
+
+    >10% 触发扣分信号。
+
+    注意长文会稀释该比率，需配合 max_copied_span 一起看。
+
+    '
+- id: max_copied_span
+  how: 作文与题目文本的最长连续相同词数（word-level 最长公共子串）
+  use: '检测**整段**照抄。官方判据是 "the first five lines are directly
+
+    copied rubric"，判的是连续片段而非比率。
+
+    阈值经 chillies 1,500 篇真实作文校准（见下 calibration）：
+
+    >= 8 词为警告（p95）；>= 12 词判严重抄题（p99）。
+
+    '
+- id: max_copied_span_calibration
+  how: chillies_task2 抽样 1,500 篇的实测分位数
+  use: 'p50=3  p75=5  p90=7  p95=8  p99=12  max=28
+
+    >=8 词占 6.13%，>=12 词占 1.27%，>=20 词仅 0.27%
+
+    结论：定 12 词为封顶线（p99），20 词过严会漏掉多数真实抄题。
+
+    '
+- id: copied_span_share
+  how: max_copied_span / word_count
+  use: 配合 max_copied_span 判断抄题的严重程度
+- id: sentence_count
+  how: 按 .!? 切分
+  use: 配合 word_count 算平均句长，供 GRA 判结构复杂度
+- id: avg_sentence_words
+  how: word_count / sentence_count
+  use: GRA 参考：<10 词偏简单；10-20 正常；>25 需检查是否有逗号粘连
+- id: type_token_ratio
+  how: 不重复词数 / 总词数（词干化后）
+  use: LR 参考：<0.45 词汇重复度高；0.5-0.65 正常
+half_band_rule:
+  logic: '1. 先定基础档 B = 作文**完全满足**其全部 observable 的最高整档
+
+    2. 若同时满足 B+1 档中 >= 50% 的 observable，判 B+0.5
+
+    3. 若存在任一维度的**封顶规则**被触发，取封顶值与上述结果的较小者
+
+    '
+  cap_rules:
+  - id: copied_block
+    condition: max_copied_span >= 12
+    effect: TR 上限 5.0
+    rationale: "连续照抄题目 >=12 词。官方 comment: \"no credit is given for\ncopied rubric\"\
+      。两个设计要点：\n(1) 用连续片段而非 8-gram 比率 —— 长文会稀释比率，实测整句照抄\n    16 词在 345 词作文里 8-gram\
+      \ 重叠率仅 4.9%，按比率根本抓不到；\n(2) 阈值 12 词由 chillies 1,500 篇真实作文标定为 p99（1.27%），\n  \
+      \  定 20 词（0.27%）会漏掉多数真实抄题。\n"
+  - id: copied_rubric
+    condition: rubric_overlap > 15%
+    effect: TR 上限 5.0
+    rationale: 分散拼凑题目原句，同样不体现写作能力
+  - id: off_topic
+    condition: concept_hit < 0.01
+    effect: TR 上限 4.0
+    rationale: '完全离题：题目核心概念词在作文中零命中，任务未回应。
+
+      concept_hit = 题目实词在作文中的 5 字符词干命中率，
+
+      由 audit_writing_alignment.concept_hit_rate 计算，调用方需注入该特征。
+
+      '
+  - id: too_short
+    condition: word_count < 200
+    effect: TR 上限 5.0
+    rationale: Task 2 未达最低篇幅要求，论点无法充分展开
+criteria:
+- id: TR
+  name: Task Response
+  name_zh: 任务回应
+  question: 是否回应了题目、立场是否清晰、论点是否展开并有支撑
+  bands:
+    9:
+      summary: 全面回应；立场清晰且贯穿全文；论点充分展开并有恰当支撑
+      observable:
+      - 立场在引言中明确给出，且结论与之一致（无摇摆）
+      - 题目中的每个提问部分都被直接回应（Discuss both / 利弊 / 同意与否等）
+      - 每个主体论点都配具体支撑：事例、数据、或因果推演，全文 >= 3 处
+      - 无抄题目文本（rubric_overlap < 5%）
+      - 无形而上/离题段落：所有段落核心句都能回溯到题目关键词
+    8:
+      summary: 充分回应；立场清晰；论点展开良好，偶有过度概括
+      observable:
+      - 立场清晰，全文一致；引言与结论呼应
+      - 题目各部分均有回应
+      - 主体论点有支撑，但存在 1-2 处偏笼统的概括（缺乏具体例证）
+      - rubric_overlap < 5%，且对题目关键词有明显 paraphrase
+      - 允许 1 个论点展开略浅，不影响整体充分性
+    7:
+      summary: 回应题目；立场清晰但部分论点支撑不足或过度概括
+      observable:
+      - 立场可识别且基本贯穿全文（允许 1 处表述含糊）
+      - 题目主要部分被回应；次要部分可能一笔带过
+      - '>= 2 个论点有实质支撑；其余论点偏笼统'
+      - 存在过度概括（如 'everyone knows...'、'in modern society...' 无具体化）>= 1 处
+      - rubric_overlap < 10%
+    6:
+      summary: 回应了题目；立场存在但不够一致清晰；论点相关但展开不足
+      observable:
+      - 能看出作者倾向，但在不同段落间表述不完全一致
+      - 论点与题目相关，但多数停留在断言层（提出观点后立即转下一话题）
+      - 支撑薄弱：全文具体事例/推演 < 2 处
+      - 存在 1 段或以上与题目关联松散
+      - rubric_overlap < 15%
+    5:
+      summary: 立场难以识别或论点有限；展开严重不足
+      observable:
+      - 读完全文难以概括作者立场，或立场在文中改变
+      - 论点数量 <= 2，且多数未展开
+      - 大量复述题目而非表达观点
+      - 存在明显离题段落（与题目核心概念无交集）
+      - 字数可能不足或靠重复填充
+  schema_name: task_response
+- id: CC
+  name: Coherence and Cohesion
+  name_zh: 连贯与衔接
+  question: 信息组织是否有逻辑推进、分段是否合理、衔接手段是否恰当
+  bands:
+    9:
+      summary: 完全连贯；衔接手段老练；分段完全服务于论证
+      observable:
+      - 每段只承担一个功能（论点/支撑/反驳/结论），无功能混杂
+      - 段内推进可预测：中心句 -> 展开 -> 收束，全文一致
+      - 衔接自然，主要靠指代与词汇衔接，连接词使用克制且恰当
+      - 全文无一处需要读者回读才能理解指代对象
+      - 段落长度均衡（无 1 段独占总篇幅 >40%）
+    8:
+      summary: 连贯性好；分段恰当；衔接手段灵活，偶有失误
+      observable:
+      - 分段清晰，主体段 >= 2 段，各有明确中心
+      - 段间有显式或隐式过渡，读者能预判下一段内容
+      - 衔接手段多样（指代、同义替换、连接词均有使用）
+      - 允许 1-2 处衔接略生硬（如连接词使用稍显模板化）
+      - 无段落顺序错乱
+    7:
+      summary: 有整体推进；分段基本合理；衔接有一定套路化
+      observable:
+      - 有明显起承转合，读者能跟上论证脉络
+      - 分段存在但可能不均（某段过长或某段过短）
+      - 连接词使用较多且部分可预测（如首段末必用 However）
+      - 指代基本清楚，偶有 1-2 处需要回读
+      - 允许 1 处论点顺序可优化但不影响理解
+    6:
+      summary: 有推进但不够稳定；分段有时不当；衔接手段有限或机械
+      observable:
+      - 能看出组织意图，但段落间逻辑跳跃 >= 1 处
+      - 分段有时过短（<3 句）或过长（>8 句）
+      - 连接词机械使用（每句开头固定套路），或指代不清 >= 3 处
+      - 存在把多个不相关论点塞进同一段的情况
+      - 读者能理解大意，但需要自行补足部分逻辑
+    5:
+      summary: 缺乏整体推进；分段混乱；衔接手段不足或误用
+      observable:
+      - 无清晰组织，论点排列无逻辑
+      - 分段随意（通篇 1-2 段，或每段 1 句）
+      - 连接词误用导致关系错误（如转折关系用了 Furthermore）
+      - 指代混乱，读者频繁需要回读
+      - 存在整段与论证主线无关
+  schema_name: coherence_cohesion
+- id: LR
+  name: Lexical Resource
+  name_zh: 词汇丰富度
+  question: 词汇范围是否足够、用词是否准确得体、能否灵活表达
+  bands:
+    9:
+      summary: 词汇广且自然；使用完全灵活；搭配与语义精准
+      observable:
+      - 同一概念在文中出现 >= 3 种不同表达（非机械重复）
+      - 存在 >= 4 处低频但恰当的搭配或习语，且使用正确
+      - 全程用词精准，无一处因用词不当而产生歧义
+      - 拼写与构词错误 0 处
+      - 对题目关键词有有效 paraphrase，无字面搬运
+    8:
+      summary: 词汇范围广；使用灵活；偶有不准确但不影响理解
+      observable:
+      - 同一概念有 2-3 种表达方式
+      - 存在 >= 3 处低频/习语表达，其中 <= 1 处略不自然
+      - 用词不当 <= 2 处，且均不阻碍理解
+      - 拼写/构词错误 <= 2 处
+      - topic vocabulary 使用恰当，无明显生搬硬套
+    7:
+      summary: 词汇量足够；有一定灵活性；用词错误不影响整体理解
+      observable:
+      - 能用同义替换避免简单重复（>= 2 处）
+      - 尝试使用了 1-2 处低频表达，可能略显刻意
+      - 用词不当 3-5 处，读者可通过上下文推断正确含义
+      - 拼写/构词错误 3-5 处
+      - 存在少量从题目直接搬运的短语（未 paraphrase）
+    6:
+      summary: 词汇量够用；灵活性有限；错误有时造成理解困难
+      observable:
+      - 主要使用高频词，同义替换少（<2 处）
+      - 搭配错误频繁（如 make a research / do a decision）>= 4 处
+      - 用词不当 6-10 处，其中 >= 2 处造成理解困难
+      - 拼写/构词错误 6-10 处
+      - 为凑字数重复相同短语 >= 3 次
+    5:
+      summary: 词汇量有限；错误频繁且严重阻碍理解
+      observable:
+      - 词汇高度重复，type_token_ratio < 0.45
+      - 用词错误 >10 处，读者需反复猜测含义
+      - 大量使用不恰当的正式/非正式语体混用
+      - 拼写/构词错误 >10 处
+      - 直接搬运题目长句，缺乏 paraphrase 能力
+  schema_name: lexical_resource
+- id: GRA
+  name: Grammatical Range and Accuracy
+  name_zh: 语法多样性与准确性
+  question: 句式是否多样、语法是否准确、错误是否影响理解
+  bands:
+    9:
+      summary: 句式丰富且完全准确；标点使用得当
+      observable:
+      - 简单句与复杂句混合，从句类型 >= 3 种（定语/状语/名词性/非谓语）
+      - 语法与标点错误 0-1 处，且均为笔误级
+      - 无一处置信度受损：全文无需要重读才能解析的句子
+      - 标点使用精准（逗号、分号、破折号各司其职）
+      - 平均句长适中（12-22 词），无逗号粘连
+    8:
+      summary: 句式多样；错误很少且不阻碍理解
+      observable:
+      - 从句类型 >= 3 种，复杂句占比 30-50%
+      - 语法/标点错误 2-4 处，全部不影响理解
+      - 偶尔出现非母语式表达但语法正确
+      - 标点基本正确，允许 1-2 处逗号使用不严谨
+      - 无整句无法解析的情况
+    7:
+      summary: 句式有一定变化；错误较多但多数不阻碍理解
+      observable:
+      - 简单句与复杂句混合，复杂句尝试 >= 4 处
+      - 语法/标点错误 5-8 处，其中 <= 2 处造成理解困难
+      - 复杂句尝试中约半数准确（如从句引导词、时态一致性偶有失误）
+      - 标点错误 3-5 处（主要为逗号缺失或多余）
+      - 平均句长 10-20 词；允许个别长句结构失控
+    6:
+      summary: 简单句与复杂句混用但控制不稳；错误较频繁
+      observable:
+      - 复杂句尝试 >= 3 处，其中 >= 半数存在结构错误
+      - 语法/标点错误 9-14 处，其中 3-5 处造成理解困难
+      - 基础语法问题可见：主谓一致、冠词、单复数、时态混用
+      - 存在 1-3 处需要重读才能解析的句子
+      - 标点使用随意（逗号粘连或全篇缺逗号）
+    5:
+      summary: 句式有限；错误密集且严重阻碍理解
+      observable:
+      - 以简单句为主，复杂句尝试 <= 2 处且多为错误
+      - 语法/标点错误 >14 处，多数造成理解困难
+      - 基础句法错误频繁（句子成分残缺、双谓语）
+      - 多处句子无法解析，读者需凭猜测理解
+      - 标点基本缺失或通篇只用逗号
+  schema_name: grammatical_range
+output_contract:
+  required_fields:
+  - criteria_id
+  - band
+  - matched_anchor
+  - rationale
+  - overall_band
+  - rubric_version
+  field_notes:
+    criteria_id: TR / CC / LR / GRA 四者都必须给出
+    band: '0.5 步长（multipleOf: 0.5），范围 0-9'
+    matched_anchor: 命中的 observable 判据原文，证明分数有据；不得为空
+    rationale: 不超过 60 词，必须引用作文中的具体词句
+    overall_band: 按四维算术平均后取最近半档
+    rubric_version: 逐字回填本文件的 rubric_version，不得省略
+  hard_constraints:
+  - matched_anchor 不得为空 —— 没有证据支撑的分数视为无效
+  - rationale 必须引用作文中的具体词句，禁止泛泛而谈
+  - rubric_version 必须逐字回填，不得省略
+  forbidden:
+  - 不要因为书写、字体、格式扣分（雅思不评书写）
+  - 不要因为观点本身认同与否扣分（只评论证质量）
+  - 不要把拼写错误记到 GRA 上（拼写属 LR）
+  - 不要给没有文本证据的档位分
+criteria_name_mapping_note: id 是 rubric 内部简称；schema_name 才是写进 score-result.schema.json
+  的维度名。两者必须一一对应，由 scripts/build/check_contracts.py 强制校验。

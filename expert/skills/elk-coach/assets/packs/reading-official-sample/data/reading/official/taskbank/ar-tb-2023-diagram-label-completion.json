@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ar-tb-2023-diagram-label-completion",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.043697+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      44,
+      45,
+      46
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "ar-tb-2023-diagram-label-completion-text",
+    "title": "Diagram Label Completion",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Completion providing water to grow vegetables in desert regions. The text preceding this extract gave some background facts about the development of the method.] Charlie Paton has built a giant structure on a desert island off Abu Dhabi in the Persian Gulf – the first commercially viable version of his ‘seawater greenhouse’.  Local scientists, working with Paton under a licence from his company Light Works, are watering the desert and growing vegetables in what is basically a giant dew-making machine that produces fresh water and cool air from sun and seawater. The design has three main features.  Firstly, there is a front wall of perforated cardboard through which hot, dry air blows in from the desert.  This wall is kept moist by seawater pumped up from the nearby shoreline.  As this water evaporates, heat is taken from the air inside the greenhouse and moisture added to it.  Last June, for example, when the temperature outside the Abu Dhabi greenhouse was 46 °C, it was in the low 30s inside and the humidity in the greenhouse was 90 per cent.  The cool, moist air inside the greenhouse allows the plants to grow faster, and because much less water evaporates from the leaves, their demand for moisture drops dramatically. Paton’s crops thrived on a single litre of water per square metre per day, compared to 8 litres if they were growing outside. The second feature also serves to cool the air for the plants.  Paton has constructed a double-layered roof with an outer layer of clear polythene and an inner, coated layer that reflects infrared light.  Visible light can stream through to maximise photosynthesis, while infrared radiation is trapped in the space between the layers, away from the plants. At the back of the greenhouse sits the third element, the main water-production unit. Just before entering this unit, the humid air of the greenhouse mixes with the hot, dry air from between the two layers of the roof.  This means the air can absorb more moisture as it passes through a second perforated cardboard wall.  Finally, the hot saturated air hits a condenser.  This is kept cool by still more seawater.  Drops of pure distilled water form on the condenser and flow into a tank for irrigating the crops. The greenhouse more or less runs itself.  Sensors switch everything on when the sun rises, and alter flows of air and seawater through the day in response to changes in temperature, humidity and sunlight.  On windless days, a fan ensures a constant flow of air through the greenhouse.  ‘Once it is tuned to the local environment, you don’t need anyone there for it to work,’ says Paton.  ‘We can run the entire operation off one 13- amp plug, and in future we could make it entirely independent of the grid, powered from solar panels.’ Label the diagram below. 12345 Choose NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 1-5 on your answer sheet. The Seawater Greenhouse 5………… for irrigation water production unit"
+      }
+    ],
+    "word_count": 501,
+    "has_diagram": true
+  },
+  "question_groups": [
+    {
+      "id": "diagram-label-completion-q1-5",
+      "type": "diagram_label_completion",
+      "instruction": "Completion providing water to grow vegetables in desert regions. The text preceding this extract gave some background facts about the development of the method.] Charlie Paton has built a giant structure on a desert island off Abu Dhabi in the Persian Gulf – the first commercially viable version of his ‘seawater greenhouse’.  Local scientists, working with Paton under a licence from his company Light Works, are watering the desert and growing vegetables in what is basically a giant dew-making machine that produces fresh water and cool air from sun and seawater. The design has three main featur",
+      "word_limit": "NO MORE THAN THREE WORDS",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "questions": [
+        {
+          "number": 1,
+          "stem": "………",
+          "answer": "hot",
+          "evidence": [
+            {
+              "quote": "Finally, the hot saturated air hits a condenser.",
+              "start": 2034,
+              "end": 2082,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "………",
+          "answer": "cool",
+          "evidence": [
+            {
+              "quote": "This is kept cool by still more seawater.",
+              "start": 2083,
+              "end": 2124,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "…………",
+          "answer": "infrared",
+          "evidence": [
+            {
+              "quote": "Visible light can stream through to maximise photosynthesis, while infrared radiation is trapped in the space between the layers, away from the plants.",
+              "start": 1562,
+              "end": 1713,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "…………",
+          "answer": "(a/the)"
+        },
+        {
+          "number": 5,
+          "stem": "Question 5",
+          "answer": "pure/distilled",
+          "evidence": [
+            {
+              "quote": "Drops of pure distilled water form on the condenser and flow into a tank for irrigating the crops.",
+              "start": 2125,
+              "end": 2223,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 5,
+      "answers_matched": 5,
+      "evidence_needs_review": [
+        "Q4"
+      ]
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "330747fb97f75710",
+    "created_at": "2026-08-29T18:05:32.043697+08:00",
+    "not_official": true
+  }
+}

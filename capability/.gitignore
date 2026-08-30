@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------- 环境
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------- 数据
+# 数据默认落在 data/ 下。本仓库**刻意不含任何真实考试材料**：
+#   - data/raw/            官方 PDF / DOCX 原件，受版权约束
+#   - data/structured/     官方题的解析产物（redistributable: false）
+#   - data/state/          SQLite 与抓取缓存
+# 全部忽略，只保留目录骨架（由 skill bootstrap 重建）。
+data/raw/
+data/interim/
+data/structured/
+data/eval/
+data/state/
+data/*.db
+data/index.jsonl
+data/*.parquet
+
+# 运行日志与中间裁决，可删可重建
+runs/
+
+# 官方评分标准原文：仅供人工对照，禁止入库、禁止进 prompt。
+# 目录本身保留（带 README 说明用途），内容不提交。
+rubrics/_official-reference/*
+!rubrics/_official-reference/README.md
+
+# 数据包目录：正式数据包由数据提供方给到，不入库。
+# 仅保留 examples/packs/ 下的格式示范包（无版权负担）。
+packs/
+!examples/packs/
+
+# 数据包目录：正式数据包由数据提供方给到，不入库。
+# 仅保留 examples/packs/ 下的格式示范包（无版权负担）。
+packs/
+!examples/packs/
+
+# 静态站点产物
+site/
+
+# 本地私有配置（config/config.yaml 含个人路径/密钥）
+config/config.yaml
+.env
+*.local.yaml

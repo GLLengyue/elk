@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/writing-prompt.schema.json",
+  "title": "雅思写作题目",
+  "description": "一道写作题（Task 1 或 Task 2）。题目与作答分表存储，通过 prompt_id 关联——这样同一道题可以挂多篇范文（官方样题就是一道题配 2-4 篇 sample script）。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "task", "test_type", "prompt_text", "source"],
+  "properties": {
+    "schema_version": { "type": "string", "description": "如 writing-prompt.v1" },
+    "id": { "type": "string", "description": "稳定 ID，如 wt2-academic-2023-2a" },
+
+    "task": {
+      "enum": [1, 2],
+      "description": "Task 1（图表描述 / 书信）或 Task 2（议论文）"
+    },
+    "test_type": {
+      "enum": ["academic", "general-training"],
+      "description": "Task 2 两类通用；Task 1 两类题型完全不同（图表 vs 书信），必须区分"
+    },
+
+    "prompt_text": {
+      "type": "string",
+      "minLength": 20,
+      "description": "题目全文。Task 2 含背景句与提问句；Task 1 含图表说明或书信情境。"
+    },
+    "task_family": {
+      "enum": [
+        "agree_disagree",
+        "discuss_both",
+        "advantages_disadvantages",
+        "problem_solution",
+        "two_part_question",
+        "graph_description",
+        "process_description",
+        "map_description",
+        "letter"
+      ],
+      "description": "题型。前五种属 Task 2（决定论证结构，直接影响 TR 判据），后四种属 Task 1。"
+    },
+    "instruction_tail": {
+      "type": "string",
+      "description": "固定指令部分，如 'Give reasons for your answer and include any relevant examples from your own knowledge or experience.'"
+    },
+
+    "topic_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "主题标签，如 education / environment / technology / government。用于按话题组卷。"
+    },
+    "word_requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "minimum": { "type": "integer", "description": "Task1=150, Task2=250" },
+        "recommended": { "type": "integer", "description": "建议篇幅，Task2 通常 280-320" }
+      }
+    },
+
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Task 1 的图表。只存元数据与可选描述，不内嵌官方图片本体。",
+      "required": ["chart_type"],
+      "properties": {
+        "chart_type": {
+          "enum": ["line", "bar", "pie", "table", "process_diagram", "map", "multiple"]
+        },
+        "asset_path": { "type": "string", "description": "本地相对路径；官方图表不随数据集分发" },
+        "description": {
+          "type": "string",
+          "description": "图表的文字化描述。自写 paraphrase，不复制官方 caption。"
+        }
+      }
+    },
+
+    "bullet_points": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Task 1 书信题的三条要点。TR 评分会逐条检查是否覆盖。"
+    },
+
+    "source": { "$ref": "common/provenance.schema.json" },
+    "difficulty": { "$ref": "common/difficulty.schema.json" },
+    "notes": { "type": "string" }
+  }
+}

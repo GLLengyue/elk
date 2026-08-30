@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/common/difficulty.schema.json",
+  "title": "难度标注",
+  "description": "难度是多维的：题目难度（输入）与作答难度（输出）不是一回事。分开记，避免混用。",
+  "type": "object",
+  "additionalProperties": false,
+  "anyOf": [
+    { "required": ["cefr"] },
+    { "required": ["band_estimate"] },
+    { "required": ["level_1_5"] }
+  ],
+  "properties": {
+    "cefr": {
+      "enum": ["A1", "A2", "B1", "B2", "C1", "C2"],
+      "description": "语言难度。B2 大致对应雅思 5.5-6.5，C1 对应 7.0-8.0。"
+    },
+    "band_estimate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 9,
+      "multipleOf": 0.5,
+      "description": "预估雅思档位。用于筛选练习材料时对齐考生目标分。"
+    },
+    "level_1_5": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "项目内部的五级粗粒度难度，用于排布学习路径的先后顺序"
+    },
+    "estimated_by": {
+      "enum": ["rubric", "model", "human", "heuristic", "derived"],
+      "description": "难度由谁给出。derived 指从其他字段推算，可信度最低。"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "该难度标注的可信度"
+    }
+  }
+}

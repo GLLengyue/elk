@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/speaking-topic.schema.json",
+  "title": "SpeakingTopic",
+  "description": "雅思口语题组。Part1 = 4-8 子问题；Part2 = cue card（一句 Describe + 4 个 bullet）；Part3 = 4-6 条抽象追问。实测自雅思哥题库：Part1 48 题组、Part2&3 65 题组。注意 Part1 子问题数存在长尾（热门话题累积到 22 条），练习时应抽样而非全做。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "part",
+    "season",
+    "topic_name",
+    "source",
+    "not_official",
+    "fetched_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "如 sp2-2026-05-08-320260522215630"
+    },
+    "part": {
+      "enum": [
+        1,
+        2
+      ],
+      "description": "题组归属：1 = Part1 题库；2 = Part2&3 题库"
+    },
+    "season": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "考季，如 2026-05-08 / 2026-09-12"
+    },
+    "catalog": {
+      "enum": [
+        "person",
+        "object",
+        "event",
+        "place"
+      ]
+    },
+    "topic_name": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "description": "Part1 的子问题（part=2 时为空数组）",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "cue_card": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Part2 的 cue card（part=1 时为 null）",
+      "additionalProperties": false,
+      "required": [
+        "prompt",
+        "bullets"
+      ],
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "Describe ... 那一句"
+        },
+        "bullets": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": {
+            "type": "string"
+          },
+          "description": "实测 59/65 为 4 条，6/65 为 5 条"
+        },
+        "raw": {
+          "type": "string",
+          "description": "原始文本，含 You should say: 等引导语"
+        }
+      }
+    },
+    "part3_questions": {
+      "type": "array",
+      "description": "Part3 抽象追问；若源数据缺失则由 LLM 按 cue card 生成，约束为从个人经历转向社会/一般性问题",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "generated": {
+            "type": "boolean",
+            "description": "true = LLM 生成，非源数据"
+          }
+        }
+      }
+    },
+    "audio_refs": {
+      "type": "array",
+      "description": "示范音频。合规硬约束：第三方代理无授权，只存 URL 与时长，绝不下载、绝不入库 blob、绝不外发。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "redistributable"
+        ],
+        "properties": {
+          "url_uk": {
+            "type": "string"
+          },
+          "url_us": {
+            "type": "string"
+          },
+          "url_in": {
+            "type": "string"
+          },
+          "duration_s": {
+            "type": "integer"
+          },
+          "downloaded": {
+            "type": "boolean"
+          },
+          "redistributable": {
+            "const": false
+          }
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "oralTopicId": {
+          "type": "string"
+        },
+        "oralNums": {
+          "type": "string",
+          "description": "练习人次，如 '4.2万'"
+        },
+        "recentExamCount": {
+          "type": "integer",
+          "description": "近期被考次数，练习优先级排序依据"
+        },
+        "ifNew": {
+          "type": "boolean"
+        },
+        "timeTag": {
+          "type": "string",
+          "description": "考季标记。实测存在三种值：'2026年5-8月' / '2026年9-12月' / '非大陆地区5-8月'——第三种说明题库区分大陆与海外考区，换季 diff 必须按考区分开处理。"
+        },
+        "updateDate": {
+          "type": "string"
+        },
+        "always_on_rotation": {
+          "type": "boolean",
+          "description": "Part1 必考三剑客（Work or studies / Hometown / Accommodation）永不轮换，换季 diff 时忽略，否则制造噪声。判定须限定 part=1，用精确短语匹配，否则会误伤 Part2 的「完美工作」等题组。"
+        }
+      }
+    },
+    "region": {
+      "type": "string",
+      "description": "从 timeTag 推断：mainland / overseas / unknown"
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "not_official": {
+      "const": true
+    },
+    "fetched_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "origin"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "official",
+            "third_party",
+            "synthetic"
+          ]
+        },
+        "origin": {
+          "type": "string"
+        },
+        "license_note": {
+          "type": "string"
+        },
+        "redistributable": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

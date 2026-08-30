@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0.0",
+  "id": "gt-tb-2023-matching-features",
+  "module": "general_training",
+  "set_name": "ielts-general-training-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-general-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-general-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.392269+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "gt-tb-2023-matching-features-text",
+    "title": "Matching Features",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Features of the history of cinema. The text preceding this extract gave a general overview.] Although French, German, American and British pioneers have all been credited with the invention of cinema, the British and the Germans played a relatively small role in its worldwide exploitation. It was above all the French, followed closely by the Americans, who were the most passionate exporters of the new invention, helping to start cinema in China, Japan, Latin America and Russia. In terms of artistic development it was again the French and the Americans who took the lead, though in the years before the First World War, Italy, Denmark and Russia also played a part. In the end it was the United States that was to become, and remain, the largest single market for films. By protecting their own market and pursuing a vigorous export policy, the Americans achieved a dominant position on the world market by the start of the First World War. The centre of filmmaking had moved westwards, to Hollywood, and it was films from these new Hollywood studios that flooded onto the world’s film markets in the years after the First World War, and have done so ever since. Faced with total Hollywood domination, few film industries proved competitive. The Italian industry, which had pioneered the feature film with spectacular films like “Quo Vadis?” (1913) and “Cabiria” (1914), almost collapsed. In Scandinavia, the Swedish cinema had a brief period of glory, notably with powerful epic films and comedies. Even the French cinema found itself in a difficult position. In Europe, only Germany proved industrially capable, while in the new Soviet Union and in Japan, the development of the cinema took place in conditions of commercial isolation. Hollywood took the lead artistically as well as industrially. Hollywood films appealed because they had better constructed narratives, their special effects were more impressive, and the star system added a new dimension to screen acting. If Hollywood did not have enough of its own resources, it had a great deal of money to buy up artists and technical innovations from Europe to ensure its continued dominance over present or future competition. From early cinema, it was only American slapstick comedy that successfully developed in both short and feature format. However, during this ‘Silent Film’ era, animation, comedy, serials and dramatic features continued to thrive, along with factual films or documentaries, which acquired an increasing distinctiveness as the period progressed. It was also at this time that the avant-garde film first achieved commercial success, this time thanks almost exclusively to the French and the occasional German film. Of the countries which developed and maintained distinctive national cinemas in the silent period, the most important were France, Germany and the Soviet Union. Of these, the French displayed the most continuity, in spite of the war and post-war economic uncertainties. The German cinema, relatively insignificant in the pre-war years, exploded on to the world scene after 1919. Yet even they were both overshadowed by the Soviets after the 1917 Revolution. They turned their back on the past, leaving the style of the pre-war Russian cinema to the émigrés who fled westwards to escape the Revolution. The other countries whose cinemas changed dramatically are: Britain, which had an interesting but undistinguished history in the silent period; Italy, which had a brief moment of international fame just before the war; the Scandinavian countries, particularly Denmark, which played a role in the development of silent cinema quite out of proportion to their small population; and Japan, where a cinema developed based primarily on traditional theatrical and, to a lesser extent, other art forms and only gradually adapted to western influence. Look at the following statements (Questions 34-40) and the list of countries below. Match each statement with the correct country, A-J. NB You may use any letter more than once. List of Countries J China"
+      }
+    ],
+    "word_count": 642,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "matching-features-q34-40",
+      "type": "matching_features",
+      "instruction": "Features of the history of cinema. The text preceding this extract gave a general overview.] Although French, German, American and British pioneers have all been credited with the invention of cinema, the British and the Germans played a relatively small role in its worldwide exploitation. It was above all the French, followed closely by the Americans, who were the most passionate exporters of the new invention, helping to start cinema in China, Japan, Latin America and Russia. In terms of artistic development it was again the French and the Americans who took the lead, though in the years bef",
+      "question_range": {
+        "from": 34,
+        "to": 40
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "France"
+        },
+        {
+          "key": "B",
+          "text": "Germany"
+        },
+        {
+          "key": "D",
+          "text": "Denmark"
+        },
+        {
+          "key": "E",
+          "text": "Sweden"
+        },
+        {
+          "key": "F",
+          "text": "Japan"
+        },
+        {
+          "key": "G",
+          "text": "Russia"
+        },
+        {
+          "key": "H",
+          "text": "Italy"
+        },
+        {
+          "key": "I",
+          "text": "Britain"
+        }
+      ],
+      "questions": [
+        {
+          "number": 34,
+          "stem": "It helped other countries develop their own film industry.",
+          "answer": "A",
+          "evidence": [
+            {
+              "quote": "It was also at this time that the avant-garde film first achieved commercial success, this time thanks almost exclusively to the French and the occasional German film. Of the countries which developed and maintained distinctive national cinemas in the silent period, the most important were France, G",
+              "start": 2535,
+              "end": 2863,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "stem": "It was the biggest producer of films.",
+          "answer": "C",
+          "evidence": [
+            {
+              "quote": "However, during this ‘Silent Film’ era, animation, comedy, serials and dramatic features continued to thrive, along with factual films or documentaries, which acquired an increasing distinctiveness as the period progressed.",
+              "start": 2311,
+              "end": 2534,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "stem": "It was first to develop the 'feature' film.",
+          "answer": "H",
+          "evidence": [
+            {
+              "quote": "In terms of artistic development it was again the French and the Americans who took the lead, though in the years before the First World War, Italy, Denmark and Russia also played a part.",
+              "start": 483,
+              "end": 670,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "stem": "It was responsible for creating stars.",
+          "answer": "C"
+        },
+        {
+          "number": 38,
+          "stem": "It made the most money from 'avant-garde' films.",
+          "answer": "A",
+          "evidence": [
+            {
+              "quote": "Hollywood films appealed because they had better constructed narratives, their special effects were more impressive, and the star system added a new dimension to screen acting. If Hollywood did not have enough of its own resources, it had a great deal of money to buy up artists and technical innovat",
+              "start": 1805,
+              "end": 2191,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "stem": "It made movies based more on its own culture than outside influences.",
+          "answer": "F",
+          "evidence": [
+            {
+              "quote": "The other countries whose cinemas changed dramatically are: Britain, which had an interesting but undistinguished history in the silent period; Italy, which had a brief moment of international fame just before the war; the Scandinavian countries, particularly Denmark, which played a role in the deve",
+              "start": 3305,
+              "end": 3848,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "stem": "It had a great influence on silent movies, despite its size.",
+          "answer": "D",
+          "evidence": [
+            {
+              "quote": "The other countries whose cinemas changed dramatically are: Britain, which had an interesting but undistinguished history in the silent period; Italy, which had a brief moment of international fame just before the war; the Scandinavian countries, particularly Denmark, which played a role in the deve",
+              "start": 3305,
+              "end": 3848,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 7,
+      "answers_matched": 7,
+      "evidence_needs_review": [
+        "Q37"
+      ]
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "5e75920f7f06d017",
+    "created_at": "2026-08-29T18:05:32.392269+08:00",
+    "not_official": true
+  }
+}

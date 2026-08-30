@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "id": "gt-tb-2023-summary-completion-productive",
+  "module": "general_training",
+  "set_name": "ielts-general-training-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-general-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-general-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.394132+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      28,
+      29,
+      30
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "gt-tb-2023-summary-completion-productive-text",
+    "title": "Summary Completion: productive",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Completion: productive the history of West Africa.] Read the text below and answer Questions 1-5. Political units in the history of West Africa Ife, perched at the edge of Nigeria’s forest, is thought to have come to prominence through its control of local products – including ivory, gold and pepper – in external trade. By AD 1300, its walled capital was at the peak of its wealth, with many shrines featuring elaborate pavements made of pieces of pottery, and a rich tradition of creating brass and terracotta sculptures, including ones of people richly adorned in ceremonial regalia. Many of these have survived. Subsistence for the large elite and artisan population appears to have been based upon small livestock and the cultivation of vegetables. Around AD 1500, the city of Ife declined, and the region’s center of power shifted to Benin without any appreciable break in cultural tradition. Complete the summary below. Choose ONE WORD ONLY from the text for each answer. Write your answers in boxes 1-5 on your answer sheet. Ife The state of Ife adjoined the 1 ............... in Nigeria, and traded a variety of goods, including metals such as 2 ................. . Floors in religious buildings were made from bits of 3 ………… . There are many surviving examples of 4 ................ made of brass or terracotta. The population lived on animal products, and crops such as 5 ………… ."
+      }
+    ],
+    "word_count": 216,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "summary-completion-productive-q1-5",
+      "type": "summary_completion",
+      "subtype": "summary",
+      "instruction": "Completion: productive the history of West Africa.] Read the text below and answer Questions 1-5. Political units in the history of West Africa Ife, perched at the edge of Nigeria’s forest, is thought to have come to prominence through its control of local products – including ivory, gold and pepper – in external trade. By AD 1300, its walled capital was at the peak of its wealth, with many shrines featuring elaborate pavements made of pieces of pottery, and a rich tradition of creating brass and terracotta sculptures, including ones of people richly adorned in ceremonial regalia. Many of thes",
+      "word_limit": "ONE WORD ONLY",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Question 1",
+          "answer": "forest",
+          "evidence": [
+            {
+              "quote": "Political units in the history of West Africa Ife, perched at the edge of Nigeria’s forest, is thought to have come to prominence through its control of local products – including ivory, gold and pepper – in external trade.",
+              "start": 98,
+              "end": 321,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Question 2",
+          "answer": "gold",
+          "evidence": [
+            {
+              "quote": "Political units in the history of West Africa Ife, perched at the edge of Nigeria’s forest, is thought to have come to prominence through its control of local products – including ivory, gold and pepper – in external trade.",
+              "start": 98,
+              "end": 321,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Question 3",
+          "answer": "pottery",
+          "evidence": [
+            {
+              "quote": "By AD 1300, its walled capital was at the peak of its wealth, with many shrines featuring elaborate pavements made of pieces of pottery, and a rich tradition of creating brass and terracotta sculptures, including ones of people richly adorned in ceremonial regalia.",
+              "start": 322,
+              "end": 587,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Question 4",
+          "answer": "sculptures",
+          "evidence": [
+            {
+              "quote": "By AD 1300, its walled capital was at the peak of its wealth, with many shrines featuring elaborate pavements made of pieces of pottery, and a rich tradition of creating brass and terracotta sculptures, including ones of people richly adorned in ceremonial regalia.",
+              "start": 322,
+              "end": 587,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Question 5",
+          "answer": "vegetables",
+          "evidence": [
+            {
+              "quote": "Subsistence for the large elite and artisan population appears to have been based upon small livestock and the cultivation of vegetables.",
+              "start": 617,
+              "end": 754,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 5,
+      "answers_matched": 5,
+      "evidence_needs_review": []
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "0bfe2197f23b1456",
+    "created_at": "2026-08-29T18:05:32.394132+08:00",
+    "not_official": true
+  }
+}

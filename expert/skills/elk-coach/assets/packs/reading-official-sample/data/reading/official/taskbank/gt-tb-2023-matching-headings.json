@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0.0",
+  "id": "gt-tb-2023-matching-headings",
+  "module": "general_training",
+  "set_name": "ielts-general-training-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-general-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-general-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.392664+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      17,
+      18,
+      19
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "gt-tb-2023-matching-headings-text",
+    "title": "Matching Headings",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Headings The text has seven paragraphs, A-G. headings below. Example Paragraph C ix ROBOTS AT WORK A The newspaper production process has come a long way from the old days when the paper was written, edited, typeset and ultimately printed in one building with the journalists working on the upper floors and the printing presses going on the ground floor. These days the editor, subeditors and journalists who put the paper together are likely to find themselves in a totally different building or maybe even in a different city. This is the situation which now prevails in Sydney. The daily paper is compiled at the editorial headquarters, known as the prepress centre, in the heart of the city, but printed far away in the suburbs at the printing centre. Here human beings are in the minority as much of the work is done by automated machines controlled by computers. B Once the finished newspaper has been created for the next morning’s edition, all the pages are transmitted electronically from the prepress centre to the printing centre. The system of transmission is an update on the sophisticated page facsimile system already in use on many other newspapers. An imagesetter at the printing centre delivers the pages as film. Each page takes less than a minute to produce, although for colour pages four versions, once each for black, cyan, magenta and yellow are sent. The pages are then processed into photographic negatives and the film is used to produce aluminium printing plates ready for the presses. C printing centre where the Sydney Morning Herald is printed each day. With lights flashing and warning horns honking, the robots (to give them their correct name, the LGVs or laser guided vehicles) look for all the world like enthusiastic machines from a science fiction movie, as they follow their own random paths around the plant busily getting on with their jobs. Automation of this kind is now standard in all modern newspaper plants. The robots can detect unauthorised personnel and alert security staff immediately if they find an “intruder”; not surprisingly, tall tales are already being told about the machines starting to take on personalities of their own. D The robots’ principal job, however, is to shift the newsprint (the printing paper) that arrives at the plant in huge reels and emerges at the other end some time later as newspapers. Once the size of the day’s paper and the publishing order are determined at head office, the information is punched into the computer and the LGVs are programmed to go about their work. The LGVs collect the appropriate size paper reels and take them where they have to go. When the press needs another reel its computer alerts the LGV system. The Sydney LGVs move busily around the press room fulfilling their two key functions to collect reels of newsprint either from the reel stripping stations, or from the racked supplies in the newsprint storage area. At the stripping station the tough wrapping that helps to protect a reel of paper from rough handling is removed. Any damaged paper is peeled off and the reel is then weighed. E Then one of the four paster robots moves in. Specifically designed for the job, it trims the paper neatly and prepares the reel for the press. If required the reel can be loaded directly onto the press; if not needed immediately, an LGV takes it to the storage area. When the press computer calls for a reel, an LGV takes it to the reel loading area of the presses. It lifts the reel into the loading position and places it in the correct spot with complete accuracy. As each reel is used up, the press drops the heavy cardboard core into a waste bin. When the bin is full, another LGV collects it and deposits the cores into a shredder for recycling. F The LGVs move at walking speed. Should anyone step in front of one or get too close, sensors stop the vehicle until the path is clear. The company has chosen a laser guide function system for the vehicles because, as the project development manager says “The beauty of it is that if you want to change the routes, you can work out a new route on your computer and lay it down for them to follow”. When an LGV’s batteries run low, it will take itself off line and go to the nearest battery maintenance point for replacement batteries. And all this is achieved with absolute minimum human input and a much reduced risk of injury to people working in the printing centres. G The question newspaper workers must now ask, however is, “how long will it be before the robots are writing the newspapers as well as running the printing centre, churning out the latest edition every morning?”"
+      }
+    ],
+    "word_count": 810,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "matching-headings-q27-32",
+      "type": "matching_headings",
+      "instruction": "Headings Questions 27 – 32 The text has seven paragraphs, A-G. Choose the correct heading for paragraphs A, B and D-G from the list of headings below. Write the correct number, i-ix,in boxes 27-32 on your answer sheet. List of Headings i Robots working together ii Preparing LGVs for takeover iii Looking ahead iv The LGVs’ main functions v Split location for newspaper production vi Newspapers superseded by technology vii Getting the newspaper to the printing centre viii Controlling the robots ix Beware of robots! 27 Paragraph A 28 Paragraph B 29 Paragraph D 30 Paragraph E 31 Paragraph F 32 Para",
+      "question_range": {
+        "from": 27,
+        "to": 32
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "i",
+          "text": "Robots working together"
+        },
+        {
+          "key": "ii",
+          "text": "Preparing LGVs for takeover"
+        },
+        {
+          "key": "iii",
+          "text": "Looking ahead"
+        },
+        {
+          "key": "iv",
+          "text": "The LGVs’ main functions"
+        },
+        {
+          "key": "v",
+          "text": "Split location for newspaper production"
+        },
+        {
+          "key": "vi",
+          "text": "Newspapers superseded by technology"
+        },
+        {
+          "key": "vii",
+          "text": "Getting the newspaper to the printing centre"
+        },
+        {
+          "key": "viii",
+          "text": "Controlling the robots"
+        },
+        {
+          "key": "ix",
+          "text": "Beware of robots!"
+        },
+        {
+          "key": "A",
+          "text": "procession of automated vehicles is busy at the new"
+        }
+      ],
+      "questions": [
+        {
+          "number": 27,
+          "stem": "Paragraph A",
+          "answer": "v",
+          "evidence": [
+            {
+              "quote": "Example Paragraph C ix ROBOTS AT WORK A The newspaper production process has come a long way from the old days when the paper was written, edited, typeset and ultimately printed in one building with the journalists working on the upper floors and the printing presses going on the ground floor.",
+              "start": 61,
+              "end": 355,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "stem": "Paragraph B",
+          "answer": "vii",
+          "evidence": [
+            {
+              "quote": "Example Paragraph C ix ROBOTS AT WORK A The newspaper production process has come a long way from the old days when the paper was written, edited, typeset and ultimately printed in one building with the journalists working on the upper floors and the printing presses going on the ground floor.",
+              "start": 61,
+              "end": 355,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "stem": "Paragraph D",
+          "answer": "iv",
+          "evidence": [
+            {
+              "quote": "The Sydney LGVs move busily around the press room fulfilling their two key functions to collect reels of newsprint either from the reel stripping stations, or from the racked supplies in the newsprint storage area.",
+              "start": 2713,
+              "end": 2927,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "stem": "Paragraph E",
+          "answer": "i",
+          "evidence": [
+            {
+              "quote": "Example Paragraph C ix ROBOTS AT WORK A The newspaper production process has come a long way from the old days when the paper was written, edited, typeset and ultimately printed in one building with the journalists working on the upper floors and the printing presses going on the ground floor. These",
+              "start": 61,
+              "end": 529,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "stem": "Paragraph F",
+          "answer": "viii",
+          "evidence": [
+            {
+              "quote": "Example Paragraph C ix ROBOTS AT WORK A The newspaper production process has come a long way from the old days when the paper was written, edited, typeset and ultimately printed in one building with the journalists working on the upper floors and the printing presses going on the ground floor.",
+              "start": 61,
+              "end": 355,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "stem": "Paragraph G",
+          "answer": "iii",
+          "evidence": [
+            {
+              "quote": "Example Paragraph C ix ROBOTS AT WORK A The newspaper production process has come a long way from the old days when the paper was written, edited, typeset and ultimately printed in one building with the journalists working on the upper floors and the printing presses going on the ground floor.",
+              "start": 61,
+              "end": 355,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 6,
+      "answers_matched": 6,
+      "evidence_needs_review": []
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "f9816a6928966ff3",
+    "created_at": "2026-08-29T18:05:32.392664+08:00",
+    "not_official": true
+  }
+}

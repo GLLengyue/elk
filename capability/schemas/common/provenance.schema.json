@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/common/provenance.schema.json",
+  "title": "来源追溯",
+  "description": "每一条结构化数据都必须能回答「它从哪来、能不能发出去」。缺了这一层，数据集的合规声明就无从验证。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_type", "licence"],
+  "properties": {
+    "source_type": {
+      "enum": [
+        "official_sample",
+        "open_dataset",
+        "synthetic",
+        "self_authored",
+        "user_submitted"
+      ],
+      "description": "official_sample=官方免费公开样题；open_dataset=HuggingFace/Kaggle 等公开数据集；synthetic=模型生成；self_authored=本项目自写；user_submitted=用户提交"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "数据集名或文件名，如 chillies_task2 / academic-writing-sample-tasks-2023.pdf"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "可回溯的原始地址"
+    },
+    "licence": {
+      "$ref": "licence.schema.json"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "采集时间，ISO 8601"
+    },
+    "verified_on": {
+      "type": "string",
+      "format": "date",
+      "description": "人工核验该来源可达/有效的日期"
+    },
+    "page_refs": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "description": "PDF 原始页码（1-based），便于回到原件核对"
+    },
+    "derivation": {
+      "type": "string",
+      "description": "若为派生数据，说明派生方式；如「从官方 PDF 页 18 的 Examiner comment 提取」"
+    }
+  }
+}

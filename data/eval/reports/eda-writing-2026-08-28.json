@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-08-28T19:07:57+08:00",
+  "datasets": [
+    {
+      "dataset": "chillies_task2",
+      "task": 2,
+      "total": 8049,
+      "valid": 8049,
+      "band_distribution": {
+        "0.0": 36,
+        "0.5": 6,
+        "1.0": 36,
+        "1.5": 13,
+        "2.0": 44,
+        "2.5": 66,
+        "3.0": 103,
+        "3.5": 111,
+        "4.0": 381,
+        "4.5": 637,
+        "5.0": 911,
+        "5.5": 811,
+        "6.0": 882,
+        "6.5": 906,
+        "7.0": 1021,
+        "7.5": 956,
+        "8.0": 686,
+        "8.5": 389,
+        "9.0": 54
+      },
+      "top_band_share": 0.1268,
+      "consistency_within_0.5": 0.8948,
+      "consistency_within_0.25": 0.8948,
+      "mean_abs_dev": 0.2663,
+      "all_dims_identical_rate": 0.0739,
+      "dim_correlation": {
+        "TR-CC": 0.489,
+        "TR-LR": 0.16,
+        "TR-GRA": 0.203,
+        "CC-LR": 0.184,
+        "CC-GRA": 0.21,
+        "LR-GRA": 0.848
+      },
+      "half_band_ratio": {
+        "overall": 0.4839,
+        "TR": 0.1014,
+        "CC": 0.002,
+        "LR": 0.0,
+        "GRA": 0.0
+      },
+      "word_count": {
+        "min": 50,
+        "avg": 294.5,
+        "max": 707,
+        "too_short": 848
+      },
+      "dup_essays": 0,
+      "unique_prompts": 1970,
+      "issues": [
+        "CC 无半档精度",
+        "LR 无半档精度",
+        "GRA 无半档精度"
+      ],
+      "max_dim_corr": 0.848,
+      "severity": 3,
+      "rank": 1
+    },
+    {
+      "dataset": "hai2131_task1",
+      "task": 1,
+      "total": 13925,
+      "valid": 13925,
+      "band_distribution": {
+        "4.0": 262,
+        "4.5": 2086,
+        "5.0": 1214,
+        "5.5": 1338,
+        "6.0": 1390,
+        "6.5": 1173,
+        "7.0": 1276,
+        "7.5": 1282,
+        "8.0": 1702,
+        "8.5": 686,
+        "9.0": 1516
+      },
+      "top_band_share": 0.1498,
+      "consistency_within_0.5": 1.0,
+      "consistency_within_0.25": 1.0,
+      "mean_abs_dev": 0.124,
+      "all_dims_identical_rate": 0.133,
+      "dim_correlation": {
+        "TR-CC": 0.91,
+        "TR-LR": 0.896,
+        "TR-GRA": 0.865,
+        "CC-LR": 0.933,
+        "CC-GRA": 0.935,
+        "LR-GRA": 0.903
+      },
+      "half_band_ratio": {
+        "overall": 0.4715,
+        "TR": 0.2439,
+        "CC": 0.3405,
+        "LR": 0.4414,
+        "GRA": 0.3807
+      },
+      "word_count": {
+        "min": 82,
+        "avg": 182.8,
+        "max": 505,
+        "too_short": 426
+      },
+      "dup_essays": 5062,
+      "unique_prompts": 340,
+      "issues": [
+        "四维一致性过于完美，疑似由 overall 反推",
+        "维度高度相关(r=0.94)，非独立评分",
+        "重复作文 36.4%"
+      ],
+      "max_dim_corr": 0.935,
+      "severity": 17,
+      "rank": 3
+    },
+    {
+      "dataset": "btnotpt_task2",
+      "task": 2,
+      "total": 10219,
+      "valid": 10219,
+      "band_distribution": {
+        "5.0": 80,
+        "5.5": 2582,
+        "6.0": 5053,
+        "6.5": 1551,
+        "7.0": 87,
+        "8.0": 861,
+        "9.0": 5
+      },
+      "top_band_share": 0.4945,
+      "consistency_within_0.5": 1.0,
+      "consistency_within_0.25": 1.0,
+      "mean_abs_dev": 0.114,
+      "all_dims_identical_rate": 0.0946,
+      "dim_correlation": {
+        "TR-CC": 0.727,
+        "TR-LR": 0.7,
+        "TR-GRA": 0.648,
+        "CC-LR": 0.72,
+        "CC-GRA": 0.674,
+        "LR-GRA": 0.777
+      },
+      "half_band_ratio": {
+        "overall": 0.4044,
+        "TR": 0.1249,
+        "CC": 0.598,
+        "LR": 0.5204,
+        "GRA": 0.7087
+      },
+      "word_count": {
+        "min": 36,
+        "avg": 296.4,
+        "max": 1475,
+        "too_short": 1350
+      },
+      "dup_essays": 4173,
+      "unique_prompts": 4958,
+      "issues": [
+        "band 高度集中( 49.5%)",
+        "四维一致性过于完美，疑似由 overall 反推",
+        "重复作文 40.8%"
+      ],
+      "max_dim_corr": 0.777,
+      "severity": 12,
+      "rank": 2
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "generated_at": "2026-08-29T09:17:23.863715+08:00",
+  "sampled": null,
+  "datasets": [
+    {
+      "dataset": "chillies_task2",
+      "task": 2,
+      "n_sampled": 8049,
+      "alignment": {
+        "method": "题目实词在作文中的 5-char 词干命中率",
+        "mean": 0.7011,
+        "p10": 0.4615,
+        "median": 0.7143,
+        "zero_hit_rate": 0.0068,
+        "below_20pct_rate": 0.0153
+      },
+      "distribution_shape": {
+        "TR": {
+          "n": 8049,
+          "half_band_ratio": 0.1014,
+          "band9_ratio": 0.1506,
+          "ge8_ratio": 0.2286,
+          "count_8_0": 615,
+          "count_8_5": 13,
+          "issues": [
+            "满分占比 15.1%（真实应 <1%）"
+          ]
+        },
+        "CC": {
+          "n": 8049,
+          "half_band_ratio": 0.002,
+          "band9_ratio": 0.1015,
+          "ge8_ratio": 0.1036,
+          "count_8_0": 17,
+          "count_8_5": 0,
+          "issues": [
+            "满分占比 10.2%（真实应 <1%）",
+            "半档占比 0.2%（真实应 30-50%，通常是整数列导致）",
+            "8.0 与 9.0 之间无 8.5，分布断裂"
+          ]
+        },
+        "LR": {
+          "n": 8049,
+          "half_band_ratio": 0.0,
+          "band9_ratio": 0.0957,
+          "ge8_ratio": 0.2733,
+          "count_8_0": 1430,
+          "count_8_5": 0,
+          "issues": [
+            "满分占比 9.6%（真实应 <1%）",
+            "8分以上占比 27.3%（真实应 <10%）",
+            "半档占比 0.0%（真实应 30-50%，通常是整数列导致）",
+            "8.0 与 9.0 之间无 8.5，分布断裂"
+          ]
+        },
+        "GRA": {
+          "n": 8049,
+          "half_band_ratio": 0.0,
+          "band9_ratio": 0.3096,
+          "ge8_ratio": 0.4295,
+          "count_8_0": 965,
+          "count_8_5": 0,
+          "issues": [
+            "满分占比 31.0%（真实应 <1%）",
+            "8分以上占比 42.9%（真实应 <10%）",
+            "半档占比 0.0%（真实应 30-50%，通常是整数列导致）",
+            "8.0 与 9.0 之间无 8.5，分布断裂"
+          ]
+        },
+        "overall": {
+          "n": 8049,
+          "half_band_ratio": 0.4839,
+          "band9_ratio": 0.0067,
+          "ge8_ratio": 0.1403,
+          "count_8_0": 686,
+          "count_8_5": 389,
+          "issues": []
+        }
+      },
+      "dimension_independence": {
+        "pairwise_correlation": {
+          "TR-CC": 0.489,
+          "TR-LR": 0.16,
+          "TR-GRA": 0.203,
+          "CC-LR": 0.184,
+          "CC-GRA": 0.21,
+          "LR-GRA": 0.848
+        },
+        "max_correlation": 0.848,
+        "identical_rate": {
+          "TR==CC": 0.4019,
+          "TR==LR": 0.183,
+          "TR==GRA": 0.1926,
+          "CC==LR": 0.2165,
+          "CC==GRA": 0.201,
+          "LR==GRA": 0.6737
+        },
+        "diff_asymmetry": {
+          "CC-TR": {
+            "equal": 0.4019,
+            "pos": 0.2738,
+            "neg": 0.3243,
+            "asymmetry": 0.84
+          },
+          "LR-TR": {
+            "equal": 0.183,
+            "pos": 0.3603,
+            "neg": 0.4567,
+            "asymmetry": 0.79
+          },
+          "GRA-TR": {
+            "equal": 0.1926,
+            "pos": 0.4422,
+            "neg": 0.3653,
+            "asymmetry": 1.21
+          },
+          "LR-CC": {
+            "equal": 0.2165,
+            "pos": 0.3894,
+            "neg": 0.3941,
+            "asymmetry": 0.99
+          },
+          "GRA-CC": {
+            "equal": 0.201,
+            "pos": 0.4719,
+            "neg": 0.3271,
+            "asymmetry": 1.44
+          },
+          "GRA-LR": {
+            "equal": 0.6737,
+            "pos": 0.298,
+            "neg": 0.0282,
+            "asymmetry": 10.57
+          }
+        },
+        "overall_reconstruction": {
+          "n": 8049,
+          "exact_from_mean": 0.7188,
+          "recoverable_with_half_band": 0.8948,
+          "note": "还原率高 => overall 由四维合成，四维回归存在恒等式风险"
+        }
+      },
+      "overall_band_half_ratio": 0.0,
+      "overall_usable_for_ranking": true,
+      "verdict": {
+        "level": "UNUSABLE",
+        "usable_dimensions": [],
+        "reasons": [
+          "LR-GRA 相关性过高 r=0.848",
+          "LR==GRA 取值完全相同的比例达 67.4%，非独立评分特征",
+          "GRA-LR 差值正负比 10.6:1，存在构造性方向偏态",
+          "TR 分布形态异常：满分占比 15.1%（真实应 <1%）",
+          "CC 分布形态异常：满分占比 10.2%（真实应 <1%）",
+          "CC 分布形态异常：半档占比 0.2%（真实应 30-50%，通常是整数列导致）",
+          "CC 分布形态异常：8.0 与 9.0 之间无 8.5，分布断裂",
+          "LR 分布形态异常：满分占比 9.6%（真实应 <1%）",
+          "LR 分布形态异常：8分以上占比 27.3%（真实应 <10%）",
+          "LR 分布形态异常：半档占比 0.0%（真实应 30-50%，通常是整数列导致）",
+          "LR 分布形态异常：8.0 与 9.0 之间无 8.5，分布断裂",
+          "GRA 分布形态异常：满分占比 31.0%（真实应 <1%）",
+          "GRA 分布形态异常：8分以上占比 42.9%（真实应 <10%）",
+          "GRA 分布形态异常：半档占比 0.0%（真实应 30-50%，通常是整数列导致）",
+          "GRA 分布形态异常：8.0 与 9.0 之间无 8.5，分布断裂",
+          "overall 分布形态健康（半档 48%、满分 0.7%）—— 四维不可用，但可用于**排序一致性**检验，不能用于绝对一致性"
+        ]
+      }
+    },
+    {
+      "dataset": "btnotpt_task2",
+      "task": 2,
+      "n_sampled": 10219,
+      "alignment": {
+        "method": "题目实词在作文中的 5-char 词干命中率",
+        "mean": 0.6573,
+        "p10": 0.4,
+        "median": 0.6667,
+        "zero_hit_rate": 0.0078,
+        "below_20pct_rate": 0.0216
+      },
+      "distribution_shape": {
+        "TR": {
+          "n": 10219,
+          "half_band_ratio": 0.1249,
+          "band9_ratio": 0.0005,
+          "ge8_ratio": 0.0847,
+          "count_8_0": 861,
+          "count_8_5": 0,
+          "issues": []
+        },
+        "CC": {
+          "n": 10219,
+          "half_band_ratio": 0.598,
+          "band9_ratio": 0.0005,
+          "ge8_ratio": 0.0847,
+          "count_8_0": 861,
+          "count_8_5": 0,
+          "issues": []
+        },
+        "LR": {
+          "n": 10219,
+          "half_band_ratio": 0.5204,
+          "band9_ratio": 0.0005,
+          "ge8_ratio": 0.0847,
+          "count_8_0": 861,
+          "count_8_5": 0,
+          "issues": []
+        },
+        "GRA": {
+          "n": 10219,
+          "half_band_ratio": 0.7087,
+          "band9_ratio": 0.0005,
+          "ge8_ratio": 0.0847,
+          "count_8_0": 861,
+          "count_8_5": 0,
+          "issues": []
+        },
+        "overall": {
+          "n": 10219,
+          "half_band_ratio": 0.4044,
+          "band9_ratio": 0.0005,
+          "ge8_ratio": 0.0847,
+          "count_8_0": 861,
+          "count_8_5": 0,
+          "issues": []
+        }
+      },
+      "dimension_independence": {
+        "pairwise_correlation": {
+          "TR-CC": 0.727,
+          "TR-LR": 0.7,
+          "TR-GRA": 0.648,
+          "CC-LR": 0.72,
+          "CC-GRA": 0.674,
+          "LR-GRA": 0.777
+        },
+        "max_correlation": 0.777,
+        "identical_rate": {
+          "TR==CC": 0.3073,
+          "TR==LR": 0.2763,
+          "TR==GRA": 0.2524,
+          "CC==LR": 0.3759,
+          "CC==GRA": 0.2919,
+          "LR==GRA": 0.1537
+        },
+        "diff_asymmetry": {
+          "CC-TR": {
+            "equal": 0.3073,
+            "pos": 0.3035,
+            "neg": 0.3893,
+            "asymmetry": 0.78
+          },
+          "LR-TR": {
+            "equal": 0.2763,
+            "pos": 0.1271,
+            "neg": 0.5965,
+            "asymmetry": 0.21
+          },
+          "GRA-TR": {
+            "equal": 0.2524,
+            "pos": 0.5545,
+            "neg": 0.1932,
+            "asymmetry": 2.87
+          },
+          "LR-CC": {
+            "equal": 0.3759,
+            "pos": 0.1089,
+            "neg": 0.5152,
+            "asymmetry": 0.21
+          },
+          "GRA-CC": {
+            "equal": 0.2919,
+            "pos": 0.6052,
+            "neg": 0.1028,
+            "asymmetry": 5.88
+          },
+          "GRA-LR": {
+            "equal": 0.1537,
+            "pos": 0.8314,
+            "neg": 0.0149,
+            "asymmetry": 55.89
+          }
+        },
+        "overall_reconstruction": {
+          "n": 10219,
+          "exact_from_mean": 0.909,
+          "recoverable_with_half_band": 1.0,
+          "note": "还原率高 => overall 由四维合成，四维回归存在恒等式风险"
+        }
+      },
+      "overall_band_half_ratio": 0.0,
+      "overall_usable_for_ranking": true,
+      "verdict": {
+        "level": "SUSPECT",
+        "usable_dimensions": [
+          "TR",
+          "CC",
+          "LR",
+          "GRA"
+        ],
+        "reasons": [
+          "overall 可被四维均值还原 100.0%，四维疑似由 overall 反推",
+          "overall 分布形态健康（半档 40%、满分 0.1%）—— 四维不可用，但可用于**排序一致性**检验，不能用于绝对一致性"
+        ]
+      }
+    },
+    {
+      "dataset": "hai2131_task1",
+      "task": 1,
+      "n_sampled": 13925,
+      "alignment": {
+        "skipped": true,
+        "reason": "prompt 列 `topic` 是图表类型标签而非题目，对齐判定不适用",
+        "prompt_sample": "Line Graph"
+      },
+      "distribution_shape": {
+        "TR": {
+          "n": 13925,
+          "half_band_ratio": 0.2439,
+          "band9_ratio": 0.1293,
+          "ge8_ratio": 0.311,
+          "count_8_0": 2425,
+          "count_8_5": 106,
+          "issues": [
+            "满分占比 12.9%（真实应 <1%）",
+            "8分以上占比 31.1%（真实应 <10%）"
+          ]
+        },
+        "CC": {
+          "n": 13925,
+          "half_band_ratio": 0.3405,
+          "band9_ratio": 0.1311,
+          "ge8_ratio": 0.2773,
+          "count_8_0": 1783,
+          "count_8_5": 254,
+          "issues": [
+            "满分占比 13.1%（真实应 <1%）",
+            "8分以上占比 27.7%（真实应 <10%）"
+          ]
+        },
+        "LR": {
+          "n": 13925,
+          "half_band_ratio": 0.4414,
+          "band9_ratio": 0.0628,
+          "ge8_ratio": 0.2373,
+          "count_8_0": 1624,
+          "count_8_5": 806,
+          "issues": [
+            "满分占比 6.3%（真实应 <1%）"
+          ]
+        },
+        "GRA": {
+          "n": 13925,
+          "half_band_ratio": 0.3807,
+          "band9_ratio": 0.1742,
+          "ge8_ratio": 0.2917,
+          "count_8_0": 1283,
+          "count_8_5": 353,
+          "issues": [
+            "满分占比 17.4%（真实应 <1%）",
+            "8分以上占比 29.2%（真实应 <10%）"
+          ]
+        },
+        "overall": {
+          "n": 13925,
+          "half_band_ratio": 0.4715,
+          "band9_ratio": 0.1089,
+          "ge8_ratio": 0.2804,
+          "count_8_0": 1702,
+          "count_8_5": 686,
+          "issues": [
+            "满分占比 10.9%（真实应 <1%）",
+            "8分以上占比 28.0%（真实应 <10%）"
+          ]
+        }
+      },
+      "dimension_independence": {
+        "pairwise_correlation": {
+          "TR-CC": 0.91,
+          "TR-LR": 0.896,
+          "TR-GRA": 0.865,
+          "CC-LR": 0.933,
+          "CC-GRA": 0.935,
+          "LR-GRA": 0.903
+        },
+        "max_correlation": 0.935,
+        "identical_rate": {
+          "TR==CC": 0.3303,
+          "TR==LR": 0.2971,
+          "TR==GRA": 0.2463,
+          "CC==LR": 0.5432,
+          "CC==GRA": 0.6158,
+          "LR==GRA": 0.5505
+        },
+        "diff_asymmetry": {
+          "CC-TR": {
+            "equal": 0.3303,
+            "pos": 0.085,
+            "neg": 0.5847,
+            "asymmetry": 0.15
+          },
+          "LR-TR": {
+            "equal": 0.2971,
+            "pos": 0.0567,
+            "neg": 0.6462,
+            "asymmetry": 0.09
+          },
+          "GRA-TR": {
+            "equal": 0.2463,
+            "pos": 0.1181,
+            "neg": 0.6355,
+            "asymmetry": 0.19
+          },
+          "LR-CC": {
+            "equal": 0.5432,
+            "pos": 0.2167,
+            "neg": 0.2401,
+            "asymmetry": 0.9
+          },
+          "GRA-CC": {
+            "equal": 0.6158,
+            "pos": 0.1334,
+            "neg": 0.2508,
+            "asymmetry": 0.53
+          },
+          "GRA-LR": {
+            "equal": 0.5505,
+            "pos": 0.195,
+            "neg": 0.2545,
+            "asymmetry": 0.77
+          }
+        },
+        "overall_reconstruction": {
+          "n": 13925,
+          "exact_from_mean": 0.8416,
+          "recoverable_with_half_band": 1.0,
+          "note": "还原率高 => overall 由四维合成，四维回归存在恒等式风险"
+        }
+      },
+      "overall_band_half_ratio": 0.0,
+      "overall_usable_for_ranking": false,
+      "verdict": {
+        "level": "UNUSABLE",
+        "usable_dimensions": [],
+        "reasons": [
+          "TR-CC 相关性过高 r=0.91",
+          "TR-LR 相关性过高 r=0.896",
+          "TR-GRA 相关性过高 r=0.865",
+          "CC-LR 相关性过高 r=0.933",
+          "CC-GRA 相关性过高 r=0.935",
+          "LR-GRA 相关性过高 r=0.903",
+          "CC==LR 取值完全相同的比例达 54.3%，非独立评分特征",
+          "CC==GRA 取值完全相同的比例达 61.6%，非独立评分特征",
+          "LR==GRA 取值完全相同的比例达 55.0%，非独立评分特征",
+          "overall 可被四维均值还原 100.0%，四维疑似由 overall 反推",
+          "TR 分布形态异常：满分占比 12.9%（真实应 <1%）",
+          "TR 分布形态异常：8分以上占比 31.1%（真实应 <10%）",
+          "CC 分布形态异常：满分占比 13.1%（真实应 <1%）",
+          "CC 分布形态异常：8分以上占比 27.7%（真实应 <10%）",
+          "LR 分布形态异常：满分占比 6.3%（真实应 <1%）",
+          "GRA 分布形态异常：满分占比 17.4%（真实应 <1%）",
+          "GRA 分布形态异常：8分以上占比 29.2%（真实应 <10%）",
+          "overall 分布形态异常：满分占比 10.9%（真实应 <1%）（连排序一致性都不可用）",
+          "overall 分布形态异常：8分以上占比 28.0%（真实应 <10%）（连排序一致性都不可用）"
+        ]
+      }
+    }
+  ]
+}

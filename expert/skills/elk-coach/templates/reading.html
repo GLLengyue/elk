@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<style>
+  /* 米色护眼设计语言：低蓝光暖色调，长时间阅读不刺眼 */
+  :root {
+    --paper:      #FAF6EC;
+    --paper-2:    #F3EBD8;
+    --paper-3:    #EDE3CC;
+    --ink:        #3A3226;
+    --ink-soft:   #6E6152;
+    --ink-faint:  #9A8B76;
+    --line:       #E3D8C0;
+    --accent:     #8A6D45;
+    --accent-bg:  #F0E4CC;
+    --correct:    #4F7A52;
+    --correct-bg: #E6EFE3;
+    --wrong:      #B45F45;
+    --wrong-bg:   #F7E7E2;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+                 "Songti SC", "Noto Serif CJK SC", serif;
+    font-size: 17px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- 顶部 ---------- */
+  header {
+    background: var(--paper-2);
+    border-bottom: 1px solid var(--line);
+    padding: 28px 32px 22px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  .head-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: var(--ink);
+  }
+  .subtitle {
+    color: var(--ink-soft);
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 4px;
+  }
+  .meta-line {
+    color: var(--ink-faint);
+    font-size: 13px;
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+    margin-top: 10px;
+  }
+  .timer {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 15px;
+    color: var(--accent);
+    background: var(--accent-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 6px 14px;
+    white-space: nowrap;
+  }
+
+  /* ---------- 布局 ---------- */
+  .wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .col {
+    padding: 30px 34px 60px;
+  }
+  .col-passage {
+    border-right: 1px solid var(--line);
+    position: sticky;
+    top: 118px;
+    max-height: calc(100vh - 118px);
+    overflow-y: auto;
+  }
+  .col-title {
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  /* ---------- 原文 ---------- */
+  .para {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .para-label {
+    flex: 0 0 auto;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 15px;
+    padding-top: 3px;
+    min-width: 18px;
+  }
+  .para-text { flex: 1; text-align: justify; }
+
+  /* ---------- 题目 ---------- */
+  .qgroup {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 22px;
+  }
+  .qg-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .qg-type {
+    font-family: -apple-system, "PingFang SC", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    background: var(--accent);
+    color: #FFFDF7;
+    border-radius: 4px;
+    padding: 3px 9px;
+  }
+  .qg-range {
+    font-family: "SF Mono", Menlo, monospace;
+    font-size: 12px;
+    color: var(--ink-faint);
+  }
+  .qg-instruction {
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    font-style: italic;
+    margin-bottom: 14px;
+    line-height: 1.6;
+  }
+  .qg-limit {
+    display: inline-block;
+    font-family: -apple-system, "PingFang SC", sans-serif;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--wrong);
+    border: 1px dashed var(--wrong);
+    border-radius: 4px;
+    padding: 2px 7px;
+    margin-bottom: 12px;
+  }
+
+  /* 选项池（题组共享） */
+  .options {
+    background: var(--paper-3);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+  }
+  .options-title {
+    font-family: -apple-system, "PingFang SC", sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 8px;
+  }
+  .opt {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 6px;
+    font-size: 14.5px;
+    line-height: 1.5;
+  }
+  .opt-key {
+    font-weight: 700;
+    color: var(--accent);
+    flex: 0 0 auto;
+    min-width: 26px;
+  }
+
+  /* 单题 */
+  .q { margin-bottom: 16px; }
+  .q:last-child { margin-bottom: 0; }
+  .q-stem {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 7px;
+    font-size: 15.5px;
+  }
+  .q-num {
+    flex: 0 0 auto;
+    font-family: "SF Mono", Menlo, monospace;
+    font-weight: 700;
+    color: var(--accent);
+    min-width: 24px;
+  }
+  .q-stem-text { flex: 1; }
+
+  .choices { display: flex; flex-wrap: wrap; gap: 7px; padding-left: 33px; }
+  .choice {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #FFFDF7;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: -apple-system, "PingFang SC", sans-serif;
+    transition: all .12s;
+    user-select: none;
+  }
+  .choice:hover { border-color: var(--accent); background: var(--accent-bg); }
+  .choice input { margin: 0; accent-color: var(--accent); cursor: pointer; }
+  .choice.sel { border-color: var(--accent); background: var(--accent-bg); font-weight: 600; }
+
+  .fill {
+    padding-left: 33px;
+  }
+  .fill input {
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--ink);
+    background: #FFFDF7;
+    border: 1px solid var(--line);
+    border-bottom: 2px solid var(--accent);
+    border-radius: 5px 5px 0 0;
+    padding: 7px 12px;
+    width: 100%;
+    max-width: 420px;
+  }
+  .fill input:focus { outline: none; background: #FFF; border-color: var(--accent); }
+
+  /* ---------- 结果 ---------- */
+  .q.result-correct { background: var(--correct-bg); border-radius: 6px; padding: 8px 6px; margin-left: -6px; }
+  .q.result-wrong   { background: var(--wrong-bg);   border-radius: 6px; padding: 8px 6px; margin-left: -6px; }
+
+  .reveal {
+    margin: 9px 0 0 33px;
+    padding: 11px 14px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+    line-height: 1.65;
+  }
+  .reveal.ok   { background: var(--correct-bg); color: var(--correct); }
+  .reveal.bad  { background: var(--wrong-bg);   color: var(--wrong); }
+  .reveal b { font-family: "SF Mono", Menlo, monospace; }
+  .reveal .quote {
+    display: block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,.55);
+    border-left: 3px solid var(--accent);
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: var(--ink-soft);
+    font-size: 13.5px;
+  }
+  .reveal .loc {
+    font-size: 12px;
+    color: var(--ink-faint);
+    margin-top: 6px;
+  }
+
+  /* ---------- 提交区 ---------- */
+  .submit-bar {
+    position: sticky;
+    bottom: 0;
+    background: var(--paper-2);
+    border-top: 1px solid var(--line);
+    padding: 16px 32px;
+    text-align: center;
+    z-index: 20;
+  }
+  button {
+    font-family: -apple-system, "PingFang SC", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFDF7;
+    background: var(--accent);
+    border: none;
+    border-radius: 7px;
+    padding: 11px 34px;
+    cursor: pointer;
+    letter-spacing: .3px;
+  }
+  button:hover { filter: brightness(1.08); }
+  button.ghost {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    margin-left: 10px;
+  }
+  #score {
+    display: none;
+    font-family: "SF Mono", Menlo, monospace;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 18px;
+    color: var(--ink);
+  }
+
+  footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 22px 34px 40px;
+    color: var(--ink-faint);
+    font-size: 12.5px;
+    font-family: -apple-system, "PingFang SC", sans-serif;
+    border-top: 1px solid var(--line);
+  }
+
+  @media (max-width: 900px) {
+    .wrap { grid-template-columns: 1fr; }
+    .col-passage { position: static; max-height: none; border-right: none;
+                   border-bottom: 1px solid var(--line); }
+  }
+  @media print {
+    header, .submit-bar, footer { display: none; }
+    .col-passage { position: static; max-height: none; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-row">
+    <div style="min-width:0">
+      <h1>{{TITLE}}</h1>
+      {{SUBTITLE_HTML}}
+      <div class="meta-line">{{META_LINE}}</div>
+    </div>
+    <div class="timer" id="timer">00:00</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="col col-passage">
+    <div class="col-title">Reading Passage</div>
+    {{PASSAGE_HTML}}
+  </div>
+
+  <div class="col col-questions">
+    <div class="col-title">Questions</div>
+    {{QUESTIONS_HTML}}
+  </div>
+</div>
+
+<div class="submit-bar">
+  <button onclick="grade()">Submit Answers</button>
+  <button class="ghost" onclick="resetAll()">Reset</button>
+  <span id="score"></span>
+</div>
+
+<footer>
+  {{FOOTER_HTML}}
+</footer>
+
+<script>
+  // 计时
+  var seconds = 0;
+  setInterval(function () {
+    seconds++;
+    var m = String(Math.floor(seconds / 60)).padStart(2, '0');
+    var s = String(seconds % 60).padStart(2, '0');
+    document.getElementById('timer').textContent = m + ':' + s;
+  }, 1000);
+
+  // 正确答案内嵌在 data-correct 上，不显示在页面上
+  function norm(v) {
+    return String(v || '').trim().toLowerCase()
+      .replace(/[\s\u00a0]+/g, ' ')
+      .replace(/[.,;:!?'"()]/g, '');
+  }
+
+  function grade() {
+    var qs = document.querySelectorAll('.q[data-correct]');
+    var correct = 0, total = 0;
+
+    qs.forEach(function (q) {
+      var key = q.dataset.correct;
+      if (!key) return;
+      total++;
+
+      var picked = [];
+      q.querySelectorAll('input[type=checkbox]:checked').forEach(function (i) { picked.push(i.value); });
+      var radio = q.querySelector('input[type=radio]:checked');
+      if (radio) picked.push(radio.value);
+      var text = q.querySelector('input[type=text]');
+      if (text) picked.push(text.value);
+
+      // 多答案题（如多选）比较集合；单答案题直接比较
+      var want = key.split('|').map(norm).filter(Boolean).sort();
+      var got = picked.map(norm).filter(Boolean).sort();
+      var ok = want.length > 0 && want.length === got.length &&
+               want.every(function (v, i) { return v === got[i]; });
+
+      q.classList.remove('result-correct', 'result-wrong');
+      q.classList.add(ok ? 'result-correct' : 'result-wrong');
+      if (ok) correct++;
+
+      // 显示解析
+      var ev = q.querySelector('.reveal');
+      if (ev) { ev.style.display = 'block'; ev.classList.add(ok ? 'ok' : 'bad'); }
+    });
+
+    var el = document.getElementById('score');
+    el.style.display = 'inline';
+    var pct = total ? Math.round(correct / total * 100) : 0;
+    el.textContent = correct + ' / ' + total + ' correct  (' + pct + '%)';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function resetAll() {
+    document.querySelectorAll('input').forEach(function (i) {
+      if (i.type === 'checkbox' || i.type === 'radio') i.checked = false;
+      if (i.type === 'text') i.value = '';
+    });
+    document.querySelectorAll('.choice').forEach(function (c) { c.classList.remove('sel'); });
+    document.querySelectorAll('.q').forEach(function (q) {
+      q.classList.remove('result-correct', 'result-wrong');
+    });
+    document.querySelectorAll('.reveal').forEach(function (r) { r.style.display = 'none'; });
+    document.getElementById('score').style.display = 'none';
+    seconds = 0;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // 选项点击高亮
+  document.querySelectorAll('.choice input').forEach(function (inp) {
+    inp.addEventListener('change', function () {
+      var q = inp.closest('.q');
+      // 单选时先清掉兄弟项高亮
+      if (inp.type === 'radio') {
+        q.querySelectorAll('.choice').forEach(function (c) { c.classList.remove('sel'); });
+      }
+      var lbl = inp.closest('.choice');
+      if (lbl) lbl.classList.toggle('sel', inp.checked);
+    });
+  });
+</script>
+
+</body>
+</html>

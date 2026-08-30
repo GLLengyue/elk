@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/writing-essay.schema.json",
+  "title": "雅思写作作答与分数",
+  "description": "一篇考生作答及其分数。本 schema 的核心——也是整套数据集最该被认真对待的部分——是 `band_source` 与 `dimensions_trusted` 两个字段，见各自说明。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "prompt_id",
+    "task",
+    "essay_text",
+    "band_source",
+    "dimensions_trusted"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "description": "如 writing-essay.v1" },
+    "id": { "type": "string", "description": "稳定 ID，如 we-chillies-000123" },
+    "prompt_id": { "type": "string", "description": "关联 writing-prompt.id" },
+    "task": { "enum": [1, 2] },
+    "test_type": { "enum": ["academic", "general-training"] },
+
+    "essay_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "作答全文。若来自官方样题且正文为图片，需 OCR 后填入并在 ocr 字段标注。"
+    },
+    "ocr": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "官方样题的作文正文在 PDF 里是图片，必须 OCR。记录 OCR 来源以便评估噪声。",
+      "required": ["engine"],
+      "properties": {
+        "engine": { "type": "string", "description": "如 macos-vision / tesseract / manual" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "reviewed_by_human": { "type": "boolean", "default": false }
+      }
+    },
+
+    "word_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "客观词数。由 scorer.compute_features 计算，不要手填。"
+    },
+
+    "human_bands": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "真值分数。四个维度可各自为 null——宁可留空也不要用推算值冒充。",
+      "properties": {
+        "overall": {
+          "type": ["number", "null"],
+          "minimum": 0, "maximum": 9, "multipleOf": 0.5
+        },
+        "TR": { "type": ["number", "null"], "minimum": 0, "maximum": 9, "multipleOf": 0.5 },
+        "CC": { "type": ["number", "null"], "minimum": 0, "maximum": 9, "multipleOf": 0.5 },
+        "LR": { "type": ["number", "null"], "minimum": 0, "maximum": 9, "multipleOf": 0.5 },
+        "GRA": { "type": ["number", "null"], "minimum": 0, "maximum": 9, "multipleOf": 0.5 }
+      }
+    },
+
+    "band_source": {
+      "enum": [
+        "human_examiner",
+        "model_annotated",
+        "derived_from_overall",
+        "self_reported",
+        "unknown"
+      ],
+      "description": "分数的来源。这是**决定该条能否当回归真值**的字段：human_examiner 最可信；model_annotated 是模型打的，只配做对照；derived_from_overall 是从总分反推的四维，绝不能用作四维回归的 y。"
+    },
+
+    "dimensions_trusted": {
+      "type": "array",
+      "items": { "enum": ["TR", "CC", "LR", "GRA"] },
+      "uniqueItems": true,
+      "maxItems": 4,
+      "description": "本条数据中**统计上可信**的维度，直接来自 scripts/eval/audit_writing_alignment.py 的判决。例：chillies 数据集经审计为 PARTIAL，其记录应填 [\"TR\",\"CC\"]——LR 与 GRA 因 67.4% 取值相同、差值正负比 10.6:1 被判为非独立评分。消费方必须读这个字段，而不是无脑用四维也值。"
+    },
+
+    "alignment_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "题目核心概念词在作文中的命中率（scorer.concept_hit_rate）。<0.20 说明题目与作文可能不配对，应剔除——chillies 中约 1.8%。"
+    },
+
+    "features": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "客观锚点，由 scorer.compute_features 预先算好。评分时不让模型重新计数，可显著提升一致性。",
+      "properties": {
+        "word_count": { "type": "integer" },
+        "paragraph_count": { "type": "integer" },
+        "sentence_count": { "type": "integer" },
+        "avg_sentence_words": { "type": "number" },
+        "rubric_overlap": { "type": "number", "minimum": 0, "maximum": 1 },
+        "max_copied_span": { "type": "integer", "minimum": 0 },
+        "copied_span_share": { "type": "number", "minimum": 0, "maximum": 1 },
+        "concept_hit": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "type_token_ratio": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+
+    "examiner_comment": {
+      "type": "string",
+      "description": "官方考官评语。属 IELTS Partners 版权材料，仅存 data/raw/，不得随数据集分发。仅对 human_examiner 来源的记录填写。"
+    },
+
+    "split": {
+      "enum": ["calibration", "heldout", "train", "unassigned"],
+      "default": "unassigned",
+      "description": "数据切分。heldout 永不进任何 prompt，用于最终验收。"
+    },
+    "is_official": {
+      "type": "boolean",
+      "default": false,
+      "description": "是否来自官方公布材料。true 时通常 redistributable=false。"
+    },
+
+    "source": { "$ref": "common/provenance.schema.json" },
+    "notes": { "type": "string" }
+  },
+
+  "allOf": [
+    {
+      "if": {
+        "properties": { "band_source": { "const": "derived_from_overall" } },
+        "required": ["band_source"]
+      },
+      "then": {
+        "properties": {
+          "dimensions_trusted": { "maxItems": 0 }
+        },
+        "description": "四维既是从总分反推的，就不可能有任何维度可信。btnotpt 数据集整体属于此类（overall 可被四维均值 100% 还原）。"
+      }
+    },
+    {
+      "if": {
+        "properties": { "band_source": { "const": "human_examiner" } },
+        "required": ["band_source"]
+      },
+      "then": {
+        "required": ["human_bands"],
+        "description": "官方/人工评分必须给出 human_bands，否则该条没有真值可言。"
+      }
+    }
+  ]
+}

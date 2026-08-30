@@ -1,0 +1,67 @@
+# SKILL 配置示例
+#
+# 用法：
+#   cp config/config.example.yaml config/config.yaml
+#   然后按需修改。
+#
+# config/config.yaml 已被 .gitignore 排除（含个人路径，不应提交）。
+# 不创建这个文件也能跑——所有项都有默认值。
+
+# ---------------------------------------------------------------- 路径
+paths:
+  # 静态资源目录（schemas/ rubrics/ prompts/ 所在处）。
+  # 留空则用包位置自动推断。
+  repo_root: ""
+
+  # 数据目录。默认 <repo_root>/data。
+  # 想让数据落在仓库外（比如另一个盘）就填这里，例如：
+  #   data_dir: "/Volumes/External/elk-data"
+  data_dir: ""
+
+# ---------------------------------------------------------------- 运行环境
+runtime:
+  # 是否把 resources（schemas/rubrics/prompts）复制到 data_dir。
+  # 一般不需要；只有在只读安装（pip install）时才打开。
+  copy_resources_to_data: false
+
+  # 日志级别：DEBUG / INFO / WARNING / ERROR
+  log_level: "INFO"
+
+# ---------------------------------------------------------------- 数据获取
+# 注意：抓取到的官方材料**只落本地 data/raw/，永不提交版本库**。
+# 它们的解析产物 redistributable=false，也不入库。
+fetch:
+  # 并发下载数。站点有反爬，建议保持 3 以内。
+  concurrency: 3
+  # 单请求超时（秒）
+  timeout: 30
+  # 请求间隔（秒），给对方站点留余地
+  delay: 1.0
+
+# ---------------------------------------------------------------- 评分能力层
+scoring:
+  # 输出参考区间而不是单点分数。
+  # 强烈建议保持 true —— 详见 docs/known-limitations.md：
+  # 公开数据集的四维分数经审计不可用，给确定数字等于制造假精度。
+  output_band_range: true
+
+  # 每次评分是否记录 prompt_version + rubric_version + 输入 hash
+  # 留痕是调 prompt 的前提，不要关。
+  log_runs: true
+
+  # 发音维度策略。false = 输入无音频时 pronunciation 输出 unavailable。
+  # 不要改成 true —— ASR 转写丢弃声学特征，从文本推断发音没有信度。
+  allow_text_only_pronunciation: false
+
+# ---------------------------------------------------------------- 模型后端
+# 0.1 版本**不含任何 LLM 调用**：本仓库只提供 prompt 的编译与渲染，
+# 实际调用由你自己的代码完成。这样设计是为了不绑定任何厂商。
+#
+# 用法：
+#   from elk.build.prompt_loader import render
+#   prompt = render("writing/score", PROMPT_TEXT=..., ESSAY_TEXT=..., FEATURES={...})
+#   # 然后把 prompt 交给你选用的任意 LLM SDK
+model:
+  # 仅作留痕记录用，本仓库不会读取它去发请求
+  name: ""
+  provider: ""

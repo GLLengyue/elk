@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elk"
+version = "0.1.0"
+description = "考试题数据层 + LLM 能力层的开源脚手架（首个实例：雅思）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "SKILL contributors" }]
+keywords = ["exam", "dataset", "llm", "prompt", "rubric", "json-schema", "qc"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Education",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+
+# 运行时依赖刻意保持精简：不引入 pandas / torch 这类重型包。
+# duckdb 单 wheel 即可 SQL 直查 parquet，比 pandas 轻得多。
+dependencies = [
+    "duckdb>=0.10",
+    "jsonschema>=4.20",
+    "pypdf>=4.0",
+    "PyYAML>=6.0",
+    "referencing>=0.34",
+]
+
+[project.optional-dependencies]
+# OCR 路线当前对官方手写体源无效（见 docs/known-limitations.md），
+# 因此 pillow 与 pyobjc 不进核心依赖，需要时再装。
+ocr = ["pillow>=10.0"]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+elk = "elk.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/elk"
+Repository = "https://github.com/your-org/elk"
+Issues = "https://github.com/your-org/elk/issues"
+
+[tool.setuptools]
+packages = ["elk", "elk.build", "elk.fetch", "elk.parse", "elk.qc", "elk.eval"]
+package-dir = { "" = "src" }
+
+[tool.setuptools.package-data]
+# schemas / rubrics / prompts 是运行时需要的静态资源。
+# 注意：本项目采用「仓库根目录即资源目录」的布局（不随 wheel 分发），
+# 打包安装时这些内容需单独携带；0.2 版本会改为随包分发。
+"elk" = ["*.md", "*.yaml", "*.json"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = [".venv", "data", "examples"]
+
+[tool.ruff.lint]
+# 项目注释里保留大量"踩坑记录"，文档字符串长度不做限制
+ignore = ["E501", "D"]

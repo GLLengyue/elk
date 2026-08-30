@@ -1,0 +1,251 @@
+rubric_version: speaking.v1
+task: speaking
+test_types: [academic, general_training]
+scale: {min: 0.0, max: 9.0, step: 0.5}
+criteria_ids: [FC, LR, GRA, PRON]
+weights: {FC: 0.25, LR: 0.25, GRA: 0.25, PRON: 0.25}
+
+# ---------------------------------------------------------------------------
+# 【最重要的约束】发音不能从转写文本评估
+#
+# ASR 转写丢掉了全部声学信息：语调、重音、连读、音准、节奏。
+# 从 "I think it's very important" 这句转写里，你无法判断说话人
+# 是 9 分的自然语调，还是 5 分的逐词蹦字——两者转写出来可能一模一样。
+#
+# 所以当输入只有转写文本时：
+#   PRON 必须输出 unavailable，而不是"看着给一个"。
+# 编一个发音分比不给更糟——它会让用户以为自己在练有效果。
+# ---------------------------------------------------------------------------
+pronunciation_policy:
+  assessable_from: audio
+  when_transcript_only: pronunciation = unavailable
+  rationale: >
+    ASR 转写丢弃声学特征（语调/重音/连读/音准）。从文本推断发音分数
+    没有信度，且会给学习者错误的进步反馈。
+
+overall_rule:
+  logic: >
+    四维等权均值（雅思官方口径）。若 PRON 为 unavailable，
+    则对 FC/LR/GRA 三项取均值，并在输出里显式标注
+    "overall 为三项均值，未含发音"。
+    不要用一个假造的 PRON 去凑四项均值——那是在制造假精度。
+
+objective_anchors:
+  - id: words_per_minute
+    desc: 语速（总词数 / 说话时长分钟）
+    note: 可从转写 + 时长计算。雅思 7 分档通常 120-150 wpm，但语速本身不评分，只作参照。
+  - id: filler_ratio
+    desc: 填充词占比（um / uh / er / like / you know 等 / 总词数）
+    note: 高填充比是流利度的负信号，但**不能单独定档**——内容型停顿是正常思考。
+  - id: self_correction_rate
+    desc: 自我纠正密度（修正处数 / 总词数）
+    note: 少量自我修正是 7+ 的表现（说明有监控能力）；密集修正是 5-6 的表现。
+  - id: mean_turn_length
+    desc: 平均每次发言的词数
+    note: 持续低于 5 词的短回答通常对应 5 分及以下。
+
+half_band_rule:
+  logic: >
+    先按判据定档；若恰好落在两档之间，取较低档并在 rationale 里写明
+    "介于 X 与 Y 之间，取较低档"。整档与半档的区别：整档判据全部满足；
+    半档满足上一档的大部分但有一处明显不足。
+  cap_rules:
+    - id: too_little_speech
+      condition: total_words < 50
+      effect: FC 上限 4.0
+      rationale: 有效语料过少，无法判断连贯性，只能判定为最低可评档。
+    - id: monosyllabic
+      condition: mean_turn_length < 4
+      effect: FC 上限 5.0
+      rationale: 持续单词/短语式回答，没有展开，不符合 6 分"愿意说长句"的要求。
+
+criteria:
+  - id: FC
+    name: Fluency and Coherence
+    name_zh: 流利度与连贯性
+    schema_name: fluency_coherence
+    question: 能否持续说话而不费力？思路推进是否清楚？
+    bands:
+      9:
+        summary: 说话流畅自然，几乎无停顿；衔接手段不着痕迹
+        observable:
+          - 全篇停顿仅出现在内容组织处（想说什么），而非找词处
+          - 无重复、无自我纠正，或纠正极偶尔且自然
+          - 逻辑衔接靠语义自然推进，不依赖机械连接词
+          - 长句与短句交替，节奏有变化
+          - 听者无需付出任何额外努力
+      8:
+        summary: 流畅，偶有犹豫但不影响理解；衔接自然
+        observable:
+          - 偶有犹豫或自我纠正（全文 <= 3 处），不影响语流
+          - 停顿多为内容组织需要，少数为找词
+          - 衔接手段多样且不显机械
+          - 能持续展开 3-5 句以上的语段
+          - 听者理解无困难
+      7:
+        summary: 能保持语流但有明显犹豫；思路清楚但展开受限
+        observable:
+          - 有 4-8 处犹豫、重复或自我纠正
+          - 能使用连接词，但部分显套路化（频繁 first / because / so）
+          - 部分回答展开充分，部分停留在 2-3 句
+          - 整体可懂，个别处需听者稍加留意
+          - 自我纠正说明有监控能力——这本身不是扣分点，密集才是
+      6:
+        summary: 愿意说长句但连贯性不稳定；依赖简单连接
+        observable:
+          - 犹豫、重复、自我纠正 >= 9 处
+          - 连接词机械且集中（每句都以 and / but / so 开头）
+          - 语流时断时续，长句常说到一半改结构
+          - 能表达基本意思，但听者需自行补足部分逻辑
+          - 有展开意愿（不是只答单词），但控制不住
+      5:
+        summary: 语流频繁中断；难以维持连续表达
+        observable:
+          - 停顿密集且长，常出现 2 秒以上沉默
+          - 大量重复同一词句（同一短语重复 >= 3 次）
+          - 回答多为单词或短语，少见完整句
+          - 听者需持续费力才能跟上
+          - 常见问题：每句都以 "I think..." 重启，无法推进
+
+  - id: LR
+    name: Lexical Resource
+    name_zh: 词汇多样性
+    schema_name: lexical_resource
+    question: 用词是否够用、是否灵活、是否能表达不熟悉的题材？
+    bands:
+      9:
+        summary: 词汇精准灵活，惯用表达自然
+        observable:
+          - 用词精准，几乎无不当搭配
+          - 能自然使用惯用表达（idiomatic），不显刻意堆砌
+          - 同义替换丰富，同一概念不重复用词
+          - 能准确表达抽象概念与细微差别
+          - 遇到不会的词能自然 paraphrase
+      8:
+        summary: 词汇量大且灵活；偶有不当但不影响理解
+        observable:
+          - 能谈各类话题，词汇范围广
+          - 有 1-2 处用词不当或搭配怪异，但可推断含义
+          - 尝试使用低频表达，偶显刻意
+          - 能 paraphrase 不熟悉的词
+          - 同义替换基本到位
+      7:
+        summary: 词汇够用，有一定灵活性；错误不影响理解
+        observable:
+          - 词汇量足够覆盖常见话题
+          - 用词错误 3-5 处，读者/听者可推断正确含义
+          - 尝试 paraphrase 但偶尔失败（改用更泛的词）
+          - 有一定重复（同一词在单段内出现 >= 3 次）
+          - 抽象话题表达偏笼统
+      6:
+        summary: 词汇够谈熟悉话题；复杂想法表达受限
+        observable:
+          - 主要使用高频词，低频尝试很少
+          - 搭配错误频繁（>= 4 处），如 make a research / do a decision
+          - 不熟悉的题材靠泛词兜底（good / bad / thing / very）
+          - 重复明显，缺少同义替换
+          - 偶有误解题意导致答非所问
+      5:
+        summary: 词汇有限；错误频繁且阻碍理解
+        observable:
+          - 词汇量明显不足，常找不到词而中断
+          - 用词错误 >= 6 处，且 >= 2 处导致理解困难
+          - 高度依赖最基础词汇，几乎无同义替换
+          - 直接搬运题目原词而不 paraphrase
+          - 抽象话题基本无法表达
+
+  - id: GRA
+    name: Grammatical Range and Accuracy
+    name_zh: 语法多样性与准确性
+    schema_name: grammatical_range
+    question: 句式是否多样？错误是否影响理解？
+    bands:
+      9:
+        summary: 句式丰富且准确；仅偶有口误
+        observable:
+          - 简单句与复杂句自然混合，从句类型多样
+          - 语法错误接近零；偶有"口误"且能自我修正
+          - 时态、主谓一致、冠词全部准确
+          - 能使用强调、倒装、虚拟等结构
+      8:
+        summary: 句式多样；错误很少且不阻碍理解
+        observable:
+          - 复杂句尝试 >= 4 处，多数准确
+          - 语法错误 <= 3 处，均为轻微（冠词、单复数）
+          - 错误不造成任何理解障碍
+          - 能根据说话内容调整句式
+      7:
+        summary: 有一定句式变化；错误较多但多数不阻碍理解
+        observable:
+          - 简单句与复杂句混合，复杂句尝试 >= 3 处
+          - 语法错误 5-8 处，其中 <= 2 处造成理解困难
+          - 基础问题可见：主谓一致、时态混用、冠词
+          - 复杂句尝试中约半数准确
+          - 能自我纠正部分错误
+      6:
+        summary: 以简单句为主；复杂句尝试常出错
+        observable:
+          - 复杂句尝试 >= 3 处，其中 >= 半数存在结构错误
+          - 语法错误 9-14 处，其中 3-5 处造成理解困难
+          - 基础语法问题密集：主谓一致、冠词、单复数、时态
+          - 有 1-3 处需要重听才能解析的句子
+          - 简单句本身也偶有错误
+      5:
+        summary: 句式有限；错误密集且严重阻碍理解
+        observable:
+          - 几乎全为简单句，复杂句尝试基本失败
+          - 语法错误 >= 15 处，多数影响理解
+          - 基本句型（SVO）都不稳定
+          - 时态随意切换，单复数混乱
+          - 听者需反复重构才能理解句意
+
+  - id: PRON
+    name: Pronunciation
+    name_zh: 发音
+    schema_name: pronunciation
+    # 这一维的评分前提与其它三项不同，必须显式声明
+    assessable_from: audio
+    question: 发音是否清晰易懂？语调、重音、节奏是否自然？
+    bands:
+      9:
+        summary: 发音清晰自然，听者完全无负担
+        observable:
+          - 音准接近母语者，个别音可能带口音但不影响
+          - 语调与重音自然，符合语义与情绪
+          - 连读、弱读、节奏自然
+          - 听者无需任何适应
+      8:
+        summary: 发音清晰；口音不造成任何理解困难
+        observable:
+          - 大部分音准准确，偶有音位偏差
+          - 语调大体自然，偶有平淡
+          - 能使用连读与弱读
+          - 听者理解无障碍
+      7:
+        summary: 大体可懂；部分音不准，语调控制有限
+        observable:
+          - 某些音位持续不准（如 th / r / l / v-w）
+          - 语调有时平淡或不符合语义
+          - 重音位置偶有错误
+          - 听者偶需适应，但整体可懂
+      6:
+        summary: 可懂但需听者付出努力
+        observable:
+          - 多个音位不准，形成系统性偏差
+          - 语调节奏生硬，逐词蹦字现象明显
+          - 重音错误较多，影响词识别
+          - 听者需持续集中注意力
+      5:
+        summary: 发音问题严重阻碍理解
+        observable:
+          - 大量音位错误，常导致词义混淆
+          - 几乎没有语调变化
+          - 节奏断裂，逐音节朗读
+          - 听者即使集中注意力仍频繁误解
+
+output_contract:
+  required_fields: [criteria, overall_band, band_range, rubric_version]
+  pronunciation_when_unavailable: >
+    输入仅含转写文本时，PRON 的 band 填 null、status 填 unavailable，
+    并在 improvements 里注明"发音需基于录音评估"。
+    overall 改按三项均值计算并标注。

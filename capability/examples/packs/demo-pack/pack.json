@@ -1,0 +1,30 @@
+{
+  "pack_id": "demo-pack",
+  "pack_version": "0.1.0",
+  "schema_version": "1.0.0",
+  "title": "Format Demo Pack",
+  "description": "仅用于演示数据包格式与加载流程，不含任何真实考试材料，也不应作为练习内容使用。",
+  "modules": [
+    "reading"
+  ],
+  "licence": {
+    "name": "CC0-1.0",
+    "redistributable": true
+  },
+  "redistributable": true,
+  "contents": {
+    "counts": {
+      "reading_items": 1,
+      "reading_questions": 5,
+      "speaking_topics": 0,
+      "speaking_questions": 0,
+      "writing_prompts": 0,
+      "writing_essays": 0
+    },
+    "seasons": [],
+    "source_types": [
+      "synthetic"
+    ]
+  },
+  "notes": "格式示范包。真实数据请使用正式数据包替换。"
+}

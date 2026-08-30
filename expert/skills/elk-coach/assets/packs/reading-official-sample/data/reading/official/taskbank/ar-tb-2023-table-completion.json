@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ar-tb-2023-table-completion",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.039940+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      6,
+      7,
+      8
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "ar-tb-2023-table-completion-text",
+    "title": "Table Completion",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The text preceding this extract gave some background facts about dung beetles, and went on to describe a decision to introduce non-native varieties to Australia.] Introducing dung1 beetles into a pasture is a simple process: approximately 1,500 beetles are released, a handful at a time, into fresh cow pats2 in the cow pasture. The beetles immediately disappear beneath the pats digging and tunnelling and, if they successfully adapt to their new environment, soon become a permanent, self-sustaining part of the local ecology. In time they multiply and within three or four years the benefits to the pasture are obvious. Dung beetles work from the inside of the pat so they are sheltered from predators such as birds and foxes. Most species burrow into the soil and bury dung in tunnels directly underneath the pats, which are hollowed out from within. Some large species originating from France excavate tunnels to a depth of approximately 30 cm below the dung pat. These beetles make sausage-shaped brood chambers along the tunnels. The shallowest tunnels belong to a much smaller Spanish species that buries dung in chambers that hang like fruit from the branches of a pear tree. South African beetles dig narrow tunnels of approximately 20 cm below the surface of the pat. Some surface-dwelling beetles, including a South African species, cut perfectly-shaped balls from the pat, which are rolled away and attached to the bases of plants. For maximum dung burial in spring, summer and autumn, farmers require a variety of species with overlapping periods of activity. In the cooler environments of the state of Victoria, the large French species (2.5 cms long), is matched with smaller (half this size), temperate-climate Spanish species. The former are slow to recover from the winter cold and produce only one or two generations of offspring from late spring until autumn. The latter, which multiply rapidly in early spring, produce two to five generations annually. The South African ball-rolling species, being a sub-tropical beetle, prefers the climate of northern and coastal New South Wales where it commonly works with the South African tunneling species. In warmer climates, many species are active for longer periods of the year. Glossary 1. dung: the droppings or excreta of animals 2. cow pats: droppings of cows Complete the table below. Choose NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 9-13 on your answer sheet. Species Size Preferred climate Complementary species Start of active period Number of generations per year French 2.5 cm cool Spanish late spring Spanish 1.25 cm South African ball roller"
+      }
+    ],
+    "word_count": 422,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "table-completion-q9-13",
+      "type": "summary_completion",
+      "subtype": "table",
+      "instruction": "The text preceding this extract gave some background facts about dung beetles, and went on to describe a decision to introduce non-native varieties to Australia.] Introducing dung1 beetles into a pasture is a simple process: approximately 1,500 beetles are released, a handful at a time, into fresh cow pats2 in the cow pasture. The beetles immediately disappear beneath the pats digging and tunnelling and, if they successfully adapt to their new environment, soon become a permanent, self-sustaining part of the local ecology. In time they multiply and within three or four years the benefits to th",
+      "word_limit": "NO MORE THAN THREE WORDS",
+      "question_range": {
+        "from": 9,
+        "to": 13
+      },
+      "ordered": true,
+      "questions": [
+        {
+          "number": 9,
+          "stem": "............",
+          "answer": "temperate",
+          "evidence": [
+            {
+              "quote": "In the cooler environments of the state of Victoria, the large French species (2.5 cms long), is matched with smaller (half this size), temperate-climate Spanish species.",
+              "start": 1574,
+              "end": 1744,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "stem": "............",
+          "answer": "early",
+          "evidence": [
+            {
+              "quote": "The latter, which multiply rapidly in early spring, produce two to five generations annually.",
+              "start": 1881,
+              "end": 1974,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "............",
+          "answer": "two",
+          "evidence": [
+            {
+              "quote": "The latter, which multiply rapidly in early spring, produce two to five generations annually.",
+              "start": 1881,
+              "end": 1974,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "............",
+          "answer": "sub-tropical",
+          "evidence": [
+            {
+              "quote": "The South African ball-rolling species, being a sub-tropical beetle, prefers the climate of northern and coastal New South Wales where it commonly works with the South African tunneling species.",
+              "start": 1975,
+              "end": 2169,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "………...",
+          "answer": "South",
+          "evidence": [
+            {
+              "quote": "Species Size Preferred climate Complementary species Start of active period Number of generations per year French 2.5 cm cool Spanish late spring Spanish 1.25 cm South African ball roller",
+              "start": 2478,
+              "end": 2665,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 5,
+      "answers_matched": 5,
+      "evidence_needs_review": []
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "ff7735bdfb9efde4",
+    "created_at": "2026-08-29T18:05:32.039940+08:00",
+    "not_official": true
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ielts-academic-reading-sample-2023-modified-large-print-p3",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-2023-modified-large-print",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-modified-large-print",
+    "source_url": "https://ielts.org/cdn/ielts-access-arrangements-sample-tests/ielts-modified-large-print/",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费公开样题。题目结构、答案与位置属事实性信息可保留；原文全文不随数据集外发，仅存 data/raw/ 供本地解析。"
+    },
+    "retrieved_at": "2026-08-29T13:04:32.873408+08:00",
+    "verified_on": "2026-08-29",
+    "derivation": "从 text/question/answer 三件套 PDF 自动解析"
+  },
+  "passage": {
+    "id": "ielts-academic-reading-sample-2023-modified-large-print-p3-text",
+    "title": "WINNING WITH OUR MINDS",
+    "subtitle": "The vast majority of us will never experience the joy of",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "setting a world record or winning an Olympic gold medal.  But that doesn't mean our lives and those of elite sporting champions are without parallel.  After all, the mental concentration required to score a goal could be the same as that which we use to secure a deal or job promotion."
+      },
+      {
+        "label": "B",
+        "text": "The psychological tools used to develop personal drive and self-belief to record levels can be applied effectively to ordinary situations.  'I think elite sport and everyday life are very similar,' says Gavin Freeman, a senior psychologist from the Australian Institute of Sport (AIS). 'From a psychological perspective, individuals in both areas go through the same process.  An athlete's motivation to succeed is almost identical to the motivation of a normal individual.'  Maintaining motivation is one of the most difficult long-term tasks we face.  Freeman believes that we all fall into one of two categories:  those motivated to succeed and those motivated to avoid failure.  The type we are has a profound impact on how we approach challenges and our chances of success.  'The individual who's motivated to succeed will see any mishap as a step towards success,' he says.  'Australian skier Alisa Camplin tore a knee ligament four months before the Winter Olympics: rather than give up, she redirected her amazing ability to concentrate on \"What do I need to do so I CAN land a jump?\"'"
+      },
+      {
+        "label": "C",
+        "text": "By contrast, those motivated to avoid failure will bypass negative evaluation.  Either they won't try hard – and then they'll have a built-in excuse – or they'll put themselves in non-challenging situations where they're guaranteed success.  'Individual athletes might enter competitions at a lower level,' Freeman says, 'while team-based athletes might accept mediocrity rather than achieving their full potential.'"
+      },
+      {
+        "label": "D",
+        "text": "Another important key to meeting challenges is to be aware of self-talk which reinforces both positive and negative thoughts, according to Jocelyn Penna, an Australian sports psychologist from the Sydney Sports Medicine Centre. 'We need to get that internal dialogue to help us.  Sometimes it will say, \"I'm looking forward to a particular challenge.\"  But if it frequently says, \"I'm going to make a mistake,\" you're not going to succeed. When approaching an event, you need to say, \"I've planned for this, and I've tried my best.\"  We can apply this strategy to job interviews, exams or corporate meetings.'"
+      },
+      {
+        "label": "E",
+        "text": "'First, identify what your internal dialogue is saying,' says Penna.  'Then take note of the external situations that trigger positive and negative self-talk.  Thirdly, come up with cue words or actions that help you think positively.  For example, if you know there'll be a person who triggers negative thoughts, prepare for the meeting by saying, \"I know what I'm talking about, I can manage this.\"'  A sense of life direction is crucial to self-worth and our efforts need to be targeted.  'It's important to have specific goals,' Penna says.  'But whether the outcome is a gold medal or a job promotion, you need to think about the series of smaller triumphs which will get you there.'"
+      },
+      {
+        "label": "F",
+        "text": "Few of us are strangers to nervous anxiety before a significant event.  Job interviews, performance reviews and even first dates can all create stomach-churning tension.  Dr Clark Perry, a former senior Australian sports psychologist and now managing director of a corporate training company, suggests diverting our attention.  'The technique of centred breathing makes you concentrate on the rise and fall of your breath. Focus on the present moment, not what you're about to do.  Tennis players often do this before a serve.'  While dealing with success is challenging, confronting a lack of it is even more so.  Perry believes we need to train ourselves not to be afraid of failure.  'Look in the mirror and say, \"I'm not afraid to fail.  If I become bankrupt tomorrow, I'm OK.  I'll do whatever I need to do,\"' he says.  'Success will then fly to you.  The best athletes focus on being their best, not on the end result.'"
+      },
+      {
+        "label": "G",
+        "text": "Sometimes when things go continuously awry, they are known in sport as 'losing streaks'.   They affect our confidence and our ability to bounce back.  Jeff Bond, a sports psychology pioneer who has worked in corporate training, believes slumps should be critically evaluated. 'Examine what's happened: if events have been imposed on you – for example, your company was taken over and you were made redundant – you can't do much about it. However, if you weren't working to the best of your ability, then you had some control.  Look at your contributions and make changes based on that.'  Bond doesn't believe there is a significant difference between elite sports people and the rest of us.  'They're certainly not different from high achievers in other areas,' he says.  'High achievers create opportunities.  They expose themselves to the training, the people and the materials that help them reach their potential.  They begin with a vision and establish a framework to achieve it.'"
+      },
+      {
+        "label": "H",
+        "text": "Despite the fact that many of us will strive, not all of us will achieve what we set out to do.  So how can we reconcile ourselves to the fact that our best effort wasn't enough?  The experts say we should acknowledge we did our best, recognise what we learned and, hopefully, enjoy ourselves along the way. BLANK PAGE BLANK PAGE BLANK PAGE BLANK PAGE © Cambridge University Press & Assessment 2024"
+      }
+    ],
+    "word_count": 883,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "instruction": "PASSAGE 3 on pages 9 – 12 of the separate booklet. the list of people (A, B, C and D), below. Match each statement with the correct person, A, B, C or D. Write the correct letter, A, B, C or D, on your answer sheet. NB You may use any letter more than once. STATEMENTS",
+      "questions": [
+        {
+          "number": 27,
+          "stem": "You need to focus on exactly what you want to achieve as well as all the steps needed to achieve it.",
+          "answer": "B",
+          "evidence": [
+            {
+              "quote": "Another important key to meeting challenges is to be aware of self-talk which reinforces both positive and negative thoughts, according to Jocelyn Penna, an Australian sports psychologist from the Sydney Sports Medicine Centre. 'We need to get that internal dialogue to help us.",
+              "start": 1785,
+              "end": 2063,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "stem": "You are more likely to succeed if you recognise that you have prepared well.",
+          "answer": "B",
+          "evidence": [
+            {
+              "quote": "Another important key to meeting challenges is to be aware of self-talk which reinforces both positive and negative thoughts, according to Jocelyn Penna, an Australian sports psychologist from the Sydney Sports Medicine Centre.",
+              "start": 1785,
+              "end": 2012,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "stem": "Some people want to win and others don’t want to lose.",
+          "answer": "A",
+          "evidence": [
+            {
+              "quote": "'I think elite sport and everyday life are very similar,' says Gavin Freeman, a senior psychologist from the Australian Institute of Sport (AIS).",
+              "start": 423,
+              "end": 568,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "stem": "A fear of losing should be faced.",
+          "answer": "C",
+          "evidence": [
+            {
+              "quote": "Dr Clark Perry, a former senior Australian sports psychologist and now managing director of a corporate training company, suggests diverting our attention.",
+              "start": 3244,
+              "end": 3399,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "stem": "Some people only attempt to do things they know they will achieve.",
+          "answer": "A",
+          "evidence": [
+            {
+              "quote": "'I think elite sport and everyday life are very similar,' says Gavin Freeman, a senior psychologist from the Australian Institute of Sport (AIS).",
+              "start": 423,
+              "end": 568,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "stem": "Successful people actively use available resources.",
+          "answer": "D",
+          "evidence": [
+            {
+              "quote": "Jeff Bond, a sports psychology pioneer who has worked in corporate training, believes slumps should be critically evaluated.",
+              "start": 4138,
+              "end": 4262,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "stem": "It is better to think about the here and now rather than what you will do next. LIST OF PEOPLE",
+          "answer": "C",
+          "evidence": [
+            {
+              "quote": "Dr Clark Perry, a former senior Australian sports psychologist and now managing director of a corporate training company, suggests diverting our attention.",
+              "start": 3244,
+              "end": 3399,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "text": "Gavin Freeman"
+        },
+        {
+          "key": "B",
+          "text": "Jocelyn Penna"
+        },
+        {
+          "key": "C",
+          "text": "Clark Perry"
+        },
+        {
+          "key": "D",
+          "text": "Jeff Bond"
+        }
+      ],
+      "type": "matching_features",
+      "ordered": true,
+      "id": "p3-q27-33",
+      "question_range": {
+        "from": 27,
+        "to": 33
+      }
+    },
+    {
+      "instruction": "PASSAGE 3 on pages 9 – 12 of the separate booklet. Which paragraph contains the following information? Write the correct letter, A – H, on your answer sheet.",
+      "questions": [
+        {
+          "number": 34,
+          "stem": "an account of how someone dealt with an injury in a positive way",
+          "answer": "B",
+          "evidence": [
+            {
+              "quote": "The experts say we should acknowledge we did our best, recognise what we learned and, hopefully, enjoy ourselves along the way.",
+              "start": 5145,
+              "end": 5272,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "stem": "an expression which means periods of failure",
+          "answer": "G",
+          "evidence": [
+            {
+              "quote": "Perry believes we need to train ourselves not to be afraid of failure.",
+              "start": 3684,
+              "end": 3754,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "stem": "a step-by-step process showing how to benefit from talking to yourself",
+          "answer": "E",
+          "evidence": [
+            {
+              "quote": "For example, if you know there'll be a person who triggers negative thoughts, prepare for the meeting by saying, \"I know what I'm talking about, I can manage this.\"' A sense of life direction is crucial to self-worth and our efforts need to be targeted.",
+              "start": 2625,
+              "end": 2878,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "stem": "a list of stressful work-related and social occasions which cause a physical reaction",
+          "answer": "F"
+        }
+      ],
+      "options": [],
+      "type": "matching_information",
+      "ordered": true,
+      "id": "p3-q34-37",
+      "question_range": {
+        "from": 34,
+        "to": 37
+      }
+    },
+    {
+      "instruction": "PASSAGE 3 on pages 9 – 12 of the separate booklet. Which TWO of the following statements does Gavin Freeman make about successful people? Choose TWO letters, A – E. ordinary people. goals is very difficult. are likely to succeed. they try harder. than try to succeed.",
+      "questions": [
+        {
+          "number": 38,
+          "stem": "PASSAGE 3 on pages 9 – 12 of the separate booklet. Which TWO of the following statements does Gavin Freeman make about successful people?",
+          "answer": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 39,
+          "stem": "PASSAGE 3 on pages 9 – 12 of the separate booklet. Which TWO of the following statements does Gavin Freeman make about successful people?",
+          "answer": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "text": "Top-level athletes think quite differently to"
+        },
+        {
+          "key": "B",
+          "text": "Staying enthusiastic in trying to achieve your"
+        },
+        {
+          "key": "C",
+          "text": "The kind of person we are determines whether we"
+        },
+        {
+          "key": "D",
+          "text": "Successful people have more accidents because"
+        },
+        {
+          "key": "E",
+          "text": "There are more people who try to avoid failure"
+        }
+      ],
+      "type": "multiple_choice",
+      "subtype": "multi_answer",
+      "ordered": false,
+      "id": "p3-q38-39",
+      "question_range": {
+        "from": 38,
+        "to": 39
+      }
+    },
+    {
+      "instruction": "PASSAGE 3 on pages 9 – 12 of the separate booklet. Write the correct letter, A, B, C or D, on your answer sheet. Which of the following is the most suitable subtitle for Reading Passage 3? from the minds of champions athletes fail while others succeed BLANK PAGE BLANK PAGE © Cambridge University Press & Assessment 2024",
+      "questions": [
+        {
+          "number": 40,
+          "stem": "PASSAGE 3 on pages 9 – 12 of the separate booklet. Write the correct letter, A, B, C or D, on your answer sheet. Which of the following is the most suitable subtitle for Reading Passage 3?",
+          "answer": "C"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "text": "Motivational techniques for business success"
+        },
+        {
+          "key": "B",
+          "text": "How facing difficulties can lead to success"
+        },
+        {
+          "key": "C",
+          "text": "Sports psychologists describe what we can learn"
+        },
+        {
+          "key": "D",
+          "text": "Psychologists disagree on why some talented"
+        }
+      ],
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "ordered": true,
+      "id": "p3-q40-40",
+      "question_range": {
+        "from": 40,
+        "to": 40
+      }
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 14,
+      "answers_matched": 14,
+      "evidence_needs_review": [
+        "Q37",
+        "Q38",
+        "Q39",
+        "Q40"
+      ]
+    },
+    "build_version": "parse_reading_access.py@1.2",
+    "content_hash": "ac2ef3afacc2d1df",
+    "created_at": "2026-08-29T13:04:32.873408+08:00",
+    "not_official": true
+  }
+}

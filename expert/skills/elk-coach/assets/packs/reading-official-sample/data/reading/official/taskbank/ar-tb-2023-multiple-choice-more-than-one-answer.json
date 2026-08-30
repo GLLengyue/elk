@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ar-tb-2023-multiple-choice-more-than-one-answer",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.041714+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      24,
+      25,
+      26
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "ar-tb-2023-multiple-choice-more-than-one-answer-text",
+    "title": "Multiple Choice: more than one answer",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "more than one answer Clearly, when older people do heavy physical work, their age may affect their productivity. But other skills may increase with age, including many that are crucial for good management, such as an ability to handle people diplomatically, to run a meeting or to spot a problem before it blows up. Peter Hicks, who co-ordinates OECD work on the policy implications of ageing, says that plenty of research suggests older people are paid more because they are worth more. And the virtues of the young may be exaggerated. ‘The few companies that have kept on older workers find they have good judgement and their productivity is good,’ says Peter Peterson, author of a recent book on the impact of ageing. ‘Besides, their education standards are much better than those of today’s young high-school graduates.’ Companies may say that older workers are not worth training because they are reaching the end of their working lives; in fact, young people tend to switch jobs so frequently that they offer the worst returns on training. The median age for employer-driven training is the late 40s and early 50s, and this training goes mainly to managers. Choose TWO letters, A-G. The list below gives some of the advantages of employing older workers. Which TWO advantages are mentioned by the writer of the text? Choose TWO letters, A-F. The list below gives some of the disadvantages of employing younger workers. Which TWO disadvantages are mentioned by the writer of the text?"
+      }
+    ],
+    "word_count": 250,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "multiple-choice-more-than-one-answer-q1-4",
+      "type": "multiple_choice",
+      "subtype": "multi_answer",
+      "instruction": "more than one answer Clearly, when older people do heavy physical work, their age may affect their productivity. But other skills may increase with age, including many that are crucial for good management, such as an ability to handle people diplomatically, to run a meeting or to spot a problem before it blows up. Peter Hicks, who co-ordinates OECD work on the policy implications of ageing, says that plenty of research suggests older people are paid more because they are worth more. And the virtues of the young may be exaggerated. ‘The few companies that have kept on older workers find they ha",
+      "question_range": {
+        "from": 1,
+        "to": 4
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "They are less likely to be involved in careless accidents."
+        },
+        {
+          "key": "B",
+          "text": "They can predict areas that may cause trouble in the future."
+        },
+        {
+          "key": "C",
+          "text": "They are able to train younger workers."
+        },
+        {
+          "key": "D",
+          "text": "They can deal with unexpected problems."
+        },
+        {
+          "key": "E",
+          "text": "They are more conscientious."
+        },
+        {
+          "key": "F",
+          "text": "They are prepared to work for lower salaries."
+        },
+        {
+          "key": "G",
+          "text": "They are more skilled in personal relationships."
+        },
+        {
+          "key": "A",
+          "text": "They are too confident of their own skills."
+        },
+        {
+          "key": "B",
+          "text": "They may injure themselves."
+        },
+        {
+          "key": "C",
+          "text": "They do not stay with the same company for very long."
+        },
+        {
+          "key": "D",
+          "text": "Their training has been too theoretical."
+        },
+        {
+          "key": "E",
+          "text": "They are not as well educated as older workers."
+        },
+        {
+          "key": "F",
+          "text": "They demand higher salaries."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Which TWO disadvantages are mentioned by the writer of the text?",
+          "answer": [
+            "B",
+            "G"
+          ],
+          "evidence": [
+            {
+              "quote": "Which TWO disadvantages are mentioned by the writer of the text?",
+              "start": 1425,
+              "end": 1489,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Which TWO disadvantages are mentioned by the writer of the text?",
+          "answer": [
+            "B",
+            "G"
+          ],
+          "evidence": [
+            {
+              "quote": "Which TWO disadvantages are mentioned by the writer of the text?",
+              "start": 1425,
+              "end": 1489,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Which TWO disadvantages are mentioned by the writer of the text?",
+          "answer": [
+            "C",
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "The list below gives some of the disadvantages of employing younger workers. Which TWO disadvantages are mentioned by the writer of the text?",
+              "start": 1348,
+              "end": 1489,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Which TWO disadvantages are mentioned by the writer of the text?",
+          "answer": [
+            "C",
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "The list below gives some of the disadvantages of employing younger workers. Which TWO disadvantages are mentioned by the writer of the text?",
+              "start": 1348,
+              "end": 1489,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 4,
+      "answers_matched": 4,
+      "evidence_needs_review": []
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "51f8f23485531bd1",
+    "created_at": "2026-08-29T18:05:32.041714+08:00",
+    "not_official": true
+  }
+}

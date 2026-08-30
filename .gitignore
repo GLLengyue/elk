@@ -1,0 +1,43 @@
+# .gitignore
+
+# ---- 抓取的原始材料：版权敏感，永不入库 -------------------------
+data/raw/
+
+# ---- 运行时产物 ----
+state/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 构建/发布产物（release.py 生成）----
+dist/
+*.egg-info/
+
+# ---- 数据层：只留文档，产物一律排除 ----
+# structured/ 是 `elk load` 的产物，可由 capability/packs 重建，
+# 且会因多次加载产生重复副本，不入库。真正的分发源是
+# expert/skills/elk-coach/assets/packs/。
+data/structured/
+data/interim/
+data/index.jsonl
+data/state/
+!data/SOURCES.md
+!data/LICENSE-NOTICE.md
+
+# ---- 系统垃圾 ----
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---- 嵌套 git 元数据（备份的历史目录，绝不入库）----
+**/.git.bak/
+*.git.bak/
+
+# ---- 编辑器/IDE ----
+.idea/
+.vscode/
+!.vscode/settings.json.example
+
+# ---- 专家包内运行时状态 ----
+expert/skills/elk-coach/state/

@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-08-28T19:45:13.408831+08:00",
+  "sampled": 500,
+  "datasets": [
+    {
+      "dataset": "chillies_task2",
+      "task": 2,
+      "n_sampled": 500,
+      "alignment": {
+        "method": "题目实词在作文中的 5-char 词干命中率",
+        "mean": 0.6899,
+        "p10": 0.4545,
+        "median": 0.7143,
+        "zero_hit_rate": 0.004,
+        "below_20pct_rate": 0.008
+      },
+      "dimension_independence": {
+        "pairwise_correlation": {
+          "TR-CC": 0.491,
+          "TR-LR": 0.082,
+          "TR-GRA": 0.134,
+          "CC-LR": 0.144,
+          "CC-GRA": 0.193,
+          "LR-GRA": 0.843
+        },
+        "max_correlation": 0.843,
+        "identical_rate": {
+          "TR==CC": 0.402,
+          "TR==LR": 0.158,
+          "TR==GRA": 0.162,
+          "CC==LR": 0.238,
+          "CC==GRA": 0.198,
+          "LR==GRA": 0.682
+        },
+        "diff_asymmetry": {
+          "CC-TR": {
+            "equal": 0.402,
+            "pos": 0.278,
+            "neg": 0.32,
+            "asymmetry": 0.87
+          },
+          "LR-TR": {
+            "equal": 0.158,
+            "pos": 0.362,
+            "neg": 0.48,
+            "asymmetry": 0.75
+          },
+          "GRA-TR": {
+            "equal": 0.162,
+            "pos": 0.446,
+            "neg": 0.392,
+            "asymmetry": 1.14
+          },
+          "LR-CC": {
+            "equal": 0.238,
+            "pos": 0.37,
+            "neg": 0.392,
+            "asymmetry": 0.94
+          },
+          "GRA-CC": {
+            "equal": 0.198,
+            "pos": 0.468,
+            "neg": 0.334,
+            "asymmetry": 1.4
+          },
+          "GRA-LR": {
+            "equal": 0.682,
+            "pos": 0.298,
+            "neg": 0.02,
+            "asymmetry": 14.9
+          }
+        },
+        "overall_reconstruction": {
+          "n": 500,
+          "exact_from_mean": 0.718,
+          "recoverable_with_half_band": 0.896,
+          "note": "还原率高 => overall 由四维合成，四维回归存在恒等式风险"
+        }
+      },
+      "overall_band_half_ratio": 0.0,
+      "verdict": {
+        "level": "PARTIAL",
+        "usable_dimensions": [
+          "TR",
+          "CC"
+        ],
+        "reasons": [
+          "LR-GRA 相关性过高 r=0.843",
+          "LR==GRA 取值完全相同的比例达 68.2%，非独立评分特征",
+          "GRA-LR 差值正负比 14.9:1，存在构造性方向偏态"
+        ]
+      }
+    },
+    {
+      "dataset": "btnotpt_task2",
+      "task": 2,
+      "n_sampled": 500,
+      "alignment": {
+        "method": "题目实词在作文中的 5-char 词干命中率",
+        "mean": 0.6478,
+        "p10": 0.4,
+        "median": 0.6496,
+        "zero_hit_rate": 0.002,
+        "below_20pct_rate": 0.022
+      },
+      "dimension_independence": {
+        "pairwise_correlation": {
+          "TR-CC": 0.743,
+          "TR-LR": 0.694,
+          "TR-GRA": 0.669,
+          "CC-LR": 0.704,
+          "CC-GRA": 0.676,
+          "LR-GRA": 0.781
+        },
+        "max_correlation": 0.781,
+        "identical_rate": {
+          "TR==CC": 0.31,
+          "TR==LR": 0.288,
+          "TR==GRA": 0.264,
+          "CC==LR": 0.39,
+          "CC==GRA": 0.316,
+          "LR==GRA": 0.184
+        },
+        "diff_asymmetry": {
+          "CC-TR": {
+            "equal": 0.31,
+            "pos": 0.292,
+            "neg": 0.398,
+            "asymmetry": 0.73
+          },
+          "LR-TR": {
+            "equal": 0.288,
+            "pos": 0.122,
+            "neg": 0.59,
+            "asymmetry": 0.21
+          },
+          "GRA-TR": {
+            "equal": 0.264,
+            "pos": 0.552,
+            "neg": 0.184,
+            "asymmetry": 3.0
+          },
+          "LR-CC": {
+            "equal": 0.39,
+            "pos": 0.132,
+            "neg": 0.478,
+            "asymmetry": 0.28
+          },
+          "GRA-CC": {
+            "equal": 0.316,
+            "pos": 0.588,
+            "neg": 0.096,
+            "asymmetry": 6.12
+          },
+          "GRA-LR": {
+            "equal": 0.184,
+            "pos": 0.8,
+            "neg": 0.016,
+            "asymmetry": 50.0
+          }
+        },
+        "overall_reconstruction": {
+          "n": 500,
+          "exact_from_mean": 0.916,
+          "recoverable_with_half_band": 1.0,
+          "note": "还原率高 => overall 由四维合成，四维回归存在恒等式风险"
+        }
+      },
+      "overall_band_half_ratio": 0.0,
+      "verdict": {
+        "level": "SUSPECT",
+        "usable_dimensions": [
+          "TR",
+          "CC",
+          "LR",
+          "GRA"
+        ],
+        "reasons": [
+          "overall 可被四维均值还原 100.0%，四维疑似由 overall 反推"
+        ]
+      }
+    },
+    {
+      "dataset": "hai2131_task1",
+      "task": 1,
+      "n_sampled": 500,
+      "alignment": {
+        "skipped": true,
+        "reason": "prompt 列 `topic` 是图表类型标签而非题目，对齐判定不适用",
+        "prompt_sample": "Bar Chart"
+      },
+      "dimension_independence": {
+        "pairwise_correlation": {
+          "TR-CC": 0.916,
+          "TR-LR": 0.902,
+          "TR-GRA": 0.866,
+          "CC-LR": 0.936,
+          "CC-GRA": 0.935,
+          "LR-GRA": 0.911
+        },
+        "max_correlation": 0.936,
+        "identical_rate": {
+          "TR==CC": 0.318,
+          "TR==LR": 0.28,
+          "TR==GRA": 0.256,
+          "CC==LR": 0.532,
+          "CC==GRA": 0.598,
+          "LR==GRA": 0.562
+        },
+        "diff_asymmetry": {
+          "CC-TR": {
+            "equal": 0.318,
+            "pos": 0.076,
+            "neg": 0.606,
+            "asymmetry": 0.13
+          },
+          "LR-TR": {
+            "equal": 0.28,
+            "pos": 0.056,
+            "neg": 0.664,
+            "asymmetry": 0.08
+          },
+          "GRA-TR": {
+            "equal": 0.256,
+            "pos": 0.122,
+            "neg": 0.622,
+            "asymmetry": 0.2
+          },
+          "LR-CC": {
+            "equal": 0.532,
+            "pos": 0.242,
+            "neg": 0.226,
+            "asymmetry": 1.07
+          },
+          "GRA-CC": {
+            "equal": 0.598,
+            "pos": 0.144,
+            "neg": 0.258,
+            "asymmetry": 0.56
+          },
+          "GRA-LR": {
+            "equal": 0.562,
+            "pos": 0.182,
+            "neg": 0.256,
+            "asymmetry": 0.71
+          }
+        },
+        "overall_reconstruction": {
+          "n": 500,
+          "exact_from_mean": 0.826,
+          "recoverable_with_half_band": 1.0,
+          "note": "还原率高 => overall 由四维合成，四维回归存在恒等式风险"
+        }
+      },
+      "overall_band_half_ratio": 0.0,
+      "verdict": {
+        "level": "UNUSABLE",
+        "usable_dimensions": [],
+        "reasons": [
+          "TR-CC 相关性过高 r=0.916",
+          "TR-LR 相关性过高 r=0.902",
+          "TR-GRA 相关性过高 r=0.866",
+          "CC-LR 相关性过高 r=0.936",
+          "CC-GRA 相关性过高 r=0.935",
+          "LR-GRA 相关性过高 r=0.911",
+          "CC==LR 取值完全相同的比例达 53.2%，非独立评分特征",
+          "CC==GRA 取值完全相同的比例达 59.8%，非独立评分特征",
+          "LR==GRA 取值完全相同的比例达 56.2%，非独立评分特征",
+          "overall 可被四维均值还原 100.0%，四维疑似由 overall 反推"
+        ]
+      }
+    }
+  ]
+}

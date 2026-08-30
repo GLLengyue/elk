@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ar-tb-2023-summary-completion-selecting-from-a-list",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.043262+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      38,
+      39,
+      40
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "ar-tb-2023-summary-completion-selecting-from-a-list-text",
+    "title": "Summary Completion: selecting from a list of words or phrases",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Completion: selecting from a list of words or phrases 'This Marvellous Invention' Of all mankind’s manifold creations, language must take pride of place. Other inventions – the wheel, agriculture, sliced bread – may have transformed our material existence, but the advent of language is what made us human. Compared to language, all other inventions pale in significance, since everything we have ever achieved depends on language and originates from it. Without language, we could never have embarked on our ascent to unparalleled power over all other animals, and even over nature itself. But language is foremost not just because it came first. In its own right it is a tool of extraordinary sophistication, yet based on an idea of ingenious simplicity: ‘this marvellous invention of composing out of twenty-five or thirty sounds that infinite variety of expressions which, whilst having in themselves no likeness to what is in our mind, allow us to disclose to others its whole secret, and to make known to those who cannot penetrate it all that we imagine, and all the various stirrings of our soul’. This was how, in 1660, the renowned French grammarians of the Port-Royal abbey near Versailles distilled the essence of language, and no one since has celebrated more eloquently the magnitude of its achievement. Even so, there is just one flaw in all these hymns of praise, for the homage to language’s unique accomplishment conceals a simple yet critical incongruity. Language is mankind’s greatest invention – except, of course, that it was never invented. This apparent paradox is at the core of our fascination with language, and it holds many of its secrets. Complete the summary using the list of words, A-G, below. The importance of language The wheel is one invention that has had a major impact on 1 ................. aspects of life, but no impact has been as 2 ………… as that of language. Language is very 3 ………… , yet composed of just a small number of sounds. Language appears to be 4 ………… to use. However, its sophistication is often overlooked. A difficult B complex C original"
+      }
+    ],
+    "word_count": 341,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "summary-completion-selecting-from-a-list-q1-4",
+      "type": "summary_completion",
+      "subtype": "summary",
+      "instruction": "Completion: selecting from a list of words or phrases 'This Marvellous Invention' Of all mankind’s manifold creations, language must take pride of place. Other inventions – the wheel, agriculture, sliced bread – may have transformed our material existence, but the advent of language is what made us human. Compared to language, all other inventions pale in significance, since everything we have ever achieved depends on language and originates from it. Without language, we could never have embarked on our ascent to unparalleled power over all other animals, and even over nature itself. But langu",
+      "question_range": {
+        "from": 1,
+        "to": 4
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "D",
+          "text": "admired E material F easy"
+        },
+        {
+          "key": "G",
+          "text": "fundamental"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Question 1",
+          "answer": "E"
+        },
+        {
+          "number": 2,
+          "stem": "Question 2",
+          "answer": "G"
+        },
+        {
+          "number": 3,
+          "stem": "Question 3",
+          "answer": "B"
+        },
+        {
+          "number": 4,
+          "stem": "Question 4",
+          "answer": "F"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": true,
+      "paraphrase_missing": true,
+      "question_count": 4,
+      "answers_matched": 4
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "c820b2f760a4d6d6",
+    "created_at": "2026-08-29T18:05:32.043262+08:00",
+    "not_official": true
+  }
+}

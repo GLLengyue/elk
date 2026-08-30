@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/common/licence.schema.json",
+  "title": "许可信息",
+  "description": "记录一条数据的许可状态。redistributable 是合规判定的开关字段——CI 与发布脚本据此决定该条能否随数据集外发。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "redistributable"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "许可名，如 CC-BY-4.0 / CC0-1.0 / IELTS Partners (non-commercial sample) / unknown",
+      "examples": ["CC-BY-4.0", "CC0-1.0", "IELTS Partners", "unknown"]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "许可全文链接"
+    },
+    "redistributable": {
+      "type": "boolean",
+      "description": "是否允许随本数据集再分发。false 的数据只保留在本地 data/raw/，永不提交。"
+    },
+    "attribution": {
+      "type": "string",
+      "description": "要求的署名文本；无要求则省略"
+    },
+    "notes": {
+      "type": "string",
+      "description": "补充说明，如「官方样题，仅限个人备考用途，不得再发布」"
+    }
+  }
+}

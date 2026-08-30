@@ -1,0 +1,585 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-data.local/schemas/reading-test.schema.json",
+  "title": "IELTSReadingTest",
+  "description": "雅思阅读单套题。三层结构 = RACE 骨架（article+questions+options+answers）+ 题组层 + 元数据层。题组层承载共享 instruction/options，是 Matching Headings 这类「选项池>题数」题型的关键。不复用 QTI/GIFT：数据消费者是 LLM 不是 LMS，JSON 的信噪比远高于 XML。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "module",
+    "source",
+    "passage",
+    "question_groups",
+    "meta"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,63}$",
+      "description": "小写连字符，如 cam19-test1-passage2"
+    },
+    "module": {
+      "enum": [
+        "academic",
+        "general_training"
+      ],
+      "description": "考试类别（A 类 / G 类）。科目（reading/writing/...）由目录结构承载，不要填在这里——曾误填 'reading' 导致校验失败。"
+    },
+    "set_name": {
+      "type": "string",
+      "description": "所属套题，如 official-academic-2023-01"
+    },
+    "source": {
+      "$ref": "common/provenance.schema.json",
+      "description": "来源追溯。统一引用 common/provenance.schema.json，不要在 reading-test 里内联另一套字段名。"
+    },
+    "passage": {
+      "$ref": "#/$defs/passage"
+    },
+    "question_groups": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/question_group"
+      }
+    },
+    "meta": {
+      "$ref": "#/$defs/meta"
+    }
+  },
+  "$defs": {
+    "passage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "paragraphs",
+        "word_count"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "text"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "description": "A/B/C… Matching Headings 依赖它"
+              },
+              "text": {
+                "type": "string"
+              },
+              "is_heading_target": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "word_count": {
+          "type": "integer",
+          "minimum": 150,
+          "maximum": 3600,
+          "description": "官方完整真题单篇 700-950 词；task bank 题型样本是**节选**，官方自标 'This is an extract from...'，实测 250-900 词。原设 minimum=1500（合成母本口径）会把真题全判非法，现已改为 150。"
+        },
+        "topic_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cefr": {
+          "enum": [
+            "B2",
+            "C1",
+            "B2-C1"
+          ]
+        },
+        "vocab_profile": {
+          "type": "object",
+          "properties": {
+            "cefrj_a1_b2_ratio": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "awl_ratio": {
+              "type": "number"
+            },
+            "c1_plus_ratio": {
+              "type": "number"
+            }
+          }
+        },
+        "fact_anchors": {
+          "type": "array",
+          "description": "合成阶段产出的可出题事实句，QC 与出题的定位锚点",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "sentence",
+              "paragraph_label",
+              "start",
+              "end"
+            ],
+            "properties": {
+              "sentence": {
+                "type": "string"
+              },
+              "paragraph_label": {
+                "type": "string"
+              },
+              "start": {
+                "type": "integer"
+              },
+              "end": {
+                "type": "integer"
+              },
+              "used_by_question": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        },
+        "has_diagram": {
+          "type": "boolean",
+          "default": false
+        },
+        "diagram_ref": {
+          "type": "string"
+        }
+      }
+    },
+    "question_group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "instruction",
+        "question_range",
+        "ordered",
+        "questions"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "multiple_choice",
+            "identifying_information",
+            "identifying_writers_views",
+            "matching_information",
+            "matching_headings",
+            "matching_features",
+            "matching_sentence_endings",
+            "sentence_completion",
+            "summary_completion",
+            "diagram_label_completion",
+            "short_answer"
+          ],
+          "description": "雅思官方 11 种题型。民间常说的 12 种是把 summary_completion 的 4 个变体拆开，这里用 subtype 区分。"
+        },
+        "subtype": {
+          "enum": [
+            "summary",
+            "note",
+            "table",
+            "flowchart",
+            "single_answer",
+            "multi_answer"
+          ]
+        },
+        "instruction": {
+          "type": "string",
+          "description": "题组共享指令原文，如 'Choose THREE letters, A-F.'"
+        },
+        "word_limit": {
+          "type": "string",
+          "description": "如 'NO MORE THAN TWO WORDS'"
+        },
+        "question_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "from",
+            "to"
+          ],
+          "properties": {
+            "from": {
+              "type": "integer"
+            },
+            "to": {
+              "type": "integer"
+            }
+          }
+        },
+        "ordered": {
+          "type": "boolean",
+          "description": "题号是否与原文顺序一致。Matching 类通常 false，其余 true。QC 的 G3b 顺序性校验依赖此字段——这是整套 QC 中判别力最高、成本最低的一关。"
+        },
+        "options": {
+          "type": "array",
+          "description": "题组共享选项池（headings/features/sentence endings/MC 共用字母表）",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "key",
+              "text"
+            ],
+            "properties": {
+              "key": {
+                "type": "string",
+                "description": "A/B/C… 或 i/ii/iii…"
+              },
+              "text": {
+                "type": "string"
+              },
+              "is_correct": {
+                "type": "boolean",
+                "description": "仅 internal；发布前必须剥离，防答案泄漏"
+              },
+              "distractor_type": {
+                "enum": [
+                  "near_miss",
+                  "out_of_scope",
+                  "partially_true",
+                  "contradicted",
+                  "over_generalised",
+                  "not_stated"
+                ]
+              }
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/question"
+          }
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "number",
+        "stem",
+        "answer"
+      ],
+      "properties": {
+        "number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 40
+        },
+        "stem": {
+          "type": "string",
+          "description": "Matching Headings 时为段落标号，如 'Paragraph C'"
+        },
+        "answer": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "选项 key / 填空词 / TRUE|FALSE|NOT GIVEN / YES|NO|NOT GIVEN"
+        },
+        "answer_form": {
+          "enum": [
+            "option_key",
+            "boolean3",
+            "free_text",
+            "sentence_ending_key"
+          ]
+        },
+        "acceptable_answers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "填空类可接受变体（单复数、连字符、美式拼写）"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "quote",
+              "start",
+              "end",
+              "paragraph_label"
+            ],
+            "properties": {
+              "quote": {
+                "type": "string",
+                "description": "必须是 passage 的精确子串（归一化空白后）"
+              },
+              "start": {
+                "type": "integer",
+                "description": "在 passage 全文中的字符偏移"
+              },
+              "end": {
+                "type": "integer"
+              },
+              "paragraph_label": {
+                "type": "string"
+              },
+              "is_core": {
+                "type": "boolean",
+                "description": "是否为决定性证据句"
+              }
+            }
+          }
+        },
+        "paraphrase": {
+          "type": "array",
+          "description": "同义替换对。雅思阅读的核心考察点，必须在结构化阶段沉淀，不能留到运行时让 LLM 临时编。",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "from",
+              "to"
+            ],
+            "properties": {
+              "from": {
+                "type": "string",
+                "description": "题干/选项中的表述"
+              },
+              "to": {
+                "type": "string",
+                "description": "原文中的对应表述"
+              },
+              "kind": {
+                "enum": [
+                  "synonym",
+                  "word_family",
+                  "structural",
+                  "generalisation"
+                ]
+              }
+            }
+          }
+        },
+        "distractor_rationale": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "option_key",
+              "why_wrong"
+            ],
+            "properties": {
+              "option_key": {
+                "type": "string"
+              },
+              "why_wrong": {
+                "type": "string"
+              },
+              "counter_evidence": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "skill_tag": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "scanning",
+              "skimming",
+              "paraphrase",
+              "inference",
+              "main_idea",
+              "detail",
+              "writer_attitude",
+              "cohesion"
+            ]
+          }
+        },
+        "difficulty": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source"
+          ],
+          "properties": {
+            "cefr": {
+              "enum": [
+                "B1",
+                "B2",
+                "C1"
+              ]
+            },
+            "predicted_p": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "盲解正确率，QC G5 产出"
+            },
+            "label": {
+              "enum": [
+                "easy",
+                "medium",
+                "hard"
+              ]
+            },
+            "evidence_gain": {
+              "type": "number",
+              "description": "给证据后正确率 − 盲解正确率。Δ 大 = 考察定位能力（好题）"
+            },
+            "source": {
+              "enum": [
+                "official",
+                "model_blind_solve",
+                "human"
+              ]
+            }
+          }
+        },
+        "explanation": {
+          "type": "string"
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quality_status",
+        "build_version",
+        "created_at",
+        "not_official"
+      ],
+      "properties": {
+        "quality_status": {
+          "enum": [
+            "official",
+            "parsed_unverified",
+            "synthetic_passed",
+            "synthetic_drill",
+            "synthetic_quarantine",
+            "rejected"
+          ],
+          "description": "official=官方原件直接采用；parsed_unverified=已从官方 PDF 解析、尚未过 QC 七关；synthetic_*=合成题各状态；rejected=剔除"
+        },
+        "qc": {
+          "type": "object",
+          "properties": {
+            "gate_version": {
+              "type": "string"
+            },
+            "results": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "gate",
+                  "verdict"
+                ],
+                "properties": {
+                  "gate": {
+                    "enum": [
+                      "G0",
+                      "G1",
+                      "G2",
+                      "G3",
+                      "G4",
+                      "G5",
+                      "G6",
+                      "G7"
+                    ]
+                  },
+                  "verdict": {
+                    "enum": [
+                      "pass",
+                      "fail",
+                      "warn",
+                      "skip"
+                    ]
+                  },
+                  "detail": {
+                    "type": "object"
+                  },
+                  "model": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "attempt": {
+              "type": "integer"
+            },
+            "failure_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "build_version": {
+          "type": "string"
+        },
+        "content_hash": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "reviewed_by": {
+          "enum": [
+            "auto",
+            "human"
+          ],
+          "default": "auto"
+        },
+        "review_note": {
+          "type": "string"
+        },
+        "not_official": {
+          "const": true,
+          "description": "合规硬约束：本数据非官方真题，任何展示面必须标注"
+        }
+      }
+    }
+  }
+}

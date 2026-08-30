@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ar-tb-2023-summary-completion-selecting-words-from",
+  "module": "academic",
+  "set_name": "ielts-academic-reading-sample-tasks-2023-taskbank",
+  "source": {
+    "source_type": "official_sample",
+    "source_id": "ielts-academic-reading-sample-tasks-2023.pdf",
+    "source_url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+    "licence": {
+      "name": "IELTS Partners",
+      "redistributable": false,
+      "notes": "官方免费样题。task bank 中的短文可能含第三方版权声明（如 © The Atlantic），整段原文不得再分发。"
+    },
+    "retrieved_at": "2026-08-29T18:05:32.043468+08:00",
+    "verified_on": "2026-08-29",
+    "page_refs": [
+      41,
+      42,
+      43
+    ],
+    "derivation": "从分题型 task bank PDF 自动解析"
+  },
+  "passage": {
+    "id": "ar-tb-2023-summary-completion-selecting-words-from-text",
+    "title": "Summary Completion: selecting words from the text",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Completion: selecting words from the text promotes the use of clear English.] Press, 2010. The instructions accompanying do-it-yourself products are regularly cited as a source of unnecessary expense or frustration. Few companies seem to test their instructions by having them followed by a first-time user. Often, essential information is omitted, steps in the construction process are taken for granted, and some degree of special knowledge is assumed. This is especially worrying in any fields where failure to follow correct procedures can be dangerous. Objections to material in plain English have come mainly from the legal profession. Lawyers point to the risk of ambiguity inherent in the use of everyday language for legal or official documents, and draw attention to the need for confidence in legal formulations, which can come only from using language that has been tested in courts over the course of centuries. The campaigners point out that there has been no sudden increase in litigation as a consequence of the increase in plain English materials. Similarly, professionals in several different fields have defended their use of technical and complex language as being the most precise means of expressing technical or complex ideas. This is undoubtedly true: scientists, doctors, bankers and others need their jargon in order to communicate with each other succinctly and unambiguously. But when it comes to addressing the non-specialist consumer, the campaigners argue, different criteria must apply. Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 1-5 on your answer sheet. Consumers often complain that they experience a feeling of 1 ................ when trying to put together do-it-yourself products which have not been tested by companies on a 2 ………… . In situations where not keeping to the correct procedures could affect safety issues, it is especially important that 3 ................ information is not left out and no assumptions are made about a stage being self-evident or the consumer having a certain amount of 4 ………… . Lawyers, however, have raised objections to the use of plain English. They feel that it would result in ambiguity in documents and cause people to lose faith in 5 ............... , as it would mean departing from language that has been used in the courts for a very long time."
+      }
+    ],
+    "word_count": 369,
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "summary-completion-selecting-words-from-q1-5",
+      "type": "summary_completion",
+      "subtype": "summary",
+      "instruction": "Completion: selecting words from the text promotes the use of clear English.] Press, 2010. The instructions accompanying do-it-yourself products are regularly cited as a source of unnecessary expense or frustration. Few companies seem to test their instructions by having them followed by a first-time user. Often, essential information is omitted, steps in the construction process are taken for granted, and some degree of special knowledge is assumed. This is especially worrying in any fields where failure to follow correct procedures can be dangerous. Objections to material in plain English ha",
+      "word_limit": "NO MORE THAN TWO WORDS",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Question 1",
+          "answer": "frustration",
+          "evidence": [
+            {
+              "quote": "The instructions accompanying do-it-yourself products are regularly cited as a source of unnecessary expense or frustration.",
+              "start": 91,
+              "end": 215,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Question 2",
+          "answer": "first-time",
+          "evidence": [
+            {
+              "quote": "Few companies seem to test their instructions by having them followed by a first-time user.",
+              "start": 216,
+              "end": 307,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Question 3",
+          "answer": "essential",
+          "evidence": [
+            {
+              "quote": "Often, essential information is omitted, steps in the construction process are taken for granted, and some degree of special knowledge is assumed.",
+              "start": 308,
+              "end": 454,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Question 4",
+          "answer": "special",
+          "evidence": [
+            {
+              "quote": "Often, essential information is omitted, steps in the construction process are taken for granted, and some degree of special knowledge is assumed.",
+              "start": 308,
+              "end": 454,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Question 5",
+          "answer": "legal",
+          "evidence": [
+            {
+              "quote": "Lawyers point to the risk of ambiguity inherent in the use of everyday language for legal or official documents, and draw attention to the need for confidence in legal formulations, which can come only from using language that has been tested in courts over the course of centuries.",
+              "start": 642,
+              "end": 924,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "parsed_unverified",
+    "qc": {
+      "evidence_missing": false,
+      "paraphrase_missing": true,
+      "question_count": 5,
+      "answers_matched": 5,
+      "evidence_needs_review": []
+    },
+    "build_version": "parse_reading_taskbank.py@1.0",
+    "content_hash": "5ce4ceb272a99d49",
+    "created_at": "2026-08-29T18:05:32.043468+08:00",
+    "not_official": true
+  }
+}
