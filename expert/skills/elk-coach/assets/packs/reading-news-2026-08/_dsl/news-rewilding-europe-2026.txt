@@ -1,0 +1,110 @@
+ID: news-rewilding-europe-2026
+TITLE: What Kind of Nature Is Being Restored?
+TAGS: ecology,policy,europe
+URL: https://www.nature.com/articles/s41559-026-03138-7 | https://environment.ec.europa.eu/topics/nature-and-biodiversity/nature-restoration-regulation_en
+NOTES: 事实取自欧盟委员会《自然恢复条例》官方页面(2024-08-18 生效、2030 年前覆盖至少 20% 陆海面积、2050 年覆盖所有需恢复生态系统、成员国须于 2026 年 9 月前提交国家恢复计划、每投入 1 欧元回报 4-38 欧元、2030 年前至少 25,000 公里河流恢复自由流动) | 欧盟委员会 2026-05 至 08-10 就《鸟类与栖息地指令》开展公开咨询（简化议程下的"压力测试"） | Nature 社论(2026)：EEA《Europe's environment 2025》指 81% 受保护栖息地状况差或极差；温带森林冠层死亡自 1980 年代以来翻倍 | 欧洲野牛由 20 世纪初少量圈养个体恢复至约 7,000 头野生个体；狼的回归源于法律保护而非再引入 | Chapron 等对欧盟 10,000 人调查：支持狼/熊/猞猁继续恢复但反对种群继续增长，且普遍反对以狩猎作为控制手段；Nature Ecology and Evolution 关于补偿金额的研究指各国估值偏差普遍、缺乏标准化 | Oeser 等大型食草动物追踪数据：驼鹿/欧洲野牛/狍/马鹿均偏好受干扰区域，野牛与狍在干扰后立即最适宜，马鹿与驼鹿响应更慢 | Ranc 等关于金豺的"人类屏蔽"效应：狼回避人类使豺在中型捕食者释放中受益，模型显示最多 75% 欧洲可能成为适宜栖息地 | Neff 等(Nat. Ecol. Evol. 10, 1103–1113, 2026)瑞士 90 年昆虫监测：20 世纪中叶农业机械化时期为快速下降起点 | 荷兰 Oostvaardersplassen 实验的去驯化思路与争议
+
+--- A
+Europe industrialised first and, on most measures, has less wild land left than any other continent. Its habitats record that history: the European Environment Agency reported in 2025 that 81 per cent of protected habitats are in poor or bad condition. The European Union's answer is the Nature Restoration Regulation, the first continent-wide law of its kind, which came into force in August 2024. It sets binding targets: restoration measures should cover at least 20 per cent of the Union's land and sea by 2030, and eventually every ecosystem judged to need them by 2050. Among its specific provisions is a commitment to return at least 25,000 kilometres of rivers to a free-flowing state by removing the barriers that fragment them. Member states are due to submit national restoration plans by September 2026. The urgency is not abstract: canopy mortality in the continent's temperate forests has doubled since the 1980s.
+--- B
+The regulation has not settled the argument so much as relocated it. In May 2026 the European Commission opened a public consultation on the much older Birds and Habitats Directives, part of a simplification drive that observers widely read as a stress test of legislation drafted in the 1970s. Farming organisations argue that restoration duties fall on those least able to absorb them. Defenders of the law reply in economic terms, citing official estimates that every euro spent on restoration yields between four and thirty-eight euros of benefit, from flood protection to pollination, and pointing out that degraded landscapes already drain public budgets more than repair would cost.
+--- C
+Behind the dispute sits an awkward question: restoration to what? The directives were written when conservation meant defending what remained. Rewilding proceeds from a different premise, treating ecological processes rather than particular assemblages of species as the object of repair. The Dutch reserve at Oostvaardersplassen, laid out on reclaimed land in the 1980s, became the proving ground. Ecologists there argued that cattle and ponies could stand in for the aurochs and tarpan that had been hunted to extinction, reinstating the grazing that had shaped European landscapes. The experiment produced a crisis of legitimacy alongside the landscape. When large numbers of animals were left to starve, animal welfare groups and farmers objected, and critics attacked the reserve's authenticity on the grounds that its fences and water control made it an artefact rather than a wild place.
+--- D
+Some recoveries are unambiguous. The European bison has recovered from a handful of captive individuals in the early twentieth century to around 7,000 wild individuals today, spread across several countries. The wolf returned by a different mechanism: not reintroduction, but legal protection, since the Bern Convention and the Habitats Directive made killing it unlawful and allowed animals to recolonise under their own steam. Both cases are cited as evidence that species can return once the pressure on them is lifted.
+--- E
+Public opinion is more ambivalent than the population figures imply. A survey of 10,000 people across European Union states, reported by Chapron and colleagues, found that respondents broadly favour the continued recovery of wolves, bears and lynx while at the same time opposing continued growth in their populations, and they largely oppose control measures that involve hunting. That combination leaves managers with very few instruments. The difficulty extends to money as well: a study assembling the compensation values written into legal texts across Europe found widespread biases in valuation across countries and very little standardisation in how the amounts were justified.
+--- F
+Restoration also has to deal with the animals already present. A team led by Oeser, which assembled one of the largest multispecies tracking datasets for large herbivores, found that moose, European bison, roe deer and red deer all preferentially occupied disturbed areas. The timing differed: for bison and roe deer, habitat suitability peaked immediately after a disturbance, whereas red deer and moose responded over longer periods. The implication for forestry is awkward, because the animals that recreate open vegetation structure also browse the seedlings that would regenerate a disturbed stand.
+--- G
+Human presence reshapes these interactions in ways that are easy to miss. Research by Ranc and colleagues on the golden jackal, which has been spreading across Europe since the 1980s, attributes part of that expansion to a human shield: wolves normally restrict jackals through competition, but where wolves keep away from people, jackals are released from that pressure, and modelling suggests that up to 75 per cent of the continent could eventually become suitable for them. Longer records point in a less encouraging direction. Analysis by Neff and colleagues of ninety years of insect monitoring in Switzerland identifies the middle of the twentieth century, when farming mechanised, as the start of a steep decline.
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q1 Member states are required to submit national restoration plans before the end of 2026.
+ANS: TRUE
+EV: A | Member states are due to submit national restoration plans by September 2026
+SKILL: scanning
+EXP: 9 月提交即在 2026 年年底之前。
+Q2 The amount of tree death in Europe's temperate forests has fallen since the 1980s.
+ANS: FALSE
+EV: A | canopy mortality in the continent's temperate forests has doubled since the 1980s
+PARA: tree death >>> canopy mortality
+SKILL: detail
+EXP: 原文说冠层死亡翻倍，与题干的下降相反。
+Q3 The Swiss insect records identify synthetic pesticides as the principal cause of the decline.
+ANS: NOT GIVEN
+EV: G | identifies the middle of the twentieth century, when farming mechanised, as the start of a steep decline
+SKILL: inference
+EXP: 原文把下降起点归于农业机械化时期，从未提及杀虫剂。
+Q4 More than four-fifths of Europe's protected habitats are in poor or bad condition.
+ANS: TRUE
+EV: A | the European Environment Agency reported in 2025 that 81 per cent of protected habitats are in poor or bad condition
+PARA: More than four-fifths >>> 81 per cent
+SKILL: paraphrase
+EXP: 81% 超过五分之四。
+Q5 People surveyed across the Union generally favoured reducing carnivore numbers by hunting.
+ANS: FALSE
+EV: E | they largely oppose control measures that involve hunting
+SKILL: detail
+EXP: 原文明确说多数人反对以狩猎为控制手段。
+
+### GROUP multiple_choice single_answer
+INSTR: Choose the correct letter, A, B, C or D.
+ORDERED: false
+OPTIONS:
+    A | Chapron and colleagues
+    B | Ranc and colleagues
+    C | Oeser and colleagues
+    D | Neff and colleagues
+Q6 Which researchers found that public support for large carnivores does not extend to their populations growing further?
+ANS: A
+EV: E | respondents broadly favour the continued recovery of wolves, bears and lynx while at the same time opposing continued growth in their populations
+SKILL: inference
+EXP: E 段 Chapron 调查同时记录支持恢复与反对继续增长。
+Q7 Which researchers showed that a species has gained because a rival avoids human beings?
+ANS: B
+EV: G | where wolves keep away from people, jackals are released from that pressure
+SKILL: inference
+EXP: G 段 Ranc 提出狼回避人类使豺摆脱竞争压力。
+Q8 Which researchers assembled tracking data covering four species of large herbivore?
+ANS: C
+EV: F | moose, European bison, roe deer and red deer all preferentially occupied disturbed areas
+SKILL: scanning
+EXP: F 段 Oeser 团队追踪四种大型食草动物。
+Q9 Which researchers worked with records spanning nine decades from one country?
+ANS: D
+EV: G | Analysis by Neff and colleagues of ninety years of insect monitoring in Switzerland
+PARA: nine decades >>> ninety years
+SKILL: paraphrase
+EXP: G 段 Neff 分析瑞士 90 年昆虫监测数据。
+
+### GROUP summary_completion summary
+INSTR: Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Two species show how differently recovery can occur. The European bison grew from a handful of 10. ______ at the start of the twentieth century to about 7,000 wild animals today. The wolf returned without being deliberately released, because 11. ______ made killing it unlawful. Public attitudes remain divided: people accept large carnivores but resist any further 12. ______ in their numbers, and compensation for livestock losses is difficult to settle because the sums written into law show widespread 13. ______ between countries and almost no standardisation.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN TWO WORDS
+Q10 (summary blank 10)
+ANS: captive individuals
+FORM: free_text
+EV: D | The European bison has recovered from a handful of captive individuals in the early twentieth century to around 7,000 wild individuals today
+SKILL: scanning
+EXP: 题干 at the start of the twentieth century = 原文 in the early twentieth century。
+Q11 (summary blank 11)
+ANS: legal protection
+FORM: free_text
+EV: D | not reintroduction, but legal protection
+SKILL: paraphrase
+EXP: 题干 without being deliberately released = 原文 not reintroduction。
+Q12 (summary blank 12)
+ANS: growth
+FORM: free_text
+EV: E | opposing continued growth in their populations
+SKILL: paraphrase
+EXP: 题干 resist any further = 原文 opposing continued。
+Q13 (summary blank 13)
+ANS: biases
+FORM: free_text
+EV: E | found widespread biases in valuation across countries and very little standardisation in how the amounts were justified
+SKILL: paraphrase
+EXP: 题干 almost no standardisation = 原文 very little standardisation。

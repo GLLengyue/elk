@@ -1,0 +1,120 @@
+ID: news-mrna-vaccine-technology-2026
+TITLE: Six Weeks, One Patient
+TAGS: health,biotechnology,science
+URL: https://beyondtmrw.org/article/mrna-cancer-vaccines-in-2026-neoantigen-pipelines-manufacturing-slots-and-phase-2-readouts | https://baike.baidu.com/item/mRNA%E6%8A%80%E6%9C%AF/67393632 | https://baike.baidu.com/item/mRNA%E5%B9%B3%E5%8F%B0/63956353
+NOTES: 事实取自 2026-08-19 默沙东与 Moderna 宣布 III 期 INTerpath-001 达主要终点：intismeran autogene(mRNA-4157/V940，编码至多 34 种患者专属新抗原的 mRNA-LNP)联合帕博利珠单抗，改善完全切除 IIB-IV 期黑色素瘤患者的 RFS 与 DMFS，为个体化新抗原疗法及 mRNA 肿瘤治疗领域首个 III 期阳性结果 | KEYNOTE-942 IIb 期 2026 年五年随访：RFS 风险降 49%(HR=0.510)、DMFS 风险降 59%(HR=0.411)，获益不依赖 PD-L1 表达，五年无新增安全信号，OS 数据尚未成熟 | 生产流程四步：测序→算法按 MHC 结合与表达量排序新抗原→合成并包载 LNP→注射；全流程约 6-8 周 | 瓶颈为 CDMO 的 manufacturing slots(已被流感、RSV 等下一代预防项目占满)而非患者招募；外科希望术后数周内接种，八周常被引作上限 | 核苷修饰(假尿苷替代)由 Katalin Karikó 与 Drew Weissman 完成，获 2023 年诺贝尔生理学或医学奖；LNP 由可电离脂质、辅助脂质、胆固醇与 PEG 化脂质构成 | 2026 年冻干工艺突破：部分 mRNA 产品可于 2-8℃ 长期稳定，摆脱超低温冷链 | 竞争格局：BioNTech 个性化+通用双线，Gritstone bio 与 Genentech 竞逐，康希诺等国内企业自有 LNP 与冻干制剂 | 2026-07 首款乙肝功能性治愈 mRNA 药物 CPU-YL01 获中国、美国、老挝临床批件并进入 I 期；带状疱疹、结核、RSV 等在更早期
+
+--- A
+Messenger RNA vaccines were proved at industrial scale during the coronavirus pandemic, when products were designed, manufactured and distributed within a year. The harder test of the platform is now underway. On 19 August 2026, Merck and Moderna announced that a phase 3 trial had met its primary endpoints. The product, intismeran autogene, also known as mRNA-4157, is an mRNA construct carried in lipid nanoparticles that encodes up to thirty-four neoantigens drawn from an individual patient's own tumour. Given alongside pembrolizumab after surgery, it improved recurrence-free and distant metastasis-free survival in patients with completely resected stage IIB to IV melanoma. It was the first positive phase 3 result ever reported for an individualised neoantigen therapy.
+--- B
+The platform rests on two inventions. The first is nucleotide modification: substituting a modified nucleoside for uridine prevents the immune system from destroying the RNA before it can be read, a finding by Katalin Karikó and Drew Weissman that earned them the Nobel Prize in Physiology or Medicine in 2023. The second is delivery. Naked RNA is fragile, so it is packaged in lipid nanoparticles, assemblies of an ionisable lipid, a helper lipid, cholesterol and a polyethylene glycol-modified lipid. A third advance has been mundane but consequential. Improvements in freeze-drying reported in 2026 allow some mRNA products to remain stable for long periods at 2 to 8 degrees Celsius, removing the ultra-cold chain that had constrained distribution to wealthy health systems.
+--- C
+Making a personalised vaccine is a sequence of four steps. Tissue from the patient's tumour, and usually a blood sample, is sequenced, and algorithms compare the two to identify mutations unique to the cancer. Candidate neoantigens are ranked by how strongly the resulting peptides are predicted to bind the patient's own major histocompatibility complex molecules, and by how much the corresponding genes are expressed. A construct encoding up to thirty-four selected neoantigens is then synthesised, sealed into lipid nanoparticles and injected, usually into muscle. The entire workflow, from tissue to injection, now takes roughly six to eight weeks when a manufacturing slot is available.
+--- D
+What follows is conventional immunology. Antigen-presenting cells take up the particles, translate the RNA and display the resulting peptides on their surface by both major histocompatibility pathways. These cells migrate to lymph nodes, where they prime CD4 and CD8 T cells that recognise the tumour. Cytotoxic T cells then seek out and destroy cells bearing the matching antigens, while memory cells persist and, in principle, patrol for relapse. The logic of combining the vaccine with a checkpoint inhibitor is that the tumour's local defences are suppressed at the same moment that new T cells are being raised against it.
+--- E
+The evidence has accumulated over several years. In the phase 2b KEYNOTE-942 trial, updated five-year follow-up presented in 2026 showed that adding the vaccine to pembrolizumab reduced the risk of recurrence or death by 49 per cent, with a hazard ratio of 0.510, and the risk of distant metastasis or death by 59 per cent, with a hazard ratio of 0.411. The benefit did not appear to depend on the tumour's expression of PD-L1, and no new safety signals emerged over five years, with adverse events comparable to those of the checkpoint inhibitor alone. Overall survival data, however, had not yet matured, and researchers caution that event-driven analyses in small personalised cohorts can overstate durability.
+--- F
+The binding constraint is increasingly industrial rather than scientific. Plants built during the pandemic were designed to make one or two antigens by the billion doses. Cancer vaccines invert the model: thousands of distinct sequences a year, each in small batches that must still meet full release testing. Trials in 2026 have paused enrolment not for want of patients but for want of manufacturing slots at contract organisations already committed to influenza, respiratory syncytial virus and next-generation preventive programmes. Timing compounds the problem: surgeons want patients vaccinated within weeks of resection, when any residual disease is most vulnerable, and eight weeks is often cited as the ceiling.
+--- G
+The field is also dividing. Personalised vaccines make most sense where the mutational burden is high, as in melanoma, whereas shared vaccines built from antigens common to a defined cancer can be manufactured in advance and given off the shelf, sacrificing precision for speed and scale. Beyond the Merck and Moderna alliance, BioNTech is pursuing both personalised and shared antigen approaches, while Gritstone bio and Genentech run competing programmes. Chinese groups such as CanSino have reported their own lipid nanoparticle systems and freeze-dried formulations. Several teams are applying artificial intelligence to the ranking step, where the choice of neoantigens determines much of the outcome.
+--- H
+Oncology is not the only destination. In July 2026 a candidate intended to achieve a functional cure for hepatitis B received clinical trial approvals in China, the United States and Laos and entered phase 1, the first mRNA therapeutic in that indication. Programmes against shingles, tuberculosis and respiratory syncytial virus are at earlier stages. Whether the platform fulfils its promise will depend less on the elegance of the biology than on the unglamorous work of shortening production, securing manufacturing capacity and demonstrating, in trials large enough to settle the question, that the survival curves hold.
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q1 The announcement of August 2026 was the first occasion on which a phase 3 trial of an individualised neoantigen therapy had produced a positive result.
+ANS: TRUE
+EV: A | It was the first positive phase 3 result ever reported for an individualised neoantigen therapy
+SKILL: detail
+EXP: A 段末句明确"有史以来首个"。
+Q2 Patients in the August 2026 trial were given the vaccine more than six months after their operation.
+ANS: FALSE
+EV: C | The entire workflow, from tissue to injection, now takes roughly six to eight weeks when a manufacturing slot is available
+PARA: more than six months >>> six to eight weeks
+SKILL: detail
+EXP: 全流程约 6-8 周，与"半年以上"相差一个数量级。
+Q3 The vaccine has been shown to make treatment less expensive than the checkpoint inhibitor given alone.
+ANS: NOT GIVEN
+EV: E | no new safety signals emerged over five years, with adverse events comparable to those of the checkpoint inhibitor alone
+SKILL: inference
+EXP: 原文只在安全性层面与单药做了比较，全文未给出任何成本或价格对比，无法判定。
+Q4 Freeze-dried mRNA products still have to be transported at temperatures below minus twenty degrees Celsius.
+ANS: FALSE
+EV: B | allow some mRNA products to remain stable for long periods at 2 to 8 degrees Celsius, removing the ultra-cold chain
+PARA: below minus twenty degrees >>> 2 to 8 degrees Celsius
+SKILL: detail
+EXP: 冻干工艺的意义正是把储存条件放宽到 2-8 摄氏度并摆脱超低温冷链。
+Q5 Some trials have stopped enrolling patients because production capacity was unavailable rather than because volunteers were lacking.
+ANS: TRUE
+EV: F | Trials in 2026 have paused enrolment not for want of patients but for want of manufacturing slots
+PARA: stopped enrolling patients because production capacity was unavailable >>> paused enrolment not for want of patients but for want of manufacturing slots
+SKILL: paraphrase
+EXP: F 段明确"不是缺患者，而是缺生产档期"。
+
+### GROUP multiple_choice single_answer
+INSTR: Choose the correct letter, A, B, C or D.
+ORDERED: true
+OPTIONS:
+    A | Merck and Moderna
+    B | Katalin Karikó and Drew Weissman
+    C | BioNTech
+    D | Gritstone bio
+Q6 Which of these announced that a phase 3 trial had met its primary endpoints?
+ANS: A
+EV: A | On 19 August 2026, Merck and Moderna announced that a phase 3 trial had met its primary endpoints
+SKILL: scanning
+EXP: A 段直接点名这两家公司的联合宣布。
+Q7 Which of these was awarded a Nobel Prize for the discovery that underpins mRNA medicines?
+ANS: B
+EV: B | a finding by Katalin Karikó and Drew Weissman that earned them the Nobel Prize in Physiology or Medicine in 2023
+SKILL: scanning
+EXP: 核苷修饰的发现者即这两位，获 2023 年诺贝尔生理学或医学奖。
+Q8 Which of these is developing both individually tailored and ready-made antigen vaccines?
+ANS: C
+EV: G | BioNTech is pursuing both personalised and shared antigen approaches
+PARA: individually tailored >>> personalised | ready-made >>> shared antigen
+SKILL: paraphrase
+EXP: G 段说明 BioNTech 同时推进个性化与共享抗原两条路线。
+Q9 Which of these is named alongside Genentech as running a competing programme?
+ANS: D
+EV: G | while Gritstone bio and Genentech run competing programmes
+SKILL: scanning
+EXP: G 段以 "Gritstone bio and Genentech" 并列。题干用 alongside Genentech 限定，排除同样在竞争阵营但已被 Q8 问及的 BioNTech（选项 C），唯一指向 Gritstone bio。
+
+### GROUP summary_completion summary
+INSTR: Complete the summary using words from the passage. Write your answers in boxes 10-13 on your answer sheet.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN TWO WORDS
+Q10 Producing a personalised vaccine begins with sequencing tumour tissue and a blood sample; algorithms then rank the mutations according to how well the peptides they produce are expected to attach to the patient's 10. ______ molecules.
+ANS: histocompatibility
+ACC: major histocompatibility complex
+FORM: free_text
+EV: C | predicted to bind the patient's own major histocompatibility complex molecules
+PARA: attach to >>> bind
+SKILL: paraphrase
+EXP: C 段原词为 major histocompatibility complex molecules，取核心词 histocompatibility。
+Q11 Once inside the body, antigen-presenting cells display the peptides and activate T cells that destroy tumour cells carrying the matching antigens, while 11. ______ cells remain to guard against a return of the disease.
+ANS: memory
+ACC: memory T
+FORM: free_text
+EV: D | while memory cells persist and, in principle, patrol for relapse
+PARA: guard against a return of the disease >>> patrol for relapse
+SKILL: paraphrase
+EXP: D 段明确 memory cells 持续存在并巡逻以防复发。
+Q12 Progress has been held back less by the recruitment of patients than by a shortage of 12. ______ at contract manufacturing organisations.
+ANS: manufacturing slots
+ACC: slots
+FORM: free_text
+EV: F | but for want of manufacturing slots at contract organisations
+SKILL: scanning
+EXP: F 段原词 manufacturing slots，是限制入组的真实原因。
+Q13 Surgeons would prefer patients to be vaccinated within weeks of resection, and a turnaround of about 13. ______ is generally regarded as the maximum acceptable.
+ANS: eight weeks
+ACC: 8 weeks
+FORM: free_text
+EV: F | and eight weeks is often cited as the ceiling
+PARA: maximum acceptable >>> the ceiling
+SKILL: paraphrase
+EXP: F 段末句以 ceiling 表示上限，对应 eight weeks。

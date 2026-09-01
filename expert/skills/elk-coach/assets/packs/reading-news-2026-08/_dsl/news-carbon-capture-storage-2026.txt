@@ -1,0 +1,114 @@
+ID: news-carbon-capture-storage-2026
+TITLE: The Price of Buried Carbon
+TAGS: climate,energy,technology
+URL: https://www.carbonbrief.org/qa-does-the-world-need-carbon-capture-and-storage-to-reach-net-zero
+NOTES: 事实取自 Carbon Brief (2026-08-03, 引 IEA CCUS 数据库 2026-02: 75 个项目/62.5 MtCO2/年、93.7 Mt 在建、1,279.6 Mt 规划、IEA NZE 2035 年 17 亿吨、7 座煤电 CCS) | IEEFA 实际捕集率分析 | 牛津大学 2023 工作论文 | 英国 217 亿英镑承诺 | 水泥 CCS 成本与 Brevik 项目资料 | 民生证券中国 CCUS 成本报告(2026)
+
+--- A
+Carbon capture and storage occupies an unusual position in climate policy. It appears in almost every official route to net zero, yet it remains almost invisible in the real economy. According to the database maintained by the International Energy Agency, 75 CCS facilities were operating worldwide as of February 2026. Together they capture 62.5 million tonnes of CO2 each year, a volume roughly equal to the annual greenhouse gas output of Ecuador. Set against the 38.1 billion tonnes that fossil-fuel use emits annually, this amounts to less than 0.2 per cent of the problem the technology is meant to address.
+--- B
+The idea is not new. Cesare Marchetti proposed injecting captured CO2 underground in a paper published in 1977, and the Intergovernmental Panel on Climate Change examined the subject in a special report in 2005, when only three small projects existed anywhere. A first wave of enthusiasm in the 2000s was directed mainly at coal-fired generation, but it faded as the cost of wind and solar collapsed and the case for keeping coal plants alive weakened. Today just seven coal-fired stations anywhere in the world have capture equipment attached: five in China, one in the United States and one in Canada.
+--- C
+What revived the technology was the Paris Agreement and the national net-zero targets that followed, which forced attention onto industries that had long assumed they would keep emitting. In steel and cement in particular, the IEA describes CCS as virtually the only technology capable of making deep cuts, because much of the CO2 released by these industries is a product of chemistry rather than combustion. Cement manufacture also has one incidental advantage: the exhaust leaving a cement kiln contains 14 to 20 per cent CO2 by volume, compared with 4 to 5 per cent at a gas-fired power station, and the richer stream makes solvent-based capture markedly cheaper.
+--- D
+That advantage is visible at Brevik in Norway, where Heidelberg Materials opened the first full-scale capture plant attached to a cement works in late 2024. Using amine scrubbing supplied by Aker Carbon Capture, it takes in about 400,000 tonnes of CO2 a year, roughly half the site's total emissions. The gas is liquefied, shipped out and injected beneath the North Sea through the Northern Lights storage project. The Norwegian state met around 80 per cent of the construction cost. Even so, the full chain of capturing, compressing, shipping and injecting adds $50-100 to the cost of each tonne of cement, which itself sells for $60-100.
+--- E
+Cost is dominated by one step. Capturing the gas accounts for 70 to 80 per cent of the total outlay of a CCS chain, because the energy needed to separate the CO2 and regenerate the solvent is considerable. Estimates compiled for the cement sector in 2026 put amine scrubbing at $50-80 per tonne, calcium looping at $40-60, oxy-fuel combustion at $60-90, and direct separation, which isolates the gas released by calcination, at $30-50. Chinese industry data assembled by Minsheng Securities point in the same direction but at lower absolute levels: integrated projects there were reported to have brought full-chain capture costs down to 250-300 yuan per tonne, with coal-chemical sources cheaper than power generation.
+--- F
+Performance in the field is another matter. The Institute for Energy Economics and Financial Analysis has compiled data showing that operating plants frequently fall short of the 90 to 95 per cent capture rate that regulators treat as the baseline for a credible climate technology. Reported rates vary from as little as 17 per cent at steel facilities to around 80 per cent at hydrogen plants. The IEA's own net-zero scenario assumes that 1.7 gigatonnes will be captured annually by 2035, close to thirty times the current total. The agency counts 93.7 million tonnes of capacity under construction and a further 1,279.6 million tonnes at various planning stages.
+--- G
+A large share of what is captured does not, strictly speaking, stay out of the atmosphere for climate reasons alone. Roughly three-quarters of the CO2 handled by existing projects is pumped into depleted oil reservoirs to force out more crude, a practice known as enhanced oil recovery; most of the remainder is separated during natural gas purification. Critics argue that this makes CCS less a climate solution than a way of prolonging the life of fossil-fuel assets, and they note that the industry has a long record of announcing projects that are later cancelled or delayed.
+--- H
+The disagreement is ultimately about cost and opportunity. A 2023 working paper from the University of Oxford concluded that a pathway to net zero minimising the use of CCS would be about a trillion dollars a year cheaper than one relying on it heavily, and found no evidence of the steady cost reductions that learning curves have delivered in solar and batteries. Supporters reply that such comparisons assume alternatives exist for cement and steel, which in practice they largely do not. Britain has committed 21.7 billion pounds to the technology. Whether that buys a genuine abatement route or an expensive reprieve is likely to remain contested for years.
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q1 Existing CCS facilities capture a significant share of the world's fossil-fuel emissions.
+ANS: FALSE
+EV: A | Set against the 38.1 billion tonnes that fossil-fuel use emits annually, this amounts to less than 0.2 per cent of the problem the technology is meant to address.
+PARA: a significant share >>> less than 0.2 per cent
+SKILL: inference
+EXP: 原文明确说目前捕集量不足化石燃料年排放的 0.2%，与「显著份额」直接矛盾，故为 FALSE。注意区分 FALSE（与原文矛盾）与 NOT GIVEN（原文未提）。
+Q2 Most of the CO2 currently captured is used in the extraction of further fossil fuels.
+ANS: TRUE
+EV: G | Roughly three-quarters of the CO2 handled by existing projects is pumped into depleted oil reservoirs to force out more crude, a practice known as enhanced oil recovery
+PARA: most of the CO2 >>> roughly three-quarters | extraction of further fossil fuels >>> force out more crude
+SKILL: paraphrase
+EXP: 四分之三即「大部分」，注入枯竭油藏驱油即「用于开采更多化石燃料」，同义改写成立。
+Q3 Cement kilns produce a more concentrated stream of CO2 than gas-fired power stations.
+ANS: TRUE
+EV: C | the exhaust leaving a cement kiln contains 14 to 20 per cent CO2 by volume, compared with 4 to 5 per cent at a gas-fired power station
+SKILL: detail
+EXP: 14-20% 对 4-5%，水泥窑烟气浓度确实更高。
+Q4 The cost of capture falls reliably as more capacity is installed.
+ANS: FALSE
+EV: H | found no evidence of the steady cost reductions that learning curves have delivered in solar and batteries
+PARA: falls reliably >>> no evidence of the steady cost reductions
+SKILL: inference
+EXP: 原文说牛津论文「未找到」CCS 存在类似光伏与电池的成本下降证据，与「可靠下降」矛盾。
+Q5 The Northern Lights storage project is expected to reach its full designed capacity before 2030.
+ANS: NOT GIVEN
+EV: D | The gas is liquefied, shipped out and injected beneath the North Sea through the Northern Lights storage project.
+SKILL: inference
+EXP: 原文只提到 Northern Lights 的用途与位置，完全没有涉及它的设计容量或达产时间，属于「未提及」，不能选 FALSE。
+
+### GROUP summary_completion note
+INSTR: Complete the notes below. Write your answers in boxes 6-9 on your answer sheet.
+ORDERED: false
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q6 The single largest component of expenditure in a CCS chain is 6. ______.
+ANS: capture
+ACC: capturing | capturing the gas
+FORM: free_text
+EV: E | Capturing the gas accounts for 70 to 80 per cent of the total outlay of a CCS chain
+SKILL: scanning
+EXP: 定位到 E 段「accounts for 70 to 80 per cent of the total outlay」，捕集环节占大头。
+Q7 Estimated cost per tonne of the least expensive capture route reviewed for cement: 7. ______.
+ANS: $30-50
+FORM: free_text
+EV: E | direct separation, which isolates the gas released by calcination, at $30-50
+SKILL: scanning
+EXP: E 段列出四条路线，$30-50 是直接分离法，为最低。
+Q8 Additional cost imposed on each tonne of cement by the complete CCS chain: 8. ______.
+ANS: $50-100
+FORM: free_text
+EV: D | the full chain of capturing, compressing, shipping and injecting adds $50-100 to the cost of each tonne of cement
+SKILL: detail
+EXP: D 段末句直接给出数字。
+Q9 Lowest capture rate recorded at steel facilities: 9. ______.
+ANS: 17 per cent
+ACC: 17%
+FORM: free_text
+EV: F | Reported rates vary from as little as 17 per cent at steel facilities to around 80 per cent at hydrogen plants.
+SKILL: detail
+EXP: F 段「as little as 17 per cent at steel facilities」。
+
+### GROUP multiple_choice single_answer
+INSTR: Choose the correct letter, A, B, C or D.
+ORDERED: true
+OPTIONS:
+    A | The International Energy Agency
+    B | The Institute for Energy Economics and Financial Analysis
+    C | The University of Oxford
+    D | Heidelberg Materials
+Q10 Which organisation's records indicate that 75 CCS facilities were operating worldwide in February 2026?
+ANS: A
+EV: A | According to the database maintained by the International Energy Agency, 75 CCS facilities were operating worldwide as of February 2026.
+SKILL: scanning
+EXP: A 段明确「IEA 维护的数据库」记载 75 座在运行设施。
+Q11 Which body has documented a shortfall between the capture rates that regulators expect and those actually achieved?
+ANS: B
+EV: F | The Institute for Energy Economics and Financial Analysis has compiled data showing that operating plants frequently fall short of the 90 to 95 per cent capture rate that regulators treat as the baseline for a credible climate technology.
+SKILL: detail
+EXP: IEEFA 汇编的运行数据揭示了实际捕集率与 90-95% 基准之间的落差。
+Q12 Which institution questioned whether the technology will become cheaper as experience accumulates?
+ANS: C
+EV: H | A 2023 working paper from the University of Oxford concluded that a pathway to net zero minimising the use of CCS would be about a trillion dollars a year cheaper than one relying on it heavily, and found no evidence of the steady cost reductions that learning curves have delivered in solar and batteries.
+SKILL: inference
+EXP: 题干「随经验积累而变便宜」= 原文 learning curves；牛津论文称未找到相关证据。
+Q13 Which company operates the cement works at Brevik where capture equipment was installed?
+ANS: D
+EV: D | That advantage is visible at Brevik in Norway, where Heidelberg Materials opened the first full-scale capture plant attached to a cement works in late 2024.
+SKILL: scanning
+EXP: D 段首句点名 Heidelberg Materials 在 Brevik 运营该水泥厂。

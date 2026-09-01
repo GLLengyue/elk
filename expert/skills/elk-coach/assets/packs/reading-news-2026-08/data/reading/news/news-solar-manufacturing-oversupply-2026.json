@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-solar-manufacturing-oversupply-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-solar-manufacturing-oversupply-2026",
+    "source_url": "https://www.ce.cn/xwzx/gnsz/gdxw/202607/t20260724_3104701.shtml",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自中国光伏行业协会 2026 上半年数据(多晶硅 53.8 万吨 -9.8%、硅片 293 GW -7.3%、电池片 260.7 GW -21.9%、组件 201.3 GW -35.1%、上半年新增装机 72.07 GW 同比约 -66%、出口 171.83 亿美元 +24.3%、王勃华预测 2026 全球 612 GW -8%、2030 年 864 GW) | 上海有色网: 2026 全球组件需求约 536 GW vs 产能约 1,100 GW | 价格: 多晶硅致密料 52→32.5 元/kg、N 型复投料 6 万→3.2 万元/吨、完全成本中枢约 4.8 万元/吨、头部 3.8-4.3 万元 | 政策: 7-2 三部门强制性国标能耗限额、7-27《光伏行业成本核算模型通则》、7-31 市场监管总局价格合规指导会、8-6 八家多晶硅企业《反内卷倡议书》 | 8 月连续两周零成交、7 月底库存约 52.2 万吨 | 美国 8-6 行政令最低进口价+15% 关税 12-4 生效 | 2025 年末中国全球产能占比 96%/96.2%/91.3%/80.1%"
+  },
+  "passage": {
+    "id": "news-solar-manufacturing-oversupply-2026-text",
+    "title": "Too Many Panels",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Solar manufacturing has arrived at a peculiar position. The panels it produces have never been cheaper, and installations continue to set records, yet almost every major producer is losing money. The cause is arithmetic rather than technology: global demand for modules in 2026 is roughly 536 gigawatts, while the industry has built the capacity to make about 1,100 gigawatts. For a product that is largely standardised and hard to differentiate, the gap between those two numbers settles in only one place, which is the price."
+      },
+      {
+        "label": "B",
+        "text": "Production is now contracting. According to the China Photovoltaic Industry Association, output across the main stages of the chain fell in the first half of 2026: polysilicon by 9.8 per cent to 538,000 tonnes, wafers by 7.3 per cent to 293 gigawatts, cells by 21.9 per cent to 260.7 gigawatts, and modules by 35.1 per cent to 201.3 gigawatts. The cuts have not restored profitability. Several of the largest listed manufacturers, including Longi, Tongwei, TCL Zhonghuan and Trina Solar, together forecast first-half losses exceeding 10 billion yuan."
+      },
+      {
+        "label": "C",
+        "text": "Prices have fallen further and faster than output. The average price of dense polysilicon fell from 52 yuan per kilogram at the start of the year to 32.5 yuan by early July, and module tenders in China dropped below 0.7 yuan per watt. The clearest illustration comes from the grade of polysilicon used for N-type cells, which began 2026 at about 60,000 yuan a tonne and fell to around 32,000 by June. Industry estimates put the average full cost of production at roughly 48,000 yuan a tonne, with the most efficient makers managing 38,000 to 43,000, which means the market was clearing at 25 to 40 per cent below what it cost to make."
+      },
+      {
+        "label": "D",
+        "text": "The origins of the surplus are not mysterious. Between 2021 and 2024 manufacturers expanded repeatedly on the assumption that demand would keep accelerating, and much of that capacity arrived just as growth in the largest market began to slow. China's dominance makes the consequences severe: by the end of 2025 it accounted for 96 per cent of global polysilicon capacity, 96.2 per cent of wafer capacity, 91.3 per cent of cell capacity and 80.1 per cent of module capacity. When a market that concentrated turns down, there is nowhere for the surplus to go."
+      },
+      {
+        "label": "E",
+        "text": "Demand has weakened on two fronts. Domestic installations in China reached 72.07 gigawatts in the first half of 2026, down about 66 per cent on the previous year, following a rush to connect projects before policy changes. The association's former secretary-general Wang Bohua expects global installations of 612 gigawatts in 2026, some 8 per cent below the prior year, recovering to 864 gigawatts by 2030. Elsewhere, grid congestion, curtailment of solar output and increasingly frequent negative electricity prices have slowed the pace at which other markets can absorb modules."
+      },
+      {
+        "label": "F",
+        "text": "Exports have been the release valve. Shipments of wafers, cells and modules brought in about 17.18 billion dollars in the first half of 2026, a rise of 24.3 per cent, helped by an export tax rebate. That route is narrowing. On 6 August 2026 an executive order in Washington imposed a minimum import price and a 15 per cent tariff on imported polysilicon and derived products, taking effect on 4 December. Producers in India and South-East Asia are expanding, and Indian surplus capacity is already being sold abroad, pulling down prices in third markets."
+      },
+      {
+        "label": "G",
+        "text": "Chinese policy has shifted from persuasion to rules. On 2 July three ministries jointly issued mandatory national standards setting energy-consumption limits for polysilicon, wafers and modules, which effectively draws a line under the least efficient plant. On 27 July the China Photovoltaic Industry Association published the industry's first cost accounting standard, defining how costs should be calculated across the silicon feedstock, wafer, cell and module stages. A compliance meeting followed on 31 July, and on 6 August eight leading polysilicon makers signed a pledge not to sell below the full cost calculated under it."
+      },
+      {
+        "label": "H",
+        "text": "The immediate effect was paralysis rather than recovery. For two consecutive weeks in August the polysilicon market recorded no transactions at all, as producers withdrew quotations rather than sign contracts they believed would breach the pledge. Stocks had reached about 522,000 tonnes by the end of July. Whether prices recover depends on whether inefficient capacity is genuinely retired rather than idled, and on whether demand returns: some analysts expect Chinese installations to resume growth in 2027 as grid reforms and storage deployment ease the constraints on connecting new plant."
+      }
+    ],
+    "word_count": 746,
+    "topic_tags": [
+      "energy",
+      "manufacturing",
+      "economics"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-solar-manufacturing-oversupply-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Global manufacturing capacity for solar modules is about double the expected demand in 2026.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "global demand for modules in 2026 is roughly 536 gigawatts, while the industry has built the capacity to make about 1,100 gigawatts",
+              "start": 244,
+              "end": 375,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "1,100 对 536，约两倍。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Chinese output of solar cells fell by more than a third in the first half of 2026.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "cells by 21.9 per cent to 260.7 gigawatts, and modules by 35.1 per cent to 201.3 gigawatts",
+              "start": 780,
+              "end": 870,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "下降逾三分之一的是组件（-35.1%），电池片只降 21.9%，两者不可混淆。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Polysilicon was being sold at less than the industry's average cost of production.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "which means the market was clearing at 25 to 40 per cent below what it cost to make",
+              "start": 1629,
+              "end": 1712,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文明确成交价低于成本 25-40%。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The United States had never before imposed any trade restriction on imported solar products.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "On 6 August 2026 an executive order in Washington imposed a minimum import price and a 15 per cent tariff on imported polysilicon and derived products, taking effect on 4 December.",
+              "start": 3078,
+              "end": 3258,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只陈述 2026 年这次行政令，完全没有涉及此前是否曾有过贸易限制，「首次」与否无从判断。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "By the end of 2025 China held more than 90 per cent of the world's module manufacturing capacity.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "by the end of 2025 it accounted for 96 per cent of global polysilicon capacity, 96.2 per cent of wafer capacity, 91.3 per cent of cell capacity and 80.1 per cent of module capacity",
+              "start": 2007,
+              "end": 2187,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "组件环节为 80.1%，不足 90%；超过 90% 的是硅料、硅片与电池片。",
+          "skill_tag": [
+            "detail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-solar-manufacturing-oversupply-2026-g2",
+      "type": "sentence_completion",
+      "instruction": "Complete each sentence with a word or phrase from the passage. Write your answers in boxes 6-9 on your answer sheet.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Between January and early July 2026 the price of dense polysilicon fell from 52 yuan per kilogram to 6. ______.",
+          "answer": "32.5 yuan",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "32.5 yuan",
+            "32.5"
+          ],
+          "evidence": [
+            {
+              "quote": "The average price of dense polysilicon fell from 52 yuan per kilogram at the start of the year to 32.5 yuan by early July",
+              "start": 1130,
+              "end": 1251,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段首句给出区间两端。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "In the first half of 2026 Chinese module output declined by 7. ______ year on year.",
+          "answer": "35.1 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "35.1 per cent",
+            "35.1%"
+          ],
+          "evidence": [
+            {
+              "quote": "modules by 35.1 per cent to 201.3 gigawatts",
+              "start": 827,
+              "end": 870,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "注意题干问的是 module（组件）。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Polysilicon stocks in China had risen to approximately 8. ______ by the end of July 2026.",
+          "answer": "522,000 tonnes",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "522,000 tonnes",
+            "522000 tonnes"
+          ],
+          "evidence": [
+            {
+              "quote": "Stocks had reached about 522,000 tonnes by the end of July.",
+              "start": 4289,
+              "end": 4348,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "risen to = had reached。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The cost accounting standard issued in July 2026 applies to the chain from silicon feedstock through wafers and cells to 9. ______.",
+          "answer": "modules",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "modules",
+            "module"
+          ],
+          "evidence": [
+            {
+              "quote": "defining how costs should be calculated across the silicon feedstock, wafer, cell and module stages",
+              "start": 3780,
+              "end": 3879,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文 stage = 题干 chain 的环节。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": "news-solar-manufacturing-oversupply-2026-g3",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "Mandatory national standards on energy consumption"
+        },
+        {
+          "key": "B",
+          "text": "The industry's first cost accounting standard"
+        },
+        {
+          "key": "C",
+          "text": "A pledge signed by eight polysilicon producers"
+        },
+        {
+          "key": "D",
+          "text": "An executive order on a minimum import price"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "Which measure was introduced by a government outside China?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "On 6 August 2026 an executive order in Washington imposed a minimum import price and a 15 per cent tariff on imported polysilicon and derived products, taking effect on 4 December.",
+              "start": 3078,
+              "end": 3258,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "华盛顿即美国，属中国以外的政府行为。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Which measure specifies how production costs should be worked out?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "On 27 July the China Photovoltaic Industry Association published the industry's first cost accounting standard, defining how costs should be calculated across the silicon feedstock, wafer, cell and module stages.",
+              "start": 3668,
+              "end": 3880,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "成本核算标准即规定成本如何计算。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Which measure is intended to eliminate the least efficient factories?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "On 2 July three ministries jointly issued mandatory national standards setting energy-consumption limits for polysilicon, wafers and modules, which effectively draws a line under the least efficient plant.",
+              "start": 3462,
+              "end": 3667,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "能耗限额为最低效产能划定生死线。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Which measure involved companies voluntarily undertaking not to sell at a loss?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "on 6 August eight leading polysilicon makers signed a pledge not to sell below the full cost calculated under it",
+              "start": 3927,
+              "end": 4039,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "八家企业签署承诺书，约定不低于完全成本销售。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

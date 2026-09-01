@@ -2,6 +2,33 @@
 
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/) 格式。
 
+## [0.2.0] — 2026-09-01
+
+阅读题库建设 + 命题工具链沉淀。
+
+### Added
+
+**数据层**
+- 阅读数据包 `reading-news-2026-08`：34 篇 / 442 题，全部基于 2026-06~08 公开新闻事实原创改写
+- 命题 DSL 中间层（`_dsl/*.txt`）+ `build.py` 编译器：DSL 为唯一可编辑真相源，JSON 可完整重现
+- 命题工具链 `capability/scripts/pack_authoring/`：`build.py` / `verify.py` / `regen.py` /
+  `check_all.py` / `refresh_pack_json.py` / `build_index.py`（全零依赖、路径基于 `__file__`）
+- 方法论文档 `capability/docs/pack-authoring.md` + 包内 DSL 速查 `BUILD.md`
+
+### Changed
+
+- `verify.py` 校验覆盖全部 34 篇，**0 错误 0 警告**
+- `acceptable_answers` 契约统一：规范答案本身即「可接受答案」，由 `build.py` 编译时置首并入并去重
+  （修复此前 41 篇含答案 / 61 篇不含的历史不一致）
+- 24/34 篇保留可重生成 DSL 源；10 篇 JSON-native 为早期已复核文章（待回填 DSL）
+- `regen.py` 全量重生成后，24 篇 DSL 与 JSON 零差异（可重现性验证通过）
+
+### Fixed
+
+- 命题硬伤修复（逐篇人工语义复核）：fusion Q2 答案 TRUE→FALSE 回写 DSL、insect-decline
+  word_limit 二词→三词、carbon-credit MC 第二解排他、多处 EV 逐字/大小写/省略号修正
+- 消除 DSL↔JSON 漂移（313 处 acceptable_answers 不一致 → 全量重生成归一化）
+
 ## [0.1.0] — 2026-08-30
 
 首个公开版本。数据层骨架 + 能力层骨架 + 三个契约点。

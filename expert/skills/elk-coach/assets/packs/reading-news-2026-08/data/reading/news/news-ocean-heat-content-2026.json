@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-ocean-heat-content-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-ocean-heat-content-2026",
+    "source_url": "https://www.crbcnews.com/articles/6a503b95a2f4681730ba5957 | https://www.natureworldnews.com/articles/73044/20260702/global-ocean-temperatures-reach-record-june-high-raising-alarm-over-marine-life-climate-risks.htm",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 Copernicus Marine Service 2026 年中公报(上半年约 82% 洋面受海洋热浪影响、地中海约 80% 达强至极端、2026-06-21 表层温度创同期纪录) | NOAA 2026-06 宣布厄尔尼诺并于 11-1 月峰值超过 +2.0°C 给出 63% 概率(1950 年有系统记录以来) | 哥伦比亚大学气候系统研究中心 Niño 3.4 指数：5-7 月均值 +1.51°C、7 月 +2.03°C、8 月 12 日当周 +2.7°C；150 m 以浅次表层局地偏暖超 8°C | Nature Communications 2024(仅深层增暖可使极端厄尔尼诺概率提高 40-80%，排放下降后仍可能持续) | Nature Reviews Earth and Environment 2024 综述(IAP/CAS 数据：上层海洋储热创纪录，关联海平面、层化、海洋热浪频率) | Science Advances(NASA 卫星+船测+微生物基因分析，叶绿素相对碳下降指示浮游植物营养胁迫) | 海洋吸收温室气体截留的多余热量约 90%；2025 年海洋热含量连续第九年创纪录；NOAA 全球海洋热档案起自 1955 年"
+  },
+  "passage": {
+    "id": "news-ocean-heat-content-2026-text",
+    "title": "The Ocean as Ledger",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of the twentieth century, statements about the state of the whole ocean rested on a scatter of ship tracks taken months apart. That has changed. Satellites now scan the surface every few days, and a fleet of autonomous profiling floats reports continuously from depth. What these instruments describe is a system under load. The ocean has become the planet's largest heat reservoir, and in 2025 the energy it stored rose for the ninth year in succession. Researchers estimate that the seas take up roughly 90 per cent of the surplus heat that greenhouse gases prevent from escaping to space. That absorption has slowed the warming of the air, but the heat remains in the water, and it is now re-emerging."
+      },
+      {
+        "label": "B",
+        "text": "Ocean heat content is favoured by climate scientists for a specific reason. Air temperature is noisy; it lurches with weather systems and with the seasons, so a single cool year proves very little. The heat held in several thousand metres of water changes far more slowly, which makes it a steadier gauge of the Earth's underlying energy imbalance. Long-running archives make the trend visible: one maintained by the United States weather agency begins in 1955, and a synthesis drawing on Chinese observational data, published in 2024, traces the same steepening curve in the upper ocean."
+      },
+      {
+        "label": "C",
+        "text": "Surface records broke repeatedly during 2026. On 21 June the globally averaged daily sea surface temperature reached 20.86 degrees Celsius, edging past the 20.83 degrees Celsius recorded in both 2023 and 2024. July was warmer still, at 20.96 degrees Celsius, the highest value ever measured for that month. The heat was not evenly distributed: during the first half of the year marine heatwaves touched about 82 per cent of the world's ocean surface, and in the Mediterranean roughly 80 per cent of the basin was classed as experiencing strong or extreme conditions."
+      },
+      {
+        "label": "D",
+        "text": "Much of the surplus is being funnelled into a strengthening El Niño. The United States weather agency declared an event in June 2026 and put the chance of the tropical Pacific anomaly exceeding two degrees above normal at its November-to-January peak at 63 per cent, which would place it among the largest since systematic records began in 1950. Measurements from a Columbia University research centre show the progression: the standard Niño 3.4 index averaged 1.51 degrees above normal from May to July, rose to 2.03 degrees in July, and reached 2.7 degrees above normal in the week centred on 12 August. Below the surface, water as deep as 150 metres was more than 8 degrees Celsius warmer than average in places, a reservoir of energy available for further surface warming."
+      },
+      {
+        "label": "E",
+        "text": "What happens at depth matters for decades rather than seasons. A 2024 study in Nature Communications concluded that warming of the deep ocean alone could make extreme El Niño events between 40 and 80 per cent more probable, and warned that the effect might persist even after emissions begin to fall. A review in Nature Reviews Earth and Environment reaches a similar conclusion for the upper ocean, linking the additional stored energy to rising sea levels, to stronger stratification of the water column, and to more frequent marine heatwaves."
+      },
+      {
+        "label": "F",
+        "text": "The biological consequences are already measurable. Coral reefs occupy under 1 per cent of the sea floor yet shelter something like a quarter of all marine species; when water stays abnormally warm, corals expel the algae that supply most of their energy and bleach. A study in Science Advances combined satellite observations, shipboard surveys and genetic analysis of marine microorganisms and found phytoplankton showing signs of nutrient stress, with less chlorophyll relative to carbon than healthy cells would contain. Warmer water also expands, adding to sea-level rise independently of any melting ice."
+      },
+      {
+        "label": "G",
+        "text": "For all the agreement about the global picture, the regional detail remains thin. A single planetary average conceals enormous variation, and although semi-enclosed seas and western boundary currents have been identified as hotspots, no complete geographic breakdown of the most extreme anomalies has been published. Layer-by-layer anomaly tables for 2026 have not yet appeared in the main repositories. That gap matters most to the people who must act on the numbers: coastal planners, fisheries managers and emergency agencies need to know where the heat is, not merely how much of it there is. Until that resolution improves, record warmth will remain easier to measure than to manage."
+      }
+    ],
+    "word_count": 727,
+    "topic_tags": [
+      "climate",
+      "ocean",
+      "science"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-ocean-heat-content-2026-g1",
+      "type": "matching_information",
+      "instruction": "Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-G, in boxes 1-5 on your answer sheet.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "A record of how a standard Pacific temperature index moved over several months of 2026.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "the standard Niño 3.4 index averaged 1.51 degrees above normal from May to July, rose to 2.03 degrees in July, and reached 2.7 degrees above normal in the week centred on 12 August",
+              "start": 2294,
+              "end": 2474,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段逐月给出 Niño 3.4 指数的变化轨迹。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "An explanation of why stored ocean heat is regarded as a steadier indicator than air temperature.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "The heat held in several thousand metres of water changes far more slowly, which makes it a steadier gauge of the Earth's underlying energy imbalance",
+              "start": 912,
+              "end": 1061,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段明确对比气温的噪声与海洋储热的慢变特性。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "A comparison between the area coral reefs occupy and the number of species they support.",
+          "answer": "F",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "F"
+          ],
+          "evidence": [
+            {
+              "quote": "Coral reefs occupy under 1 per cent of the sea floor yet shelter something like a quarter of all marine species",
+              "start": 3245,
+              "end": 3356,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段把「不足 1% 海底」与「约四分之一海洋物种」并列。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "A suggestion that the effects of deep-ocean warming may outlast the emissions that produced them.",
+          "answer": "E",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "warned that the effect might persist even after emissions begin to fall",
+              "start": 2875,
+              "end": 2946,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段指出该效应在排放下降之后仍可能持续。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "An indication of the kind of information that has not yet been released publicly.",
+          "answer": "G",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "G"
+          ],
+          "evidence": [
+            {
+              "quote": "no complete geographic breakdown of the most extreme anomalies has been published",
+              "start": 4038,
+              "end": 4119,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段说明极端异常的完整地理分布尚未公布。",
+          "skill_tag": [
+            "skimming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ocean-heat-content-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The June 2026 sea-surface temperature record exceeded the previous one by more than half a degree.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "On 21 June the globally averaged daily sea surface temperature reached 20.86 degrees Celsius, edging past the 20.83 degrees Celsius recorded in both 2023 and 2024",
+              "start": 1349,
+              "end": 1511,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "差值为 0.03 摄氏度，远小于题干所说的半度。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Marine heatwaves were present across roughly four-fifths of the world's ocean in the first half of 2026.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "during the first half of the year marine heatwaves touched about 82 per cent of the world's ocean surface",
+              "start": 1647,
+              "end": 1752,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "roughly four-fifths",
+              "to": "about 82 per cent",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "82% 即约五分之四，与题干一致。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Research has shown that phytoplankton are adapting to warmer water by becoming smaller.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "found phytoplankton showing signs of nutrient stress, with less chlorophyll relative to carbon than healthy cells would contain",
+              "start": 3589,
+              "end": 3716,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只说浮游植物出现营养胁迫（叶绿素相对碳下降），未提及细胞尺寸变小。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The weather agency regards it as certain that the Pacific anomaly will peak between November and January.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "put the chance of the tropical Pacific anomaly exceeding two degrees above normal at its November-to-January peak at 63 per cent",
+              "start": 2007,
+              "end": 2135,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文给出的是 63% 的概率，并非确定。",
+          "skill_tag": [
+            "detail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ocean-heat-content-2026-g3",
+      "type": "sentence_completion",
+      "instruction": "Complete each sentence with a word or phrase from the passage. Write your answers in boxes 10-13 on your answer sheet.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "The seas absorb roughly 10. ______ of the surplus heat retained by greenhouse gases.",
+          "answer": "90 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "90 per cent",
+            "90%"
+          ],
+          "evidence": [
+            {
+              "quote": "the seas take up roughly 90 per cent of the surplus heat that greenhouse gases prevent from escaping to space",
+              "start": 490,
+              "end": 599,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 absorb = 原文 take up，retained = prevent from escaping。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "In July 2026 the global average sea surface temperature was 11. ______.",
+          "answer": "20.96 degrees Celsius",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "20.96 degrees Celsius",
+            "20.96°C | 20.96 degrees"
+          ],
+          "evidence": [
+            {
+              "quote": "July was warmer still, at 20.96 degrees Celsius, the highest value ever measured for that month",
+              "start": 1513,
+              "end": 1608,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段直接给出 7 月数值，注意勿与 6 月的 20.86 混淆。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "At depths of up to 150 metres, parts of the equatorial Pacific were more than 12. ______ warmer than average.",
+          "answer": "8 degrees Celsius",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "8 degrees Celsius",
+            "8°C | 8 degrees"
+          ],
+          "evidence": [
+            {
+              "quote": "Below the surface, water as deep as 150 metres was more than 8 degrees Celsius warmer than average in places",
+              "start": 2476,
+              "end": 2584,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段次表层偏暖幅度，需与表层的 2.7 度区分。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "One study argued that deep-ocean warming on its own could raise the likelihood of an extreme El Niño by as much as 13. ______.",
+          "answer": "80 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "80 per cent",
+            "80%"
+          ],
+          "evidence": [
+            {
+              "quote": "warming of the deep ocean alone could make extreme El Niño events between 40 and 80 per cent more probable",
+              "start": 2763,
+              "end": 2869,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 as much as 取区间上界 80%，而非下限 40%。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

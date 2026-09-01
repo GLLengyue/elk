@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-vertical-farming-food-security-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-vertical-farming-food-security-2026",
+    "source_url": "https://foodtradenews.com/2026/08/27/produce-supplier-80-acres-farms-files-chapter-7-will-liquidate",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文，URL 仅作事实溯源。事实归属：FAO 食品价格指数 2026 年 7 月 131.1 点同比 +1.0%（FAO 2026 年 8 月 7 日发布）；2026 年世界粮食安全和营养状况报告（FAO/IFAD/UNICEF/WFP/WHO 2026 年 7 月 21 日联合发布，6.45 亿饥饿、2.66 亿重度急性粮食不安全、2030 年仍或 5.1-5.2 亿）；Nature Food 2026 年垂直农场产量 50-100 倍 / 水 95% 节约（toxigon.com 转引）；LED 照明占能耗 65-75%、电费占运营支出 35-50%（xpert.digital / prism.sustainability-directory / datanetiot.com / foodlore.blog 综合分析）；垂直农场 10-18 kWh/kg vs 露天 <1 kWh/kg（datanetiot.com 资源管理研究）；AeroFarms 破产重组 / Palm Ventures 收购 2026 年 6 月（vegbed.com / just-food.com / foodnavigator.com）；Plenty 第 11 章破产 2025 年 3 月/草莓聚焦（freshplaza.com / elevenflo.com）；Bowery 2024 年停业、AppHarvest 清算（xpert.digital）；80 Acres Farms 第 7 章破产 2026 年 8 月 25 日（foodtradenews.com / cincinnati.com）；USDA 预测垂直农场 10 年内占美国叶菜 50% 但仅 5% 草莓番茄（datanetiot.com 转引）；Bustanica 迪拜 300 万 kg 叶菜/年（datanetiot.com）；Nasekomo 保加利亚黑水虻工厂 2026 年（feedbusinessmea.com）；FairGene 阿尔伯塔 BSF 卵设施（agrospectrumasia.com）；昆虫蛋白较畜禽需更少土地水饲料（opalesque.com / farmingportal.co.za）"
+    },
+    "retrieved_at": "2026-08-31T10:00:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "基于公开新闻事实由模型改写成雅思学术体并命题 信源: https://foodtradenews.com/2026/08/27/produce-supplier-80-acres-farms-files-chapter-7-will-liquidate | https://www.fao.org/worldfoodsituation/foodpricesindex/en/ | https://www.fao.org/geneva/news/details/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en | https://toxigon.com/vertical-farming-vs-traditional-agriculture | https://xpert.digital/en/vertical-farming-high-tech-warehouse | https://prism.sustainability-directory.com/scenario/urban-vertical-farms-climate-resilient-food-sources | https://www.datanetiot.com/vertical-farming-resource-management | https://foodlore.blog/economics-vertical-farming/ | https://beyondtmrw.org/article/vertical-farming-economics-after-2024-shakeouts-energy-labor-and-sku-mix | https://www.vegbed.com/blogs/news/aerofarms-just-got-a-second-chance-here-is-how-to-use-that-to-your-advantage | https://www.just-food.com/news/aerofarms-gets-new-owner | https://www.foodnavigator.com/Article/2026/06/12/aerofarms-lifeline-palm-ventures-bet-signals-shift-in-vertical-farming | https://www.freshplaza.com/north-america/article/9737466/this-emergence-is-the-start-of-a-new-focused-era-for-plenty | https://elevenflo.com/blog/plenty-unlimited-bankruptcy | https://www.verticalfarmdaily.com/article/9835342/spanish-outdoor-cultivation-versus-vertical-farming-what-a-co2-comparison-actually-shows | https://www.cincinnati.com/story/money/2026/08/27/vertical-farm-operator-80-acres-has-filed-bankruptcy-in-delaware/91481733007 | https://agrospectrumasia.com/news/27/4300/fairgene-launches-dedicated-black-soldier-fly-egg-facility-to-scale-global-insect-protein-industry | https://www.feedbusinessmea.com/nasekomo-opens-ai-powered-insect-breeding-hub-to-scale-sustainable-feed-protein-production | https://www.opalesque.com/index.php?act=archiveAPI&and=showAPI&iID=9"
+  },
+  "passage": {
+    "id": "news-vertical-farming-food-security-2026-text",
+    "title": "Vertical Farming and the Challenge of Food Security",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The Food and Agriculture Organization of the United Nations reported that its Food Price Index averaged 131.1 points in July 2026, up 1.0 percent from a year earlier, reflecting heatwaves, disrupted export routes and higher energy costs. Its 2026 State of Food Security and Nutrition report estimated that 266 million people experienced acute food insecurity in 2025, while between 510 and 520 million could still face hunger by 2030. Population growth, soil degradation and climate disruption continue to erode the productivity of open-field agriculture, prompting policymakers to search for alternatives. Among the most discussed is indoor agriculture, and vertical farming in particular."
+      },
+      {
+        "label": "B",
+        "text": "Vertical farms grow crops in stacked layers inside warehouses, replacing sunlight with light-emitting diode (LED) arrays and soil with recirculating nutrient solutions. A 2026 study published in Nature Food found that such systems can yield between 50 and 100 times more leafy greens per square metre than open fields, while closed-loop irrigation cuts water use by up to 95 percent. Indoor lettuce can require as little as 1.6 litres of water per kilogram, against more than 58 litres for field crops in Spain. Because cultivation is sealed off from weather and pests, production continues year-round and chemical pesticides are largely unnecessary."
+      },
+      {
+        "label": "C",
+        "text": "The catch is energy. In a fully enclosed plant factory, every photon of light must be generated artificially. Industry benchmarks put electricity use at between 10 and 18 kilowatt-hours per kilogram of lettuce, against less than one kilowatt-hour for field production, and LED lighting alone can consume between 65 and 75 percent of a facility's electricity. Electricity accounts for 35 to 50 percent of total operating costs in urban facilities, and a rise of two cents per kilowatt-hour can wipe out a fifteen percent net margin. Capital costs compound the burden: constructing a vertical farm costs between one and two million dollars per acre of growing capacity, roughly a hundred times the investment required for conventional farmland. Payback periods of three to seven years clash with investor expectations of rapid returns."
+      },
+      {
+        "label": "D",
+        "text": "The mismatch between these economics and the ambitions of the industry produced a wave of failures. According to industry trackers, more than thirty companies in the sector filed for bankruptcy or restructuring between 2022 and mid-2026. In August 2026, 80 Acres Farms, whose salads and microgreens reached more than 17,000 retail outlets, filed for Chapter 7 protection and began winding down. Plenty, which had raised nearly one billion dollars from investors including SoftBank, entered Chapter 11 in March 2025 and later re-emerged focused on strawberries. Bowery Farming shut down in late 2024, while AppHarvest was liquidated outright. Even AeroFarms, an industry pioneer, needed a rescue in December 2025 and was acquired by Palm Ventures the following June."
+      },
+      {
+        "label": "E",
+        "text": "The survivors share certain traits. Rather than competing on price with field-grown lettuce, they concentrate on crops with high value per kilogram and low light requirements, such as microgreens, herbs and premium strawberries. AeroFarms rebuilt itself around microgreens, supplying Whole Foods and Costco, and reached profitability before its near-collapse. Plenty re-emerged focused on strawberries, whose indoor quality commands prices that open fields cannot match. The United States Department of Agriculture projects that vertical farms could capture half of the American leafy greens market within a decade, but only about five percent of the market for strawberries and tomatoes. Successful operators also pursue cheap electricity, signing renewable power agreements below eight cents per kilowatt-hour or drawing on industrial waste heat."
+      },
+      {
+        "label": "F",
+        "text": "Location is the third lever. Because vertical farms are independent of climate and soil, they can be built close to consumers, collapsing food miles and shortening supply chains. Proximity reduces the need for cold storage, keeps produce fresher and lowers post-harvest waste. In import-dependent regions the logic is strongest. Bustanica, a three-storey facility near Dubai, produces more than one million kilograms of leafy greens a year for Emirates Flight Catering, exploiting cheap energy and a captive premium market. City governments increasingly treat such farms as food security infrastructure; China's national standards recommend that demonstration bases be located within 100 kilometres of urban markets."
+      },
+      {
+        "label": "G",
+        "text": "Yet the technology has firm boundaries. Vertical farming remains economically plausible only for crops that grow quickly, hold high value and demand limited energy per kilogram. Producing a kilogram of dry wheat grain in a closed facility would require upwards of 800 kilowatt-hours of electricity, which is why staples are absent from indoor farms. Critics also observe that on grids still powered by fossil fuels, vertical lettuce can generate up to sixteen times the carbon emissions of open-field production. Most researchers therefore describe indoor agriculture as a supplement rather than a replacement, supplying fresh, water-efficient produce to cities while open fields continue to deliver the world's calories."
+      },
+      {
+        "label": "H",
+        "text": "Broader answers to food insecurity may come from more radical sources. Insect protein has attracted attention because insects need far less land, water and feed than conventional livestock. Industrial investment is accelerating: the Bulgarian company Nasekomo opened an automated black soldier fly breeding facility in 2026, and a joint venture in Alberta has begun supplying genetically improved fly eggs to producers. Proponents argue that insect-derived protein could relieve pressure on both feed markets and human diets. None of these technologies offers a simple solution. Vertical farming, insect farming and improved open-field practice are likely to coexist, each occupying a niche defined less by ideology than by the arithmetic of energy, water and capital."
+      }
+    ],
+    "word_count": 895,
+    "topic_tags": [
+      "agriculture",
+      "food security",
+      "technology",
+      "energy",
+      "environment"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-vertical-farming-food-security-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage?",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The FAO Food Price Index in July 2026 was higher than in July 2025.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "averaged 131.1 points in July 2026, up 1.0 percent from a year earlier",
+              "start": 95,
+              "end": 165,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "higher than in July 2025",
+              "to": "up 1.0 percent from a year earlier",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段首句：FAO 食品价格指数 2026 年 7 月同比上涨 1.0%，题干与原文一致。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Electricity typically accounts for more than a third of total operating costs in urban vertical farms.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Electricity accounts for 35 to 50 percent of total operating costs in urban facilities",
+              "start": 1701,
+              "end": 1787,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "more than a third",
+              "to": "35 to 50 percent",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段明确：城市设施中电费占运营支出的 35% 至 50%，超过三分之一（33%），故 TRUE。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "After filing for bankruptcy, AppHarvest continued to operate under a reorganisation plan.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Bowery Farming shut down in late 2024, while AppHarvest was liquidated outright.",
+              "start": 2737,
+              "end": 2817,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "continued to operate under a reorganisation plan",
+              "to": "was liquidated outright",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "D 段说 AppHarvest 被直接清算（liquidated outright），而非重组运营，故 FALSE。",
+          "skill_tag": [
+            "detail",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "AeroFarms has announced plans to establish farms in European countries.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Even AeroFarms, an industry pioneer, needed a rescue in December 2025 and was acquired by Palm Ventures the following June.",
+              "start": 2818,
+              "end": 2941,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "announced plans to establish farms in European countries",
+              "to": "（原文未提及）",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段提到 AeroFarms 被 Palm Ventures 收购，但通篇没有任何关于它在欧洲建厂计划的信息，属未提及。",
+          "skill_tag": [
+            "scanning",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Vertical farming is expected to become the principal source of staple cereals within the next decade.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Producing a kilogram of dry wheat grain in a closed facility would require upwards of 800 kilowatt-hours of electricity, which is why staples are absent from indoor farms.",
+              "start": 4686,
+              "end": 4857,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "expected to become the principal source of staple cereals",
+              "to": "staples are absent from indoor farms",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "G 段指出小麦等主粮因能耗过高（800+ kWh/kg）而完全不在室内农场种植，故题干 FALSE。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-vertical-farming-food-security-2026-g2",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "Microgreens, herbs and premium strawberries"
+        },
+        {
+          "key": "B",
+          "text": "The cost of electricity and capital"
+        },
+        {
+          "key": "C",
+          "text": "Closeness to urban consumers"
+        },
+        {
+          "key": "D",
+          "text": "Insect-derived protein"
+        }
+      ],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "According to the passage, which of the following most strongly constrains the economic viability of indoor agriculture?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Electricity accounts for 35 to 50 percent of total operating costs in urban facilities, and a rise of two cents per kilowatt-hour can wipe out a fifteen percent net margin.",
+              "start": 1701,
+              "end": 1873,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "most strongly constrains the economic viability",
+              "to": "Electricity accounts for 35 to 50 percent of total operating costs",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段全段讨论能源与资本对垂直农场经济可行性的制约，电费占 35-50%、每 2 美分/kWh 涨幅可侵蚀 15% 净利润。A 是幸存者的策略，不是约束因素；C 是区位优势；D 是替代蛋白，三者均不匹配。",
+          "skill_tag": [
+            "main_idea",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "According to the passage, which of the following do the companies that have survived the industry shakeout concentrate on?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Rather than competing on price with field-grown lettuce, they concentrate on crops with high value per kilogram and low light requirements, such as microgreens, herbs and premium strawberries.",
+              "start": 2978,
+              "end": 3170,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "companies that have survived the industry shakeout",
+              "to": "The survivors",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "E 段首两句：幸存者放弃与田间生菜拼价格，转而聚焦微绿植、香草和高端草莓等高价值低光需作物（A）。B 是行业共性的约束而非幸存者策略，C 和 D 是其他段落的内容。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Which of the following does the passage identify as the factor that makes indoor farms particularly attractive in import-dependent regions?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Because vertical farms are independent of climate and soil, they can be built close to consumers, collapsing food miles and shortening supply chains.",
+              "start": 3820,
+              "end": 3969,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "particularly attractive in import-dependent regions",
+              "to": "In import-dependent regions the logic is strongest",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段先讲近消费端布局可缩短供应链，再以迪拜 Bustanica 为例说明进口依赖型地区受益最大（C）。A 是作物品种，B 是能源成本，D 是昆虫蛋白，均不匹配。",
+          "skill_tag": [
+            "paraphrase",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Which of the following is described in the passage as an emerging protein source that is attracting accelerating industrial investment?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Insect protein has attracted attention because insects need far less land, water and feed than conventional livestock. Industrial investment is accelerating: the Bulgarian company Nasekomo opened an automated black soldier fly breeding facility in 2026",
+              "start": 5301,
+              "end": 5553,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "emerging protein source that is attracting accelerating industrial investment",
+              "to": "Insect protein has attracted attention ... Industrial investment is accelerating",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "H 段首两句：昆虫蛋白因资源效率高而受关注，工业投资正在加速（Nasekomo 自动化工厂为例），对应 D。A 是作物品种，B 是能源，C 是区位，均不相关。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-vertical-farming-food-security-2026-g3",
+      "type": "sentence_completion",
+      "instruction": "Complete the sentences below. Choose ONE WORD AND/OR A NUMBER from the passage for each answer.",
+      "word_limit": "ONE WORD AND/OR A NUMBER",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "In 2025, ___ million people experienced acute food insecurity.",
+          "answer": "266",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "266",
+            "266 million"
+          ],
+          "evidence": [
+            {
+              "quote": "Its 2026 State of Food Security and Nutrition report estimated that 266 million people experienced acute food insecurity in 2025",
+              "start": 238,
+              "end": 366,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "experienced acute food insecurity",
+              "to": "experienced acute food insecurity",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段：FAO 2026 年报告估算 2025 年有 2.66 亿人处于重度急性粮食不安全。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Compared with open-field farming, vertical farms can reduce water use by up to ___ per cent.",
+          "answer": "95",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "95",
+            "95 per cent",
+            "95 percent",
+            "95%"
+          ],
+          "evidence": [
+            {
+              "quote": "while closed-loop irrigation cuts water use by up to 95 percent",
+              "start": 1010,
+              "end": 1073,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "reduce water use by up to",
+              "to": "cuts water use by up to",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段：闭环灌溉可将用水量减少 95%。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "After its restructuring, Plenty concentrated on growing ___.",
+          "answer": "strawberries",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "strawberries",
+            "strawberry"
+          ],
+          "evidence": [
+            {
+              "quote": "entered Chapter 11 in March 2025 and later re-emerged focused on strawberries",
+              "start": 2658,
+              "end": 2735,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "concentrated on growing",
+              "to": "focused on",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段：Plenty 破产重组后聚焦草莓种植。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Producing a kilogram of dry wheat grain in a closed facility would require upwards of ___ kilowatt-hours of electricity.",
+          "answer": "800",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "800",
+            "800 kilowatt-hours"
+          ],
+          "evidence": [
+            {
+              "quote": "Producing a kilogram of dry wheat grain in a closed facility would require upwards of 800 kilowatt-hours of electricity",
+              "start": 4686,
+              "end": 4805,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "would require upwards of",
+              "to": "would require upwards of",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "G 段：封闭设施内生产 1 公斤干小麦需 800 千瓦时以上电力，主粮因此不在室内种植。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-31T10:00:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

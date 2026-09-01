@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-dementia-prevention-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-dementia-prevention-2026",
+    "source_url": "https://www.myjoyonline.com/world-brain-day-2026-protecting-your-brain-starts-long-before-old-age | https://www.medindia.net/news/understanding-dementia-why-one-size-fits-all-prevention-doesnt-work-224190-1.htm | https://futura-sciences.com/en/up-to-45-of-dementia-cases-could-be-prevented-and-it-comes-down-to-everyday-habits-c03_35611 | https://pphealthmalaysia.com/2026/08/25/nearly-50-of-all-dementia-cases-could-be-prevented-by-addressing-these-14-risk-factors/",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 WHO 2021 估计(全球约 5700 万痴呆患者，阿尔茨海默病占 60-70%) | Lancet Standing Commission 2024 报告(负责人 UCL 的 Gill Livingston)：14 项可改变风险因素，人群层面最多可预防或延迟约 45% 病例；2024 年新增两项——中年高 LDL 胆固醇与晚年未经治疗的视力丧失，两者合计约 9%；未矫正听力损失为单项最大因素，约 7% | USC(Emma Nichols)领衔研究，2026 年阿尔茨海默协会国际会议发布、The Lancet Healthy Longevity 刊出：14 个国家与地区 21.4 万余名老年人 2009-2023 数据，中国低教育程度 85.6% vs 美国 12%，美国高 BMI 44.9% vs 印度 13.3%，心血管因素与生活方式因素各自成簇 | The Lancet Healthy Longevity 2026-06-30 研究：认知宣传能提升风险识别，但知识本身难带来持久改变，由本地社区可信成员主导的互动方式更能帮助人们落实建议 | 反直觉发现：异常偏低的血压也与阿尔茨海默风险上升相关 | 肯尼亚、埃及已启动新数据采集，睡眠等候选因素待纳入"
+  },
+  "passage": {
+    "id": "news-dementia-prevention-2026-text",
+    "title": "Fourteen Levers",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Dementia is often described as the defining health challenge of an ageing world. According to World Health Organization estimates, some 57 million people were living with the condition in 2021, and Alzheimer's disease accounts for somewhere between 60 and 70 per cent of cases. Age remains the strongest risk factor, and inherited genes matter too. Over the past decade, however, a growing body of evidence has steadily weakened the assumption that the condition is simply an unavoidable consequence of growing old. The 2024 report of the Lancet Standing Commission on dementia prevention, intervention and care, led by Professor Gill Livingston of University College London, identified fourteen potentially modifiable risk factors and concluded that addressing them might prevent or delay up to 45 per cent of cases worldwide."
+      },
+      {
+        "label": "B",
+        "text": "The Commission arranges these factors along the life course, and the first of them begins in childhood. Having less education is associated with a higher risk in later life, and the explanation usually offered invokes the idea of cognitive reserve: a brain exercised by years of learning may tolerate the changes of age, or the damage wrought by disease, for longer before symptoms appear. This is not a claim that people who left school early are destined to develop dementia, but a claim about opportunity. Notably, the evidence does not single out any one pursuit as the ideal exercise for the brain. Reading, learning a language, taking up a demanding hobby or joining a discussion group appear to serve about as well as any commercial training programme."
+      },
+      {
+        "label": "C",
+        "text": "Most of the remaining factors cluster in midlife, and several will be familiar from cardiology. High blood pressure damages the small vessels that supply the brain. Raised low-density lipoprotein cholesterol encourages the fatty deposits that narrow them. Diabetes, obesity and physical inactivity all bear on the same machinery. Two of the fourteen factors were new to the 2024 list: high LDL cholesterol in midlife and untreated vision loss in later life, and together these two were estimated to account for about 9 per cent of cases. The clustering matters in practice, because a service built to improve the management of diabetes could reasonably screen for blood pressure and cholesterol at the same appointment."
+      },
+      {
+        "label": "D",
+        "text": "Uncorrected hearing loss remains the largest single item on the list, estimated to account for about 7 per cent of cases. Two mechanisms are usually proposed. The first is that a brain straining to interpret degraded sound has less capacity left for memory and comprehension. The second is social: conversation grows tiring, people withdraw from gatherings, and the stimulation that social contact provides falls away. Neither mechanism is easy to separate from the other, and how far treatment reduces the risk is still under study. What is not in dispute is that hearing loss can be treated, and that treating it improves communication whether or not it ultimately protects cognition."
+      },
+      {
+        "label": "E",
+        "text": "The remaining factors include smoking, excessive alcohol consumption, depression, traumatic brain injury, social isolation and exposure to polluted air. Some act on the brain indirectly, through the cardiovascular system. Depression, for instance, disturbs sleep, activity and the management of other conditions, while the association between low mood and the early changes of dementia may also run in the other direction. One counter-intuitive finding deserves mention: unusually low blood pressure has also been linked to a higher risk of Alzheimer's disease, possibly because the brain then receives less blood flow. The implication is not that blood pressure should be driven as low as possible, but that it should be steady and well managed."
+      },
+      {
+        "label": "F",
+        "text": "Whether these findings travel is a separate question. A study led by Emma Nichols of the University of Southern California, presented at the Alzheimer's Association International Conference in 2026 and published in The Lancet Healthy Longevity, harmonised data on more than 214,000 older adults from fourteen countries and regions, collected between 2009 and 2023. The prevalence of individual factors varied enormously. Low educational attainment was present in 85.6 per cent of older adults in China but only 12 per cent of those in the United States, while a high body mass index affected 44.9 per cent of Americans against 13.3 per cent of participants in India. Cardiovascular factors such as hypertension and high cholesterol nevertheless tended to appear together everywhere, as did smoking and heavy drinking."
+      },
+      {
+        "label": "G",
+        "text": "This has a practical consequence. If the dominant risks differ from one country to another, a single global campaign is unlikely to serve every population equally well, and programmes need to reflect local conditions. A second study in The Lancet Healthy Longevity, published on 30 June 2026, addressed a different obstacle. Public awareness campaigns may help people recognise the fourteen factors, but knowledge alone rarely produces lasting change. Interactive approaches led by trusted members of local communities, among them community walking groups, blood-pressure checks at familiar venues, help with stopping smoking and accessible hearing services, were judged more effective at helping people put health advice into practice."
+      },
+      {
+        "label": "H",
+        "text": "Caution is warranted on several fronts. The 45 per cent figure is a population-level theoretical maximum rather than a personal guarantee; age and genetics remain powerful, and no change of habit rewrites them. Most of the evidence behind the fourteen factors is observational, and the trials that would establish causation are long and expensive. Data collection has begun in countries including Kenya and Egypt, which should widen the picture beyond the populations examined so far, and researchers expect to consider further candidate risks, poor sleep among them. For the present, the most defensible summary is also the least glamorous: the habits that protect the heart appear, on the whole, to protect the brain."
+      }
+    ],
+    "word_count": 935,
+    "topic_tags": [
+      "health",
+      "dementia",
+      "science"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-dementia-prevention-2026-g1",
+      "type": "matching_information",
+      "instruction": "Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-H, in boxes 1-5 on your answer sheet.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "An illustration of how widely the prevalence of a single risk factor can differ between two countries.",
+          "answer": "F",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "F"
+          ],
+          "evidence": [
+            {
+              "quote": "Low educational attainment was present in 85.6 per cent of older adults in China but only 12 per cent of those in the United States",
+              "start": 4163,
+              "end": 4294,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段把中国 85.6% 与美国 12% 并列，正是同一因素患病率的跨国落差。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "An account of the mechanisms by which impaired hearing is thought to affect the brain.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "a brain straining to interpret degraded sound has less capacity left for memory and comprehension",
+              "start": 2485,
+              "end": 2582,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段给出认知负荷与社交退缩两条机制。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "An explanation of the concept invoked to account for the protective effect of education.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "the explanation usually offered invokes the idea of cognitive reserve",
+              "start": 1006,
+              "end": 1075,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段点出\"认知储备\"这一概念。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "A reference to the limited value of simply making the public aware of the risk factors.",
+          "answer": "G",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "G"
+          ],
+          "evidence": [
+            {
+              "quote": "Public awareness campaigns may help people recognise the fourteen factors, but knowledge alone rarely produces lasting change",
+              "start": 4885,
+              "end": 5010,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段指出宣传能提升识别，但知识本身难带来持久改变。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "A mention of the countries where new data are now being gathered.",
+          "answer": "H",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "H"
+          ],
+          "evidence": [
+            {
+              "quote": "Data collection has begun in countries including Kenya and Egypt",
+              "start": 5645,
+              "end": 5709,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "H 段点名肯尼亚与埃及。",
+          "skill_tag": [
+            "skimming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-dementia-prevention-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The Commission concluded that addressing the fourteen factors might prevent or delay up to 45 per cent of dementia cases.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "concluded that addressing them might prevent or delay up to 45 per cent of cases worldwide",
+              "start": 736,
+              "end": 826,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "the fourteen factors",
+              "to": "them",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段末句直接给出该结论。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Uncorrected hearing loss was estimated to account for about 9 per cent of dementia cases.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "Uncorrected hearing loss remains the largest single item on the list, estimated to account for about 7 per cent of cases",
+              "start": 2308,
+              "end": 2428,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "about 9 per cent",
+              "to": "about 7 per cent",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "听力损失为约 7%；9% 是高 LDL 胆固醇与未经治疗的视力丧失两项之和，题干张冠李戴。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The United States study found diabetes to be more common among participants in India than among those in the United States.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "Low educational attainment was present in 85.6 per cent of older adults in China but only 12 per cent of those in the United States",
+              "start": 4163,
+              "end": 4294,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段只比较了教育程度（中国 vs 美国）与高 BMI（美国 vs 印度）两项，全文未给出糖尿病的国别患病率对比，无法判定。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The Commission's report states that people who address all fourteen risk factors will avoid developing dementia.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "The 45 per cent figure is a population-level theoretical maximum rather than a personal guarantee",
+              "start": 5337,
+              "end": 5434,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "will avoid developing dementia",
+              "to": "not a personal guarantee",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文明确说 45% 是人群层面的理论上限而非个人保证，且年龄与遗传依然强大，题干与之矛盾。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-dementia-prevention-2026-g3",
+      "type": "sentence_completion",
+      "instruction": "Complete each sentence with a word or phrase from the passage. Write your answers in boxes 10-13 on your answer sheet.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "The World Health Organization estimated that in 2021 some 10. ______ people were living with dementia.",
+          "answer": "57 million",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "57 million",
+            "57,000,000"
+          ],
+          "evidence": [
+            {
+              "quote": "some 57 million people were living with the condition in 2021",
+              "start": 131,
+              "end": 192,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段首段给出 WHO 估计；注意 the condition 即 dementia。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "The two factors added to the Commission's list in 2024 together account for about 11. ______ of cases.",
+          "answer": "9 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "9 per cent",
+            "9%"
+          ],
+          "evidence": [
+            {
+              "quote": "together these two were estimated to account for about 9 per cent of cases",
+              "start": 2050,
+              "end": 2124,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段说明新增两项（中年高 LDL 与晚年未矫正视力丧失）合计约 9%。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "In the study led by the University of Southern California, a high body mass index was recorded in 44.9 per cent of 12. ______.",
+          "answer": "Americans",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "Americans",
+            "Americans in the United States | older adults in the United States"
+          ],
+          "evidence": [
+            {
+              "quote": "a high body mass index affected 44.9 per cent of Americans against 13.3 per cent of participants in India",
+              "start": 4302,
+              "end": 4407,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段给出美国高 BMI 占比 44.9%，对应人群为 Americans；勿与印度的 13.3% 混淆。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Approaches led by trusted community members were judged more effective at helping people put advice into 13. ______.",
+          "answer": "practice",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "practice",
+            "practise"
+          ],
+          "evidence": [
+            {
+              "quote": "more effective at helping people put health advice into practice",
+              "start": 5231,
+              "end": 5295,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段末句 put health advice into practice，题干以 put advice into practice 同义改写。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

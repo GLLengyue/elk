@@ -1,0 +1,114 @@
+ID: news-nuclear-fusion-2026
+TITLE: The Long Approach to Fusion Power
+TAGS: energy,science,technology
+URL: https://www.powermag.com/commonwealth-fusion-systems-raises-another-1-billion-as-work-on-commercial-power-plant-continues
+NOTES: 事实取自 POWER Magazine / GenAI Daily 关于 CFS 2026-07-30 融资报道($10 亿、累计约 $40 亿、约占全球私营聚变资本 30%、2021 年 $18 亿为上一纪录、投资者含养老金与主权基金；SPARC 位于 Devens 约 80% 完成、2027 年冲击科学能量增益；ARC 400 MW 位于弗吉尼亚 Chesterfield County、2026-04 申请接入 PJM) | Alpha Briefing 行业综述(FIA 2026 年 7 月调查：截至 2026 年 7 月 12 个月募集 $44.8 亿、2021 年以来累计 $142.4 亿、56 家公司、从业超 16,000 人；Google 购 200 MW 即 ARC 一半、Eni 承诺超 $10 亿；Helion 6 月 $4.65 亿、2 月称 Polaris 完成 D-T 反应并达 1.5 亿度；Proxima Fusion 7 月 $5.18 亿为欧洲最大；Inertia 2 月 A 轮 $4.5 亿) | Experts Club 核聚变综述(NIF 2022-12 首次点火、2025-04 输入 2.08 MJ 产出 8.6 MJ 靶增益超 4 为第八次点火、2026-04 公布；ITER 35 国、500 MW/50 MW 即 Q=10、不发电、2026-06 完成中心螺线管六模块、2026-07 第六真空室扇区就位约三分之二环体、2034 研究运行/2036 满磁功率/2039 首次 D-T) | 合肥物质科学研究院 2026-06-27 完成 D 形纵场线圈全场测试(21 米高、12 米宽、582 公吨、60,000 安培，体积 1.3 倍、储能 3 倍于 ITER 同类线圈，六年建成，全链条国产；目标 BEST 约 2027) | EAST 2026-01 1.2 亿度维持 1,056 秒
+
+--- A
+Fusion has always been an attractive proposition and an elusive one. Join light atomic nuclei and energy is released without the long-lived waste that fission produces, and the fuel, isotopes of hydrogen, can be extracted from water. The difficulty is that the nuclei must be heated to temperatures found only in stars and held there long enough to react. For seventy years the joke has been that commercial fusion is three decades away and always will be. What changed in 2026 was not the physics but the money, the contracts and, increasingly, the hardware.
+--- B
+According to the Fusion Industry Association's 2026 survey, published in July, companies raised $4.48 billion in the twelve months to July 2026, the largest annual total since the survey began, bringing cumulative private investment since 2021 to $14.24 billion. Fifty-six firms were surveyed, against 23 five years earlier, and the sector employs more than 16,000 people. The year's largest single round came on 30 July, when Commonwealth Fusion Systems closed $1 billion, taking its own total to roughly $4 billion, or about 30 per cent of all private fusion capital raised to date. It was the biggest round since that company's $1.8 billion raise in 2021, and its backers included pension funds, sovereign wealth funds and infrastructure investors.
+--- C
+CFS is pursuing two machines in parallel. SPARC, at Devens in Massachusetts, is a compact tokamak that uses high-temperature superconducting magnets to confine the plasma; the company put it at roughly 80 per cent complete in 2026 and expects it to attempt scientific breakeven, in which the plasma yields more energy than is used to heat it, in 2027. The follow-on plant, ARC, is a 400-megawatt station planned for Chesterfield County in Virginia, for which the company applied in April 2026 to connect to the PJM Interconnection grid. Google has agreed to buy 200 megawatts of its output, about half the total, and Eni, the Italian energy company, has committed more than $1 billion. The company has not disclosed what either machine will cost.
+--- D
+CFS is not alone. Helion Energy raised $465 million in June 2026 and stated in February that its Polaris device had carried out a reaction using deuterium and tritium, heating plasma to 150 million degrees; the figures were published by the company itself and do not amount to a positive energy balance for the installation as a whole. In July the German firm Proxima Fusion closed $518 million, the largest fusion round in Europe, and Inertia Enterprises had raised $450 million in February.
+--- E
+The most frequently cited experimental result remains an American one. At the National Ignition Facility at Lawrence Livermore, powerful lasers compress a small fuel capsule; in December 2022 the reaction yielded more energy than the lasers delivered to the target, the first time this had been achieved anywhere. In an experiment in April 2025, 2.08 megajoules of laser energy produced 8.6 megajoules of fusion energy, a target gain of more than four and the eighth ignition at the facility, results the laboratory presented in April 2026. The achievement is real but narrow: the laser complex consumes far more electricity than reaches the capsule, and it fires single shots rather than running continuously.
+--- F
+The international ITER project in southern France, involving thirty-five nations, is designed to produce 500 megawatts of fusion power from 50 megawatts of external heating, a gain factor of ten, without generating any electricity. Assembly has continued: the central solenoid, made up of six modules, was completed in June 2026, and a sixth sector of the vacuum vessel was lowered into the pit in July, leaving roughly two-thirds of the ring in place. The schedule has slipped badly. Research operations are now expected in 2034, operation at full magnetic power in 2036, and the first deuterium-tritium experiments in 2039.
+--- G
+China's progress has been measured less in publications than in metal. On 27 June the Institute of Plasma Physics in Hefei completed full-performance testing of a D-shaped toroidal field coil that is by a wide margin the largest superconducting magnet ever built for a fusion reactor: 21 metres tall, 12 metres wide and 582 metric tons in weight, carrying a stable current of 60,000 amps. It has 1.3 times the volume and three times the stored energy of the equivalent ITER coil, took six years to build, and every significant input, from the specialty steel to the superconducting wire, was made in China. The coil is destined for BEST, a burning-plasma machine China hopes to complete around 2027.
+--- H
+What is being tested is no longer only whether fusion works. Investors who buy contracted, long-duration cash flows have concluded that a fusion plant can be underwritten like a terminal or a transmission line, and Chinese engineers have shown that reactor-scale hardware can be produced from a wholly domestic supply chain. The remaining obstacles are concrete rather than mysterious: materials that survive years of neutron bombardment, a supply of tritium that a fleet of reactors must breed for itself, and machines that must repeat in seconds what NIF manages once a day. None has been solved. What has changed is that the list of those willing to fund the attempt now includes pension funds.
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q1 The $1 billion raised by Commonwealth Fusion Systems in July 2026 was the largest single funding round in the history of the fusion industry.
+ANS: FALSE
+EV: B | It was the biggest round since that company's $1.8 billion raise in 2021
+SKILL: inference
+EXP: 原文限定为「自该公司 2021 年 $18 亿那一轮以来最大」，并非行业史上最大，题干把范围放大了。
+Q2 More than half of the electricity from CFS's Virginia plant has already been contracted to customers.
+ANS: FALSE
+EV: C | Google has agreed to buy 200 megawatts of its output, about half the total, and Eni, the Italian energy company, has committed more than $1 billion.
+SKILL: inference
+EXP: 原文对两家公司的谓语不同：Google "agreed to buy 200 megawatts, about half the total"，是明确电量承购且仅约一半；Eni 的 "committed more than $1 billion" 是资金承诺，原文未说明其为电力承购，不能计入已签约电量。因此唯一明确的电力承购约占总电量一半，不构成「超过一半」，故 FALSE。
+Q3 China hopes to have the BEST machine finished in about 2027.
+ANS: TRUE
+EV: G | The coil is destined for BEST, a burning-plasma machine China hopes to complete around 2027.
+SKILL: detail
+EXP: G 段末句直接对应。
+Q4 ITER is scheduled to carry out its first experiments with deuterium and tritium in 2034.
+ANS: FALSE
+EV: F | Research operations are now expected in 2034, operation at full magnetic power in 2036, and the first deuterium-tritium experiments in 2039.
+SKILL: detail
+EXP: 2034 年是研究运行，D-T 实验在 2039 年，题干年份错位。
+Q5 CFS has stated publicly that SPARC will cost more to build than the ARC power station.
+ANS: NOT GIVEN
+EV: C | The company has not disclosed what either machine will cost.
+SKILL: inference
+EXP: 原文只说两台机器的造价都未披露，完全没有比较二者成本，属未提及。注意不要把「SPARC 是演示机、ARC 是电站」当成成本大小的依据。
+
+### GROUP matching_features
+INSTR: Look at the following statements about fusion programmes. Match each statement with the organisation responsible, A-E.
+ORDERED: false
+OPTIONS:
+    A | Commonwealth Fusion Systems
+    B | The National Ignition Facility
+    C | ITER
+    D | The Institute of Plasma Physics in Hefei
+    E | Helion Energy
+Q6 It is designed to yield ten times the power supplied to heat the plasma, but will not generate electricity.
+ANS: C
+EV: F | is designed to produce 500 megawatts of fusion power from 50 megawatts of external heating, a gain factor of ten, without generating any electricity
+SKILL: scanning
+EXP: 500/50 即十倍增益，且明确不发电，是 ITER 的独有特征；不要因为 CFS 也追求增益而误选 A。
+Q7 It has achieved ignition on a number of occasions, although the installation as a whole consumes far more energy than reaches the fuel.
+ANS: B
+EV: E | a target gain of more than four and the eighth ignition at the facility
+EV: E | the laser complex consumes far more electricity than reaches the capsule
+SKILL: scanning
+EXP: 「第八次点火」与「激光装置耗电远超到靶能量」两条都只在 E 段 NIF 身上成立。
+Q8 It has completed testing of the largest superconducting magnet yet built for a fusion reactor.
+ANS: D
+EV: G | the Institute of Plasma Physics in Hefei completed full-performance testing of a D-shaped toroidal field coil that is by a wide margin the largest superconducting magnet ever built for a fusion reactor
+SKILL: scanning
+EXP: G 段首句原文照应。E 选项 Helion 在文中只涉及 Polaris 与融资，是干扰项。
+Q9 It is assembling a demonstration machine intended to produce more energy from its plasma than is used to heat it.
+ANS: A
+EV: C | the company put it at roughly 80 per cent complete in 2026 and expects it to attempt scientific breakeven, in which the plasma yields more energy than is used to heat it, in 2027
+SKILL: paraphrase
+EXP: 「科学能量增益」的定义即题干所述；ITER 的增益是十倍且不发电，两者不同。
+
+### GROUP summary_completion summary
+INSTR: Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. The Fusion Industry Association reported that the sector raised $4.48 billion in the year to July 2026, taking cumulative private investment since 2021 to about 10. ______. Much of that money has gone to a single company: Commonwealth Fusion Systems said in 2026 that its SPARC machine at Devens was roughly 11. ______ complete, and it hopes to reach scientific breakeven in 2027. Progress is not confined to the United States. In China, the Hefei institute completed testing of a toroidal field coil standing 12. ______ tall and weighing 582 metric tons. The multinational ITER project, which is not intended to supply electricity, is not expected to run at full magnetic power until 13. ______.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 (summary blank 10)
+ANS: $14.24 billion
+ACC: 14.24 billion dollars
+FORM: free_text
+EV: B | bringing cumulative private investment since 2021 to $14.24 billion
+SKILL: scanning
+EXP: B 段累计私募投资额，注意不要与年度的 $4.48 billion 混淆。
+Q11 (summary blank 11)
+ANS: 80 per cent
+ACC: 80%
+FORM: free_text
+EV: C | the company put it at roughly 80 per cent complete in 2026
+SKILL: scanning
+EXP: C 段 SPARC 完工度。
+Q12 (summary blank 12)
+ANS: 21 metres
+ACC: 21 meters
+FORM: free_text
+EV: G | 21 metres tall, 12 metres wide and 582 metric tons in weight
+SKILL: scanning
+EXP: 高度 21 米；注意不要填宽度 12 metres。
+Q13 (summary blank 13)
+ANS: 2036
+FORM: free_text
+EV: F | operation at full magnetic power in 2036
+SKILL: scanning
+EXP: F 段三个年份：2034 研究运行、2036 满磁功率、2039 D-T 实验。

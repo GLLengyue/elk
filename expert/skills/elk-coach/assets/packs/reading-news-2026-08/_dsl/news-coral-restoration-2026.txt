@@ -1,0 +1,117 @@
+ID: news-coral-restoration-2026
+TITLE: Gardening Against the Thermometer
+TAGS: environment,science,ocean
+URL: https://natureweatherhub.com/great-barrier-reef-spawning-2026/
+NOTES: 事实取自 Nature Weather Hub 大堡礁 2026 年产卵报道(GBR 海表温度自 1900 年升 0.94°C、珊瑚生活在热上限 1-2°C 之内；2026 年 6 月海洋公园管理局报告 20 处礁体病害、8 处低到中度白化；自然繁殖从卵到附着珊瑚虫存活率常远低于 1%；CSIRO seedbox 2025 年 11 月试验结果定居率最高为自然状态的 56 倍；AIMS 长期监测计划自 1986 年调查 124 处礁体；Deloitte Access Economics 2025 年 10 月估值：年贡献约 90 亿美元、77,000 个全职岗位、资产总值 950 亿美元) | Watts & Wild 珊瑚繁育报道(2026 年约 130 人在一次大规模产卵中收集约 1,460 万颗珊瑚卵；塞舌尔普拉兰岛陆地繁育实验室首次成功产卵，14 个亲本产出约 80 万胚胎；八年研究通过错开光照与温度实现反季节产卵) | RRAP 资料(300+ 科学家、20+ 机构；国家海洋模拟器 SeaSim；过去一年产出超 3,500 万胚胎，附着于数万个陶瓷结构；目标每年向礁体补充 1 亿株存活至少一年的珊瑚；执行总监 Cedric Robillot 关于减排前提的表述) | 辅助基因流与治理(筛选比区域常态高 1-2°C 仍不白化的群体作亲本、与本地种杂交保持多样性；风险含远缘衰退与共生藻不匹配；NOAA 珊瑚礁保护计划要求来源追踪、分阶段放流、多年监测) | 3D 打印礁基(碳酸钙/地质聚合物，用于碎石场) | 参数化保险(卫星确认白化压力越过阈值即自动放款) | ABC News 2026-08-01 报道(Lady Elliot Island：2025 年 2 月气旋 Alfred 降温约 2°C，约 90% 白化珊瑚恢复；AIMS 的 Mike Emslie 指出气旋为双刃剑；Leaf to Reef 的 Christine Dudgeon 指出连续白化事件不留恢复窗口) | 第四次全球白化事件由 NOAA 与 50 多国伙伴追踪；海洋吸收大气多余热量 90% 以上
+
+--- A
+Coral restoration used to mean gardening. A damaged colony was broken into fragments, the fragments were fixed to the reef, and each regrew into a new colony. The method works well against local injury: anchor scars, blast fishing, plumes of sediment. It works badly against heat, because a fragment taken from a heat-sensitive parent will bleach again when the water warms. That distinction has become decisive. The Fourth Global Bleaching Event, tracked by NOAA and partners in more than fifty countries, is the largest on record, and the ocean has absorbed more than 90 per cent of the excess heat in the atmosphere.
+--- B
+The damage has been measured with unusual care. The Australian Institute of Marine Science has surveyed 124 reefs under a monitoring programme running since 1986, and judged the bleaching of the summer of 2024 the most severe and geographically extensive in those four decades, with 40 per cent of reefs recording their largest annual fall in coral cover. The event reversed five years of recovery. By June 2026 the park authority was still reporting coral disease on twenty reefs and low to moderate bleaching on eight others. The margin for error is thin: sea surface temperatures across the Marine Park have risen by 0.94 degrees Celsius since 1900, while corals live within one to two degrees of their thermal maximum.
+--- C
+Reefs repair themselves mainly by reproducing, and the arithmetic of that is unforgiving. Most corals spawn once or twice a year, releasing eggs and sperm on a few synchronised nights governed by the moon and the water temperature. After mass bleaching, the bare patches can be recolonised only if larvae settle on them and grow. In the open, however, most larvae are eaten or swept out to sea, and survival from egg to settled polyp is typically well under 1 per cent.
+--- D
+Restoration programmes therefore intervene at exactly that bottleneck. Teams collect the spawn slick from the surface, rear the larvae in floating nursery pools, and release them over damaged sections inside mesh enclosures known as seedboxes. Trials of the device developed by CSIRO, Australia's national science agency, and published in November 2025, recorded settlement up to 56 times greater than in unassisted natural conditions. In 2026 about 130 scientists and rangers gathered an estimated 14.6 million coral eggs during a single mass spawning on the Great Barrier Reef, reared them, and returned the first batches of juveniles to the reef.
+--- E
+The ambition now is to make this routine rather than seasonal. The Reef Restoration and Adaptation Program involves more than 300 scientists from over twenty institutions, and produced more than 35 million coral embryos in the past year, settled on tens of thousands of ceramic structures; its stated target is to place 100 million corals on the reef each year that survive to at least twelve months. Much of the rearing happens on land, at the National Sea Simulator, and a comparable laboratory on Praslin Island in the Seychelles recorded its first successful spawning, producing roughly 800,000 embryos from fourteen parent colonies. An eight-year research programme has also taught aquarium corals to spawn out of season, by offsetting light and temperature, which turns a single frantic annual harvest into a supply spread across much of the year.
+--- F
+Material is being changed as well as multiplied. Under the name of assisted gene flow, researchers identify colonies that resist bleaching at temperatures one to two degrees Celsius above the regional norm, often survivors of naturally warm microclimates, and use them as breeding stock, sometimes crossing them with local varieties to preserve diversity. Pilot sites report better survival through repeated bleaching when outplants carry heat-tolerant hosts or symbionts. The approach carries genuine objection: moving genotypes between regions risks outbreeding depression, and heat-adapted corals may be poorly matched to local algal partners. Governance frameworks from the NOAA Coral Reef Conservation Program therefore require provenance tracking, phased planting and multi-year monitoring before any scaling up. Elsewhere, printed calcium carbonate structures give larvae a stable surface on rubble fields where they would otherwise roll away.
+--- G
+The economic case is not in dispute. A valuation published in October 2025 put the reef's contribution to the Australian economy at approximately 9 billion dollars a year and 77,000 full-time jobs, with a total asset value of 95 billion dollars; the reef also absorbs wave energy that would otherwise reach the coast. Finance has begun to follow: parametric insurance policies now release funds automatically once satellite data confirms that bleaching stress has passed an agreed threshold, allowing repairs to begin within weeks rather than after a season of assessment.
+--- H
+None of this settles the argument about what restoration is for. At Lady Elliot Island, the cooling wake of a cyclone in February 2025 lowered water temperatures by about 2 degrees Celsius and roughly 90 per cent of the bleached coral there recovered without assistance, a reminder that reefs can still repair themselves given the chance. Researchers on the island warn that what defeats recovery is repetition: back-to-back events leave no interval in which to rebuild. Cedric Robillot, executive director of the restoration programme, is blunter. The work, he has said, relies on the premise that the world will act on emissions; if it does not, there is no point.
+
+### GROUP matching_headings
+INSTR: The reading passage has eight paragraphs, A-H. Choose the correct heading for each paragraph from the list of headings below.
+ORDERED: false
+OPTIONS:
+    i | Why the established technique of breaking up colonies is no longer adequate
+    ii | Records of the extent of the recent damage
+    iii | How few larvae survive without assistance
+    iv | A device that sharply increases the rate of settlement
+    v | Breeding for heat tolerance, and the doubts surrounding it
+    vi | The reef's economic value, and attempts to insure it
+    vii | Evidence that natural recovery remains possible
+    viii | Proposals to close the marine park to visitors
+Q1 Paragraph B
+ANS: ii
+EV: B | judged the bleaching of the summer of 2024 the most severe and geographically extensive in those four decades
+SKILL: main_idea
+EXP: B 段整段是监测数据：40 年最严重、40% 礁体最大年度降幅、2026 年 6 月仍在报告病害与白化。i 描述的是 A 段，属干扰项。
+Q2 Paragraph C
+ANS: iii
+EV: C | survival from egg to settled polyp is typically well under 1 per cent
+SKILL: main_idea
+EXP: C 段落点是自然繁殖的存活率极低。iv 是 D 段的 seedbox，注意不要把「幼虫」一词当成同段标志。
+Q3 Paragraph D
+ANS: iv
+EV: D | Trials of the device developed by CSIRO, Australia's national science agency, and published in November 2025, recorded settlement up to 56 times greater than in unassisted natural conditions.
+SKILL: main_idea
+EXP: D 段核心是 seedbox 装置带来的定居率提升。
+Q4 Paragraph F
+ANS: v
+EV: F | researchers identify colonies that resist bleaching at temperatures one to two degrees Celsius above the regional norm
+SKILL: main_idea
+EXP: F 段前半讲辅助基因流选育耐热性，后半讲远缘衰退与共生藻不匹配等质疑，v 同时涵盖两面。iv 已用于 D 段。
+Q5 Paragraph G
+ANS: vi
+EV: G | parametric insurance policies now release funds automatically once satellite data confirms that bleaching stress has passed an agreed threshold
+SKILL: main_idea
+EXP: G 段先给经济估值、后讲参数化保险，vi 两部分都覆盖。viii 在文中没有任何对应内容，是纯干扰项。
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q6 The bleaching of 2024 was the most geographically widespread that the Australian Institute of Marine Science had recorded in forty years of monitoring.
+ANS: TRUE
+EV: B | judged the bleaching of the summer of 2024 the most severe and geographically extensive in those four decades
+SKILL: detail
+EXP: B 段首句直接对应，四十年即题干的 forty years。
+Q7 CSIRO's seedbox produced exactly 56 times the natural settlement rate in every trial.
+ANS: FALSE
+EV: D | recorded settlement up to 56 times greater than in unassisted natural conditions
+SKILL: inference
+EXP: 原文是「最高达 56 倍」（up to），并非每次试验都恰好 56 倍，题干把上限说成了定值。
+Q8 Researchers have induced corals in tanks to reproduce outside their normal season.
+ANS: TRUE
+EV: E | An eight-year research programme has also taught aquarium corals to spawn out of season, by offsetting light and temperature
+SKILL: detail
+EXP: E 段末句明确反季节产卵已实现。
+Q9 The laboratory in the Seychelles intends to export its corals to the Great Barrier Reef.
+ANS: NOT GIVEN
+EV: E | a comparable laboratory on Praslin Island in the Seychelles recorded its first successful spawning, producing roughly 800,000 embryos from fourteen parent colonies
+SKILL: inference
+EXP: E 段只说塞舌尔实验室首次成功产卵及产量，完全没有提到出口或跨区域调配计划，属未提及。注意 F 段讨论的是「辅助基因流」的跨区域风险，不能据此推断塞舌尔的具体计划。
+
+### GROUP short_answer
+INSTR: Answer the questions below using words taken from the reading passage. Write your answers in boxes 10-13 on your answer sheet.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 By how much have sea surface temperatures in the Marine Park risen since 1900?
+ANS: 0.94 degrees Celsius
+ACC: 0.94 degrees | 0.94°C
+FORM: free_text
+EV: B | sea surface temperatures across the Marine Park have risen by 0.94 degrees Celsius since 1900
+SKILL: scanning
+EXP: B 段末句，三个词正好符合字数上限。
+Q11 What figure is the survival rate from egg to settled polyp said to fall below?
+ANS: 1 per cent
+ACC: 1%
+FORM: free_text
+EV: C | survival from egg to settled polyp is typically well under 1 per cent
+SKILL: scanning
+EXP: C 段末句「远低于 1%」，题干问的是低于哪个数值。
+Q12 How many coral eggs were collected during one mass spawning in 2026?
+ANS: 14.6 million
+ACC: 14.6m
+FORM: free_text
+EV: D | gathered an estimated 14.6 million coral eggs during a single mass spawning
+SKILL: scanning
+EXP: D 段末句，注意是 2026 年单次产卵的采集量，不要与 RRAP 的 3,500 万胚胎混淆。
+Q13 How many corals does the restoration programme aim to place on the reef each year?
+ANS: 100 million
+ACC: 100m
+FORM: free_text
+EV: E | its stated target is to place 100 million corals on the reef each year that survive to at least twelve months
+SKILL: scanning
+EXP: E 段 RRAP 的年度目标，注意限定条件是「存活至少十二个月」。

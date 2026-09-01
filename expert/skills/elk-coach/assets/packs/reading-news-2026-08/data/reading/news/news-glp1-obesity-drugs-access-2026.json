@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-glp1-obesity-drugs-access-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-glp1-obesity-drugs-access-2026",
+    "source_url": "http://acponline.org/acp-newsroom/acp-issues-new-living-clinical-guideline-on-using-medications-to-manage-overweight-and-obesity",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文，URL 仅作事实溯源。事实归属：全球肥胖规模与 WHO 2025 年 12 月首份 GLP-1 指南（世卫组织：全球逾 10 亿人、慢性进行性复发性疾病、conditional 有条件推荐、长期安全性数据有限、2030 年覆盖不足 10%）；美国医师学会 ACP 2026 年 6 月 living guideline（Annals of Internal Medicine：全球 59%、美国成人 68.5% 超重或肥胖、司美格鲁肽与替尔泊肽为一线，先于芬特明-托吡酯、利拉鲁肽、纳曲酮-安非他酮）；SURMOUNT-5（2025：无糖尿病肥胖成人 72 周，替尔泊肽 20.2% vs 司美格鲁肽 13.7%）；牛津大学 Sam West 系统综述与 meta 分析（BMJ，2026 年 1 月：37 项研究、9,341 名成人、全部药物平均每月反弹 0.4 kg、GLP-1 类约翻倍即 0.8 kg、约 18 个月回到起始体重、比行为减重项目快约 0.3 kg/月、停药一年内约回弹 10 kg）；克利夫兰诊所（Diabetes, Obesity and Metabolism，2026 年 3 月：7,938 例，真实世界反弹更小，因许多患者转用其他减重治疗）；美国价格与支付（Wegovy 标价约 1,349 美元/月、Zepbound 约 1,090 美元/月；2025 年 11 月 6 日诺和诺德与礼来同联邦政府达成协议，Medicare/Medicaid 约 245 美元/月、患者自付 50 美元；Medicare GLP-1 Bridge 于 2026 年 7 月 1 日启动；2026 年 1 月仅 13 个州 Medicaid 覆盖肥胖适应症，较 2025 年 10 月的 16 个减少）；口服剂型（诺和诺德 25 mg 口服司美格鲁肽，FDA 2025 年 12 月批准，OASIS 4：307 人、64 周、16.6% vs 安慰剂 2.7%，需空腹服用且服后半小时禁饮食；礼来 orforglipron，FDA 2026 年 4 月批准，非肽类小分子，无饮食限制；GlobalData 预计 2031 年口服剂型占 GLP-1 销售五分之一）；中国市场（国家卫健委：2030 年成人超重肥胖率超 65%；司美格鲁肽中国核心化合物专利 2026 年 3 月 20 日到期；杭州九源基因、石药集团、华东医药等至少十家递交仿制药上市申请；信达生物玛仕度肽 2025 年 6 月获批，全球首个 GCG/GLP-1 双靶点减重药；NMPA 于 2026 年 8 月 27 日受理诺和诺德口服司美格鲁肽申请）；身体成分争议（Joseph Saavedra，得克萨斯大学医学分部，2026 年 7 月综述：司美格鲁肽减重中 12%–40% 来自瘦体重；Keith Baar，加州大学戴维斯分校，Cell Reports Medicine：瘦体重含器官、力量得以保留；bimagrumab 联合司美格鲁肽，Nature Medicine 2026：减重 22.1%，其中 92.8% 为脂肪）；食品饮料冲击（Big Chalk Analytics：2026 年 6 月 13.1% 美国成人在用，2025 年 11 月为 12%，2026 年美国杂货销售减少 90 亿–210 亿美元；FTI Consulting 2026 年春季 1,007 人调查：18% 在用，2025 年为 14%；雀巢 Vital Pursuit、Conagra Healthy Choice）。"
+    },
+    "retrieved_at": "2026-08-30T23:40:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "基于公开新闻事实由模型改写成雅思学术体并命题 信源: http://acponline.org/acp-newsroom/acp-issues-new-living-clinical-guideline-on-using-medications-to-manage-overweight-and-obesity | https://www.healio.com/find/081bda19-385e-478d-b17d-4599d7651e0b | https://ddnews.gov.in/en/who-backs-weight-loss-drugs-for-obesity-and-urges-change-in-mindset | https://www.news-medical.net/news/20251202/WHO-releases-first-guideline-on-the-use-of-GLP-1-therapies-for-treating-obesity.aspx | https://www.medicaldaily.com/stopping-ozempic-wegovy-weight-regain-per-month-oxford-study-2026-476155 | https://weightlossinjections.com/weight-loss/oral-glp-1s-for-weight-loss-guide | https://www.middlewaynutrition.com/glp-1/new-glp-1-drugs | https://healthcareinsights.vn/asia-pacific-cardiometabolic-expansion-china-nmpa-accepts-novo-nordisks-marketing-authorization-application-for-oral-wegovy-semaglutide-to-contest-eli-lilly-in-4-5-billion-market | https://c.m.163.com/news/a/KVGC90NS05566ZHD.html | https://www.medscape.com/viewarticle/increasing-glp-1-use-raises-muscle-loss-concerns-2026a1000p4h | https://foodandhealth.ucdavis.edu?p=3129/ | https://researchingpeptides.com/articles/glp-1-muscle-loss-lean-mass-preservation-evidence-2026 | https://www.foodbusinessnews.net/articles/30575-oral-glp-1s-rapidly-expanding-user-base | https://www.fticonsulting.com/en/france/insights/articles/glp-1-drugs-rewriting-rules-food-beverage | https://www.business-standard.com/amp/companies/news/the-glp-1-diet-how-weight-loss-drugs-are-changing-packaged-food-business-126082400500_1.html | https://glpbase.com/glp-1-medications/glp-1-prices/ | https://legalclarity.org/trump-pharmaceutical-executive-orders-deals-tariffs-and-mfn-pricing"
+  },
+  "passage": {
+    "id": "news-glp1-obesity-drugs-access-2026-text",
+    "title": "The Limits of Drug-Based Weight Loss",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Obesity has become one of the defining health problems of the decade. The World Health Organization estimates that more than a billion people live with the condition, which it classifies as chronic and relapsing. In December 2025 the agency issued its first guidance on GLP-1 therapies for obesity, recommending them for long-term treatment in adults alongside intensive behavioural support. The recommendation was conditional, reflecting limited data on long-term safety. Equity was a further worry: the WHO has suggested the drugs will reach fewer than 10 per cent of those who could benefit by 2030."
+      },
+      {
+        "label": "B",
+        "text": "Clinical practice has moved in the same direction. In June 2026 the American College of Physicians published a living guideline in Annals of Internal Medicine, noting that 59 per cent of the world's population and 68.5 per cent of American adults have overweight or obesity. For adults with a body mass index of 30 or above, it ranks semaglutide and tirzepatide first, ahead of phentermine-topiramate, liraglutide and naltrexone-bupropion. Lifestyle change remains the foundation, but drugs are no longer a last resort."
+      },
+      {
+        "label": "C",
+        "text": "The appeal of the two drugs rests on results older medicines could not match. Both mimic glucagon-like peptide-1, a gut hormone released after eating that slows gastric emptying and acts on appetite centres in the brain. Tirzepatide differs from semaglutide in also activating receptors for a second incretin hormone, glucose-dependent insulinotropic polypeptide. In the SURMOUNT-5 trial, reported in 2025, adults with obesity but without diabetes lost an average of 20.2 per cent of their body weight over 72 weeks on tirzepatide, against 13.7 per cent on semaglutide."
+      },
+      {
+        "label": "D",
+        "text": "What happens when treatment stops is less encouraging. A systematic review led by Sam West at the University of Oxford, published in the BMJ in January 2026, pooled data from 9,341 adults across 37 studies. Across all weight-management medicines, participants regained about 0.4 kg per month; among those who had taken semaglutide or tirzepatide the rate was roughly double, implying a return to their starting weight within about 18 months. Regain was also some 0.3 kg per month faster than after a behavioural weight-loss programme. Patients regain nearly 10 kilograms within a year, West observed. Routine practice looks different. Researchers at the Cleveland Clinic, reporting in March 2026, tracked 7,938 patients and recorded smaller gains, apparently because many had transitioned to another obesity treatment."
+      },
+      {
+        "label": "E",
+        "text": "Cost, rather than clinical doubt, is now the main obstacle. In the United States, monthly list prices for injectable Wegovy and Zepbound are near $1,350 and $1,090. Under an agreement with the federal government announced in November 2025, both manufacturers undertook to supply Medicare and Medicaid at about $245 a month, with patients paying a $50 copayment. The resulting Medicare GLP-1 Bridge began operating on 1 July 2026. Coverage elsewhere is patchier: only 13 state Medicaid programmes covered the drugs for obesity in January 2026, down from 16 three months earlier."
+      },
+      {
+        "label": "F",
+        "text": "A second route to wider access is reformulation. Novo Nordisk's 25 mg oral semaglutide tablet was approved by the US Food and Drug Administration in December 2025 on the strength of the OASIS 4 trial, in which 307 adults lost 16.6 per cent of their body weight over 64 weeks, against 2.7 per cent on placebo. It must be swallowed fasting, and nothing may be eaten or drunk for half an hour afterwards. Eli Lilly received approval in April 2026 for orforglipron, a non-peptide small molecule subject to no such restrictions."
+      },
+      {
+        "label": "G",
+        "text": "Nowhere is competitive pressure more intense than in China. The National Health Commission has projected that combined overweight and obesity among Chinese adults will exceed 65 per cent by 2030. The core composition-of-matter patent on semaglutide expired there on 20 March 2026, and at least ten domestic manufacturers, among them Hangzhou Jiuyuan Gene Engineering and CSPC Pharmaceutical Group, have filed for approval of generic versions. Domestic innovation is advancing as well: Innovent Biologics won approval in June 2025 for mazdutide, the first dual glucagon and GLP-1 agonist licensed for weight management. On 27 August 2026 the regulator accepted Novo Nordisk's oral semaglutide application."
+      },
+      {
+        "label": "H",
+        "text": "The safety picture remains contested. A review led by Joseph Saavedra of the University of Texas Medical Branch, published in July 2026, concluded that between 12 and 40 per cent of weight lost on semaglutide came from lean tissue rather than fat. Keith Baar of the University of California, Davis, whose work appeared in Cell Reports Medicine, argues that lean mass includes organs besides skeletal muscle, and that his team recorded preserved strength despite falling mass. Trials of muscle-sparing combinations are under way; in one reported in Nature Medicine in 2026, adding bimagrumab to semaglutide produced a 22.1 per cent weight loss that was 92.8 per cent fat."
+      },
+      {
+        "label": "I",
+        "text": "Beyond medicine, the drugs are reshaping the shopping basket. Big Chalk Analytics, a consumer goods consultancy, found 13.1 per cent of American adults using a GLP-1 drug in June 2026, up from 12 per cent in November 2025, and estimated that the shift would cut United States grocery sales by between $9 billion and $21 billion in 2026. Volumes are falling faster than spending, as users buy less but trade up. Manufacturers have responded: Nestlé has developed a frozen range, Vital Pursuit, aimed at users of the drugs, while Conagra labels selected Healthy Choice products as suitable for them. FTI Consulting, surveying 1,007 adults in spring 2026, put current use at 18 per cent, against 14 per cent a year earlier."
+      }
+    ],
+    "word_count": 900,
+    "topic_tags": [
+      "health",
+      "pharmacology",
+      "public policy",
+      "food industry"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-glp1-obesity-drugs-access-2026-g1",
+      "type": "matching_information",
+      "instruction": "Look at the following statements and the sections of the reading passage. Match each statement with the section, A–I, in which the information can be found. Write the correct letter, A–I.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "a projection that the medicines will reach only a small proportion of the people who might benefit from them",
+          "answer": "A",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Equity was a further worry: the WHO has suggested the drugs will reach fewer than 10 per cent of those who could benefit by 2030.",
+              "start": 473,
+              "end": 602,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a small proportion of the people who might benefit",
+              "to": "fewer than 10 per cent of those who could benefit",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段结尾的公平性警告即为该预测；B–I 段均未涉及供给覆盖率。注意 E、F 段谈的是价格与剂型，不是覆盖率。",
+          "skill_tag": [
+            "scanning",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "an explanation of how the drugs act on the body to suppress hunger",
+          "answer": "C",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Both mimic glucagon-like peptide-1, a gut hormone released after eating that slows gastric emptying and acts on appetite centres in the brain.",
+              "start": 1201,
+              "end": 1343,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "suppress hunger",
+              "to": "acts on appetite centres in the brain",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "只有 C 段给出药理机制：模拟 GLP-1、延缓胃排空、作用于大脑食欲中枢。B 段只给指南排序，D 段只谈停药后结果。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "a suggestion that weight regain outside clinical trials may be less pronounced than the review indicates",
+          "answer": "D",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Researchers at the Cleveland Clinic, reporting in March 2026, tracked 7,938 patients and recorded smaller gains, apparently because many had transitioned to another obesity treatment.",
+              "start": 2328,
+              "end": 2511,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "outside clinical trials",
+              "to": "Routine practice",
+              "kind": "synonym"
+            },
+            {
+              "from": "less pronounced",
+              "to": "recorded smaller gains",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段后半部分的克利夫兰诊所真实世界数据是对牛津综述的修正，记录到的反弹幅度更小。",
+          "skill_tag": [
+            "inference",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "mention of restrictions on eating and drinking that apply to a newly approved tablet",
+          "answer": "F",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "It must be swallowed fasting, and nothing may be eaten or drunk for half an hour afterwards.",
+              "start": 3399,
+              "end": 3491,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "restrictions on eating and drinking",
+              "to": "nothing may be eaten or drunk",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段讲口服剂型；该句正是口服司美格鲁肽的空腹与半小时禁食限制。干扰在于同段后半句的 orforglipron 恰恰没有这些限制。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "F"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "examples of products developed by food companies in response to changing demand",
+          "answer": "I",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Manufacturers have responded: Nestlé has developed a frozen range, Vital Pursuit, aimed at users of the drugs, while Conagra labels selected Healthy Choice products as suitable for them.",
+              "start": 5401,
+              "end": 5587,
+              "paragraph_label": "I",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "products developed by food companies",
+              "to": "Manufacturers have responded",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "I 段列举雀巢 Vital Pursuit 与 Conagra 的 Healthy Choice 标识。注意 I 段前半部分的销售下滑是背景，不是厂商举措。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-glp1-obesity-drugs-access-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage?",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The World Health Organization has endorsed the use of GLP-1 therapies for obesity without qualification.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "The recommendation was conditional, reflecting limited data on long-term safety.",
+              "start": 392,
+              "end": 472,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "endorsed ... without qualification",
+              "to": "conditional",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "原文明确说是 conditional（有条件推荐），理由是长期安全性数据有限，与 without qualification 直接矛盾。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "The guidance issued by the American College of Physicians places semaglutide and tirzepatide above several longer-established weight-management drugs.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "For adults with a body mass index of 30 or above, it ranks semaglutide and tirzepatide first, ahead of phentermine-topiramate, liraglutide and naltrexone-bupropion.",
+              "start": 878,
+              "end": 1042,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "places ... above several longer-established drugs",
+              "to": "ranks ... first, ahead of phentermine-topiramate, liraglutide and naltrexone-bupropion",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文 ranks ... first, ahead of 三种较老药物，与题干表述一致。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Orforglipron, unlike the oral semaglutide tablet, can be taken without observing rules about food and drink.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Eli Lilly received approval in April 2026 for orforglipron, a non-peptide small molecule subject to no such restrictions.",
+              "start": 3492,
+              "end": 3613,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "without observing rules about food and drink",
+              "to": "subject to no such restrictions",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "no such restrictions 回指前一句的空腹与半小时禁食要求，题干与原文一致。",
+          "skill_tag": [
+            "detail",
+            "cohesion"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Chinese regulators had approved a domestically produced generic version of semaglutide before August 2026.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "The core composition-of-matter patent on semaglutide expired there on 20 March 2026, and at least ten domestic manufacturers, among them Hangzhou Jiuyuan Gene Engineering and CSPC Pharmaceutical Group, have filed for approval of generic versions.",
+              "start": 3810,
+              "end": 4056,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "had approved",
+              "to": "have filed for approval",
+              "kind": "distortion"
+            }
+          ],
+          "explanation": "G 段只说专利到期、至少十家企业「已递交申请」（filed for approval），从未说明是否已经获批，属于原文未提及。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-glp1-obesity-drugs-access-2026-g3",
+      "type": "sentence_completion",
+      "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "The WHO qualified its recommendation on GLP-1 therapies because evidence about their ________ is limited.",
+          "answer": "long-term safety",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "The recommendation was conditional, reflecting limited data on long-term safety.",
+              "start": 392,
+              "end": 472,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "qualified its recommendation",
+              "to": "The recommendation was conditional",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "定位 A 段末：conditional 的原因是 limited data on long-term safety。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "long-term safety"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "According to the Oxford review, people who stop taking semaglutide or tirzepatide can expect to return to their ________ within roughly 18 months.",
+          "answer": "starting weight",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "among those who had taken semaglutide or tirzepatide the rate was roughly double, implying a return to their starting weight within about 18 months",
+              "start": 1986,
+              "end": 2133,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "roughly 18 months",
+              "to": "about 18 months",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "定位 D 段：a return to their starting weight within about 18 months。",
+          "skill_tag": [
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "starting weight"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "The Cleveland Clinic researchers attributed the smaller weight increases they observed to many patients having ________ another obesity treatment.",
+          "answer": "transitioned to",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "apparently because many had transitioned to another obesity treatment",
+              "start": 2441,
+              "end": 2510,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "smaller weight increases",
+              "to": "smaller gains",
+              "kind": "synonym"
+            },
+            {
+              "from": "attributed ... to",
+              "to": "because",
+              "kind": "structure"
+            }
+          ],
+          "explanation": "定位 D 段末：recorded smaller gains, apparently because many had transitioned to another obesity treatment。",
+          "skill_tag": [
+            "scanning",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "transitioned to"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Unlike oral semaglutide, orforglipron is a ________, and so carries no restrictions on food or drink.",
+          "answer": "small molecule",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "orforglipron, a non-peptide small molecule subject to no such restrictions",
+              "start": 3538,
+              "end": 3612,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "carries no restrictions",
+              "to": "subject to no such restrictions",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "定位 F 段末：a non-peptide small molecule subject to no such restrictions。",
+          "skill_tag": [
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "small molecule"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-30T23:40:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

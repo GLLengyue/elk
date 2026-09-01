@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-insect-decline-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-insect-decline-2026",
+    "source_url": "https://hivehunterstales.blog/is-an-insect-apocalypse-really-happening | https://timesofindia.indiatimes.com/articleshowprint/132308035.cms | http://new.theportugalnews.com/news/2026-08-16/worlds-tiniest-creatures-becoming-a-huge-concern/1071015",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自德国保护区 27 年飞行昆虫生物量研究(PLOS One；季节性下降 76%、仲夏 82%；按重量而非数量或物种数计量)及学界批评(Shortall/Rothamsted 自 1964 年监测，指出可能由一两个大型类群驱动、Hereford 一种大型蝇类下降而其他类群无显著变化；Klein/Freiburg 指出多数样点 27 年内仅调查一次、样地虽为保护区但小而退化) | 瑞士约 90 年昆虫记录(Neff 等，Nature Ecology and Evolution 2026)：下降并非恒定，最剧烈变化集中于 20 世纪中叶，部分甲虫群落后来企稳或部分恢复，蝴蝶损失更持久 | 英格兰南部谷物田 42 年序列(Global Change Biology 2015)：12 种下降、2 种上升，部分先恢复后下降，总体数量下降 35% | Rothamsted 四个诱捕器 30 年至 2002 年：三个呈下降趋势但仅一个显著 | Science 2025 美国蝴蝶研究：逾 1200 万条观测、2000-2020 年总丰度下降约 22%、中位物种年降 2.6%、少数物种增加 | 淡水昆虫若干大样本分析显示平均上升 | PNAS 综述称陆地格局为\"death by a thousand cuts\" | 约 90% 野生开花植物部分依赖动物传粉、超过四分之三粮食作物受益或依赖 | 2026-06-16 Zenodo 白皮书：135 位研究者、综合八个 Horizon Europe 项目，列多重交互压力与 15 条建议；野花带缺筑巢地与寄主植物（荨麻、野草）反成生态陷阱"
+  },
+  "passage": {
+    "id": "news-insect-decline-2026-text",
+    "title": "Counting What Is Left",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The evidence that first caught public attention came from a windscreen. Drivers had noticed for years that summer journeys no longer ended with the glass speckled with dead flies, and in Germany a team of researchers eventually put a number on the impression. Working in protected areas over 27 years, they recorded a seasonal decline of 76 per cent in the biomass of flying insects, rising to 82 per cent in midsummer. The result was reported around the world as a collapse in insect numbers. It was not that. The traps in that study were weighed, not counted, so what they measured was mass: how much insect there was, not how many individuals and not how many species."
+      },
+      {
+        "label": "B",
+        "text": "That distinction matters, and specialists were quick to press it. An entomologist at a British research institute that has surveyed insects since 1964 observed that the loss could have been driven by one or two relatively large groups, citing work at a second site where a single large fly species fell away while other groups showed no significant change. A further critic pointed out that most of the German sites were sampled only once across the 27 years, and that although the plots carried protected status they were small and already degraded. She nonetheless accepted that the measured loss of biomass was extremely high, and drew a harder conclusion from it: land that cannot hold flying insects is not of high enough quality, and better habitat has to be brought back into farmland."
+      },
+      {
+        "label": "C",
+        "text": "Longer records complicate the picture rather than settle it. An analysis of insect monitoring extending across roughly nine decades in Switzerland found that decline was not constant through time and differed between ecological groups. The sharpest changes clustered in the middle of the twentieth century; some beetle communities stabilised or partly recovered afterwards, while butterflies showed more persistent losses. A record of that length is valuable precisely because it shows the trend is not a straight line downwards, since conservation, land management, climate and the traits of the animals themselves can all turn a local curve."
+      },
+      {
+        "label": "D",
+        "text": "Two further British series point in the same direction with less drama. Forty-two years of sampling in cereal fields in the south of England found that twelve insect species declined and two increased, with some groups recovering before falling again, producing an overall fall of 35 per cent in the total number of insects. At a second institution, three of four traps showed downward trends in biomass over thirty years to 2002, but the decline was statistically significant in only one of them. Both studies covered a narrow range of habitats, and neither could say how representative its results were of the country as a whole."
+      },
+      {
+        "label": "E",
+        "text": "What was missing for a long time was evidence from outside Europe dense enough to stand on its own. A study published in Science in 2025 assembled more than twelve million butterfly observations from monitoring programmes across the contiguous United States and estimated that total abundance fell by about 22 per cent between 2000 and 2020. The median species declined by 2.6 per cent a year, which compounds into a far larger loss across two decades. Individual species varied enormously and a small number increased, but the national pattern showed that the decline was not an artefact of a few well-known European datasets."
+      },
+      {
+        "label": "F",
+        "text": "Freshwater insects refuse to fit the story at all. Several broad analyses have found average increases in abundance over recent decades, although this reflects better water quality and restoration in some rivers rather than a general recovery, and other freshwater systems continue to deteriorate. The contrast is scientifically useful, because it demonstrates that these populations respond when conditions improve. A review in the Proceedings of the National Academy of Sciences described the terrestrial pattern as death by a thousand cuts, on the grounds that no single stressor explains every case. The stakes are not abstract: roughly 90 per cent of wild flowering plants depend at least partly on animal pollination, and more than three-quarters of food crops benefit from or rely on it."
+      },
+      {
+        "label": "G",
+        "text": "That combination of diffuse causes is what makes the policy problem hard. A white paper published in June 2026, written by 135 researchers and synthesising eight European research projects, argued that wild pollinators face interacting pressures from land-use change, pesticides, climate change, reactive nitrogen and artificial light, and that fragmented and sometimes contradictory rules are undermining restoration. It also challenged a popular remedy. Wildflower strips give adults somewhere to feed, but they do not supply the nesting sites and larval host plants, such as nettles and wild grasses, that young insects require, and where those are cleared away the strips risk becoming traps. The report set out fifteen recommendations, among them cutting pesticide use and building pollinator stewardship into agriculture, trade, planning and finance rather than leaving it to environmental policy alone."
+      }
+    ],
+    "word_count": 811,
+    "topic_tags": [
+      "ecology",
+      "science",
+      "biodiversity"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-insect-decline-2026-g1",
+      "type": "matching_features",
+      "instruction": "Match each description with the correct study. Write the correct letter, A-E, in boxes 1-5 on your answer sheet.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "the German protected-area survey"
+        },
+        {
+          "key": "B",
+          "text": "the Swiss ninety-year record"
+        },
+        {
+          "key": "C",
+          "text": "the Sussex cereal-field survey"
+        },
+        {
+          "key": "D",
+          "text": "the United States butterfly study"
+        },
+        {
+          "key": "E",
+          "text": "the freshwater analyses"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "It measured the weight of insects captured rather than the number of individuals or species.",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "The traps in that study were weighed, not counted, so what they measured was mass",
+              "start": 511,
+              "end": 592,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段明确说按重量计量而非计数。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "It covers a period roughly twice as long as that of any other study described here.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "insect monitoring extending across roughly nine decades in Switzerland",
+              "start": 1541,
+              "end": 1611,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "roughly twice as long as any other",
+              "to": "nine decades",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "90 年约为 42 年（次长）的两倍多。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "It recorded an overall fall of 35 per cent in insect numbers over four decades.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "Forty-two years of sampling in cereal fields in the south of England",
+              "start": 2181,
+              "end": 2249,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段谷物田 42 年研究对应 35% 的总体降幅。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "It drew on more than twelve million individual observations.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "assembled more than twelve million butterfly observations from monitoring programmes across the contiguous United States",
+              "start": 2878,
+              "end": 2998,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段给出 1200 万条观测的规模。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "It found an average pattern opposite to that recorded for insects on land.",
+          "answer": "E",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "Several broad analyses have found average increases in abundance over recent decades",
+              "start": 3420,
+              "end": 3504,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "淡水昆虫平均上升，与陆地下降相反。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-insect-decline-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The German study counted the number of insect species present.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "what they measured was mass: how much insect there was, not how many individuals and not how many species",
+              "start": 565,
+              "end": 670,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文明确排除物种数与个体数，题干与之相反。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Most of the sites in the German study were surveyed on several occasions.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "most of the German sites were sampled only once across the 27 years",
+              "start": 1063,
+              "end": 1130,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "on several occasions",
+              "to": "only once",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文说仅调查一次，与题干相反。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The Swiss record indicates that some beetle communities stopped declining.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "some beetle communities stabilised or partly recovered afterwards",
+              "start": 1772,
+              "end": 1837,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "stopped declining",
+              "to": "stabilised",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "企稳即停止下降。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The 2026 white paper called for a complete ban on a particular class of insecticide.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "The report set out fifteen recommendations, among them cutting pesticide use",
+              "start": 4861,
+              "end": 4937,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只说减少农药使用并列了 15 条建议，未提任何具体禁用措施。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-insect-decline-2026-g3",
+      "type": "summary_completion",
+      "instruction": "Complete the notes below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Findings on insect decline — The German survey reported a seasonal fall of 76 per cent in insect 10. ______, a measure that does not show how many individuals or species were present. Critics suggested the apparent collapse might reflect the loss of one or two 11. ______ groups. Longer records indicate the trend is uneven: in Switzerland some beetle communities later 12. ______ or partly recovered, while butterflies kept falling. In the United States, total butterfly abundance dropped by about 13. ______ between 2000 and 2020.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "(note blank 10)",
+          "answer": "biomass",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "biomass"
+          ],
+          "evidence": [
+            {
+              "quote": "they recorded a seasonal decline of 76 per cent in the biomass of flying insects",
+              "start": 302,
+              "end": 382,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段直接给出 76% 对应的指标。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "(note blank 11)",
+          "answer": "large",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "large"
+          ],
+          "evidence": [
+            {
+              "quote": "the loss could have been driven by one or two relatively large groups",
+              "start": 837,
+              "end": 906,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 the apparent collapse = 原文 the loss。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "(note blank 12)",
+          "answer": "stabilised",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "stabilised",
+            "stabilized"
+          ],
+          "evidence": [
+            {
+              "quote": "some beetle communities stabilised or partly recovered afterwards",
+              "start": 1772,
+              "end": 1837,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "摘要已含 or partly recovered，故空格只能填 stabilised。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "(note blank 13)",
+          "answer": "22 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "22 per cent",
+            "22%",
+            "twenty-two per cent"
+          ],
+          "evidence": [
+            {
+              "quote": "total abundance fell by about 22 per cent between 2000 and 2020",
+              "start": 3018,
+              "end": 3081,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段给出美国蝴蝶总丰度降幅。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "note",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

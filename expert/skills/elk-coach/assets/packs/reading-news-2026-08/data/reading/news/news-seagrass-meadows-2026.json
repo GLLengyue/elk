@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-seagrass-meadows-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-seagrass-meadows-2026",
+    "source_url": "https://www.itv.com/news/2026-08-14/marine-heatwave-devastates-seagrass-conservation-project-on-welsh-coast",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自海草生态综述(全球海草床约 30 万平方公里、不足海洋表面积 0.2%、却埋藏约 10% 海洋碳;单位面积固碳速度至多 35 倍于热带雨林、碳存于根系与沉积物可稳定数千年;与红树林盐沼同属蓝碳) | 加勒比约 70% 重要经济鱼类生活史部分阶段在海草床、印太类似;儒艮与绿海龟为专食性 | 自 1930 年代全球损失约 50%、1990s-2010s 年均损失 7%、英国百年损失约 90% | 成因:疏浚与填海直接摧毁、农业营养盐引发藻华遮蔽光照、螺旋桨划伤、清除林地带来的沉积物掩埋;退化海草床不仅停止吸碳并开始释放 | 修复方法:从健康海草床采集种子装入可降解粗麻袋人工压入海床、存活率约 30-40% 且逐次改善 | 威尔士 Porthdinllaen 志愿者浮潜手工采种、2025 年夏在 Bae Tremadog 的 Traeth Crugan 手植逾 50 万粒;斯旺西大学 Richard Unsworth、Project Seagrass 高级科学家 Oliver Thomas;返回监测时只找到一株幼苗、其余为裸沙;海洋热浪五六天内升温约 3.5 摄氏度、海洋尺度上前所未有;教训转向 Holyhead 附近更具韧性的新址 | 佛罗里达印第安河潟湖:须先削减上游营养盐负荷;菲律宾与印尼社区参与监测有效 | 越南占婆岛 Cu Lao Cham 海草由 2014 年约 50 公顷降至近年 15-17 公顷;2026-03 在 Bai Bac 启动试点、四个月后地下茎已蔓延出种植袋 | 康沃尔议会测绘在 Mount's Bay 发现相当于 290 个橄榄球场的新海草床、超过康沃尔已知海草总和、占英国已知资源 3.4%;埃克塞特大学测算 Fal 与 Helford 河口为 172 个橄榄球场、现存约 100 公顷大叶藻、目标三年恢复 10 公顷、设自愿禁锚区"
+  },
+  "passage": {
+    "id": "news-seagrass-meadows-2026-text",
+    "title": "Meadows Beneath the Water",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Seagrass does not photograph well. It is a flowering plant that grows in seawater, and to a diver it looks like the green blur one passes over on the way to a reef. That impression is badly misleading. Seagrass meadows cover an estimated 300,000 square kilometres of shallow coastal seabed, less than 0.2 per cent of the ocean's surface, yet they account for roughly a tenth of all the carbon the ocean buries. Per unit of area they sequester carbon up to 35 times faster than tropical rainforest, locking it into roots and sediments stable for thousands of years. Along with mangroves and saltmarshes, they form the group of habitats now labelled blue carbon."
+      },
+      {
+        "label": "B",
+        "text": "Their value is not measured in carbon alone. Meadows act as nursery grounds, and in the Caribbean around 70 per cent of commercially important fish species spend part of their life cycle among the blades; the figure for the Indo-Pacific is similar. The fish that divers travel to see on reefs, snapper and grouper and parrotfish, very often grew up in seagrass. Some animals depend on it absolutely: dugongs and green turtles are obligate grazers, eating seagrass and virtually nothing else. The habitats are connected, and damage to a meadow tends to surface later on the reef."
+      },
+      {
+        "label": "C",
+        "text": "Roughly half of the world's seagrass has disappeared since the 1930s. One analysis put the loss at 7 per cent of remaining coverage annually between the 1990s and the 2010s, and there is little sign the pace has slowed; the United Kingdom has lost about 90 per cent of its meadows in a century. The causes interact. Dredging and reclamation remove meadows outright, agricultural nutrients trigger algal blooms that cut off the light the plants need, propellers scar shallow beds, and sediment washed off cleared land smothers what remains. A degraded meadow does not simply stop absorbing carbon; it starts releasing what it had already stored."
+      },
+      {
+        "label": "D",
+        "text": "Restoration is technically possible and logistically hard. Unlike coral, fragments of which can be grown in nurseries and replanted, seagrass needs shallow water with a narrow range of light, sediment and salinity, and the labour required is large in relation to the area that can be treated in a season. The method now standard in British waters is to gather seed from a healthy meadow, place it in biodegradable hessian bags and press the bags into the seabed by hand. Survival is modest, around 30 to 40 per cent, but it has improved with each attempt."
+      },
+      {
+        "label": "E",
+        "text": "Much of the work depends on volunteers. At Porthdinllaen on the Llŷn Peninsula, snorkellers move through an established meadow collecting seeds by hand, which are later planted at sites chosen in advance. The effort, run by Swansea University and the charity Project Seagrass with community groups, forms part of Seagrass Ocean Rescue North Wales. In one season more than 500,000 seeds gathered there were pressed into the sand at Traeth Crugan, in Bae Tremadog. Richard Unsworth of Swansea University recalls that everything about the site looked promising."
+      },
+      {
+        "label": "F",
+        "text": "It was not. When the team returned to begin monitoring, the plants had gone. Oliver Thomas, a senior scientist with Project Seagrass, describes planning an elaborate survey and then finding nothing: one shoot near a marker buoy and, beyond it, bare sand. It took months to establish why. A marine heatwave had raised the water temperature by about 3.5 degrees Celsius over five or six days, a rate he calls unprecedented in marine terms and one that a young shoot cannot withstand. Colleagues now worry that intensifying heatwaves will make restoration harder around the British coast. The failure has changed where the team works, not whether it continues: a new site near Holyhead was chosen for being more resilient."
+      },
+      {
+        "label": "G",
+        "text": "Water quality, rather than technique, is often the binding constraint. In Florida's Indian River Lagoon, damaged by nutrient pollution and algal blooms, replanting has mattered less than what happens upstream, since shoots cannot establish in water that will kill them; nutrient loading from farms and towns has to be reduced first. Where communities are treated as partners rather than regulated as threats, results improve: in the Philippines and Indonesia, fishing communities have proved effective monitors of the beds they depend on. Off Cu Lao Cham in Viet Nam, where coverage fell from about 50 hectares in 2014 to 15 to 17 hectares, a pilot begun at Bai Bac in March 2026 had produced, four months later, stems spreading beyond the planting bags and the return of goatfish, rabbitfish and snails."
+      },
+      {
+        "label": "H",
+        "text": "Survey work still turns up surprises. Mapping by Cornwall Council identified a bed in Mount's Bay the size of 290 rugby pitches, larger than all previously known seagrass in Cornwall combined and equal to 3.4 per cent of the United Kingdom's mapped resource. Within the Fal and Helford, where roughly 100 hectares of common eelgrass remain, a partnership intends to restore 10 hectares within three years, with voluntary no-anchor zones marked by buoys. The recoveries are real, but they are slower than the losses, and the margin for error is narrowing."
+      }
+    ],
+    "word_count": 840,
+    "topic_tags": [
+      "environment",
+      "ocean",
+      "conservation"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-seagrass-meadows-2026-g1",
+      "type": "matching_information",
+      "instruction": "Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-H, in boxes 1-5 on your answer sheet.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "A comparison of the speed at which seagrass and a land ecosystem capture carbon.",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "Per unit of area they sequester carbon up to 35 times faster than tropical rainforest",
+              "start": 411,
+              "end": 496,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "三十五倍于热带雨林即为跨生态系统的速度对比。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "An explanation of why damaged seagrass can become a source rather than a store of carbon.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "A degraded meadow does not simply stop absorbing carbon; it starts releasing what it had already stored",
+              "start": 1780,
+              "end": 1883,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段末句直接说明退化后的排放作用。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "A reference to creatures unable to survive on any other diet.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "dugongs and green turtles are obligate grazers, eating seagrass and virtually nothing else",
+              "start": 1061,
+              "end": 1151,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "专食性即无法以其他食物维生。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "An account of a planting attempt in which almost nothing survived.",
+          "answer": "F",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "F"
+          ],
+          "evidence": [
+            {
+              "quote": "finding nothing: one shoot near a marker buoy and, beyond it, bare sand",
+              "start": 3182,
+              "end": 3253,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段记录监测时仅存一株、其余尽失。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "A description of volunteers gathering the material used for replanting.",
+          "answer": "E",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "snorkellers move through an established meadow collecting seeds by hand",
+              "start": 2521,
+              "end": 2592,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段志愿者手工采集种子，供后续种植使用。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-seagrass-meadows-2026-g2",
+      "type": "identifying_writers_views",
+      "instruction": "Do the following statements agree with the claims of the writer? In boxes 6-9 on your answer sheet, write YES, NO or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The writer considers improvements in water quality to be a precondition for successful replanting.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "YES"
+          ],
+          "evidence": [
+            {
+              "quote": "shoots cannot establish in water that will kill them; nutrient loading from farms and towns has to be reduced first",
+              "start": 3936,
+              "end": 4051,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段把水质改善明确列为种植的前提条件。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "The writer suggests that the experience in north Wales has led the team to give up restoration.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NO"
+          ],
+          "evidence": [
+            {
+              "quote": "The failure has changed where the team works, not whether it continues",
+              "start": 3586,
+              "end": 3656,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者明确说改变的是地点而非是否继续。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The writer predicts that marine heatwaves around Britain will become less frequent.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "Colleagues now worry that intensifying heatwaves will make restoration harder around the British coast",
+              "start": 3482,
+              "end": 3584,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者只表达强度增加会加大难度，对未来发生频次未作任何预测。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The writer states that the proportion of planted seeds that survive has been rising.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "YES"
+          ],
+          "evidence": [
+            {
+              "quote": "Survival is modest, around 30 to 40 per cent, but it has improved with each attempt",
+              "start": 2356,
+              "end": 2439,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者明确「逐次改善」。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-seagrass-meadows-2026-g3",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "Mount's Bay"
+        },
+        {
+          "key": "B",
+          "text": "The Fal and Helford"
+        },
+        {
+          "key": "C",
+          "text": "Traeth Crugan"
+        },
+        {
+          "key": "D",
+          "text": "Bai Bac"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "At which site were more than half a million seeds planted by hand?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "more than 500,000 seeds gathered there were pressed into the sand at Traeth Crugan",
+              "start": 2803,
+              "end": 2885,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段给出 50 万粒与 Traeth Crugan 的对应。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "At which site did mapping reveal a meadow larger than all others recorded in the surrounding county?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "Mapping by Cornwall Council identified a bed in Mount's Bay the size of 290 rugby pitches, larger than all previously known seagrass in Cornwall combined",
+              "start": 4563,
+              "end": 4716,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "超过康沃尔已知海草床总和，故为最大。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "At which site were signs of recovery observed four months after planting?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "a pilot begun at Bai Bac in March 2026 had produced, four months later, stems spreading beyond the planting bags",
+              "start": 4361,
+              "end": 4473,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "四个月后地下茎蔓延出种植袋。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "At which site has a target of restoring ten hectares within three years been set?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "Within the Fal and Helford, where roughly 100 hectares of common eelgrass remain, a partnership intends to restore 10 hectares within three years",
+              "start": 4784,
+              "end": 4929,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "三年恢复 10 公顷的目标设在 Fal 与 Helford 河口。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

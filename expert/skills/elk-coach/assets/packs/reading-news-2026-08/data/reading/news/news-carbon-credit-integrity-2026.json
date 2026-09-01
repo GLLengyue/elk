@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-carbon-credit-integrity-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-carbon-credit-integrity-2026",
+    "source_url": "https://theplanetbrief.com/carbon/voluntary-carbon-market-2026/",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 The Planet Brief 自愿碳市场 2026 综述(碳信用定义为经核证的一吨 CO2e 减排或移除、登记并在用于声明时注销；2023 年 1 月卫报 + Die Zeit + SourceMaterial 联合调查质疑 Verra REDD+ 雨林信用，Verra 反驳并质疑方法学；2026 年市场裂为高诚信与遗留低信心两个重叠市场；ICVCM 核心碳原则、VCMI 声明准则、Article 6 授权与相应调整、CORSIA 航空资格各自回答不同问题；独立评级机构 Sylvera / BeZero Carbon / Calyx) | Angel Investors Network 2026 投资指南(Kariba 项目 VCS 902 位于津巴布韦，2025 年 Verra 注销逾 1,500 万信用；巴西 Ecomapuá VCS 1094 暂停新签发；印尼 Katingan 遭额外性审查；Verra 在 VCM 注销量份额 2026 年初跌破 60%，为 2015 年以来最低；BBB+ 档由 $18.10 升至 $20.10/吨，同期 B 档由 $8.50 跌至 $7.80) | 登记机构结构性利益冲突(Verra 与 Gold Standard 为两家最大登记机构、非营利、核证费由项目开发方支付) | 监管收紧(欧盟 ECGT 指令、英国广告标准收紧、ISO 14068-1 要求先减排后抵消)"
+  },
+  "passage": {
+    "id": "news-carbon-credit-integrity-2026-text",
+    "title": "The Market Behind the Certificate",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A carbon credit represents a verified reduction or removal of one tonne of carbon dioxide equivalent, recorded in a registry and cancelled, or retired, when it is used to support a claim. Companies buy them voluntarily, without being required by law to do so, usually because of a net zero commitment, pressure from investors, or a wish to finance mitigation beyond their own operations. The system is only as good as the word verified, which raises the questions that matter: which standard, which methodology, which auditor, which baseline, and which guarantee that the carbon stays out of the atmosphere."
+      },
+      {
+        "label": "B",
+        "text": "Those questions became unavoidable in January 2023, when a joint investigation by The Guardian, the German weekly Die Zeit and the research organisation SourceMaterial alleged that many rainforest credits issued under Verra's methodologies for reducing emissions from deforestation did not represent the reductions claimed. Verra disputed the conclusions and challenged the methodology behind them. The scientific argument about baselines and counterfactual deforestation has never been settled, but the commercial reaction was immediate: corporate buyers grew cautious, claims of carbon-neutral products attracted scrutiny, and cheap avoidance credits lost much of the confidence that had carried them through the boom of 2020 and 2021."
+      },
+      {
+        "label": "C",
+        "text": "Part of the difficulty is structural. The two largest registries, Verra and Gold Standard, between them issue the great majority of credits in the voluntary market. Both are non-profit organisations, which sounds neutral, but their certification fees are paid by the project developers whose projects they are certifying, and a developer cannot sell a credit until it has been certified. The payer and the certifier therefore want the same outcome. This does not prove that any particular credit is worthless; it does mean that certification is an interest-bearing judgement rather than an audit conducted on behalf of the buyer."
+      },
+      {
+        "label": "D",
+        "text": "Events since have given buyers reason to look behind the certificate. In 2025 Verra cancelled more than 15 million credits linked to Kariba, a large forest project in Zimbabwe registered as VCS 902, after governance and integrity failures emerged, and suspended new issuances at a second project, Ecomapuá in Brazil. Katingan, a long-running project in Indonesia, has faced its own scrutiny over additionality, the question of whether the project would have happened anyway. Verra's share of retirements in the voluntary market fell below 60 per cent by early 2026, its lowest level since 2015, as buyers spread their purchases across other registries."
+      },
+      {
+        "label": "E",
+        "text": "The market that has emerged from this is better understood as two overlapping ones. On one side sit higher-integrity credits: removal rather than avoidance, approved under stricter methodologies, sometimes authorised under Article 6 of the Paris Agreement, and often carrying an independent rating. On the other sit legacy credits that may still be valid under a private standard but cannot safely support the same claim. Removal projects, which physically extract carbon dioxide and store it, are increasingly preferred to avoidance projects, which rest on a counterfactual guess about what would otherwise have happened. Buyers are also advised to look at permanence, at buffer arrangements that replace lost carbon, and at vintage, since credits issued under a decade-old methodology may reflect standards long since abandoned."
+      },
+      {
+        "label": "F",
+        "text": "A further source of confusion is that several systems answer different questions, and are routinely mistaken for one another. The Integrity Council for the Voluntary Carbon Market assesses whether a programme or category meets its Core Carbon Principles. The Voluntary Carbon Markets Integrity Initiative is concerned with something else: what claim a company can credibly make when it uses credits. Article 6 of the Paris Agreement deals with whether a host country has authorised a credit for international use and adjusted its own accounts to avoid double counting. CORSIA, the aviation scheme, decides whether an airline may use a unit against its covered emissions. Independent raters such as Sylvera, BeZero Carbon and Calyx offer a separate view again, on additionality and project risk."
+      },
+      {
+        "label": "G",
+        "text": "Prices reflect the resulting sorting. Over a recent period in 2026, credits in the BBB+ tier rose from $18.10 to $20.10 a tonne, while B-rated credits fell from $8.50 to $7.80 over the same window. A premium credit, in other words, is not one that has passed a single combined test; it is one whose buyer knows which of these frameworks it has passed and which it has not, and therefore what claim it can bear."
+      },
+      {
+        "label": "H",
+        "text": "Regulation is now reinforcing the distinction. The European Union's Empowering Consumers for the Green Transition Directive and tightening British advertising standards both bear on vague climate claims, and standards such as ISO 14068-1 require that emissions be reduced first and only the remainder offset. None of this makes credit purchase pointless: high-integrity strategies still use removal credits to neutralise the emissions that remain. But approval by a registry is the floor, not the ceiling, and the most important question in procurement is no longer whether a credit was certified. It is which of the two markets it came from."
+      }
+    ],
+    "word_count": 824,
+    "topic_tags": [
+      "climate",
+      "policy",
+      "business"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-carbon-credit-integrity-2026-g1",
+      "type": "matching_information",
+      "instruction": "Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-H, in boxes 1-5 on your answer sheet.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "An explanation of the conflict of interest built into how registries are funded.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "their certification fees are paid by the project developers whose projects they are certifying",
+              "start": 1572,
+              "end": 1666,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段说明核证费由开发方支付、付费方与核证方目标一致。B 段讲的是媒体调查，不是结构性利益。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "An account of a particular project whose credits were withdrawn in large numbers.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "Verra cancelled more than 15 million credits linked to Kariba, a large forest project in Zimbabwe registered as VCS 902",
+              "start": 2054,
+              "end": 2173,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段 Kariba 案例。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "A comparison between credits that prevent emissions and credits that extract carbon.",
+          "answer": "E",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "Removal projects, which physically extract carbon dioxide and store it, are increasingly preferred to avoidance projects",
+              "start": 3051,
+              "end": 3171,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段中段对 avoid 与 remove 的区分。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "A reference to a joint investigation published in 2023.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "a joint investigation by The Guardian, the German weekly Die Zeit and the research organisation SourceMaterial",
+              "start": 665,
+              "end": 775,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段首句。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Figures showing that prices of differently rated credits moved in opposite directions.",
+          "answer": "G",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "G"
+          ],
+          "evidence": [
+            {
+              "quote": "credits in the BBB+ tier rose from $18.10 to $20.10 a tonne, while B-rated credits fell from $8.50 to $7.80 over the same window",
+              "start": 4323,
+              "end": 4451,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段一涨一跌的价格对比。",
+          "skill_tag": [
+            "skimming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-carbon-credit-integrity-2026-g2",
+      "type": "identifying_writers_views",
+      "instruction": "Do the following statements agree with the claims of the writer? In boxes 6-9 on your answer sheet, write YES, NO or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Being listed by a well-known registry is by itself sufficient to establish that a credit is of good quality.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NO"
+          ],
+          "evidence": [
+            {
+              "quote": "approval by a registry is the floor, not the ceiling",
+              "start": 5118,
+              "end": 5170,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者明确把登记机构批准定位为「底线而非上限」，并强调还要看评级、Article 6 等，题干与之相反。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "The voluntary market should now be understood as divided into two tiers of credit.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "YES"
+          ],
+          "evidence": [
+            {
+              "quote": "The market that has emerged from this is better understood as two overlapping ones.",
+              "start": 2629,
+              "end": 2712,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段首句即作者的市场分层判断。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The writer's view is that companies ought to stop buying carbon credits altogether.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NO"
+          ],
+          "evidence": [
+            {
+              "quote": "high-integrity strategies still use removal credits to neutralise the emissions that remain",
+              "start": 5021,
+              "end": 5112,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者认为抵消对残余排放仍有作用，反对的是低质量信用与含糊声明，不是购买行为本身。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The writer expects the price gap between the highest and lowest rated credits to disappear within a year.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "credits in the BBB+ tier rose from $18.10 to $20.10 a tonne, while B-rated credits fell from $8.50 to $7.80 over the same window",
+              "start": 4323,
+              "end": 4451,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段只给出同一窗口内一涨一跌的事实，并未预测价差未来会收敛，更没有「一年」的时间框架，属未提及。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-carbon-credit-integrity-2026-g3",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "Verra"
+        },
+        {
+          "key": "B",
+          "text": "Gold Standard"
+        },
+        {
+          "key": "C",
+          "text": "The Integrity Council for the Voluntary Carbon Market"
+        },
+        {
+          "key": "D",
+          "text": "The Voluntary Carbon Markets Integrity Initiative"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "Which organisation cancelled more than 15 million credits linked to a project in Zimbabwe?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "In 2025 Verra cancelled more than 15 million credits linked to Kariba, a large forest project in Zimbabwe registered as VCS 902",
+              "start": 2046,
+              "end": 2173,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段明确为 Verra 注销 Kariba 信用。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Which organisation assesses whether a crediting programme meets a voluntary quality benchmark?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "The Integrity Council for the Voluntary Carbon Market assesses whether a programme or category meets its Core Carbon Principles.",
+              "start": 3586,
+              "end": 3714,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段首句。注意与 D 区分：D 管的是企业能做什么声明。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Which organisation is concerned with the claims a company can credibly make?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "The Voluntary Carbon Markets Integrity Initiative is concerned with something else: what claim a company can credibly make when it uses credits.",
+              "start": 3715,
+              "end": 3859,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段第二句。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Which organisation is named alongside Verra as one of the two largest registries in the voluntary carbon market?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "The two largest registries, Verra and Gold Standard, between them issue the great majority of credits in the voluntary market.",
+              "start": 1384,
+              "end": 1510,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段对照：「The two largest registries, Verra and Gold Standard, between them issue the great majority of credits」。题干要求「与 Verra 并列的两家最大登记机构之一」，只有 Gold Standard 满足该限定；Verra 自身(选项 A)已在 Q10 中被问及，且本题题干明确用「alongside Verra」排除了它。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

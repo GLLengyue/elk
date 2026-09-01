@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-wildfire-management-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-wildfire-management-2026",
+    "source_url": "https://www.wri.org/insights/can-humanity-regain-control-over-fire",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自加拿大 2026 火季(逾 900 处在燃、逾 370 万公顷过火;加拿大林务局森林生态学者 Martin Girardin「犹如试图阻止飓风」) | WRI 的 hazard/risk 区分 | 殖民时期禁火(加州西班牙传教士 1793 年起惩罚原住民放火、1850 年州议会重申;澳大利亚英裔定居者压制原住民焚烧) | WRI 与 WWF-澳洲:原住民管理地树冠损失更少、储碳更多、生物多样性更高 | 计划烧除与文化烧除的定义;原住民领导力倡议火灾管理主管 Amy Cardinal Christianson | 斯坦福研究(基于二十年卫星数据):在针叶林扩大计划烧除可使活跃火年烟雾致死减少约 20% | 2026-05 研究:美国林务局每投入 1 美元减灾可避免近 4 美元损失 | 阿纳姆地稀树草原烧除项目减排并出售碳信用 | FireSmart 1993 年创立、覆盖各省各领地;2024 年贾斯珀约 30% 过火、消防局长 Mathew Conte「最弱一环」 | 防火隔离带:白马市自 2020 年、艾伯塔 2023 年社区项目、弓河谷隔离带位于坎莫尔附近约完成一半、消防局长 Shawn Polley 强调是减缓而非阻止 | 加州 2025-03 紧急公告快速审批通道、至 2026-06 批准 400 个项目;2026-03 首个部落管理政策目标 750 万英亩;2026-06 五年计划草案评论期至 8 月 7 日 | CAL FIRE 管辖 3100 万英亩、过去五年年均新增 1800 全职+600 季节岗位;FIRIS 自 2019 年飞行逾 2000 架次;山顶 AI 摄像头在报警前识别烟羽;2026-07-07 发射 FireSat 卫星星座;2026-07-15 启动 One Less Spark 宣传(约 95% 加州野火源于人为) | 原住民占加拿大人口约 5% 却占野火疏散人数约 42%、7 月中旬逾 4300 人疏散"
+  },
+  "passage": {
+    "id": "news-wildfire-management-2026-text",
+    "title": "Learning to Live with Fire",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Specialists draw a sharp distinction between hazard and risk. Hazard describes the conditions that make fire likely to start and spread: dry vegetation, strong winds, temperatures raised by climate change. Risk describes where people have chosen to live and how the land around them is managed. By late August 2026 more than 900 fires were burning across Canada and some 3.7 million hectares had burned. Martin Girardin, a forest ecologist with the Canadian Forest Service, was blunt about the limits of response: asking crews to extinguish a fire of that size, he said, is rather like trying to stop a hurricane. Hazard is driven by forces no single country controls; risk, by contrast, is in principle entirely within our power to reduce."
+      },
+      {
+        "label": "B",
+        "text": "For most of human history fire was a tool rather than an enemy. Indigenous and traditional communities on every inhabited continent developed systems for putting flame on the ground at particular seasons and in particular places. Colonial administrations dismantled them. In California, Spanish missionaries punished Indigenous people for setting fires as early as 1793, a prohibition the state legislature renewed in 1850; in Australia, British settlers suppressed Aboriginal burning. Research by the World Resources Institute and WWF-Australia finds that Indigenous-managed lands consistently lose less tree cover, store more carbon and support more biodiversity than comparable surrounding areas when communities hold genuine authority over fire management."
+      },
+      {
+        "label": "C",
+        "text": "Two related practices are being revived under different names. Prescribed burning is the deliberate ignition of low- to moderate-intensity fires, usually before the season begins, to clear accumulated dry vegetation; burning in patches also breaks the landscape into a mosaic that can slow a later blaze. Cultural burning rests on the same physical principle but carries a different purpose. Amy Cardinal Christianson of the Indigenous Leadership Initiative notes that much of the burning her communities did historically took place around settlements and places they valued. This is not nostalgia; it is ecological insight that measurement is only now catching up with."
+      },
+      {
+        "label": "D",
+        "text": "The evidence for both is accumulating. A Stanford-led study drawing on two decades of satellite observations concluded that California could cut smoke-related mortality in active fire years by about 20 per cent by expanding prescribed fire in conifer forests, though the authors did not claim the technique removes exposure; it reduces it, and only where applied at scale. Research summarised in May 2026 found that every dollar the United States Forest Service spent on reducing wildfire risk prevented nearly four dollars of damage. In Arnhem Land an Aboriginal savanna burning programme both lowers emissions and sells carbon credits."
+      },
+      {
+        "label": "E",
+        "text": "Protecting settlements means attending to the buildings themselves. FireSmart, a framework founded in 1993 and now operating in every Canadian province and territory, advises on fire-resistant materials, safe storage of firewood and individual property assessments. Its limits were made plain in Jasper, where about 30 per cent of the town burned in 2024. Fire chief Mathew Conte observed that the destroyed area contained houses built close to conifers, tightly spaced and topped with combustible roofs. One household's precautions, he noted, achieve little if a neighbour's do not: a neighbourhood is only as strong as its weakest link. Rebuilding has focused on education, sprinklers and critical infrastructure."
+      },
+      {
+        "label": "F",
+        "text": "The second line of defence is the fuel break, known in Canada as a fireguard: a band around a settlement where vegetation is cleared or thinned so that an approaching fire has less to consume. Whitehorse has been building one since 2020, and Alberta's Forest Resource Improvement Association started a community programme in 2023. The Bow Valley Community Fireguard, being built outside Canmore near Banff National Park, is about halfway complete. Fire chief Shawn Polley is careful about what such works achieve: they do not stop a fire, they slow it and give crews a safer place to stand."
+      },
+      {
+        "label": "G",
+        "text": "Institutions are changing too. California's governor issued an emergency proclamation in March 2025 creating a fast-track route for forest management and fuel reduction projects that had previously required years of environmental review; by June 2026, 400 had been approved through it. In March 2026 the state's Natural Resources Agency issued California's first Tribal Stewardship Policy, setting a goal of expanding tribal stewardship over at least 7.5 million acres of land and coastal waters. A draft five-year plan released in June was open for comment until 7 August."
+      },
+      {
+        "label": "H",
+        "text": "Detection and staffing have been transformed. CAL FIRE, responsible for 31 million acres, has added an average of 1,800 permanent and 600 seasonal posts a year over the past five years, roughly double the previous pace. The Fire Integrated Real-Time Intelligence System has flown more than 2,000 missions since 2019. Cameras on mountain tops use machine learning to identify smoke plumes and alert dispatchers before emergency calls arrive, and on 7 July 2026 the state launched FireSat, satellites able to detect new ignitions from orbit within minutes. A campaign called One Less Spark, begun on 15 July 2026, targets the behaviour behind an estimated 95 per cent of California's wildfires."
+      },
+      {
+        "label": "I",
+        "text": "None of this alters who bears the consequences. First Nations people account for roughly 42 per cent of wildfire-related evacuations in Canada while making up about 5 per cent of the population, and by mid-July more than 4,300 had been evacuated. The burden falls on those with least control over land-use decisions. The evidence assembled here points away from the customary response: money committed before a fire starts buys more protection than money committed after, and the cheapest hectare to treat is the one that has not yet ignited."
+      }
+    ],
+    "word_count": 917,
+    "topic_tags": [
+      "environment",
+      "policy",
+      "disaster"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-wildfire-management-2026-g1",
+      "type": "identifying_writers_views",
+      "instruction": "Do the following statements agree with the claims of the writer? In boxes 1-5 on your answer sheet, write YES, NO or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The writer accepts that the conditions which make fires likely are largely beyond any one country's control.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "YES"
+          ],
+          "evidence": [
+            {
+              "quote": "Hazard is driven by forces no single country controls",
+              "start": 614,
+              "end": 667,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段末句明确承认 hazard 不受单一国家掌控，作者随即把重点转向 risk。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "The writer regards expanding the firefighting workforce as the most effective way to protect communities.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NO"
+          ],
+          "evidence": [
+            {
+              "quote": "money committed before a fire starts buys more protection than money committed after",
+              "start": 5771,
+              "end": 5855,
+              "paragraph_label": "I",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者明确认为事前投入优于事后投入，并未主张扩充队伍最有效。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "The writer treats Indigenous burning practices as practically useful rather than merely historical.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "YES"
+          ],
+          "evidence": [
+            {
+              "quote": "This is not nostalgia; it is ecological insight that measurement is only now catching up with.",
+              "start": 2078,
+              "end": 2172,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者特意否定「怀旧」的解读，强调其现实价值。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The writer expects the number of people evacuated in Canada to fall in the coming year.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "First Nations people account for roughly 42 per cent of wildfire-related evacuations in Canada while making up about 5 per cent of the population",
+              "start": 5433,
+              "end": 5578,
+              "paragraph_label": "I",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者只描述当前负担分配，对未来疏散人数是否下降未作任何预测。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The writer claims that prescribed burning eliminates the danger from wildfire smoke.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NO"
+          ],
+          "evidence": [
+            {
+              "quote": "the authors did not claim the technique removes exposure; it reduces it, and only where applied at scale",
+              "start": 2440,
+              "end": 2544,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "作者特意澄清是「降低」而非「消除」，且有尺度前提。",
+          "skill_tag": [
+            "writer_attitude"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-wildfire-management-2026-g2",
+      "type": "matching_information",
+      "instruction": "Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-I, in boxes 6-9 on your answer sheet.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "A reference to a formal ban on a long-standing practice imposed more than two centuries ago.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "Spanish missionaries punished Indigenous people for setting fires as early as 1793",
+              "start": 1028,
+              "end": 1110,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "1793 年即两个多世纪前，且 1850 年州议会重申禁令。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "A description of a protective barrier that has not yet been finished.",
+          "answer": "F",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "F"
+          ],
+          "evidence": [
+            {
+              "quote": "The Bow Valley Community Fireguard, being built outside Canmore near Banff National Park, is about halfway complete",
+              "start": 3858,
+              "end": 3973,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段唯一提到「约完成一半」的在建工程。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "A comparison of the cost of prevention with the cost of the damage it avoids.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "every dollar the United States Forest Service spent on reducing wildfire risk prevented nearly four dollars of damage",
+              "start": 2589,
+              "end": 2706,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "1 美元对 4 美元的投入产出比。注意 A 段无成本、H 段只有人员规模。",
+          "skill_tag": [
+            "skimming"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "An account of equipment that can register a fire before a human being reports it.",
+          "answer": "H",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "H"
+          ],
+          "evidence": [
+            {
+              "quote": "Cameras on mountain tops use machine learning to identify smoke plumes and alert dispatchers before emergency calls arrive",
+              "start": 5009,
+              "end": 5131,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "在报警电话到达之前即完成识别与预警。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-wildfire-management-2026-g3",
+      "type": "short_answer",
+      "instruction": "Answer the questions below using words taken from the reading passage. Write your answers in boxes 10-13 on your answer sheet.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "What proportion of Jasper was destroyed by the wildfire of 2024?",
+          "answer": "30 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "30 per cent",
+            "30%"
+          ],
+          "evidence": [
+            {
+              "quote": "about 30 per cent of the town burned in 2024",
+              "start": 3121,
+              "end": 3165,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段直接给出比例。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Near which town is the Bow Valley Community Fireguard being constructed?",
+          "answer": "Canmore",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "Canmore"
+          ],
+          "evidence": [
+            {
+              "quote": "The Bow Valley Community Fireguard, being built outside Canmore near Banff National Park",
+              "start": 3858,
+              "end": 3946,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "注意不要答 Banff National Park，隔离带位于坎莫尔城外。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Approximately what share of California's wildfires is attributed to human behaviour?",
+          "answer": "95 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "95 per cent",
+            "95%"
+          ],
+          "evidence": [
+            {
+              "quote": "an estimated 95 per cent of California's wildfires",
+              "start": 5333,
+              "end": 5383,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "attributed to = targets the behaviour behind。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "According to California's Tribal Stewardship Policy, over what minimum area should tribal stewardship be expanded?",
+          "answer": "7.5 million acres",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "7.5 million acres"
+          ],
+          "evidence": [
+            {
+              "quote": "setting a goal of expanding tribal stewardship over at least 7.5 million acres of land and coastal waters",
+              "start": 4508,
+              "end": 4613,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "minimum area = at least。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

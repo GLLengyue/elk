@@ -1,0 +1,112 @@
+ID: news-mangrove-protection-2026
+TAGS: ecology,carbon,policy
+TITLE: Mangroves and the Price of a Credit
+URL: https://climateinvestmentpartners.com/cip-blueyou-blue-carbon-partnership | https://ecobiz.asia/new-indonesia-draft-gives-coastal-communities-bigger-share-of-carbon-revenue/ | https://carbonmeld.com/en/articles/indonesia-article-6-panel-nesting-carbon-rules | http://www.landscapealliance.org/pt-br/conhecimento/publicacao/9487
+NOTES: 事实取自 CIP 与 Blueyou 2026-08-19 谅解备忘录（整合红树林修复与可持续沿海生计、综合红树林水产养殖 IMA、约 100 万公顷前红树林海岸可改造、CIP 自 2023 年推进的 Pesisir Biru Nusantara 项目目标修复 10,000 公顷、年产约 140,000 碳信用、惠及 2,000 余人、长鼻猴与食蟹猕猴栖息地） | 印尼海洋渔业部(KKP)规章草案（落实 2025 年第 110 号总统条例）：所有项目须经 SRUK 完成登记、审定、核查与记录后方可签发碳信用；社区至少获得 50% 净财务收益及非货币收益；须取得自由事先知情同意(FPIC)、开展环境与社会影响评估、按坐标核验边界 | 林业部 2026 年第 6 号条例为该国首个可操作的碳交易规章，农业部与能源部仍在起草 | Article 6 方法学专家组与 12-18 个月的 nesting 框架（Carbon Pulse 2026-08-06 报道） | IDXCarbon 7 月成交连续第二个月回升但远低于年初高点 | CIFOR/ICRAF 2026 报告(Erlangga, Leimona, Murdiyarso)：公共财政为早期红树林投资支柱，自愿碳市场最受关注，"三重红利"框架，扩展取决于交易准备度、碳权与授权清晰度、MRV 可负担性与可信度
+
+--- A
+Mangroves do several jobs at once. Their roots bind sediment, which slows erosion and takes the force out of storm surges; the mud they sit in stores carbon more densely per hectare than most forests on land; and their submerged roots shelter the juvenile fish on which a large part of the tropical coastal catch depends. Roughly a fifth of the world's remaining mangroves grow in Indonesia, which makes the archipelago the single most important country for any global attempt to protect or restore them. It has also lost a great deal of what it once had, mostly to aquaculture ponds and land conversion, so the distance between what is there and what could be there is unusually wide.
+--- B
+The proposals now on the table are large. In August 2026 a carbon project developer and a sustainable seafood company signed an agreement to build combined mangrove restoration and coastal livelihood projects, pairing carbon finance with a method known as Integrated Mangrove Aquaculture, in which ponds are redesigned so that mangroves and farmed fish or shrimp share the same ground. Their estimate is that around a million hectares of former mangrove along the coast could be turned from unproductive ponds into what one executive described as blue food forests. A scheme already under development aims to restore 10,000 hectares, generate roughly 140,000 carbon credits a year and support more than 2,000 local people, while improving habitat for species such as the proboscis monkey.
+--- C
+Money is the hard part. A review published in 2026 by a forestry research organisation concluded that public finance remains the backbone of early mangrove investment in Indonesia, channelled through national budgets, subnational delivery mechanisms and international partnerships, while market mechanisms, particularly voluntary carbon trading, have attracted most of the attention. The case for pressing on rests on what its authors call a triple dividend: climate mitigation and adaptation, coastal resilience and biodiversity, and improved livelihoods and social equity, with the last of these most likely to materialise where local communities help to design and manage a project and share in what it earns.
+--- D
+Regulation is catching up with the ambition. A draft rule for the marine and fisheries sector, prepared under a 2025 presidential regulation on carbon economic value, would require every project to complete registration, validation, verification and recording in the national registry, referred to as SRUK, before any credit is issued. The obligations do not stop at paperwork. Developers must set out how benefits will be shared, and coastal communities are to receive at least 50 per cent of net financial benefits, along with training, technology transfer and alternative livelihoods. This is not confined to credits sold abroad: any project in the sector must comply. Consent has to be free, prior and informed, environmental and social assessments are compulsory, and boundaries must be checked by coordinate so that two projects cannot claim the same stretch of coast.
+--- E
+Selling to foreign buyers adds a further layer. Transfers under Article 6 of the Paris Agreement require government authorisation and a corresponding adjustment to the national inventory, and the government has said it will establish a scientific panel to write the methodologies on which those trades depend. Alongside it sits a nesting framework, targeted for completion within twelve to eighteen months, intended to let project-level credits sit inside the national accounts. Nesting exists to solve a specific problem: without it, the same reduction can be counted twice, once by the project and once by the country.
+--- F
+Whether any of this produces a market is another question. Activity on the country's carbon exchange rose for a second consecutive month in July 2026, but volumes remained well below the highs set earlier in the year, and domestic trading remains thin. Rule-making is therefore running well ahead of the demand that would justify it, and the buyers the new infrastructure is being built for are largely outside the country. Whether the scientific panel adopts methodologies already in international use or writes Indonesian ones from scratch will determine how much existing project design survives the change.
+--- G
+At project level the obstacles are unglamorous. Carbon rights and the authority to sell them are not clearly defined, which makes investors cautious. Measurement, reporting and verification is expensive and its credibility uneven, yet it is what decides whether a credit can be sold at all. Negotiating with communities calls for skills that neither developers nor officials necessarily have, and benefit-sharing arrangements that look fair on paper can fail in practice. Other ministries are moving at different speeds: forestry already has an operating regulation, while agriculture and energy are still drafting theirs.
+
+### GROUP matching_headings
+INSTR: The reading passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B, C, D, E and G from the list of headings below.
+ORDERED: false
+OPTIONS:
+    i | A mechanism for reconciling individual projects with national accounts
+    ii | Why the buying side has not kept pace with the rule-making
+    iii | The share of the world's mangroves held by one country
+    iv | What developers must do before credits can be issued
+    v | Proposals for combining restoration with food production
+    vi | Practical obstacles that remain at project level
+    vii | Sources of money and the benefits claimed to follow from them
+    viii | The likely effect of sea-level rise on coastal settlements
+Q1 Paragraph B
+ANS: v
+EV: B | pairing carbon finance with a method known as Integrated Mangrove Aquaculture, in which ponds are redesigned so that mangroves and farmed fish or shrimp share the same ground
+SKILL: main_idea
+EXP: B 段主旨是修复与水产养殖结合的方案；viii 在文中无对应内容，属纯干扰项。
+Q2 Paragraph C
+ANS: vii
+EV: C | public finance remains the backbone of early mangrove investment in Indonesia
+SKILL: main_idea
+EXP: C 段先讲资金来源再讲"三重红利"，vii 概括准确；iii 是 A 段内容，勿混淆。
+Q3 Paragraph D
+ANS: iv
+EV: D | would require every project to complete registration, validation, verification and recording in the national registry, referred to as SRUK, before any credit is issued
+SKILL: main_idea
+EXP: D 段围绕签发信用前的合规要求展开，首句即主旨。
+Q4 Paragraph E
+ANS: i
+EV: E | intended to let project-level credits sit inside the national accounts
+SKILL: main_idea
+EXP: E 段后半段专讲 nesting 如何把项目级信用纳入国家账册。
+Q5 Paragraph G
+ANS: vi
+EV: G | Carbon rights and the authority to sell them are not clearly defined, which makes investors cautious
+SKILL: main_idea
+EXP: G 段列举碳权、MRV 与社区谈判等落地障碍，vi 概括准确；ii 是 F 段主旨。
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q6 Indonesia holds approximately one-fifth of the world's mangroves.
+ANS: TRUE
+EV: A | Roughly a fifth of the world's remaining mangroves grow in Indonesia
+PARA: approximately one-fifth >>> Roughly a fifth
+SKILL: paraphrase
+EXP: A 段直接给出比例。
+Q7 A project may issue carbon credits before it has been entered in the national registry.
+ANS: FALSE
+EV: D | would require every project to complete registration, validation, verification and recording in the national registry, referred to as SRUK, before any credit is issued
+SKILL: detail
+EXP: 原文把登记核验设为签发信用的前置条件，题干与之相反。
+Q8 The scientific panel has so far approved only methodologies written in Indonesia.
+ANS: NOT GIVEN
+EV: F | Whether the scientific panel adopts methodologies already in international use or writes Indonesian ones from scratch will determine how much existing project design survives the change
+SKILL: inference
+EXP: 原文明确指出专家组将采用何种方法学尚未确定，故无从判断其已批准了什么。
+Q9 Trading on the domestic carbon exchange has regained the levels seen at the start of the year.
+ANS: FALSE
+EV: F | volumes remained well below the highs set earlier in the year
+SKILL: detail
+EXP: 原文说成交量远低于年初高点，与题干相反。
+
+### GROUP summary_completion summary
+INSTR: Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Indonesia is assembling the rules that will govern blue carbon. Before any credit can be issued, a project must be registered, validated, verified and recorded in 10. ______. Developers must also hand over at least half of the 11. ______ to coastal communities and obtain their free, prior and informed consent. For sales abroad a further mechanism is needed: a nesting framework is intended to fit project credits inside national accounts so that the same reduction is not 12. ______ twice. At project level, measurement, reporting and verification is costly and of uneven 13. ______, yet it decides whether a credit can be sold at all.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 (summary blank 10)
+ANS: SRUK
+FORM: free_text
+EV: D | recording in the national registry, referred to as SRUK, before any credit is issued
+SKILL: scanning
+EXP: 登记制度的缩写只在 D 段出现一次。
+Q11 (summary blank 11)
+ANS: net financial benefits
+FORM: free_text
+EV: D | coastal communities are to receive at least 50 per cent of net financial benefits
+SKILL: paraphrase
+EXP: 题干 at least half = 原文 at least 50 per cent。
+Q12 (summary blank 12)
+ANS: counted
+FORM: free_text
+EV: E | without it, the same reduction can be counted twice, once by the project and once by the country
+SKILL: paraphrase
+EXP: 摘要复述 nesting 要解决的双重计算问题。
+Q13 (summary blank 13)
+ANS: credibility
+FORM: free_text
+EV: G | Measurement, reporting and verification is expensive and its credibility uneven
+SKILL: paraphrase
+EXP: 题干 costly = expensive，of uneven credibility = its credibility uneven。

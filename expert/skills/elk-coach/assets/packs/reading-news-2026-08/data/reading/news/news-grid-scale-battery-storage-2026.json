@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-grid-scale-battery-storage-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-grid-scale-battery-storage-2026",
+    "source_url": "https://www.sourcebyspec.com/news/grid-scale-battery-storage-2026-competitive-landscape-and-capacity-snapshot.html",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 SEIA/Wood Mackenzie 2026 Q1 数据(8.4 GWh 同比 +54%、累计超 100 GWh、在建超 80 GWh、户储 1.3 GWh 但 2026 预计收缩 5%) | BloombergNEF 电芯价格调查(2010 $1,191 → 2023 $139 → 2024 $115 → 2025 $108，固定式储能电芯 2025 年 $70/kWh 同比 -45%) | NREL 2025 版成本预测(4 小时系统 2026 中位 $308/kWh、2035 $243、2050 $178) | 化学体系对比(LFP $130-160/2-4h、NMC $160-200/1-2h、全钒液流 $250-400/6-12h、钠离子 <$130 早期) | EIA 2026 各州规划(德州 12.9 GW 53%、加州 3.4 GW 14%、亚利桑那 3.2 GW 13%) | Form Energy 铁空气电池 2026-03 多尼戈尔 10 MW/1,000 MWh、100 小时 | Bellefield 与亚马逊 15 年合约 | SolarPower Europe 2026-06 呼吁储能行动计划"
+  },
+  "passage": {
+    "id": "news-grid-scale-battery-storage-2026-text",
+    "title": "Queues, Not Chemistry",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In the first quarter of 2026 the United States added about 8.4 gigawatt-hours of storage to its grid, some 54 per cent above the previous record for the period. Cumulative capacity crossed 100 gigawatt-hours in the second quarter, and total installed storage passed 52 gigawatts after 8.3 gigawatts arrived in a single half-year, with more than 54 gigawatts queued behind it. Storage is no longer an accessory bolted on to renewable projects. It has become the standard companion to new solar capacity, and increasingly the thing that decides whether a solar plant is built at all."
+      },
+      {
+        "label": "B",
+        "text": "The reason is price. BloombergNEF has surveyed lithium-ion pack prices since 2010, when they stood at $1,191 per kilowatt-hour; by 2023 the figure was $139, in 2024 it was $115 and in 2025 it was $108, a fall of 93 per cent in fifteen years. The 2025 survey contained a less noticed result buried in its segment tables: packs destined for stationary storage fell to $70 per kilowatt-hour, 45 per cent below the previous year, making grid batteries the cheapest application for a lithium cell anywhere. At that level a four-hour battery can undercut a new gas peaking plant on levelised cost in most American markets."
+      },
+      {
+        "label": "C",
+        "text": "Choosing what to build is now a question of chemistry. Developers procuring in 2026 are largely standardising on lithium iron phosphate, which offers two to four hours of discharge, six to ten thousand cycles and a system cost of $130-160 per kilowatt-hour, and which has become the default where four-hour duration is required. Nickel manganese cobalt, at $160-200 and three to five thousand cycles, is losing share. Vanadium flow batteries store for six to twelve hours and survive fifteen to twenty thousand cycles, but at $250-400 per kilowatt-hour they remain a niche. Sodium-ion, projected below $130, is still at an early commercial stage."
+      },
+      {
+        "label": "D",
+        "text": "Where the capacity goes is determined less by policy than by queues and land. Three states account for about 80 per cent of planned American additions in 2026: Texas, with 12.9 gigawatts, California with 3.4 and Arizona with 3.2. Texas leads because its market is the one large system where an interconnection decision arrives on something close to a financing timetable, and because West Texas offers flat, cheap, permittable land beside existing transmission. California pays a higher price per megawatt-hour but requires four hours of duration, which makes each megawatt dearer, and its route to a signed agreement is considerably harder."
+      },
+      {
+        "label": "E",
+        "text": "Revenue comes from several directions at once. Operators earn from capacity markets, from buying cheap power and selling it dear, and from ancillary services that keep the grid stable, and increasingly they co-locate batteries with solar plants so that the two share a connection. The fastest-growing customer, however, is the data centre. Hyperscale operators have shown themselves willing to sign fifteen-year contracts for firm power: the Bellefield project in Kern County, California, was built on a fifteen-year agreement with Amazon and will reach 2,000 megawatts when its second phase is finished."
+      },
+      {
+        "label": "F",
+        "text": "Almost all of this capacity is short. Most grid batteries deliver between one and four hours, which is enough to move solar output into the evening peak but not enough to cover several consecutive days of low wind. Long-duration technologies aim at that gap. In March 2026 Form Energy and FuturEnergy Ireland announced plans for a 10 megawatt, 1,000 megawatt-hour iron-air battery in County Donegal, capable of discharging for up to 100 hours at roughly a tenth of the cost per kilowatt-hour of lithium-ion. Advocates argue that such systems are what a wind-heavy grid needs when the wind stops for days."
+      },
+      {
+        "label": "G",
+        "text": "The binding constraint has moved. Chemistry and cost are no longer the obstacles they were; permitting, interconnection queues and trade policy are. Developers in the United States face tariffs on imported battery components that tighten margins for anyone still negotiating supply, and connection backlogs that can delay a finished project by years. In Europe the picture is similar: SolarPower Europe argued in June 2026 that the binding constraint is the grid-connection queue rather than project economics, and called for a dedicated action plan to clear it."
+      },
+      {
+        "label": "H",
+        "text": "How much further costs fall is contested. The National Renewable Energy Laboratory's mid-case projection for a complete four-hour system is $308 per kilowatt-hour in 2026, falling to $243 by 2035 and $178 by 2050, a far gentler slope than the one the industry has just travelled. The residential segment, unusually, is expected to contract by about 5 per cent in 2026 even though it recorded 1.3 gigawatt-hours in the first quarter, largely because buyers pulled purchases forward before a tax credit expired. The technology has won its argument; the remaining question is how quickly paperwork and copper can keep up."
+      }
+    ],
+    "word_count": 784,
+    "topic_tags": [
+      "energy",
+      "technology",
+      "battery"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-grid-scale-battery-storage-2026-g1",
+      "type": "matching_features",
+      "instruction": "Match each description with the correct battery chemistry. Write the correct letter, A-E, in boxes 1-5 on your answer sheet.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "Lithium iron phosphate"
+        },
+        {
+          "key": "B",
+          "text": "Nickel manganese cobalt"
+        },
+        {
+          "key": "C",
+          "text": "Vanadium flow"
+        },
+        {
+          "key": "D",
+          "text": "Iron-air"
+        },
+        {
+          "key": "E",
+          "text": "Sodium-ion"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Capable of discharging continuously for around a hundred hours.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "capable of discharging for up to 100 hours at roughly a tenth of the cost per kilowatt-hour of lithium-ion",
+              "start": 3493,
+              "end": 3599,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段铁空气电池可放电至多 100 小时。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Expected to become the least expensive option, but not yet fully commercial.",
+          "answer": "E",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "E"
+          ],
+          "evidence": [
+            {
+              "quote": "Sodium-ion, projected below $130, is still at an early commercial stage.",
+              "start": 1773,
+              "end": 1845,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 least expensive = below $130（最低），not yet fully commercial = early commercial stage。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Offers the longest discharge time and cycle life of the established chemistries, at the highest cost.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "Vanadium flow batteries store for six to twelve hours and survive fifteen to twenty thousand cycles, but at $250-400 per kilowatt-hour they remain a niche.",
+              "start": 1617,
+              "end": 1772,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "6-12 小时最长、15,000-20,000 次循环最多、$250-400 最贵。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The usual choice wherever a project must deliver four hours of output.",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "which has become the default where four-hour duration is required",
+              "start": 1461,
+              "end": 1526,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 usual choice = 原文 default。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Losing market share and more expensive per kilowatt-hour than the standard option.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "Nickel manganese cobalt, at $160-200 and three to five thousand cycles, is losing share.",
+              "start": 1528,
+              "end": 1616,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "$160-200 高于 LFP 的 $130-160，且原文明示 losing share。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-grid-scale-battery-storage-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The price of battery packs intended for stationary storage fell by close to half in 2025.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "packs destined for stationary storage fell to $70 per kilowatt-hour, 45 per cent below the previous year",
+              "start": 902,
+              "end": 1006,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "45% 即「接近一半」。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Demand for home battery systems in the United States is forecast to rise in 2026.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "The residential segment, unusually, is expected to contract by about 5 per cent in 2026",
+              "start": 4541,
+              "end": 4628,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "contract（收缩）与 rise（上升）矛盾。注意不要被 Q1 户储创纪录所误导，那是税收抵免到期前的提前购买。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "NREL projects that a four-hour lithium-ion system will cost less than $200 per kilowatt-hour by 2035.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "falling to $243 by 2035 and $178 by 2050",
+              "start": 4433,
+              "end": 4473,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "2035 年中位预测为 $243，低于 $200 要等到 2050 年的 $178。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The County Donegal iron-air battery will be followed by several more such projects in Ireland.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "In March 2026 Form Energy and FuturEnergy Ireland announced plans for a 10 megawatt, 1,000 megawatt-hour iron-air battery in County Donegal",
+              "start": 3352,
+              "end": 3491,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只说该项目的规模与地点，未提是否还有后续项目，属未提及。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-grid-scale-battery-storage-2026-g3",
+      "type": "summary_completion",
+      "instruction": "Complete the notes below using words from the passage. Write your answers in boxes 10-13 on your answer sheet.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "United States storage added in the first quarter of 2026: approximately 10. ______.",
+          "answer": "8.4 gigawatt-hours",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "8.4 gigawatt-hours",
+            "8.4 GWh"
+          ],
+          "evidence": [
+            {
+              "quote": "In the first quarter of 2026 the United States added about 8.4 gigawatt-hours of storage to its grid, some 54 per cent above the previous record for the period.",
+              "start": 0,
+              "end": 160,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段首句直接给出。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "BloombergNEF's 2025 price for stationary storage packs, per kilowatt-hour: 11. ______.",
+          "answer": "$70",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "$70",
+            "70 dollars"
+          ],
+          "evidence": [
+            {
+              "quote": "packs destined for stationary storage fell to $70 per kilowatt-hour",
+              "start": 902,
+              "end": 969,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "注意区分整包均价 $108 与固定式专用的 $70。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "NREL mid-case capital cost of a complete four-hour system in 2026, per kilowatt-hour: 12. ______.",
+          "answer": "$308",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "$308"
+          ],
+          "evidence": [
+            {
+              "quote": "The National Renewable Energy Laboratory's mid-case projection for a complete four-hour system is $308 per kilowatt-hour in 2026",
+              "start": 4303,
+              "end": 4431,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "H 段明确为中位情形。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Additional United States storage capacity waiting in connection queues: more than 13. ______.",
+          "answer": "54 gigawatts",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "54 gigawatts",
+            "54 GW"
+          ],
+          "evidence": [
+            {
+              "quote": "with more than 54 gigawatts queued behind it",
+              "start": 330,
+              "end": 374,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "waiting in connection queues = queued behind it。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "note",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

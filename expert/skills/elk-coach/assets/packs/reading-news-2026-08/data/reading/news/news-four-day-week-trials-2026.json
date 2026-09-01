@@ -1,0 +1,531 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-four-day-week-trials-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-four-day-week-trials-2026",
+    "source_url": "https://britbrief.co.uk/business/employment/four-day-week-uk-trial-a-resounding-success.html",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文，URL 仅作事实溯源。事实归属：英国 2022 年试点（61 家公司、2,900 名员工、病假减约三分之二、辞职降 57%、收入升 1.4%、56/61 延续、18 家永久，4 Day Week Global 新西兰成立，Autonomy 智库，Joe Ryle）；冰岛 2015–2019 试点（2,500 公共部门工人、约 1% 劳动力、35–36 小时、100% 生产力保持、40% 提升、2019 年正式采纳、2026 年 86% 劳动人口享有缩短工时权）；Nature Human Behaviour 2025 年同行评审（2,896 名员工、141 组织、6 国、90% 保留、12 个月追踪收益持久）；北美 2023 年试点（33 家公司、97% 保留、倦怠降 68%）；微软日本 2019 年试验（2,300 员工、人均销售额升近 40%）；冰岛劳动生产力年增约 1.5%（Nordic 最高）；比利时 4x10 压缩立法；西班牙国家试点（数百家公司）；东京 16 万市政员工四天制选择权；英国 4 Day Week Foundation 2025 年最新试点 17 家全部保留；马来西亚 SME 协会 Ding Hong Sing 反对观点；乌克兰分析（时薪成本升 25%）；美国四天学校周研究（Cade Lawson 德州 17 年数据、离职率仅降 2.7 个百分点）；英格兰教师四天制提案。"
+    },
+    "retrieved_at": "2026-08-30T16:00:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "基于公开新闻事实由模型改写成雅思学术体并命题 信源: https://britbrief.co.uk/business/employment/four-day-week-uk-trial-a-resounding-success.html | https://research.mental-momentum.ai/r/what-have-we-learned-four-day-work-week-bm21bc | https://www.sci-tech-today.com?p=23356/ | https://www.job200.com/blog/the-four-day-work-week-in-2026-why-global-adoption-is-surging | https://www.learnersink.com/blog/four-day-work-week-2026-reality-check | https://labwyze.com/blog/four-day-workweek-standard | https://en.timeforaction.info/2026/07/17/four-day-workweek-ukraine-2 | https://www.adrianyeo.com?p=7159/ | https://www.thehrdigest.com/will-the-uaw-demands-of-a-4-day-workweek-be-met-by-the-big-3/ | https://www.talkandroid.com/528745-four-day-workweek-icelands-success-story-proves-gen-z-was-right-all-along-87321/ | https://www.collegesimplified.in/post/the-4-day-work-week-which-countries-are-adopting-it-and-does-it-really-work | https://mylistingo.com/rise-of-four-day-work-week-2026-countries-companies-embracing/ | https://ohmyclassroom.com/four-day-school-week-research | https://globalspark.news/lifestyle/health/four-day-week-proposed-to-end-englands-teacher-crisis.html"
+  },
+  "passage": {
+    "id": "news-four-day-week-trials-2026-text",
+    "title": "The Four-Day Week: Evidence from Global Trials",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The five-day, forty-hour working week has governed industrial economies for almost a century, yet its authority is now being questioned. Employers and governments have begun experimenting with a four-day week, in which staff work fewer hours, usually while keeping their full salary. The version that attracts most attention is known as the 100-80-100 principle: employees receive 100 per cent of their pay for roughly 80 per cent of their previous hours, on the understanding that they maintain 100 per cent of their output. This model should be distinguished from a compressed schedule, in which the same forty hours are packed into four longer days, since the two arrangements produce different results."
+      },
+      {
+        "label": "B",
+        "text": "The largest coordinated trial to date was held in the United Kingdom in 2022, when 61 companies and roughly 2,900 employees joined a six-month experiment organised by 4 Day Week Global, a not-for-profit founded in New Zealand, and overseen by the think-tank Autonomy. During the pilot, sick leave taken by staff fell by about two-thirds, and 57 per cent fewer employees resigned than a year earlier. Company revenues rose by an average of 1.4 per cent, and in some cases by up to 35 per cent. When the trial ended, 56 of the 61 firms chose to continue with the shorter week, and 18 made it permanent. Joe Ryle, director of the 4 Day Week Campaign, called the outcome 'a major breakthrough moment'."
+      },
+      {
+        "label": "C",
+        "text": "Iceland has come closest to turning the experiment into national policy. Between 2015 and 2019, roughly 2,500 public-sector workers, about one per cent of the workforce, took part in a trial covering government offices, hospitals, preschools and police stations. Weekly hours were cut from forty to between 35 and 36, sometimes lower, without any reduction in pay. Follow-up research found that every workplace in the trial maintained its previous level of productivity, and about 40 per cent actually improved it. The model was formally adopted in 2019, and by 2026 roughly 86 per cent of Icelandic employees either worked reduced hours or held the legal right to request them."
+      },
+      {
+        "label": "D",
+        "text": "Recent academic work has reinforced these findings. A peer-reviewed study published in 2025 in the journal Nature Human Behaviour examined 2,896 employees in 141 organisations across six countries and found that 90 per cent of the companies retained the shorter schedule six months after the trial ended. A twelve-month follow-up indicated that the gains in well-being were durable rather than a temporary 'honeymoon effect', the term psychologists use for enthusiasm that fades once a policy becomes routine. Data from a 2023 North American trial of 33 companies pointed the same way: 97 per cent of employers intended to keep the model, while burnout among staff fell by 68 per cent."
+      },
+      {
+        "label": "E",
+        "text": "Why does reducing hours so often preserve, or even improve, output? Researchers attribute this to the discipline that a shorter week imposes on the way work is organised. Teams are forced to eliminate low-value meetings and concentrate on essential tasks, and remote-working infrastructure built during the pandemic helps sustain such reorganisation. In knowledge industries such as software development and consulting, output is not tied to physical presence, so rested employees can complete the same volume of work in fewer hours. A frequently cited illustration comes from Japan, where a month-long experiment at Microsoft Japan involving 2,300 employees reported a rise in sales per employee of almost 40 per cent."
+      },
+      {
+        "label": "F",
+        "text": "The picture is far less uniform across the economy, and the strongest objections come from sectors where output depends on physical presence. A shop cannot simply close for a day, and a hospital cannot suspend care. In shift-based operations, employers worry about maintaining coverage across the working week and about the cost of hiring extra staff to run additional shifts; paying the same salary for fewer hours raises the cost of each hour of labour by about 25 per cent. Ding Hong Sing, president of the SME Association of Malaysia, argued that in economies with low automation and labour shortages, cutting hours would reduce output and push up prices. By contrast, knowledge firms report lower absenteeism and stronger retention."
+      },
+      {
+        "label": "G",
+        "text": "Even where the shorter week has been welcomed, the promised benefits are not always realised. Research on the four-day school week in the United States, where more than 2,100 schools in 26 states have adopted the schedule, suggests that some claims are overstated. A study of Texas school districts over 17 years by the economist Cade Lawson found that teacher turnover fell by only 2.7 percentage points after districts switched. In England, the 4 Day Week Foundation has proposed a four-day week for teachers to tackle burnout and unpaid overtime, arguing that schools could remain open five days through flexible rostering."
+      },
+      {
+        "label": "H",
+        "text": "Policy responses have been uneven. Belgium became the first European country to pass legislation enabling a four-day week, but its version requires employees to work ten hours on each of four days, a compressed arrangement that critics say reproduces rather than relieves exhaustion. Spain has launched a national pilot involving hundreds of companies, while the Japanese government has promoted shorter hours under its 'work-style reform', and Tokyo has offered the option to roughly 160,000 municipal employees. In the United Kingdom, the 4 Day Week Foundation reported in 2025 that all seventeen firms in its latest pilot chose to retain the shorter week."
+      }
+    ],
+    "word_count": 884,
+    "topic_tags": [
+      "economics",
+      "labour policy",
+      "productivity"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-four-day-week-trials-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage?",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The UK trial of 2022 involved more than three thousand employees.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "61 companies and roughly 2,900 employees joined a six-month experiment",
+              "start": 790,
+              "end": 860,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "more than three thousand",
+              "to": "roughly 2,900",
+              "kind": "distortion"
+            }
+          ],
+          "explanation": "B 段明确说参与员工约 2,900 名，不足 3,000，题干说 more than three thousand 与原文矛盾。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Iceland formally adopted the shorter working week in 2019.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "The model was formally adopted in 2019",
+              "start": 1920,
+              "end": 1958,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "formally adopted the shorter working week in 2019",
+              "to": "The model was formally adopted in 2019",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段末句确认冰岛四天工作制于 2019 年正式采纳，与题干一致。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Every workplace that took part in the Icelandic trial achieved an increase in productivity.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "every workplace in the trial maintained its previous level of productivity, and about 40 per cent actually improved it",
+              "start": 1800,
+              "end": 1918,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "every workplace ... achieved an increase in productivity",
+              "to": "every workplace ... maintained its previous level of productivity, and about 40 per cent actually improved it",
+              "kind": "distortion"
+            }
+          ],
+          "explanation": "C 段表示所有工作场所都保持了原有生产力，但只有约 40% 实现提升，60% 只是保持而非提升，因此题干说「所有工作场所都提升了产出」是错误的。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The peer-reviewed study published in 2025 found that 90 per cent of participating companies had kept the four-day week six months after the trial ended.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "90 per cent of the companies retained the shorter schedule six months after the trial ended",
+              "start": 2296,
+              "end": 2387,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "kept the four-day week six months after the trial ended",
+              "to": "retained the shorter schedule six months after the trial ended",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段提到 Nature Human Behaviour 2025 年研究：90% 公司在试验结束 6 个月后仍保留缩短工时制，与题干一致。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The Scottish government has introduced a four-day week for its civil servants.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Policy responses have been uneven",
+              "start": 4855,
+              "end": 4888,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "The Scottish government has introduced",
+              "to": "Policy responses have been uneven",
+              "kind": "omission"
+            }
+          ],
+          "explanation": "H 段列举了比利时、西班牙、日本、英国的政策措施，但未提及苏格兰的任何试点或立法，因此该信息在原文中无从查找。",
+          "skill_tag": [
+            "inference",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-four-day-week-trials-2026-g2",
+      "type": "matching_features",
+      "instruction": "Look at the following findings (Questions 6-9) and the list of countries and organisations below. Match each finding with the correct country or organisation, A-F.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "Iceland"
+        },
+        {
+          "key": "B",
+          "text": "Japan"
+        },
+        {
+          "key": "C",
+          "text": "The United Kingdom"
+        },
+        {
+          "key": "D",
+          "text": "Belgium"
+        },
+        {
+          "key": "E",
+          "text": "Nature Human Behaviour study"
+        },
+        {
+          "key": "F",
+          "text": "South Africa"
+        }
+      ],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "A trial in which all participating workplaces held output steady and about 40 per cent improved it",
+          "answer": "A",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "every workplace in the trial maintained its previous level of productivity, and about 40 per cent actually improved it",
+              "start": 1800,
+              "end": 1918,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "held output steady and about 40 per cent improved it",
+              "to": "maintained its previous level of productivity, and about 40 per cent actually improved it",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段描述的就是冰岛试验，100% 保持生产力且约 40% 提升。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "A month-long experiment in which sales per employee rose by almost 40 per cent",
+          "answer": "B",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "a month-long experiment at Microsoft Japan involving 2,300 employees reported a rise in sales per employee of almost 40 per cent",
+              "start": 3360,
+              "end": 3488,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "sales per employee rose by almost 40 per cent",
+              "to": "a rise in sales per employee of almost 40 per cent",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "E 段末提到微软日本试验，人均销售额提升近 40%，对应日本。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The first European country to legislate for a four-day week, using compressed daily hours",
+          "answer": "D",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Belgium became the first European country to pass legislation enabling a four-day week, but its version requires employees to work ten hours on each of four days",
+              "start": 4890,
+              "end": 5051,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "legislate for a four-day week, using compressed daily hours",
+              "to": "pass legislation enabling a four-day week, but its version requires employees to work ten hours on each of four days",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "H 段首句明确比利时是第一个立法通过四天工作制的欧洲国家，且要求每天工作十小时的压缩制。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "A peer-reviewed analysis of 2,896 workers in 141 organisations across six countries",
+          "answer": "E",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "A peer-reviewed study published in 2025 in the journal Nature Human Behaviour examined 2,896 employees in 141 organisations across six countries",
+              "start": 2136,
+              "end": 2280,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "peer-reviewed analysis of 2,896 workers in 141 organisations across six countries",
+              "to": "A peer-reviewed study published in 2025 in the journal Nature Human Behaviour examined 2,896 employees in 141 organisations across six countries",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段描述的 Nature Human Behaviour 研究正好覆盖 2,896 名员工、141 家组织、6 个国家，对应选项 E。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-four-day-week-trials-2026-g3",
+      "type": "summary_completion",
+      "subtype": "summary",
+      "instruction": "Complete the summary below. Choose NO MORE THAN ONE WORD from the passage for each answer.",
+      "word_limit": "ONE WORD",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "The 100-80-100 model requires employees to sustain 100 per cent of their  ____.",
+          "answer": "output",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "on the understanding that they maintain 100 per cent of their output",
+              "start": 456,
+              "end": 524,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "sustain 100 per cent of their ...",
+              "to": "maintain 100 per cent of their output",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段解释 100-80-100 原则，员工需保持 100% 的 output。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "output"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "In shift-based sectors, employers worry about maintaining  ____ across the working week.",
+          "answer": "coverage",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "employers worry about maintaining coverage across the working week",
+              "start": 3733,
+              "end": 3799,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "maintaining ... across the working week",
+              "to": "maintaining coverage across the working week",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段指出轮班制行业最担心的是维持 coverage。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "coverage"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Paying the same salary for fewer hours makes hiring extra staff to run additional  ____ expensive.",
+          "answer": "shifts",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "hiring extra staff to run additional shifts",
+              "start": 3822,
+              "end": 3865,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "hiring extra staff to run additional ...",
+              "to": "hiring extra staff to run additional shifts",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段提到轮班制行业需额外雇佣员工来运行 additional shifts。",
+          "skill_tag": [
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "shifts"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Knowledge firms report lower  ____ and stronger staff retention.",
+          "answer": "absenteeism",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "knowledge firms report lower absenteeism and stronger retention",
+              "start": 4163,
+              "end": 4226,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "report lower ... and stronger staff retention",
+              "to": "report lower absenteeism and stronger retention",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段末句对比知识密集型行业，report lower absenteeism。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "absenteeism"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-30T16:00:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

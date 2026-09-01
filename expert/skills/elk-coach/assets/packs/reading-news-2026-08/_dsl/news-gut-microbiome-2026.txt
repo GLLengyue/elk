@@ -1,0 +1,123 @@
+ID: news-gut-microbiome-2026
+TITLE: Reading the Community in Your Gut
+TAGS: health,science,nutrition
+URL: https://www.gutmicrobiotaforhealth.com/species-level-food-specific-associations-predicted-in-a-cohort-of-10068-people-may-guide-personalized-nutrition
+NOTES: 事实核自 Human Phenotype Project/Nature Medicine 2026 Segev et al.(10068 人、发现队列 7998、测试集 2070、随访 2 年 1654/4 年 1412、饮食预测 92% 物种(669/724)与 98% 通路(313/320)、加工程度>动植物结构、超加工食品为最强负向预测、咖啡↔L.asaccharolyticus、酸奶↔S.thermophilus、乳/面包↔Bifidobacterium、坚果/香蕉↔Lachnospiraceae、Akkermansia/F.prausnitzii 最常随饮食改变、需随机试验|Penn 综述 Nature Reviews Microbiology 2026-08-03(Hyun Koo、Gary Wu、Charlene Compher、Jeonbuk 国立大学: 固态发酵植物食物>液态益生菌、纤维结构保护活菌、三步征途-建数据库/分析工具/定义产品、强调严谨测试)
+
+--- A
+In the past two decades the trillions of bacteria that live inside the human gut have moved from a medical curiosity to a central character in the story of health. The community, collectively known as the gut microbiome, has been linked to digestion, immunity, mood and even the response to cancer treatment. Yet for all this attention, one question has proved stubbornly hard to answer: if the bacteria in our intestines are shaped by what we eat, why can we not simply read a person's gut and prescribe a diet?
+--- B
+A study published in Nature Medicine in 2026 brought the field closer to an answer. Researchers working with a cohort of more than ten thousand adults in Israel drew on app-based food diaries and shotgun metagenomic sequencing, which reads the genetic material of every organism in a sample at once. Rather than looking at broad categories of bacteria, they worked at the level of individual species, the finest point at which a microbe can be identified. Accounting for age, sex, body-mass index and underlying illness, diet predicted the abundance of nine in ten of the gut species they tested, and of ninety-eight per cent of the metabolic pathways they measured.
+--- C
+The most striking finding concerned what mattered most. The researchers did not find that the split between a plant-rich and an animal-rich diet was the dominant influence on microbial diversity. Instead, the degree to which a food had been processed predicted diversity more strongly. Minimally processed, nutrient-dense food was the strongest positive predictor of the range of species present, while ultra-processed food was the strongest negative predictor. In practical terms, this means that cutting back on industrially refined products may do more for the gut than swapping meat for vegetables.
+--- D
+The same study mapped the diet onto the members of the community in a way that had previously been impossible. Coffee appeared to be linked to the abundance of a species that produces butyrate, a short-chain fatty acid associated with a healthy gut lining. Yogurt was associated with a species common in fermented dairy, while dairy products and bread were tied to two closely related members of a genus that dominates the gut in infancy. Nuts and bananas were strong predictors of the abundance of particular species within two families of fibre-fermenting bacteria. Among the gut bacteria most often predicted to change with a shift in one or two foods were Akkermansia muciniphila and Faecalibacterium prausnitzii, both of which have been linked to cardiometabolic markers. These links are associations rather than proof of cause, but they are specific enough to begin guiding advice.
+--- E
+A separate strand of research asks how such knowledge might be turned into a product rather than an abstract guideline. A review led by investigators at a university dental school in Philadelphia, published in August 2026, examined fermented plant-based foods such as kimchi and sauerkraut. These foods, the authors argue, differ from the liquid probiotic drinks already on the market. A yogurt typically carries a small number of bacterial strains from a defined starter culture; a fermented vegetable carries a much wider community of native microbes, together with the metabolites they have produced.
+--- F
+The review also pointed to a physical reason why solid fermented food may behave differently. Its fibrous structure protects the microorganisms it carries and lets them remain longer on the moist surfaces of the mouth and gut, creating more opportunities for interaction than a drink, which passes through quickly. Beyond the live bacteria themselves, plant-based fermented food brings dietary fibre and bioactive plant compounds in the same package. The authors are careful to stress that these foods are not being proposed as treatments, but as candidates for controlled testing.
+--- G
+To move from either line of research to actual advice, the authors of the Nature Medicine study argue that randomised trials are the essential next step. Observation can show that certain foods and certain microbes move together; only an experiment can show whether changing one changes the other in a predictable way. In the meantime, several practical priorities have been set out: building more comprehensive databases of the organisms present in fermented foods, developing better tools for profiling microbial strains and metabolites, and designing products with a defined microbial and chemical composition.
+--- H
+These ambitions, however, carry a caution. The specificity that makes microbiome research exciting also makes its findings fragile. A link between one food and one species in a large cohort may not hold for a single individual, whose microbiome differs from every other person's. And associations, however precisely measured, cannot distinguish a food that supports a microbe from one that merely happens to be eaten alongside it. The gap between a promising observation and a dependable recommendation remains wide, and both groups of researchers acknowledge it.
+
+### GROUP matching_headings
+INSTR: The reading passage has eight paragraphs, A-H. Choose the correct heading for each paragraph from the list of headings below.
+ORDERED: false
+OPTIONS:
+    i | Why the animal-versus-plant question is not the decisive factor
+    ii | A large study that links diet to individual species of bacteria
+    iii | The limits of what observational evidence can establish
+    iv | A physical reason why fermented vegetables behave differently
+    v | The case for a whole food over a drinkable supplement
+    vi | The measurements that made the study possible
+    vii | A note of caution about applying the findings
+    viii | The first step that will be needed to turn observation into prescription
+Q1 Paragraph B
+ANS: ii
+EV: B | Rather than looking at broad categories of bacteria, they worked at the level of individual species
+SKILL: main_idea
+EXP: B 段核心是这项把饮食与"物种级"菌群关联起来的大型研究，ii 的主旨最贴切。vi 描述的只是研究手段的一部分，不能概括全段。
+Q2 Paragraph C
+ANS: i
+EV: C | The researchers did not find that the split between a plant-rich and an animal-rich diet was the dominant influence on microbial diversity
+SKILL: main_idea
+EXP: C 段的落点是"加工程度比动植物结构更重要"，即动植物之别并非决定因素，i 准确。注意与"vi 测量方法"区分。
+Q3 Paragraph E
+ANS: v
+EV: E | These foods, the authors argue, differ from the liquid probiotic drinks already on the market
+SKILL: main_idea
+EXP: E 段讲泡菜/酸菜这类固态发酵食物优于液态益生菌饮料，v 是"以固态食物替代可饮用补充剂"的主张。
+Q4 Paragraph F
+ANS: iv
+EV: F | Its fibrous structure protects the microorganisms it carries and lets them remain longer on the moist surfaces of the mouth and gut
+SKILL: main_idea
+EXP: F 段的重点是纤维结构为何使发酵植物食物行为不同，iv 直接对应。v 已用于 E 段。
+Q5 Paragraph G
+ANS: viii
+EV: G | the authors of the Nature Medicine study argue that randomised trials are the essential next step
+SKILL: main_idea
+EXP: G 段指出从观察到处方需要随机试验，即"把观察变成处方所需的第一个步骤"，viii 贴合。vii 是 H 段的警示，勿混用。
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q6 In the 2026 study, diet predicted the abundance of nine in ten of the gut species that were tested.
+ANS: TRUE
+EV: B | diet predicted the abundance of nine in ten of the gut species they tested
+PARA: nine in ten of the gut species >>> nine in ten of the gut species they tested
+SKILL: detail
+EXP: 九成（nine in ten）即题干所说，且限定于"所测物种"，与原句吻合。
+Q7 The study's authors found that plant-rich diets were the strongest predictor of microbial diversity.
+ANS: FALSE
+EV: C | Minimally processed, nutrient-dense food was the strongest positive predictor of the range of species present, while ultra-processed food was the strongest negative predictor
+PARA: plant-rich diets were the strongest >>> Minimally processed ... was the strongest positive predictor | diversity >>> range of species present
+SKILL: inference
+EXP: 原文明确说加工程度（最低加工/超加工）比动植物结构更重要，植物性饮食并非最强预测因子，题干与此相反。
+Q8 The researchers provided a personalised dietary plan to every participant in the 2026 study.
+ANS: NOT GIVEN
+EV: G | the authors of the Nature Medicine study argue that randomised trials are the essential next step
+PARA: provided a personalised dietary plan >>> randomised trials are the essential next step | every participant >>> next step
+SKILL: inference
+EXP: 原文只说作者认为下一步需要随机试验、尚未给出处方，全文没有任何"为参与者提供个性化饮食方案"的表述，属于「未提及」而非 FALSE（原文并未否定有提供，只是没提）。
+Q9 The fermented vegetable review proposed fermented foods as treatments for specific digestive conditions.
+ANS: FALSE
+EV: F | The authors are careful to stress that these foods are not being proposed as treatments, but as candidates for controlled testing
+PARA: proposed ... as treatments >>> not being proposed as treatments
+SKILL: inference
+EXP: 原文明确说这些食物"不是被当作治疗手段提出，而是作为受控测试的候选"，题干与之矛盾。
+
+### GROUP short_answer
+INSTR: Answer the questions below. Write your answers in boxes 10-13 on your answer sheet. Use NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS AND/OR A NUMBER
+Q10 In the 2026 study, what quality of a food did the researchers find to be a stronger predictor of microbial diversity than the plant-versus-animal split?
+ANS: processed
+ACC: the degree of processing | how processed
+FORM: free_text
+EV: C | the degree to which a food had been processed predicted diversity more strongly
+PARA: what quality >>> the degree to which a food had been processed
+SKILL: paraphrase
+EXP: C 段指出"食物被加工的程度"比动植物结构更能预测多样性，故答案核心词是 processed（加工程度）。
+Q11 What share of the microbial metabolic pathways measured in the study were predicted by diet?
+ANS: ninety-eight per cent
+ACC: 98 per cent | 98%
+FORM: free_text
+EV: B | diet predicted the abundance of nine in ten of the gut species they tested, and of ninety-eight per cent of the metabolic pathways they measured
+PARA: 98 per cent >>> ninety-eight per cent
+SKILL: detail
+EXP: B 段原文说饮食预测了所测代谢通路的 98%（ninety-eight per cent）。
+Q12 Which short-chain fatty acid is associated with a healthy gut lining?
+ANS: butyrate
+FORM: free_text
+EV: D | butyrate, a short-chain fatty acid associated with a healthy gut lining
+SKILL: scanning
+EXP: D 段明确 butyrate（丁酸）与健康肠壁相关。
+Q13 Which two bacterial species were most often predicted to change with a shift in one or two foods?
+ANS: Akkermansia muciniphila and Faecalibacterium prausnitzii
+ACC: Akkermansia muciniphila, Faecalibacterium prausnitzii | Akkermansia muciniphila and F. prausnitzii
+FORM: free_text
+EV: D | Among the gut bacteria most often predicted to change with a shift in one or two foods were Akkermansia muciniphila and Faecalibacterium prausnitzii
+PARA: most often predicted to change >>> Among the gut bacteria most often predicted to change
+SKILL: scanning
+EXP: D 段末句给出这两个物种名。

@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-antibiotic-resistance-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-antibiotic-resistance-2026",
+    "source_url": "https://mapshock.com/briefings/antimicrobial-resistance-drug-pipeline-status-global",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实核自 GRAM Project/Lancet 2024 投影(2025-2050 累计 3900 万直接死亡、2021 年 114 万/年→2050 年 191 万/年、关联死亡 470 万) | WHO GAP-AMR 2026-2036(WHA79 2026-05 通过, 2035 年减 10%) | WHO GLASS 2025(2026-06 发布, 1/6 感染对一线抗生素无效、40% 组合耐药上升、东南亚与东地中海 1/3) | 六致病病原体(Nature Communications 2026 确认) | OECD 经济成本(2035 年 $412B 治疗 + $443B 生产力损失) | 农业兽药占高收入国约 70% 用于促生长 | 管线以 β-内酰胺酶抑制剂衍生物为主、非新药类 | 南亚 2025-2050 约 1180 万直接死亡、撒哈拉以南监测能力仅达 18% | Lariocidin 新机制 | WHO 2026-07-01 首个真菌耐药 Blueprint"
+  },
+  "passage": {
+    "id": "news-antibiotic-resistance-2026-text",
+    "title": "The Receding Promise of Antibiotics",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Antibiotics have an unusual place in modern medicine. They are the drugs that most reliably turn a deadly infection into an inconvenience, yet their power is quietly eroding. According to the most widely cited analysis, drawn from the Global Research on Antimicrobial Resistance project and published in the Lancet, drug-resistant bacteria were responsible for roughly 1.14 million deaths worldwide in 2021, and were associated with several times that number. The same projection foresees that figure rising to about 1.91 million a year by 2050, a total of around 39 million deaths across the quarter-century, if nothing changes."
+      },
+      {
+        "label": "B",
+        "text": "Bacterial resistance is not a single phenomenon but a family of them, and its geography is uneven. A study in Nature Communications in 2026 confirmed that six species account for the dominant share of the deaths that can be directly attributed to resistance: Escherichia coli, Staphylococcus aureus, Klebsiella pneumoniae, Streptococcus pneumoniae, Acinetobacter baumannii and Pseudomonas aeruginosa. Some of these organisms are everyday residents of the human body, while others are acquired in hospitals; the distinction matters because the threat each poses depends as much on where it thrives as on how it evolves."
+      },
+      {
+        "label": "C",
+        "text": "The burden is heaviest in the regions least able to respond. South Asia is projected to record the highest number of directly attributable deaths of any region between 2025 and 2050, at around 11.8 million. Sub-Saharan Africa presents a different problem: its surveillance systems are so weak that the true toll is likely higher than published figures suggest, because the region scores barely a fifth of the target for laboratory capacity. Data from high-income countries, by contrast, are abundant but come from places where resistance is comparatively contained."
+      },
+      {
+        "label": "D",
+        "text": "The World Health Organization has responded with a second ten-year plan. The Global Action Plan on Antimicrobial Resistance, adopted by the World Health Assembly in May 2026 and covering the period from 2026 to 2036, sets a headline target of cutting deaths from bacterial resistance by ten per cent by 2035. It retains the five pillars of the original 2015 framework, but adds explicit accountability milestones and a financing mechanism aimed squarely at the countries where laboratory capacity is weakest."
+      },
+      {
+        "label": "E",
+        "text": "The epidemiological picture the plan addresses is stark. When the WHO's surveillance system published its 2025 report in June 2026, drawing on tens of millions of laboratory-confirmed infections across more than a hundred countries, it found that one in six bacterial infections no longer responds to first-line antibiotics. Resistance had increased in forty per cent of the pathogen-and-drug combinations tracked over the previous five years. In South-East Asia and the Eastern Mediterranean, the share rose to one in three. The economic cost is likewise steep: treating resistant infections is projected to reach 412 billion dollars a year by 2035, with a further 443 billion lost each year in productivity."
+      },
+      {
+        "label": "F",
+        "text": "A large share of the problem sits outside hospitals. In some high-income countries agricultural use accounts for roughly seventy per cent of total antibiotic consumption, much of it for growth promotion rather than for treating sick animals. The new plan obliges member states to regulate veterinary sales, to ban growth-promoting uses, and to adopt farming practices that lower infection rates without drugs. It also continues to emphasise water, sanitation and hygiene within healthcare facilities, a measure that reduces the number of patients who need antibiotics in the first place."
+      },
+      {
+        "label": "G",
+        "text": "The pipeline that should be supplying replacements is thin. The antibacterial drugs in clinical development are dominated by derivatives of existing beta-lactam compounds rather than by genuinely novel classes, which means new approvals are unlikely to outpace resistance for the most critical threats. The reason is commercial as much as scientific: because new antibiotics are deliberately used sparingly to preserve their effectiveness, they are unattractive to develop. A handful of agents, such as lariocidin, offer new mechanisms of action, but they are rare exceptions in an otherwise stagnant field."
+      },
+      {
+        "label": "H",
+        "text": "Responding to the crisis requires acting on several fronts at once. Stewardship programmes that pair diagnostic testing with careful prescribing have repeatedly been shown to slow the emergence of resistance. Artificial intelligence platforms are beginning to screen vast chemical libraries for candidates that bacteria are less likely to evade. And in July 2026 the WHO published its first blueprint on fungal disease and antifungal resistance, a companion strategy that recognises the threat from fungi sits alongside the bacterial plan rather than inside it. None of these measures is a cure; each is best understood as part of a wider effort to keep a diminishing resource usable for as long as possible."
+      }
+    ],
+    "word_count": 756,
+    "topic_tags": [
+      "health",
+      "science",
+      "medicine"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-antibiotic-resistance-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Drug-resistant bacteria were directly responsible for more than a million deaths in 2021.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "drug-resistant bacteria were responsible for roughly 1.14 million deaths worldwide in 2021",
+              "start": 316,
+              "end": 406,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "more than a million",
+              "to": "roughly 1.14 million",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "1.14 百万 > 一百万，题干\"超过一百万\"与原文吻合，且注意区分\"直接致死\"与\"关联死亡\"（原文对这两者区分得很清楚）。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "The financing mechanism in the 2026-2036 plan specifies the total amount of money it expects to raise.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "but adds explicit accountability milestones and a financing mechanism aimed squarely at the countries where laboratory capacity is weakest",
+              "start": 2184,
+              "end": 2322,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "specifies the total amount",
+              "to": "a financing mechanism aimed squarely at the countries",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段只提到该计划「含融资机制」，却没有说明将要筹集的资金总额，属于「未提及」，不能选 FALSE（原文并未否定有金额，只是没说）。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "South Asia is projected to have the highest number of directly attributable AMR deaths of any region.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "South Asia is projected to record the highest number of directly attributable deaths of any region between 2025 and 2050, at around 11.8 million",
+              "start": 1310,
+              "end": 1454,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "南亚被预测为 2025-2050 直接死亡数最高的地区，约 1180 万。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The 2026-2036 Global Action Plan sets a target of halving AMR-related deaths by 2030.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "sets a headline target of cutting deaths from bacterial resistance by ten per cent by 2035",
+              "start": 2032,
+              "end": 2122,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "halving",
+              "to": "cutting deaths from bacterial resistance by ten per cent | 2030 >>> 2035",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文目标为\"减 10%\"且期限是 2035，不是\"减半\"也不是 2030，两处都错。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Published figures are likely to underestimate the true number of AMR deaths in sub-Saharan Africa.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "Sub-Saharan Africa presents a different problem: its surveillance systems are so weak that the true toll is likely higher than published figures suggest",
+              "start": 1456,
+              "end": 1608,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "underestimate",
+              "to": "true toll is likely higher than published figures suggest",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文说该地区监测能力弱、真实死亡数很可能高于已公布数字，即\"被低估\"。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-antibiotic-resistance-2026-g2",
+      "type": "summary_completion",
+      "instruction": "Complete the notes below. Write your answers in boxes 6-9 on your answer sheet.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "When the WHO's 2025 surveillance report was released in June 2026, it found that one in six bacterial infections no longer responded to 6. ______.",
+          "answer": "first-line antibiotics",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "first-line antibiotics",
+            "first line antibiotics"
+          ],
+          "evidence": [
+            {
+              "quote": "it found that one in six bacterial infections no longer responds to first-line antibiotics",
+              "start": 2557,
+              "end": 2647,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段 GLASS 2025 报告：1/6 感染对一线抗生素无效。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "The new plan obliges member states to prohibit the use of antibiotics for 7. ______ in animals.",
+          "answer": "growth promotion",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "growth promotion",
+            "growth-promoting uses | growth promotion purposes"
+          ],
+          "evidence": [
+            {
+              "quote": "to ban growth-promoting uses",
+              "start": 3341,
+              "end": 3369,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "prohibit the use ... for",
+              "to": "ban ... uses",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段要求成员国禁止动物\"促生长\"用途（growth-promoting uses）。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The antibacterial drug pipeline is dominated by derivatives of existing 8. ______ compounds.",
+          "answer": "beta-lactam",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "beta-lactam",
+            "beta-lactam | beta lactam"
+          ],
+          "evidence": [
+            {
+              "quote": "dominated by derivatives of existing beta-lactam compounds rather than by genuinely novel classes",
+              "start": 3734,
+              "end": 3831,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段：管线以现有 β-内酰胺类衍生物为主。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "In July 2026 the WHO published its first blueprint specifically on fungal disease and 9. ______.",
+          "answer": "antifungal resistance",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "antifungal resistance",
+            "antifungal-resistance"
+          ],
+          "evidence": [
+            {
+              "quote": "the WHO published its first blueprint on fungal disease and antifungal resistance",
+              "start": 4593,
+              "end": 4674,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "H 段末：WHO 2026 年 7 月发布首个真菌疾病与抗真菌耐药蓝图。",
+          "skill_tag": [
+            "detail"
+          ]
+        }
+      ],
+      "subtype": "note",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": "news-antibiotic-resistance-2026-g3",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "The World Health Organization"
+        },
+        {
+          "key": "B",
+          "text": "The Global Research on Antimicrobial Resistance project"
+        },
+        {
+          "key": "C",
+          "text": "The WHO's Global Action Plan"
+        },
+        {
+          "key": "D",
+          "text": "The WHO's first fungal blueprint"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "Which project produced the most widely cited estimate that AMR deaths would rise to about 1.91 million a year by 2050?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "drawn from the Global Research on Antimicrobial Resistance project and published in the Lancet, drug-resistant bacteria were responsible for roughly 1.14 million deaths worldwide in 2021",
+              "start": 220,
+              "end": 406,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段明确该数字来自\"全球抗生素耐药性研究项目\"并发表在《柳叶刀》；不能与 WHO 混淆。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Which body adopted the ten-year strategy covering 2026 to 2036?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "The Global Action Plan on Antimicrobial Resistance, adopted by the World Health Assembly in May 2026 and covering the period from 2026 to 2036",
+              "start": 1888,
+              "end": 2030,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "2026-2036 十年战略由世界卫生大会（WHO 机构）通过。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Which mechanism sets the ten per cent reduction target for 2035?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "sets a headline target of cutting deaths from bacterial resistance by ten per cent by 2035",
+              "start": 2032,
+              "end": 2122,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "\"减 10%\"目标由《全球行动计划》设定；注意与\"蓝图\"和\"项目\"区分。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Which document was published as a companion strategy recognising the fungal threat?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "the WHO published its first blueprint on fungal disease and antifungal resistance, a companion strategy that recognises the threat from fungi sits alongside the bacterial plan rather than inside it",
+              "start": 4593,
+              "end": 4790,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "H 段：真菌蓝图是\"companion strategy\"（配套战略），明确提到真菌威胁。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-offshore-wind-floating-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-offshore-wind-floating-2026",
+    "source_url": "https://www.eco-business.com/news/offshore-wind-must-overcome-global-and-local-obstacles-to-scale",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 Mongabay / Eco-Business 行业访谈(2026: 浮式装机 <300 MW、占 83 GW 海风不足 1%、Hywind Tampen 最大浮式场、WindEurope 2030 目标下调、敷设船与港口缺口、Kolios 与 Efthimiou 观点) | 信达证券浮式海风报告(80% 资源在 60m 以深、Hywind 三代造价 $31,000/$8,800/$6,200 每 kW、成本构成 31%/19%/14%、GWEC 2026 年 0.8 GW 与 2030 年 4.3 GW、DNV 2050 年 LCOE 降 80%、美国 2035 年 15 GW 与 4.5 美分/kWh)"
+  },
+  "passage": {
+    "id": "news-offshore-wind-floating-2026-text",
+    "title": "Anchoring the Deep-Water Wind Industry",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Offshore wind has become one of the fastest-growing sources of electricity, but almost all of it sits in shallow water. Turbines are normally fixed to the seabed with a monopile or a jacket structure, and that approach becomes uneconomic beyond about 60 metres. The difficulty is that the best wind is not where the shallow water is: roughly 80 per cent of the world's offshore wind resource lies in water deeper than 60 metres. If the industry is to grow much beyond its present scale, it will have to learn to float."
+      },
+      {
+        "label": "B",
+        "text": "Floating wind addresses this directly. A turbine is mounted on a buoyant platform held in position by mooring lines and anchors, so the depth of the water matters far less than the strength of the seabed. This matters least in places like the North Sea, where a broad continental shelf gives fixed foundations plenty of room, and most in countries where it does not. Around Japan, South Korea and much of the Mediterranean, suitable shallow coastal water is scarce, and floating platforms are effectively the only way to reach the resource at all."
+      },
+      {
+        "label": "C",
+        "text": "Whether the technology can be made affordable is the central question, and the record so far is encouraging. When Equinor installed the first prototype off Norway in 2009, a 2.63-megawatt machine, the cost worked out at roughly $31,000 per kilowatt of capacity. Hywind Scotland, commissioned in 2017 at 30 megawatts, came in at about $8,800 per kilowatt, a fall of 72 per cent. Hywind Tampen, an 88-megawatt array completed in 2022 and still the largest floating farm in operation, reached approximately $6,200 per kilowatt, a further reduction of 29 per cent, and supplies power to nearby oil and gas platforms."
+      },
+      {
+        "label": "D",
+        "text": "The composition of that cost differs sharply from fixed-bottom wind. Studies of Chinese projects put the floating structure itself at about 31 per cent of capital expenditure, the mooring system at 19 per cent and the turbine at 14 per cent. Mooring is therefore a large target for savings, and much of it is chain: procurement notices for two early Chinese demonstrators put anchor chain alone at 3,584 and 3,706 yuan per kilowatt. Because the turbine is a smaller share of the total than in fixed-bottom projects, improvements in turbine design do less to bring the overall figure down."
+      },
+      {
+        "label": "E",
+        "text": "Deployment, however, remains negligible. Fewer than 300 megawatts of floating capacity had been installed worldwide by the middle of 2026, under 1 per cent of the 83 gigawatts of offshore wind in operation. Forecasts have been revised down repeatedly: a European target of 10 gigawatts of floating wind by 2030 has been quietly dropped, and WindEurope now speaks instead of getting a single commercial-scale farm of 250 megawatts or more running by that date. The Global Wind Energy Council expects about 0.8 gigawatts to be added in 2026 and 4.3 gigawatts in 2030."
+      },
+      {
+        "label": "F",
+        "text": "Even if demand were guaranteed, the physical means of building these farms is not. WindEurope has warned that vessels capable of laying foundations and installing turbines will be in short supply through to 2030, and the International Marine Contractors Association has called for heavier investment in ships and harbours. One analysis suggests that more than 100,000 kilometres of subsea cable will need to be laid between 2026 and 2040, all of it requiring specialised ships. Developers also need quayside space deep and strong enough to assemble platforms that cannot be built at sea."
+      },
+      {
+        "label": "G",
+        "text": "A second obstacle is that almost every project is still bespoke. Platforms differ in geometry, mooring configurations differ, and installation methods are worked out afresh each time, which keeps costs high and makes serial manufacturing impossible. Athanasios Kolios of the University of Strathclyde argues that the sector needs modular fabrication, standardised interfaces and repeatable installation procedures before deployment targets can be met. There is a contrary view: Sofia Efthimiou of the Global Wind Energy Council suggests that turbine sizes should be capped for a period, because supply chains respond better to a fixed specification than to a moving one."
+      },
+      {
+        "label": "H",
+        "text": "How quickly costs come down is therefore a matter of speculation. Det Norske Veritas has projected that the levelised cost of floating wind could fall by close to 80 per cent by 2050, while the United States has set itself a target of 15 gigawatts by 2035 and a cost of 4.5 cents per kilowatt-hour. Optimists point to solar panels and lithium batteries, both of which followed steep learning curves once production was standardised. Sceptics note that floating wind must build not only factories but an entire offshore construction industry."
+      }
+    ],
+    "word_count": 759,
+    "topic_tags": [
+      "energy",
+      "technology",
+      "ocean"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-offshore-wind-floating-2026-g1",
+      "type": "matching_headings",
+      "instruction": "The reading passage has eight paragraphs, A-H. Choose the correct heading for each paragraph from the list of headings below.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "i",
+          "text": "The argument for exploiting deeper water"
+        },
+        {
+          "key": "ii",
+          "text": "Evidence that costs are falling with each successive project"
+        },
+        {
+          "key": "iii",
+          "text": "Calls for greater uniformity in design"
+        },
+        {
+          "key": "iv",
+          "text": "Where expenditure within a floating project is concentrated"
+        },
+        {
+          "key": "v",
+          "text": "Ambitions that have been quietly scaled back"
+        },
+        {
+          "key": "vi",
+          "text": "Obstacles in the specialised vessels and harbours required"
+        },
+        {
+          "key": "vii",
+          "text": "Proposals for recycling turbine components"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Paragraph B",
+          "answer": "i",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "i"
+          ],
+          "evidence": [
+            {
+              "quote": "A turbine is mounted on a buoyant platform held in position by mooring lines and anchors, so the depth of the water matters far less than the strength of the seabed.",
+              "start": 558,
+              "end": 723,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段的主旨是浮式方案如何绕开水深限制，「水深远不如海床承载力重要」是段落核心。vi 是 F 段内容，属干扰项。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Paragraph C",
+          "answer": "ii",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "ii"
+          ],
+          "evidence": [
+            {
+              "quote": "Hywind Tampen, an 88-megawatt array completed in 2022 and still the largest floating farm in operation, reached approximately $6,200 per kilowatt, a further reduction of 29 per cent",
+              "start": 1445,
+              "end": 1626,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段用三代项目的千瓦造价递减来证明成本在下降。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Paragraph D",
+          "answer": "iv",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "iv"
+          ],
+          "evidence": [
+            {
+              "quote": "Studies of Chinese projects put the floating structure itself at about 31 per cent of capital expenditure, the mooring system at 19 per cent and the turbine at 14 per cent.",
+              "start": 1749,
+              "end": 1921,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段整段在拆解成本构成比例。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Paragraph E",
+          "answer": "v",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "v"
+          ],
+          "evidence": [
+            {
+              "quote": "a European target of 10 gigawatts of floating wind by 2030 has been quietly dropped, and WindEurope now speaks instead of getting a single commercial-scale farm of 250 megawatts or more running by that date",
+              "start": 2521,
+              "end": 2727,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段落点是装机量微不足道且预测反复下调，v 与之吻合。vi 描述的是 F 段的船舶与港口瓶颈。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Paragraph G",
+          "answer": "iii",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "iii"
+          ],
+          "evidence": [
+            {
+              "quote": "Athanasios Kolios of the University of Strathclyde argues that the sector needs modular fabrication, standardised interfaces and repeatable installation procedures before deployment targets can be met.",
+              "start": 3673,
+              "end": 3874,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段主旨是「每个项目都是定制的」以及由此产生的标准化呼吁。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-offshore-wind-floating-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Fixed foundations can be installed economically at depths greater than 60 metres.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "that approach becomes uneconomic beyond about 60 metres",
+              "start": 205,
+              "end": 260,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "Fixed foundations",
+              "to": "that approach | economically >>> uneconomic",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文说超过约 60 米即不经济，与题干直接矛盾。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Hywind Tampen provides electricity to oil and gas installations.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "supplies power to nearby oil and gas platforms",
+              "start": 1632,
+              "end": 1678,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段末句直接对应。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Floating wind currently accounts for less than one per cent of installed offshore wind capacity.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "Fewer than 300 megawatts of floating capacity had been installed worldwide by the middle of 2026, under 1 per cent of the 83 gigawatts of offshore wind in operation.",
+              "start": 2310,
+              "end": 2475,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "不足 1% 与题干一致。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Det Norske Veritas expects the cost of floating wind to halve within the next five years.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "Det Norske Veritas has projected that the levelised cost of floating wind could fall by close to 80 per cent by 2050",
+              "start": 4160,
+              "end": 4276,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只给出 2050 年的降幅预测，完全没有提到「未来五年」的时间尺度，属于未提及。注意不要把 2050 年的 80% 误当作五年内的数据。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-offshore-wind-floating-2026-g3",
+      "type": "short_answer",
+      "instruction": "Answer the questions below using words taken from the reading passage. Write your answers in boxes 10-13 on your answer sheet.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "What proportion of the world's offshore wind resource is found in water deeper than 60 metres?",
+          "answer": "80 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "80 per cent",
+            "80%"
+          ],
+          "evidence": [
+            {
+              "quote": "roughly 80 per cent of the world's offshore wind resource lies in water deeper than 60 metres",
+              "start": 334,
+              "end": 427,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "定位 A 段，注意 proportion 与 per cent 的对应。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Name ONE country where floating platforms are said to be the only practical way to reach the wind resource.",
+          "answer": "Japan",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "Japan",
+            "South Korea | Korea"
+          ],
+          "evidence": [
+            {
+              "quote": "Around Japan, South Korea and much of the Mediterranean, suitable shallow coastal water is scarce",
+              "start": 886,
+              "end": 983,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段列举日本、韩国与地中海。答其中任一国名即可。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Approximately what did Hywind Tampen cost per kilowatt of capacity?",
+          "answer": "$6,200 per kilowatt",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "$6,200 per kilowatt",
+            "$6,200 | 6200 per kilowatt"
+          ],
+          "evidence": [
+            {
+              "quote": "reached approximately $6,200 per kilowatt",
+              "start": 1549,
+              "end": 1590,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段给出约 $6,200/千瓦。注意不要与 Hywind Scotland 的 $8,800 混淆。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "According to WindEurope, what minimum capacity should the first commercial-scale floating farm have by 2030?",
+          "answer": "250 megawatts",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "250 megawatts",
+            "250 MW"
+          ],
+          "evidence": [
+            {
+              "quote": "WindEurope now speaks instead of getting a single commercial-scale farm of 250 megawatts or more running by that date",
+              "start": 2610,
+              "end": 2727,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段「250 megawatts or more」。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

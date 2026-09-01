@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-nuclear-fusion-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-nuclear-fusion-2026",
+    "source_url": "https://www.powermag.com/commonwealth-fusion-systems-raises-another-1-billion-as-work-on-commercial-power-plant-continues",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 POWER Magazine / GenAI Daily 关于 CFS 2026-07-30 融资报道($10 亿、累计约 $40 亿、约占全球私营聚变资本 30%、2021 年 $18 亿为上一纪录、投资者含养老金与主权基金；SPARC 位于 Devens 约 80% 完成、2027 年冲击科学能量增益；ARC 400 MW 位于弗吉尼亚 Chesterfield County、2026-04 申请接入 PJM) | Alpha Briefing 行业综述(FIA 2026 年 7 月调查：截至 2026 年 7 月 12 个月募集 $44.8 亿、2021 年以来累计 $142.4 亿、56 家公司、从业超 16,000 人；Google 购 200 MW 即 ARC 一半、Eni 承诺超 $10 亿；Helion 6 月 $4.65 亿、2 月称 Polaris 完成 D-T 反应并达 1.5 亿度；Proxima Fusion 7 月 $5.18 亿为欧洲最大；Inertia 2 月 A 轮 $4.5 亿) | Experts Club 核聚变综述(NIF 2022-12 首次点火、2025-04 输入 2.08 MJ 产出 8.6 MJ 靶增益超 4 为第八次点火、2026-04 公布；ITER 35 国、500 MW/50 MW 即 Q=10、不发电、2026-06 完成中心螺线管六模块、2026-07 第六真空室扇区就位约三分之二环体、2034 研究运行/2036 满磁功率/2039 首次 D-T) | 合肥物质科学研究院 2026-06-27 完成 D 形纵场线圈全场测试(21 米高、12 米宽、582 公吨、60,000 安培，体积 1.3 倍、储能 3 倍于 ITER 同类线圈，六年建成，全链条国产；目标 BEST 约 2027) | EAST 2026-01 1.2 亿度维持 1,056 秒"
+  },
+  "passage": {
+    "id": "news-nuclear-fusion-2026-text",
+    "title": "The Long Approach to Fusion Power",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Fusion has always been an attractive proposition and an elusive one. Join light atomic nuclei and energy is released without the long-lived waste that fission produces, and the fuel, isotopes of hydrogen, can be extracted from water. The difficulty is that the nuclei must be heated to temperatures found only in stars and held there long enough to react. For seventy years the joke has been that commercial fusion is three decades away and always will be. What changed in 2026 was not the physics but the money, the contracts and, increasingly, the hardware."
+      },
+      {
+        "label": "B",
+        "text": "According to the Fusion Industry Association's 2026 survey, published in July, companies raised $4.48 billion in the twelve months to July 2026, the largest annual total since the survey began, bringing cumulative private investment since 2021 to $14.24 billion. Fifty-six firms were surveyed, against 23 five years earlier, and the sector employs more than 16,000 people. The year's largest single round came on 30 July, when Commonwealth Fusion Systems closed $1 billion, taking its own total to roughly $4 billion, or about 30 per cent of all private fusion capital raised to date. It was the biggest round since that company's $1.8 billion raise in 2021, and its backers included pension funds, sovereign wealth funds and infrastructure investors."
+      },
+      {
+        "label": "C",
+        "text": "CFS is pursuing two machines in parallel. SPARC, at Devens in Massachusetts, is a compact tokamak that uses high-temperature superconducting magnets to confine the plasma; the company put it at roughly 80 per cent complete in 2026 and expects it to attempt scientific breakeven, in which the plasma yields more energy than is used to heat it, in 2027. The follow-on plant, ARC, is a 400-megawatt station planned for Chesterfield County in Virginia, for which the company applied in April 2026 to connect to the PJM Interconnection grid. Google has agreed to buy 200 megawatts of its output, about half the total, and Eni, the Italian energy company, has committed more than $1 billion. The company has not disclosed what either machine will cost."
+      },
+      {
+        "label": "D",
+        "text": "CFS is not alone. Helion Energy raised $465 million in June 2026 and stated in February that its Polaris device had carried out a reaction using deuterium and tritium, heating plasma to 150 million degrees; the figures were published by the company itself and do not amount to a positive energy balance for the installation as a whole. In July the German firm Proxima Fusion closed $518 million, the largest fusion round in Europe, and Inertia Enterprises had raised $450 million in February."
+      },
+      {
+        "label": "E",
+        "text": "The most frequently cited experimental result remains an American one. At the National Ignition Facility at Lawrence Livermore, powerful lasers compress a small fuel capsule; in December 2022 the reaction yielded more energy than the lasers delivered to the target, the first time this had been achieved anywhere. In an experiment in April 2025, 2.08 megajoules of laser energy produced 8.6 megajoules of fusion energy, a target gain of more than four and the eighth ignition at the facility, results the laboratory presented in April 2026. The achievement is real but narrow: the laser complex consumes far more electricity than reaches the capsule, and it fires single shots rather than running continuously."
+      },
+      {
+        "label": "F",
+        "text": "The international ITER project in southern France, involving thirty-five nations, is designed to produce 500 megawatts of fusion power from 50 megawatts of external heating, a gain factor of ten, without generating any electricity. Assembly has continued: the central solenoid, made up of six modules, was completed in June 2026, and a sixth sector of the vacuum vessel was lowered into the pit in July, leaving roughly two-thirds of the ring in place. The schedule has slipped badly. Research operations are now expected in 2034, operation at full magnetic power in 2036, and the first deuterium-tritium experiments in 2039."
+      },
+      {
+        "label": "G",
+        "text": "China's progress has been measured less in publications than in metal. On 27 June the Institute of Plasma Physics in Hefei completed full-performance testing of a D-shaped toroidal field coil that is by a wide margin the largest superconducting magnet ever built for a fusion reactor: 21 metres tall, 12 metres wide and 582 metric tons in weight, carrying a stable current of 60,000 amps. It has 1.3 times the volume and three times the stored energy of the equivalent ITER coil, took six years to build, and every significant input, from the specialty steel to the superconducting wire, was made in China. The coil is destined for BEST, a burning-plasma machine China hopes to complete around 2027."
+      },
+      {
+        "label": "H",
+        "text": "What is being tested is no longer only whether fusion works. Investors who buy contracted, long-duration cash flows have concluded that a fusion plant can be underwritten like a terminal or a transmission line, and Chinese engineers have shown that reactor-scale hardware can be produced from a wholly domestic supply chain. The remaining obstacles are concrete rather than mysterious: materials that survive years of neutron bombardment, a supply of tritium that a fleet of reactors must breed for itself, and machines that must repeat in seconds what NIF manages once a day. None has been solved. What has changed is that the list of those willing to fund the attempt now includes pension funds."
+      }
+    ],
+    "word_count": 862,
+    "topic_tags": [
+      "energy",
+      "science",
+      "technology"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-nuclear-fusion-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The $1 billion raised by Commonwealth Fusion Systems in July 2026 was the largest single funding round in the history of the fusion industry.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "It was the biggest round since that company's $1.8 billion raise in 2021",
+              "start": 1145,
+              "end": 1217,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文限定为「自该公司 2021 年 $18 亿那一轮以来最大」，并非行业史上最大，题干把范围放大了。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "More than half of the electricity from CFS's Virginia plant has already been contracted to customers.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "Google has agreed to buy 200 megawatts of its output, about half the total, and Eni, the Italian energy company, has committed more than $1 billion.",
+              "start": 1849,
+              "end": 1997,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文对两家公司的谓语不同：Google \"agreed to buy 200 megawatts, about half the total\"，是明确电量承购且仅约一半；Eni 的 \"committed more than $1 billion\" 是资金承诺，原文未说明其为电力承购，不能计入已签约电量。因此唯一明确的电力承购约占总电量一半，不构成「超过一半」，故 FALSE。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "China hopes to have the BEST machine finished in about 2027.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "The coil is destined for BEST, a burning-plasma machine China hopes to complete around 2027.",
+              "start": 4496,
+              "end": 4588,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段末句直接对应。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "ITER is scheduled to carry out its first experiments with deuterium and tritium in 2034.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "Research operations are now expected in 2034, operation at full magnetic power in 2036, and the first deuterium-tritium experiments in 2039.",
+              "start": 3748,
+              "end": 3888,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "2034 年是研究运行，D-T 实验在 2039 年，题干年份错位。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "CFS has stated publicly that SPARC will cost more to build than the ARC power station.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "The company has not disclosed what either machine will cost.",
+              "start": 1998,
+              "end": 2058,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只说两台机器的造价都未披露，完全没有比较二者成本，属未提及。注意不要把「SPARC 是演示机、ARC 是电站」当成成本大小的依据。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-nuclear-fusion-2026-g2",
+      "type": "matching_features",
+      "instruction": "Look at the following statements about fusion programmes. Match each statement with the organisation responsible, A-E.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "Commonwealth Fusion Systems"
+        },
+        {
+          "key": "B",
+          "text": "The National Ignition Facility"
+        },
+        {
+          "key": "C",
+          "text": "ITER"
+        },
+        {
+          "key": "D",
+          "text": "The Institute of Plasma Physics in Hefei"
+        },
+        {
+          "key": "E",
+          "text": "Helion Energy"
+        }
+      ],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "It is designed to yield ten times the power supplied to heat the plasma, but will not generate electricity.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "is designed to produce 500 megawatts of fusion power from 50 megawatts of external heating, a gain factor of ten, without generating any electricity",
+              "start": 3345,
+              "end": 3493,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "500/50 即十倍增益，且明确不发电，是 ITER 的独有特征；不要因为 CFS 也追求增益而误选 A。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "It has achieved ignition on a number of occasions, although the installation as a whole consumes far more energy than reaches the fuel.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "a target gain of more than four and the eighth ignition at the facility",
+              "start": 2972,
+              "end": 3043,
+              "paragraph_label": "E",
+              "is_core": true
+            },
+            {
+              "quote": "the laser complex consumes far more electricity than reaches the capsule",
+              "start": 3129,
+              "end": 3201,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "「第八次点火」与「激光装置耗电远超到靶能量」两条都只在 E 段 NIF 身上成立。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "It has completed testing of the largest superconducting magnet yet built for a fusion reactor.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "the Institute of Plasma Physics in Hefei completed full-performance testing of a D-shaped toroidal field coil that is by a wide margin the largest superconducting magnet ever built for a fusion reactor",
+              "start": 3971,
+              "end": 4172,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段首句原文照应。E 选项 Helion 在文中只涉及 Polaris 与融资，是干扰项。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "It is assembling a demonstration machine intended to produce more energy from its plasma than is used to heat it.",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "the company put it at roughly 80 per cent complete in 2026 and expects it to attempt scientific breakeven, in which the plasma yields more energy than is used to heat it, in 2027",
+              "start": 1484,
+              "end": 1662,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "「科学能量增益」的定义即题干所述；ITER 的增益是十倍且不发电，两者不同。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-nuclear-fusion-2026-g3",
+      "type": "summary_completion",
+      "instruction": "Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. The Fusion Industry Association reported that the sector raised $4.48 billion in the year to July 2026, taking cumulative private investment since 2021 to about 10. ______. Much of that money has gone to a single company: Commonwealth Fusion Systems said in 2026 that its SPARC machine at Devens was roughly 11. ______ complete, and it hopes to reach scientific breakeven in 2027. Progress is not confined to the United States. In China, the Hefei institute completed testing of a toroidal field coil standing 12. ______ tall and weighing 582 metric tons. The multinational ITER project, which is not intended to supply electricity, is not expected to run at full magnetic power until 13. ______.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "(summary blank 10)",
+          "answer": "$14.24 billion",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "$14.24 billion",
+            "14.24 billion dollars"
+          ],
+          "evidence": [
+            {
+              "quote": "bringing cumulative private investment since 2021 to $14.24 billion",
+              "start": 754,
+              "end": 821,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段累计私募投资额，注意不要与年度的 $4.48 billion 混淆。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "(summary blank 11)",
+          "answer": "80 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "80 per cent",
+            "80%"
+          ],
+          "evidence": [
+            {
+              "quote": "the company put it at roughly 80 per cent complete in 2026",
+              "start": 1484,
+              "end": 1542,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段 SPARC 完工度。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "(summary blank 12)",
+          "answer": "21 metres",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "21 metres",
+            "21 meters"
+          ],
+          "evidence": [
+            {
+              "quote": "21 metres tall, 12 metres wide and 582 metric tons in weight",
+              "start": 4174,
+              "end": 4234,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "高度 21 米；注意不要填宽度 12 metres。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "(summary blank 13)",
+          "answer": "2036",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "2036"
+          ],
+          "evidence": [
+            {
+              "quote": "operation at full magnetic power in 2036",
+              "start": 3794,
+              "end": 3834,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段三个年份：2034 研究运行、2036 满磁功率、2039 D-T 实验。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "summary",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

@@ -1,0 +1,108 @@
+ID: news-hydrogen-economy-2026
+TITLE: The Hydrogen Reckoning
+TAGS: energy,industry,economics
+URL: https://variety.com.se/?p=4163/
+NOTES: 事实取自 2026 年行业综述(年中约 50 个清洁氢项目被公开放弃、2026 年绿氢产量约 180 万吨占全球氢气消费不足 2%、2030 年预测 550 万吨 vs 各国 2500 万吨目标、2025 年政府承诺约 2220 亿美元同比下降约五分之一、美国由约 900 亿降至 280 亿、2030 年逾九成清洁氢将为蓝氢) | 企业公告(Shell 2026-07 取消挪威项目、Woodside H2 Perth/H2 TAS/H2 OK、2026-06 转天然气重整、BP 暂停印第安纳蓝氢、加拿大收回三个项目土地预留) | NEOM 84 亿美元项目 2026-02 完工 80%、Air Products 30 年独家承购 | 中国氢能发展报告 2026(产能超 5100 万吨/年、可再生制氢产能占全球过半、2026-06 建成在建超 140 万吨/年其中投运超 27 万吨) | Masdar 取消 100 MW 项目转向数据中心
+
+--- A
+Hydrogen was supposed to clean up the parts of the economy that electricity cannot easily reach: steel furnaces, fertiliser plants, the engines of long-haul ships. In 2026 the industry is discovering how wide the gap can be between a climate ambition and a signed order book. By the middle of the year, developers had publicly abandoned around 50 clean-hydrogen projects, and analysts believe the true figure is higher. Executives keep returning to the same two explanations: the cost of making the fuel, and the near-total absence of customers willing to sign the long contracts that would justify building anything.
+--- B
+The output figures are sobering. Global production of green hydrogen is on course to reach roughly 1.8 million tonnes this year, which is less than 2 per cent of the hydrogen the world already consumes, almost all of it still made from fossil gas. Even the more optimistic forecasts for 2030 put output at about 5.5 million tonnes, well short of the 25 million tonnes that governments had collectively targeted. For an industry that was supposed to be expanding exponentially, the trajectory now looks closer to flat.
+--- C
+The technology itself is largely ready. Water electrolysis sits at the upper end of the technology readiness scale, but it produces hydrogen at between $2.50 and $7.00 per kilogram, two to five times the cost of hydrogen stripped from natural gas. Two factors drive that figure: the electrolysers themselves, which cost between $500 and $1,800 per kilowatt of electrical capacity, and the dedicated renewable electricity that accounts for 60 to 70 per cent of the final price. Each kilogram of hydrogen requires roughly 50-55 kilowatt-hours of electricity, so the price of power dominates everything else. Fewer than one in ten announced projects ever reach a final investment decision.
+--- D
+Public money is retreating as well. Governments earmarked about 222 billion dollars for blue and green hydrogen in 2025, roughly a fifth less than the year before, with much of the withdrawal traced to Washington, where support fell from around 90 billion dollars to 28 billion after legislation trimmed subsidies and pushed the deadline for starting construction to the end of 2027. Where funding survives it is changing colour: improved tax credits for capturing carbon dioxide have quietly made hydrogen from natural gas more attractive, and some analysts now expect more than nine in every ten tonnes of clean hydrogen produced by 2030 to be blue rather than green.
+--- E
+Corporate withdrawals have followed. Shell cancelled a large Norwegian project in July 2026, citing weak demand and high costs. Woodside Energy halted a one billion Australian dollar plant in Western Australia and a 1.7 gigawatt scheme in Tasmania, abandoned a further project in Oklahoma, and in June 2026 switched the Western Australian site to a gas-reforming route that produces hydrogen for between one and two dollars a kilogram. BP paused a blue hydrogen plant in Indiana, and authorities in Canada withdrew land reservations for three large schemes. European producers have reported costs of around 8 euros per kilogram, against roughly 2 euros for hydrogen made from natural gas.
+--- F
+The projects that survive tend to have one thing in common. The 8.4 billion dollar plant under construction at NEOM in Saudi Arabia was 80 per cent complete by February 2026, and it proceeded because a thirty-year exclusive offtake agreement with Air Products guarantees a buyer for everything it produces. The lesson bankers draw is that bankability in this industry comes less from the technology than from a contracted customer; a cheaper electrolyser cannot compensate for an empty order book.
+--- G
+China is the conspicuous exception, and it has folded hydrogen into its latest five-year plan. It is turning out electrolysers at roughly a quarter of Western prices, and by the end of 2025 its hydrogen production capacity exceeded 51 million tonnes a year, with more than half of the world's renewable-based hydrogen capacity. By June 2026 more than 1.4 million tonnes a year of renewable hydrogen capacity had been built or was under construction, of which just over 270,000 tonnes was operating. In the wind and solar belts of Inner Mongolia, Gansu and Xinjiang, power costs about 0.15 yuan per kilowatt-hour.
+--- H
+Other developers have simply moved on. Masdar, the Abu Dhabi renewables company, cancelled a 100 megawatt electrolyser intended to supply green steel maker Emsteel, and redirected capital and solar capacity towards data centres instead; a small pilot plant built with Emsteel continues to run. If the last decade of solar panels and batteries is any guide, the decisive question may not be whether green hydrogen eventually scales but whose factories are standing when it does.
+
+### GROUP matching_information
+INSTR: Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-H, in boxes 1-5 on your answer sheet.
+ORDERED: false
+Q1 A description of a project that went ahead because a purchaser for its entire output had been secured.
+ANS: F
+EV: F | it proceeded because a thirty-year exclusive offtake agreement with Air Products guarantees a buyer for everything it produces
+SKILL: skimming
+EXP: F 段以 NEOM 为例说明「有承购方」是项目得以推进的关键。
+Q2 Figures illustrating how small a share of hydrogen is currently made without fossil fuels.
+ANS: B
+EV: B | Global production of green hydrogen is on course to reach roughly 1.8 million tonnes this year, which is less than 2 per cent of the hydrogen the world already consumes
+SKILL: skimming
+EXP: B 段给出 180 万吨与不足 2% 的量化对比。
+Q3 An explanation of why the price of electricity largely determines the price of the fuel.
+ANS: C
+EV: C | the dedicated renewable electricity that accounts for 60 to 70 per cent of the final price
+SKILL: skimming
+EXP: C 段说明电力占最终成本的 60-70%，故电价主导。
+Q4 An example of a developer shifting its investment into a different industry.
+ANS: H
+EV: H | Masdar, the Abu Dhabi renewables company, cancelled a 100 megawatt electrolyser intended to supply green steel maker Emsteel, and redirected capital and solar capacity towards data centres instead
+SKILL: skimming
+EXP: H 段 Masdar 取消绿氢项目、转向数据中心，属跨行业转移。
+Q5 Evidence that one country is manufacturing the required equipment much more cheaply than its competitors.
+ANS: G
+EV: G | It is turning out electrolysers at roughly a quarter of Western prices
+SKILL: skimming
+EXP: G 段指出中国电解槽价格约为西方的四分之一。
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q6 Most of the clean hydrogen produced by 2030 is expected to be derived from natural gas.
+ANS: TRUE
+EV: D | some analysts now expect more than nine in every ten tonnes of clean hydrogen produced by 2030 to be blue rather than green
+PARA: derived from natural gas >>> blue
+SKILL: paraphrase
+EXP: 蓝氢即天然气制氢加碳捕集，十分之九以上属「大部分」。
+Q7 Government funding for hydrogen was higher in 2025 than in the preceding year.
+ANS: FALSE
+EV: D | Governments earmarked about 222 billion dollars for blue and green hydrogen in 2025, roughly a fifth less than the year before
+SKILL: detail
+EXP: 原文明确说比前一年少约五分之一，与题干相反。
+Q8 The NEOM plant was abandoned after its construction costs rose.
+ANS: FALSE
+EV: F | The 8.4 billion dollar plant under construction at NEOM in Saudi Arabia was 80 per cent complete by February 2026
+SKILL: inference
+EXP: 该项目仍在建且已完成八成，并未因成本上升被放弃。
+Q9 The pilot plant operated with Emsteel is expected to be enlarged to full industrial scale within two years.
+ANS: NOT GIVEN
+EV: H | a small pilot plant built with Emsteel continues to run
+SKILL: inference
+EXP: 原文只说试点装置「仍在运行」，未提及任何扩建时间表，属于未提及。
+
+### GROUP sentence_completion
+INSTR: Complete each sentence with the correct ending or phrase from the passage. Write your answers in boxes 10-13 on your answer sheet.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 Executives repeatedly attribute the cancellations to high production costs and an absence of buyers willing to commit to 10. ______.
+ANS: long contracts
+FORM: free_text
+EV: A | the near-total absence of customers willing to sign the long contracts that would justify building anything
+SKILL: paraphrase
+EXP: 题干 buyers = 原文 customers，commit to = sign。
+Q11 According to European producers, one kilogram of green hydrogen costs about 11. ______ to make.
+ANS: 8 euros
+ACC: €8
+FORM: free_text
+EV: E | European producers have reported costs of around 8 euros per kilogram, against roughly 2 euros for hydrogen made from natural gas
+SKILL: scanning
+EXP: 注意不要误取灰氢的 2 欧元。
+Q12 A single kilogram of hydrogen requires roughly 12. ______ of electricity.
+ANS: 50-55 kilowatt-hours
+ACC: 50-55 kWh
+FORM: free_text
+EV: C | Each kilogram of hydrogen requires roughly 50-55 kilowatt-hours of electricity
+SKILL: scanning
+EXP: C 段直接给出单位电耗。
+Q13 Shell abandoned its Norwegian scheme in 2026 because of weak demand and 13. ______.
+ANS: high costs
+ACC: high cost
+FORM: free_text
+EV: E | Shell cancelled a large Norwegian project in July 2026, citing weak demand and high costs.
+SKILL: paraphrase
+EXP: 题干 abandoned = cancelled，scheme = project。

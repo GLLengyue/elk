@@ -1,0 +1,113 @@
+ID: news-solar-manufacturing-oversupply-2026
+TITLE: Too Many Panels
+TAGS: energy,manufacturing,economics
+URL: https://www.ce.cn/xwzx/gnsz/gdxw/202607/t20260724_3104701.shtml
+NOTES: 事实取自中国光伏行业协会 2026 上半年数据(多晶硅 53.8 万吨 -9.8%、硅片 293 GW -7.3%、电池片 260.7 GW -21.9%、组件 201.3 GW -35.1%、上半年新增装机 72.07 GW 同比约 -66%、出口 171.83 亿美元 +24.3%、王勃华预测 2026 全球 612 GW -8%、2030 年 864 GW) | 上海有色网: 2026 全球组件需求约 536 GW vs 产能约 1,100 GW | 价格: 多晶硅致密料 52→32.5 元/kg、N 型复投料 6 万→3.2 万元/吨、完全成本中枢约 4.8 万元/吨、头部 3.8-4.3 万元 | 政策: 7-2 三部门强制性国标能耗限额、7-27《光伏行业成本核算模型通则》、7-31 市场监管总局价格合规指导会、8-6 八家多晶硅企业《反内卷倡议书》 | 8 月连续两周零成交、7 月底库存约 52.2 万吨 | 美国 8-6 行政令最低进口价+15% 关税 12-4 生效 | 2025 年末中国全球产能占比 96%/96.2%/91.3%/80.1%
+
+--- A
+Solar manufacturing has arrived at a peculiar position. The panels it produces have never been cheaper, and installations continue to set records, yet almost every major producer is losing money. The cause is arithmetic rather than technology: global demand for modules in 2026 is roughly 536 gigawatts, while the industry has built the capacity to make about 1,100 gigawatts. For a product that is largely standardised and hard to differentiate, the gap between those two numbers settles in only one place, which is the price.
+--- B
+Production is now contracting. According to the China Photovoltaic Industry Association, output across the main stages of the chain fell in the first half of 2026: polysilicon by 9.8 per cent to 538,000 tonnes, wafers by 7.3 per cent to 293 gigawatts, cells by 21.9 per cent to 260.7 gigawatts, and modules by 35.1 per cent to 201.3 gigawatts. The cuts have not restored profitability. Several of the largest listed manufacturers, including Longi, Tongwei, TCL Zhonghuan and Trina Solar, together forecast first-half losses exceeding 10 billion yuan.
+--- C
+Prices have fallen further and faster than output. The average price of dense polysilicon fell from 52 yuan per kilogram at the start of the year to 32.5 yuan by early July, and module tenders in China dropped below 0.7 yuan per watt. The clearest illustration comes from the grade of polysilicon used for N-type cells, which began 2026 at about 60,000 yuan a tonne and fell to around 32,000 by June. Industry estimates put the average full cost of production at roughly 48,000 yuan a tonne, with the most efficient makers managing 38,000 to 43,000, which means the market was clearing at 25 to 40 per cent below what it cost to make.
+--- D
+The origins of the surplus are not mysterious. Between 2021 and 2024 manufacturers expanded repeatedly on the assumption that demand would keep accelerating, and much of that capacity arrived just as growth in the largest market began to slow. China's dominance makes the consequences severe: by the end of 2025 it accounted for 96 per cent of global polysilicon capacity, 96.2 per cent of wafer capacity, 91.3 per cent of cell capacity and 80.1 per cent of module capacity. When a market that concentrated turns down, there is nowhere for the surplus to go.
+--- E
+Demand has weakened on two fronts. Domestic installations in China reached 72.07 gigawatts in the first half of 2026, down about 66 per cent on the previous year, following a rush to connect projects before policy changes. The association's former secretary-general Wang Bohua expects global installations of 612 gigawatts in 2026, some 8 per cent below the prior year, recovering to 864 gigawatts by 2030. Elsewhere, grid congestion, curtailment of solar output and increasingly frequent negative electricity prices have slowed the pace at which other markets can absorb modules.
+--- F
+Exports have been the release valve. Shipments of wafers, cells and modules brought in about 17.18 billion dollars in the first half of 2026, a rise of 24.3 per cent, helped by an export tax rebate. That route is narrowing. On 6 August 2026 an executive order in Washington imposed a minimum import price and a 15 per cent tariff on imported polysilicon and derived products, taking effect on 4 December. Producers in India and South-East Asia are expanding, and Indian surplus capacity is already being sold abroad, pulling down prices in third markets.
+--- G
+Chinese policy has shifted from persuasion to rules. On 2 July three ministries jointly issued mandatory national standards setting energy-consumption limits for polysilicon, wafers and modules, which effectively draws a line under the least efficient plant. On 27 July the China Photovoltaic Industry Association published the industry's first cost accounting standard, defining how costs should be calculated across the silicon feedstock, wafer, cell and module stages. A compliance meeting followed on 31 July, and on 6 August eight leading polysilicon makers signed a pledge not to sell below the full cost calculated under it.
+--- H
+The immediate effect was paralysis rather than recovery. For two consecutive weeks in August the polysilicon market recorded no transactions at all, as producers withdrew quotations rather than sign contracts they believed would breach the pledge. Stocks had reached about 522,000 tonnes by the end of July. Whether prices recover depends on whether inefficient capacity is genuinely retired rather than idled, and on whether demand returns: some analysts expect Chinese installations to resume growth in 2027 as grid reforms and storage deployment ease the constraints on connecting new plant.
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q1 Global manufacturing capacity for solar modules is about double the expected demand in 2026.
+ANS: TRUE
+EV: A | global demand for modules in 2026 is roughly 536 gigawatts, while the industry has built the capacity to make about 1,100 gigawatts
+SKILL: detail
+EXP: 1,100 对 536，约两倍。
+Q2 Chinese output of solar cells fell by more than a third in the first half of 2026.
+ANS: FALSE
+EV: B | cells by 21.9 per cent to 260.7 gigawatts, and modules by 35.1 per cent to 201.3 gigawatts
+SKILL: detail
+EXP: 下降逾三分之一的是组件（-35.1%），电池片只降 21.9%，两者不可混淆。
+Q3 Polysilicon was being sold at less than the industry's average cost of production.
+ANS: TRUE
+EV: C | which means the market was clearing at 25 to 40 per cent below what it cost to make
+SKILL: inference
+EXP: 原文明确成交价低于成本 25-40%。
+Q4 The United States had never before imposed any trade restriction on imported solar products.
+ANS: NOT GIVEN
+EV: F | On 6 August 2026 an executive order in Washington imposed a minimum import price and a 15 per cent tariff on imported polysilicon and derived products, taking effect on 4 December.
+SKILL: inference
+EXP: 原文只陈述 2026 年这次行政令，完全没有涉及此前是否曾有过贸易限制，「首次」与否无从判断。
+Q5 By the end of 2025 China held more than 90 per cent of the world's module manufacturing capacity.
+ANS: FALSE
+EV: D | by the end of 2025 it accounted for 96 per cent of global polysilicon capacity, 96.2 per cent of wafer capacity, 91.3 per cent of cell capacity and 80.1 per cent of module capacity
+SKILL: detail
+EXP: 组件环节为 80.1%，不足 90%；超过 90% 的是硅料、硅片与电池片。
+
+### GROUP sentence_completion
+INSTR: Complete each sentence with a word or phrase from the passage. Write your answers in boxes 6-9 on your answer sheet.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q6 Between January and early July 2026 the price of dense polysilicon fell from 52 yuan per kilogram to 6. ______.
+ANS: 32.5 yuan
+ACC: 32.5
+FORM: free_text
+EV: C | The average price of dense polysilicon fell from 52 yuan per kilogram at the start of the year to 32.5 yuan by early July
+SKILL: scanning
+EXP: C 段首句给出区间两端。
+Q7 In the first half of 2026 Chinese module output declined by 7. ______ year on year.
+ANS: 35.1 per cent
+ACC: 35.1%
+FORM: free_text
+EV: B | modules by 35.1 per cent to 201.3 gigawatts
+SKILL: scanning
+EXP: 注意题干问的是 module（组件）。
+Q8 Polysilicon stocks in China had risen to approximately 8. ______ by the end of July 2026.
+ANS: 522,000 tonnes
+ACC: 522000 tonnes
+FORM: free_text
+EV: H | Stocks had reached about 522,000 tonnes by the end of July.
+SKILL: paraphrase
+EXP: risen to = had reached。
+Q9 The cost accounting standard issued in July 2026 applies to the chain from silicon feedstock through wafers and cells to 9. ______.
+ANS: modules
+ACC: module
+FORM: free_text
+EV: G | defining how costs should be calculated across the silicon feedstock, wafer, cell and module stages
+SKILL: paraphrase
+EXP: 原文 stage = 题干 chain 的环节。
+
+### GROUP multiple_choice single_answer
+INSTR: Choose the correct letter, A, B, C or D.
+ORDERED: false
+OPTIONS:
+    A | Mandatory national standards on energy consumption
+    B | The industry's first cost accounting standard
+    C | A pledge signed by eight polysilicon producers
+    D | An executive order on a minimum import price
+Q10 Which measure was introduced by a government outside China?
+ANS: D
+EV: F | On 6 August 2026 an executive order in Washington imposed a minimum import price and a 15 per cent tariff on imported polysilicon and derived products, taking effect on 4 December.
+SKILL: scanning
+EXP: 华盛顿即美国，属中国以外的政府行为。
+Q11 Which measure specifies how production costs should be worked out?
+ANS: B
+EV: G | On 27 July the China Photovoltaic Industry Association published the industry's first cost accounting standard, defining how costs should be calculated across the silicon feedstock, wafer, cell and module stages.
+SKILL: scanning
+EXP: 成本核算标准即规定成本如何计算。
+Q12 Which measure is intended to eliminate the least efficient factories?
+ANS: A
+EV: G | On 2 July three ministries jointly issued mandatory national standards setting energy-consumption limits for polysilicon, wafers and modules, which effectively draws a line under the least efficient plant.
+SKILL: inference
+EXP: 能耗限额为最低效产能划定生死线。
+Q13 Which measure involved companies voluntarily undertaking not to sell at a loss?
+ANS: C
+EV: G | on 6 August eight leading polysilicon makers signed a pledge not to sell below the full cost calculated under it
+SKILL: scanning
+EXP: 八家企业签署承诺书，约定不低于完全成本销售。

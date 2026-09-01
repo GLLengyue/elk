@@ -1,0 +1,118 @@
+ID: news-geothermal-enhanced-2026
+TITLE: Drilling for Heat That Is Everywhere
+TAGS: energy,technology,geology
+URL: https://fervoenergy.com/fervo-energy-learning-curve-continues-on-3rd-generation-well-design-boosting-drilling-rates-by-143-since-its-first-cape-station-well/
+NOTES: 事实取自 Fervo Energy 2026-07-08 官方公告(Sawtooth 7 为第三代井型第九口、21 天钻至 19,448 ft 测深、7,500 ft 水平段、460°F；对比 2022 年 Project Red 首口商业井 11,220 ft / 70 天，钻时缩短约 70%、钻速提升 143%) | 井型演进(1.0 约 3 MW/井、隐含造价 >$15,000/kW；2.0 用于 Cape Station 一期，约 5,000 ft 水平段、400°F；3.0 约 15 MW/井、$5,500/kW，长期目标 $3,000/kW；规模化目标 >25 MW/井、15,000 ft 水平段、>500°F) | Cape Station(犹他州南部，一期三个 GeoBlock 约 100 MW，首个预计 2026 年四季度发电；二期约 400 MW 预计 2028 交付；一期 2026 年一季度完成 $4.21 亿无追索项目债) | 2026 年二季度财报(收入 $110k、净亏 $55.9M、经营亏 $28.7M、资本开支 $226.5M；2026-05 IPO 募资约 $22 亿，现金约 $21 亿；2030 年装机目标由 1 GW 上调至 1.1 GW；土地权 >650,000 英亩；管线 >50 GW) | 需求侧(积压订单约 $72 亿、658 MW 约束性 PPA，约 50% 数据中心、35% 公用事业、15% 工业)
+
+--- A
+For most of its history, geothermal power has been a matter of luck. Conventional plants need a rare combination of heat, permeable rock and underground water, found naturally in only a handful of places such as Iceland and parts of the western United States. Enhanced geothermal systems, usually shortened to EGS, are an attempt to stop relying on that coincidence. Rather than search for a reservoir that already exists, engineers create one, fracturing hot rock deep underground and circulating water through the cracks. If the approach works, the resource ceases to be local.
+--- B
+The method is not new in conception but it is new in execution, and what changed it was the shale gas boom. Horizontal drilling and hydraulic fracturing, developed to extract oil and gas from impermeable rock, turned out to be directly applicable to geothermal wells. A vertical shaft is sunk to the target depth, the bit is steered horizontally through the hot formation, and water is pumped in at high pressure to open a network of fractures. A second well, drilled to intersect the first, returns the heated water to the surface, where the heat is extracted and the cooled water injected back down to repeat the cycle.
+--- C
+Progress in drilling has been the most visible measure of whether this is working. In July 2026 Fervo Energy, the company most closely associated with the technology, reported that its ninth third-generation well, Sawtooth 7, had reached a measured depth of 19,448 feet in 21 days, including a horizontal section of 7,500 feet, in rock at 460 degrees Fahrenheit. The comparison the company drew was with its own first commercial well, drilled in 2022 at Project Red: 11,220 feet in 70 days. On that basis drilling time had fallen by about 70 per cent and the rate of drilling had risen by 143 per cent.
+--- D
+Behind those numbers is a sequence of well designs. The first generation, tested at Project Red, yielded roughly 3 megawatts per well at an implied capital cost of more than $15,000 per kilowatt. The second generation, used for the first phase of Cape Station, extended the horizontal section to about 5,000 feet in rock at 400 degrees Fahrenheit. The third generation, of which Sawtooth 7 is the ninth example, produces roughly 15 megawatts per well at about $5,500 per kilowatt, and the company has set a longer-term target of $3,000 per kilowatt. Its specification for wells drilled at scale is more ambitious still: above 25 megawatts per well, from horizontal sections of up to 15,000 feet in rock hotter than 500 degrees.
+--- E
+Cape Station, Fervo's flagship project in southern Utah, is being built in blocks. The first phase consists of three units the company calls GeoBlocks, together rated at approximately 100 megawatts, and the first of these is expected to begin generating electricity in the final quarter of 2026. A second phase, adding about 400 megawatts, is scheduled for delivery in 2028. Financing for the first phase was completed in the opening months of 2026 with $421 million of non-recourse project debt, a structure that lenders generally reserve for assets whose cash flows they consider reasonably predictable.
+--- F
+The spending required to get there dwarfs what the company currently earns. In the second quarter of 2026 Fervo recorded revenue of only $110,000 against a net loss of $55.9 million, an operating loss of $28.7 million and capital expenditure of $226.5 million. It could do so because of the money raised at its stock market flotation in May 2026, roughly $2.2 billion, of which about $2.1 billion remained in cash. On the strength of that balance sheet the company raised its target for installed capacity in 2030 from 1 gigawatt to 1.1 gigawatts, and reports a development pipeline exceeding 50 gigawatts on land rights covering more than 650,000 acres.
+--- G
+What makes the arithmetic plausible is who is buying. Fervo reports a backlog of about $7.2 billion and binding power purchase agreements covering 658 megawatts. Roughly half of that contracted capacity is committed to hyperscale data centres, 35 per cent to utilities and 15 per cent to industrial customers. The significance of the first category is not simply volume but shape: operators of large computing facilities want power that is available every hour of the day, and are reportedly prepared to pay a premium for it. Wind and solar, which produce intermittently, cannot supply that on their own without storage.
+--- H
+Sceptics raise two objections. The first is geological rather than financial: unlike a solar panel, whose output can be calculated in advance, an enhanced geothermal reservoir must be drilled before its productivity is known, and reservoirs can cool faster than models predict as heat is drawn off more quickly than it is replaced. The second is that fracturing rock at depth can induce small earthquakes, a problem that has dogged earlier projects elsewhere. Whether Fervo's particular geology behaves as its models assume will not be settled by drilling records or contract announcements, but by the output of the operating plant.
+
+### GROUP matching_headings
+INSTR: The reading passage has eight paragraphs, A-H. Choose the correct heading for each paragraph from the list of headings below.
+ORDERED: false
+OPTIONS:
+    i | Why conventional geothermal plants can only be built in certain places
+    ii | Applying techniques developed for shale gas
+    iii | Doubts about the accuracy of temperature readings
+    iv | Investment running far ahead of income
+    v | A rapid improvement in drilling performance
+    vi | Proposals to extend tax credits for clean power
+    vii | How each generation of well design improved on the last
+    viii | Objections that have yet to be answered
+Q1 Paragraph B
+ANS: ii
+EV: B | Horizontal drilling and hydraulic fracturing, developed to extract oil and gas from impermeable rock, turned out to be directly applicable to geothermal wells.
+SKILL: main_idea
+EXP: B 段的核心是页岩气的水力压裂与水平钻井被移植到地热井。iii 与 vi 在文中完全没有对应内容，是纯干扰项。
+Q2 Paragraph C
+ANS: v
+EV: C | On that basis drilling time had fallen by about 70 per cent and the rate of drilling had risen by 143 per cent.
+SKILL: main_idea
+EXP: C 段整段用钻时缩短与钻速提升来衡量进展。ii 是 B 段主旨，注意不要把「钻井」一词当成同段标志。
+Q3 Paragraph D
+ANS: vii
+EV: D | Behind those numbers is a sequence of well designs.
+SKILL: main_idea
+EXP: D 段逐代比较三种井型的单井出力与造价，段落首句即主旨句。
+Q4 Paragraph F
+ANS: iv
+EV: F | In the second quarter of 2026 Fervo recorded revenue of only $110,000 against a net loss of $55.9 million
+SKILL: main_idea
+EXP: F 段对比微薄收入与巨额亏损和资本开支，iv 概括准确。vii 是 D 段内容，属干扰项。
+Q5 Paragraph H
+ANS: viii
+EV: H | Whether Fervo's particular geology behaves as its models assume will not be settled by drilling records or contract announcements, but by the output of the operating plant.
+SKILL: main_idea
+EXP: H 段提出两条批评（地质不确定、诱发地震），末句强调这些质疑尚未有答案。
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q6 Sawtooth 7 was drilled in less than a third of the time taken by Fervo's first commercial well.
+ANS: TRUE
+EV: C | 19,448 feet in 21 days
+EV: C | 11,220 feet in 70 days
+SKILL: detail
+EXP: 21 天对 70 天，正好是三成，低于三分之一；C 段「钻时缩短约 70%」亦可直接推出。
+Q7 Third-generation wells already produce more power per well than Fervo expects from wells drilled at scale.
+ANS: FALSE
+EV: D | produces roughly 15 megawatts per well
+EV: D | above 25 megawatts per well
+SKILL: inference
+EXP: 第三代约 15 MW/井，规模化目标为 25 MW 以上，前者低于后者，题干方向相反。
+Q8 Fervo has entered into binding agreements to supply more than 600 megawatts of capacity.
+ANS: TRUE
+EV: G | binding power purchase agreements covering 658 megawatts
+SKILL: detail
+EXP: G 段明确 658 MW 的约束性购电协议，超过 600 MW。
+Q9 Work at Cape Station was suspended after earthquakes that local residents were able to feel.
+ANS: NOT GIVEN
+EV: H | The second is that fracturing rock at depth can induce small earthquakes, a problem that has dogged earlier projects elsewhere.
+SKILL: inference
+EXP: H 段只是把诱发地震列为一般性风险，并说该问题困扰过「其他地方」的早期项目；全文没有提到 Cape Station 因地震停工，属未提及。
+
+### GROUP summary_completion summary
+INSTR: Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Fervo's flagship development, Cape Station, lies in the state of 10. ______. It is being built in stages: the first phase consists of three GeoBlocks rated at approximately 100 megawatts, with the first expected to generate power in the last quarter of 2026, and a second phase of about 400 megawatts due in 2028. Reducing capital cost per kilowatt is the central objective. The third-generation design is said to cost about 11. ______ per kilowatt, against more than $15,000 for the earliest wells, and the company's longer-term aim is 12. ______ . Demand comes chiefly from data centres, which take roughly half of the contracted capacity, while 13. ______ account for 35 per cent.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 (summary blank 10)
+ANS: Utah
+FORM: free_text
+EV: E | Cape Station, Fervo's flagship project in southern Utah
+SKILL: scanning
+EXP: E 段首句给出州名，填 Utah 一词即可。
+Q11 (summary blank 11)
+ANS: $5,500
+ACC: 5500 dollars
+FORM: free_text
+EV: D | produces roughly 15 megawatts per well at about $5,500 per kilowatt
+SKILL: scanning
+EXP: 题干已含 per kilowatt，只填数额。注意不要与最早井型的 $15,000 或长期目标 $3,000 混淆。
+Q12 (summary blank 12)
+ANS: $3,000 per kilowatt
+ACC: $3,000 | 3000 per kilowatt
+FORM: free_text
+EV: D | the company has set a longer-term target of $3,000 per kilowatt
+SKILL: scanning
+EXP: D 段长期目标为 $3,000/kW，三词符合字数限制。
+Q13 (summary blank 13)
+ANS: utilities
+ACC: utility companies
+FORM: free_text
+EV: G | 35 per cent to utilities
+SKILL: scanning
+EXP: G 段三方占比：数据中心约 50%、公用事业 35%、工业 15%。

@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-mangrove-protection-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-mangrove-protection-2026",
+    "source_url": "https://climateinvestmentpartners.com/cip-blueyou-blue-carbon-partnership | https://ecobiz.asia/new-indonesia-draft-gives-coastal-communities-bigger-share-of-carbon-revenue/ | https://carbonmeld.com/en/articles/indonesia-article-6-panel-nesting-carbon-rules | http://www.landscapealliance.org/pt-br/conhecimento/publicacao/9487",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 CIP 与 Blueyou 2026-08-19 谅解备忘录（整合红树林修复与可持续沿海生计、综合红树林水产养殖 IMA、约 100 万公顷前红树林海岸可改造、CIP 自 2023 年推进的 Pesisir Biru Nusantara 项目目标修复 10,000 公顷、年产约 140,000 碳信用、惠及 2,000 余人、长鼻猴与食蟹猕猴栖息地） | 印尼海洋渔业部(KKP)规章草案（落实 2025 年第 110 号总统条例）：所有项目须经 SRUK 完成登记、审定、核查与记录后方可签发碳信用；社区至少获得 50% 净财务收益及非货币收益；须取得自由事先知情同意(FPIC)、开展环境与社会影响评估、按坐标核验边界 | 林业部 2026 年第 6 号条例为该国首个可操作的碳交易规章，农业部与能源部仍在起草 | Article 6 方法学专家组与 12-18 个月的 nesting 框架（Carbon Pulse 2026-08-06 报道） | IDXCarbon 7 月成交连续第二个月回升但远低于年初高点 | CIFOR/ICRAF 2026 报告(Erlangga, Leimona, Murdiyarso)：公共财政为早期红树林投资支柱，自愿碳市场最受关注，\"三重红利\"框架，扩展取决于交易准备度、碳权与授权清晰度、MRV 可负担性与可信度"
+  },
+  "passage": {
+    "id": "news-mangrove-protection-2026-text",
+    "title": "Mangroves and the Price of a Credit",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Mangroves do several jobs at once. Their roots bind sediment, which slows erosion and takes the force out of storm surges; the mud they sit in stores carbon more densely per hectare than most forests on land; and their submerged roots shelter the juvenile fish on which a large part of the tropical coastal catch depends. Roughly a fifth of the world's remaining mangroves grow in Indonesia, which makes the archipelago the single most important country for any global attempt to protect or restore them. It has also lost a great deal of what it once had, mostly to aquaculture ponds and land conversion, so the distance between what is there and what could be there is unusually wide."
+      },
+      {
+        "label": "B",
+        "text": "The proposals now on the table are large. In August 2026 a carbon project developer and a sustainable seafood company signed an agreement to build combined mangrove restoration and coastal livelihood projects, pairing carbon finance with a method known as Integrated Mangrove Aquaculture, in which ponds are redesigned so that mangroves and farmed fish or shrimp share the same ground. Their estimate is that around a million hectares of former mangrove along the coast could be turned from unproductive ponds into what one executive described as blue food forests. A scheme already under development aims to restore 10,000 hectares, generate roughly 140,000 carbon credits a year and support more than 2,000 local people, while improving habitat for species such as the proboscis monkey."
+      },
+      {
+        "label": "C",
+        "text": "Money is the hard part. A review published in 2026 by a forestry research organisation concluded that public finance remains the backbone of early mangrove investment in Indonesia, channelled through national budgets, subnational delivery mechanisms and international partnerships, while market mechanisms, particularly voluntary carbon trading, have attracted most of the attention. The case for pressing on rests on what its authors call a triple dividend: climate mitigation and adaptation, coastal resilience and biodiversity, and improved livelihoods and social equity, with the last of these most likely to materialise where local communities help to design and manage a project and share in what it earns."
+      },
+      {
+        "label": "D",
+        "text": "Regulation is catching up with the ambition. A draft rule for the marine and fisheries sector, prepared under a 2025 presidential regulation on carbon economic value, would require every project to complete registration, validation, verification and recording in the national registry, referred to as SRUK, before any credit is issued. The obligations do not stop at paperwork. Developers must set out how benefits will be shared, and coastal communities are to receive at least 50 per cent of net financial benefits, along with training, technology transfer and alternative livelihoods. This is not confined to credits sold abroad: any project in the sector must comply. Consent has to be free, prior and informed, environmental and social assessments are compulsory, and boundaries must be checked by coordinate so that two projects cannot claim the same stretch of coast."
+      },
+      {
+        "label": "E",
+        "text": "Selling to foreign buyers adds a further layer. Transfers under Article 6 of the Paris Agreement require government authorisation and a corresponding adjustment to the national inventory, and the government has said it will establish a scientific panel to write the methodologies on which those trades depend. Alongside it sits a nesting framework, targeted for completion within twelve to eighteen months, intended to let project-level credits sit inside the national accounts. Nesting exists to solve a specific problem: without it, the same reduction can be counted twice, once by the project and once by the country."
+      },
+      {
+        "label": "F",
+        "text": "Whether any of this produces a market is another question. Activity on the country's carbon exchange rose for a second consecutive month in July 2026, but volumes remained well below the highs set earlier in the year, and domestic trading remains thin. Rule-making is therefore running well ahead of the demand that would justify it, and the buyers the new infrastructure is being built for are largely outside the country. Whether the scientific panel adopts methodologies already in international use or writes Indonesian ones from scratch will determine how much existing project design survives the change."
+      },
+      {
+        "label": "G",
+        "text": "At project level the obstacles are unglamorous. Carbon rights and the authority to sell them are not clearly defined, which makes investors cautious. Measurement, reporting and verification is expensive and its credibility uneven, yet it is what decides whether a credit can be sold at all. Negotiating with communities calls for skills that neither developers nor officials necessarily have, and benefit-sharing arrangements that look fair on paper can fail in practice. Other ministries are moving at different speeds: forestry already has an operating regulation, while agriculture and energy are still drafting theirs."
+      }
+    ],
+    "word_count": 766,
+    "topic_tags": [
+      "ecology",
+      "carbon",
+      "policy"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-mangrove-protection-2026-g1",
+      "type": "matching_headings",
+      "instruction": "The reading passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B, C, D, E and G from the list of headings below.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "i",
+          "text": "A mechanism for reconciling individual projects with national accounts"
+        },
+        {
+          "key": "ii",
+          "text": "Why the buying side has not kept pace with the rule-making"
+        },
+        {
+          "key": "iii",
+          "text": "The share of the world's mangroves held by one country"
+        },
+        {
+          "key": "iv",
+          "text": "What developers must do before credits can be issued"
+        },
+        {
+          "key": "v",
+          "text": "Proposals for combining restoration with food production"
+        },
+        {
+          "key": "vi",
+          "text": "Practical obstacles that remain at project level"
+        },
+        {
+          "key": "vii",
+          "text": "Sources of money and the benefits claimed to follow from them"
+        },
+        {
+          "key": "viii",
+          "text": "The likely effect of sea-level rise on coastal settlements"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Paragraph B",
+          "answer": "v",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "v"
+          ],
+          "evidence": [
+            {
+              "quote": "pairing carbon finance with a method known as Integrated Mangrove Aquaculture, in which ponds are redesigned so that mangroves and farmed fish or shrimp share the same ground",
+              "start": 896,
+              "end": 1070,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段主旨是修复与水产养殖结合的方案；viii 在文中无对应内容，属纯干扰项。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Paragraph C",
+          "answer": "vii",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "vii"
+          ],
+          "evidence": [
+            {
+              "quote": "public finance remains the backbone of early mangrove investment in Indonesia",
+              "start": 1577,
+              "end": 1654,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段先讲资金来源再讲\"三重红利\"，vii 概括准确；iii 是 A 段内容，勿混淆。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Paragraph D",
+          "answer": "iv",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "iv"
+          ],
+          "evidence": [
+            {
+              "quote": "would require every project to complete registration, validation, verification and recording in the national registry, referred to as SRUK, before any credit is issued",
+              "start": 2355,
+              "end": 2522,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段围绕签发信用前的合规要求展开，首句即主旨。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Paragraph E",
+          "answer": "i",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "i"
+          ],
+          "evidence": [
+            {
+              "quote": "intended to let project-level credits sit inside the national accounts",
+              "start": 3470,
+              "end": 3540,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段后半段专讲 nesting 如何把项目级信用纳入国家账册。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Paragraph G",
+          "answer": "vi",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "vi"
+          ],
+          "evidence": [
+            {
+              "quote": "Carbon rights and the authority to sell them are not clearly defined, which makes investors cautious",
+              "start": 4343,
+              "end": 4443,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段列举碳权、MRV 与社区谈判等落地障碍，vi 概括准确；ii 是 F 段主旨。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-mangrove-protection-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Indonesia holds approximately one-fifth of the world's mangroves.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "Roughly a fifth of the world's remaining mangroves grow in Indonesia",
+              "start": 322,
+              "end": 390,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "approximately one-fifth",
+              "to": "Roughly a fifth",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段直接给出比例。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "A project may issue carbon credits before it has been entered in the national registry.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "would require every project to complete registration, validation, verification and recording in the national registry, referred to as SRUK, before any credit is issued",
+              "start": 2355,
+              "end": 2522,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文把登记核验设为签发信用的前置条件，题干与之相反。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The scientific panel has so far approved only methodologies written in Indonesia.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "Whether the scientific panel adopts methodologies already in international use or writes Indonesian ones from scratch will determine how much existing project design survives the change",
+              "start": 4108,
+              "end": 4293,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文明确指出专家组将采用何种方法学尚未确定，故无从判断其已批准了什么。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Trading on the domestic carbon exchange has regained the levels seen at the start of the year.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "volumes remained well below the highs set earlier in the year",
+              "start": 3839,
+              "end": 3900,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文说成交量远低于年初高点，与题干相反。",
+          "skill_tag": [
+            "detail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-mangrove-protection-2026-g3",
+      "type": "summary_completion",
+      "instruction": "Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Indonesia is assembling the rules that will govern blue carbon. Before any credit can be issued, a project must be registered, validated, verified and recorded in 10. ______. Developers must also hand over at least half of the 11. ______ to coastal communities and obtain their free, prior and informed consent. For sales abroad a further mechanism is needed: a nesting framework is intended to fit project credits inside national accounts so that the same reduction is not 12. ______ twice. At project level, measurement, reporting and verification is costly and of uneven 13. ______, yet it decides whether a credit can be sold at all.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "(summary blank 10)",
+          "answer": "SRUK",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "SRUK"
+          ],
+          "evidence": [
+            {
+              "quote": "recording in the national registry, referred to as SRUK, before any credit is issued",
+              "start": 2438,
+              "end": 2522,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "登记制度的缩写只在 D 段出现一次。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "(summary blank 11)",
+          "answer": "net financial benefits",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "net financial benefits"
+          ],
+          "evidence": [
+            {
+              "quote": "coastal communities are to receive at least 50 per cent of net financial benefits",
+              "start": 2623,
+              "end": 2704,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 at least half = 原文 at least 50 per cent。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "(summary blank 12)",
+          "answer": "counted",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "counted"
+          ],
+          "evidence": [
+            {
+              "quote": "without it, the same reduction can be counted twice, once by the project and once by the country",
+              "start": 3586,
+              "end": 3682,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "摘要复述 nesting 要解决的双重计算问题。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "(summary blank 13)",
+          "answer": "credibility",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "credibility"
+          ],
+          "evidence": [
+            {
+              "quote": "Measurement, reporting and verification is expensive and its credibility uneven",
+              "start": 4445,
+              "end": 4524,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 costly = expensive，of uneven credibility = its credibility uneven。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "summary",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

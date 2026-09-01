@@ -1,0 +1,109 @@
+ID: news-solar-radiation-management-2026
+TITLE: Who Holds the Thermostat
+TAGS: climate,science,policy
+URL: https://getclimatebrief.com/story/stardust-srm-monsoon-2b-climate-risk
+NOTES: 事实取自行星工程领域 2026 年公开报道：Stardust Solutions(美以初创，2025 年融资 $7,500 万，自 2022 年起用气球向平流层输送二氧化硫，原计划 2026 年春季户外试验后在压力下退让，CEO 表示只在有政府设定护栏时推进；专有颗粒为无定形二氧化硅或二氧化硅内核+方解石外壳，追求惰性与可生物降解；已开发批次标记追踪技术；未发表同行评议研究、无第三方监督；私人资金据估超过全球 SRM 公共研究预算总和) | 成本估算(每百万吨颗粒约 $100 亿，对应约 0.5°C/年降温；Stardust 称反射不足 1% 阳光即可稳住温度) | 风险(模型一致显示扰乱大气环流、南亚与东南亚季风受影响最重、涉及超 20 亿人的水与粮食安全；终止冲击 termination shock；臭氧层影响；需无限期维持) | 治理(目前无任何国际法律框架；联合国环境大会 2026 年否决设立 SRM 研究小组的提案；UNEP 认为大规模部署目前不必要、不实际、不审慎、不够安全；美国国家科学院主张研究+监督而非不受控部署；印度成为亚洲首个公开提出监管计划的国家) | Andy Parker 关于"决定将在地缘政治的现实世界中作出"的表述 | 以色列议会内政与环境保护委员会 2026-06-30 会议把 SRM 与"化学尾迹"阴谋论混淆，官方表示无此类活动且未出示证据
+
+--- A
+Solar radiation management, or SRM, describes proposals for reflecting a small share of incoming sunlight back into space, most often by scattering particles in the stratosphere. It is not the same as carbon dioxide removal, and the distinction matters. Removing carbon dioxide tackles the accumulation of greenhouse gases; reflecting sunlight leaves that accumulation untouched. It therefore does nothing to slow ocean acidification, and treats one symptom of warming while the underlying cause continues to worsen.
+--- B
+What gives the idea its political charge is that it appears cheap and quick. The underlying chemistry is not speculative: large volcanic eruptions have been observed to cool the planet in exactly this way, and there is broad agreement that injecting reflective material would lower temperatures within months. Reflecting 1 per cent of incoming sunlight would, on the figures the industry cites, suffice to stabilise global temperature, and Stardust Solutions puts the cost of cooling the planet by about 0.5 degrees Celsius for a year at roughly $10 billion. An investor put it bluntly: if cooling the planet costs what one large computing campus costs, this is no longer something only a coalition of governments could attempt.
+--- C
+The company most closely associated with the push is Stardust Solutions, an American-Israeli venture that raised $75 million in 2025 and has been delivering sulphur dioxide into the stratosphere by balloon since 2022. It has developed a proprietary particle meant to be safer than sulphur: either amorphous silica or a silica core with a calcite shell, chosen to be inert and to biodegrade. It says it has also built a tagging technique able to follow each batch of particles as they disperse. What it has not done is publish peer-reviewed research or submit its claims to independent oversight, and its private funding is estimated to exceed the entire global public research budget for SRM.
+--- D
+That asymmetry is the heart of the problem. When the money available to one firm exceeds everything spent on public research, the shape of the technology, which particle, whose timeline, whose patents, is settled privately, and governments are left to ratify choices already made. Stardust initially scheduled open-air experiments for the spring of 2026 and then, under public pressure, stepped back, its chief executive saying it would proceed only with a government willing to set guardrails. The retreat was welcome, but it was voluntary; nothing compelled it.
+--- E
+The risks most often modelled are not failures of the machinery but changes to the climate itself. Simulations consistently indicate that stratospheric injection would alter atmospheric circulation, and the effects would not be evenly spread. The regions projected to suffer most are South and Southeast Asia, where the annual monsoon supplies water for agriculture and ecosystems across a population exceeding 2 billion. A weakened or erratic monsoon would threaten food production on a scale that could exceed the damage the intervention was meant to avert.
+--- F
+A second concern follows from the first. Because the method suppresses temperature rather than removing its cause, it must be maintained indefinitely; if injection were halted suddenly, by war, a collapse in funding or a change of government, the suppressed warming would return abruptly, far faster than the gradual warming to which societies have had decades to adapt. Researchers call this termination shock. Particles in the stratosphere may also affect the ozone layer, and the consequences of stopping cannot be tested without first having started.
+--- G
+No treaty governs any of this. There is at present no international legal framework for solar geoengineering, and the United Nations Environment Assembly earlier this year declined even to establish a study group on the subject. The United Nations Environment Programme has concluded that large-scale deployment is not currently necessary, practical, prudent or safe enough, while the United States National Academies have recommended careful research and oversight rather than uncontrolled deployment. India has become the first Asian government publicly to outline plans to regulate the technology, citing risks to its monsoon. Andy Parker, who directs a non-governmental organisation supporting SRM research in developing countries, has warned that the decisions are not going to be made in universities.
+--- H
+The confusion is not confined to legislatures. At a meeting of the Israeli parliament's Interior and Environmental Protection Committee on 30 June 2026, the legitimate question of how to license field trials was crowded out by claims that aircraft were already spreading chemicals over the country. Officials stated that no such activity was known to be taking place, and no evidence was presented. A real and contested field of research had been merged, in a parliamentary chamber, with a conspiracy theory that has no support.
+--- I
+None of this is an argument for abandoning the research. A technology that might spare millions of people the worst effects of warming deserves to be studied, and studied openly, with published results and independent monitoring. The objection is narrower and harder to dismiss: outdoor experiments that could alter rainfall on another continent are being prepared by a company answerable to its shareholders, in the absence of any body with authority to say no. The danger is not that SRM will fail to work. It is that it will work, and that nobody will have agreed in advance on who decides.
+
+### GROUP identifying_writers_views
+INSTR: Do the following statements agree with the claims of the writer? In boxes 1-5 on your answer sheet, write YES, NO or NOT GIVEN.
+ORDERED: true
+Q1 Reflecting a small proportion of sunlight would very likely reduce global temperatures.
+ANS: YES
+EV: B | there is broad agreement that injecting reflective material would lower temperatures within months
+SKILL: writer_attitude
+EXP: 作者明确承认降温效果本身争议不大，后文的反对理由是治理而非效果。
+Q2 Removing carbon dioxide addresses the cause of warming in a way that SRM does not.
+ANS: YES
+EV: A | Removing carbon dioxide tackles the accumulation of greenhouse gases; reflecting sunlight leaves that accumulation untouched.
+SKILL: writer_attitude
+EXP: A 段第二、三句即作者的核心区分。
+Q3 Investigation of solar radiation management should be abandoned entirely.
+ANS: NO
+EV: I | None of this is an argument for abandoning the research.
+SKILL: writer_attitude
+EXP: I 段首句直接否定；作者反对的是无规则的户外试验，不是研究本身。
+Q4 Stardust's claims about its particles have been confirmed by independent scientists.
+ANS: NO
+EV: C | What it has not done is publish peer-reviewed research or submit its claims to independent oversight
+SKILL: writer_attitude
+EXP: 作者特意指出该公司既无同行评议成果、也无第三方监督，因此其主张谈不上被证实。
+Q5 The writer expects an international agreement governing SRM to be concluded within the next two years.
+ANS: NOT GIVEN
+EV: G | There is at present no international legal framework for solar geoengineering
+SKILL: writer_attitude
+EXP: G 段只陈述当前没有框架、环境大会连研究小组都否决了，并未对何时能达成国际协议给出任何时间表，属未提及。
+
+### GROUP matching_information
+INSTR: Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-I, in boxes 6-9 on your answer sheet.
+ORDERED: false
+Q6 A comparison suggesting that the amount of money required is surprisingly small.
+ANS: B
+EV: B | if cooling the planet costs what one large computing campus costs, this is no longer something only a coalition of governments could attempt
+SKILL: skimming
+EXP: B 段用一个计算园区的造价作比，说明门槛极低。C 段也有成本，但那是颗粒单价，不是「规模之小」的类比。
+Q7 A description of a method for tracking material once it has been released.
+ANS: C
+EV: C | a tagging technique able to follow each batch of particles as they disperse
+SKILL: skimming
+EXP: C 段中间的标记追踪技术。
+Q8 A reference to an international body that declined to establish a group to study the subject.
+ANS: G
+EV: G | the United Nations Environment Assembly earlier this year declined even to establish a study group on the subject
+SKILL: skimming
+EXP: G 段环境大会否决设组的细节。注意 I 段是结论，不含具体机构。
+Q9 A reference to a parliamentary meeting at which SRM was confused with an unsubstantiated theory.
+ANS: H
+EV: H | At a meeting of the Israeli parliament's Interior and Environmental Protection Committee on 30 June 2026
+SKILL: skimming
+EXP: H 段整段讲以色列议会会议把 SRM 与阴谋论混为一谈。
+
+### GROUP short_answer
+INSTR: Answer the questions below using words taken from the reading passage. Write your answers in boxes 10-13 on your answer sheet.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 What natural phenomenon does SRM imitate?
+ANS: volcanic eruptions
+ACC: volcanic eruption
+FORM: free_text
+EV: B | large volcanic eruptions have been observed to cool the planet in exactly this way
+SKILL: scanning
+EXP: B 段以火山喷发后的降温作为类比。
+Q11 According to Stardust, roughly what would it cost to cool the planet by about 0.5 degrees Celsius for a year?
+ANS: $10 billion
+ACC: 10 billion dollars
+FORM: free_text
+EV: B | Stardust Solutions puts the cost of cooling the planet by about 0.5 degrees Celsius for a year at roughly $10 billion
+SKILL: scanning
+EXP: B 段末段给出年度成本估算。
+Q12 How many people depend on the monsoon that models suggest could be disrupted?
+ANS: 2 billion
+ACC: two billion
+FORM: free_text
+EV: E | supplies water for agriculture and ecosystems across a population exceeding 2 billion
+SKILL: scanning
+EXP: E 段「超过 20 亿」。
+Q13 Which country is the first in Asia to have publicly outlined plans to regulate solar geoengineering?
+ANS: India
+FORM: free_text
+EV: G | India has become the first Asian government publicly to outline plans to regulate the technology
+SKILL: scanning
+EXP: G 段明确点名印度。

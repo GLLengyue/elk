@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-microplastics-health-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-microplastics-health-2026",
+    "source_url": "https://brain.news/2026-06-08-microplastics-brain-tissues-linked-dementia-cardiovascular-risk.html",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 Brain Health 期刊创刊号 2026-05-05 观点文章报道(新墨西哥大学、渥太华大学、德累斯顿工业大学、伦敦国王学院联合团队；2016-2024 捐赠者脑/肝/肾样本，脑内微塑料浓度为肝或肾的 7-30 倍，累积负担八年增约 50%，痴呆确诊者负荷最重，主要成分为聚乙烯纳米级碎片；首席作者 Julio Licinio；呼吁紧急关注) | NEJM Marfella 团队颈动脉内膜切除研究(257 例、聚乙烯检出率 58.4%、PVC 12.1%、随访近 34 个月、检出者心梗/中风/死亡复合风险约 4.5 倍) | Kopatz 团队小鼠实验(口服聚苯乙烯纳米颗粒 2 小时内穿越血脑屏障，生物分子冠充当\"护照\"，较大颗粒不能穿过) | 其他动物实验(免疫细胞吞噬纳米塑料后堵塞脑毛细血管致脑血流下降；大鼠中风前经口暴露致炎症更重、海马神经元死亡更多、神经功能更差) | 暴露途径(超加工食品占美国热量摄入一半以上；385,541 人荟萃分析显示最高摄入组常见精神障碍症状 odds 高 53%；瓶装水每升多达 24 万颗；34 国 87% 自来水样本检出，多为 <50 微米聚酯碎片；郑州大学估计吸入占摄入总量近一半，<2.5 微米可达肺泡，人肺组织 0.56-6.00 颗/克) | Journal of Xenobiotics 系统综述(2025 年 10 月检索四个数据库、纳入 14 项研究，证据确定性很低、多数高或极高偏倚风险，因果未证；一项研究在 80% 血栓中检出微塑料且与 D-二聚体升高相关) | 临床空白与应对(无临床指引/膳食建议/标准检测方案；美国生物医学机构启动系统性清除计划；血浆置换被证实可清除血浆中颗粒；福州大学发现 PFOA 共存使电化学降解效率下降超 50%，初期竞争活性氧、后期形成富氟屏蔽层)"
+  },
+  "passage": {
+    "id": "news-microplastics-health-2026-text",
+    "title": "Particles in the Organ That Cannot Repair Itself",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For two decades microplastics were treated as an environmental problem, a pollutant in oceans and soil. A perspective published on 5 May 2026 in the first issue of the journal Brain Health argues that the framing is now untenable. An international group of researchers, from the University of New Mexico, the University of Ottawa, TU Dresden and King's College London, set out to combine three lines of evidence that had developed separately, and concluded that plastic accumulation in the human brain should be treated as a medical emergency."
+      },
+      {
+        "label": "B",
+        "text": "The tissue evidence is the most striking part of the argument. Researchers at the University of New Mexico analysed brain, liver and kidney samples taken from donors who died between 2016 and 2024, and found that plastic concentrations in the brain were seven to thirty times higher than in matched liver or kidney samples. The cumulative plastic burden in brain tissue rose by approximately 50 per cent between 2016 and 2024, and donors with a diagnosis of dementia carried the heaviest loads. Polyethylene, mostly in nanoscale shard-like fragments, was the predominant plastic. Even so, the authors stopped short of claiming that the particles had caused the disease: the samples show accumulation, not mechanism."
+      },
+      {
+        "label": "C",
+        "text": "A second line of evidence comes from cardiology. A study published in the New England Journal of Medicine followed 257 patients who had undergone surgery to remove plaque from the carotid arteries supplying the brain. Polyethylene was detected in 58.4 per cent of the plaque samples and polyvinyl chloride in a further 12.1 per cent. Over nearly 34 months of follow-up, patients whose plaque contained these particles faced a composite risk of heart attack, stroke or death roughly four and a half times higher than those whose plaque did not. The authors' point is that this is as much a brain finding as a cardiac one, since a stroke is an outcome in the brain."
+      },
+      {
+        "label": "D",
+        "text": "The question of how the particles arrive there is being answered in animals. Work by Kopatz and colleagues showed that nanoscale polystyrene particles given to mice by mouth crossed the blood-brain barrier within two hours, apparently using the coating of biological molecules they acquire in the blood as a kind of passport; larger particles did not cross. Other experiments have shown immune cells engulfing nanoplastics and then obstructing the fine capillaries of the brain, reducing cerebral blood flow, and rats dosed with nanoplastics before an induced stroke suffered greater inflammation, more neuron death in the hippocampus and worse neurological performance."
+      },
+      {
+        "label": "E",
+        "text": "Exposure is continuous and comes by several routes at once. Ultra-processed foods, which supply more than half of all calories consumed in the United States, are thought to be a major delivery mechanism, because food repeatedly contacts plastic packaging and machinery during manufacture; one meta-analysis of 385,541 participants linked the highest intake of such foods to 53 per cent higher odds of common mental disorder symptoms. Eighty-seven per cent of tap water samples across 34 countries contained microplastics, mostly polyester fragments below 50 micrometres. Researchers at Zhengzhou University estimate that inhalation alone may account for close to half of total intake: particles under 2.5 micrometres can reach the alveoli, and human lung tissue has been found to hold between 0.56 and 6.00 particles per gram."
+      },
+      {
+        "label": "F",
+        "text": "What the field cannot yet do is say how much of this matters. A systematic review in the Journal of Xenobiotics, which searched four databases in October 2025 and included fourteen studies, found microplastics in blood, vascular tissue, thrombi and arterial plaque, and reported possible associations with heart attack, stroke, hypertension and clotting. It also concluded that the certainty of the evidence was very low and that most of the studies carried a high or very high risk of bias. One study found plastic in 80 per cent of the blood clots analysed, but an association of that kind cannot establish whether the plastic contributed to the clot or merely accumulated in it."
+      },
+      {
+        "label": "G",
+        "text": "There is, meanwhile, no clinical machinery for dealing with any of it. Western medicine has produced no clinical guidance, dietary recommendations or standard testing protocols for measuring plastic burden in a patient, so neither doctors nor individuals can find out how much they carry. Research agencies have begun to respond: a United States biomedical agency has launched a programme on the systematic removal of microplastics, and a blood-filtering technique long used for other conditions has been shown to clear particles from plasma. Engineering solutions have their own obstacles: researchers at Fuzhou University found that when perfluorooctanoic acid is present alongside the plastic, the efficiency of electrochemical breakdown falls by more than half, because the acid competes for the reactive oxygen that drives the process."
+      },
+      {
+        "label": "H",
+        "text": "That combination, rather than any single result, is what gives the argument its force, and also what limits it. Each finding is individually open to objection: tissue samples cannot establish causation, animal experiments may not transfer to people, and dietary studies cannot separate plastic from the rest of a processed diet. Taken together, however, they describe a contaminant that is present in the organ with the least capacity to repair itself, that is increasing, and that nobody is measuring. The authors called for urgent attention, for standardised detection methods and for prospective studies able to separate correlation from cause. Until those exist, the only advice available is unglamorous: reduce exposure where it is cheapest to do so."
+      }
+    ],
+    "word_count": 895,
+    "topic_tags": [
+      "health",
+      "science",
+      "environment"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-microplastics-health-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Plastic concentrations measured in brain tissue were several times higher than those measured in the liver.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "plastic concentrations in the brain were seven to thirty times higher than in matched liver or kidney samples",
+              "start": 757,
+              "end": 866,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段明确 7-30 倍于配对的肝脏或肾脏样本。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "The authors of the perspective state that microplastics have been shown to cause dementia.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "the authors stopped short of claiming that the particles had caused the disease",
+              "start": 1133,
+              "end": 1212,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文明确「未宣称导致疾病」，且 F 段指出证据确定性很低、因果未证，题干与之直接矛盾。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Nanoscale polystyrene particles were found to cross the blood-brain barrier in mice within two hours.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "nanoscale polystyrene particles given to mice by mouth crossed the blood-brain barrier within two hours",
+              "start": 2043,
+              "end": 2146,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段首句原文照应。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Standard clinical tests for measuring the amount of plastic in a patient's body are now widely available.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "Western medicine has produced no clinical guidance, dietary recommendations or standard testing protocols for measuring plastic burden in a patient",
+              "start": 4175,
+              "end": 4322,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文说标准检测方案根本不存在，题干「现已广泛使用」与之矛盾。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The perspective called for an immediate ban on plastic food packaging.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "The authors called for urgent attention, for standardised detection methods and for prospective studies able to separate correlation from cause.",
+              "start": 5448,
+              "end": 5592,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "H 段列出的诉求是紧急关注、标准化检测与前瞻研究，全文没有任何关于「禁止塑料包装」的倡议，属未提及。注意不要把「呼吁紧急关注」当成任何具体政策主张。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-microplastics-health-2026-g2",
+      "type": "summary_completion",
+      "instruction": "Complete the notes below. Choose up to three words from the passage for each answer. Write your answers in boxes 6-9 on your answer sheet. Microplastics in brain tissue — key findings Comparison: plastic concentrations in the brain were seven to thirty times higher than in matched 6. ______ samples taken from the same donors. Trend: the total plastic burden in brain tissue rose by about 7. ______ between 2016 and 2024. Material: the commonest plastic found was 8. ______ , mostly in the form of nanoscale fragments. Heaviest loads: these were recorded in donors who had been diagnosed with 9. ______ .",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "(note blank 6)",
+          "answer": "liver or kidney",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "liver or kidney",
+            "liver | kidney"
+          ],
+          "evidence": [
+            {
+              "quote": "higher than in matched liver or kidney samples",
+              "start": 820,
+              "end": 866,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段配对样本为肝脏或肾脏；三词正好符合字数上限。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "(note blank 7)",
+          "answer": "50 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "50 per cent",
+            "50%"
+          ],
+          "evidence": [
+            {
+              "quote": "The cumulative plastic burden in brain tissue rose by approximately 50 per cent between 2016 and 2024",
+              "start": 868,
+              "end": 969,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "八年期间累积负担增幅。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "(note blank 8)",
+          "answer": "polyethylene",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "polyethylene"
+          ],
+          "evidence": [
+            {
+              "quote": "Polyethylene, mostly in nanoscale shard-like fragments, was the predominant plastic.",
+              "start": 1039,
+              "end": 1123,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段末句点名聚乙烯为主要成分。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "(note blank 9)",
+          "answer": "dementia",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "dementia"
+          ],
+          "evidence": [
+            {
+              "quote": "donors with a diagnosis of dementia carried the heaviest loads",
+              "start": 975,
+              "end": 1037,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "痴呆确诊捐赠者负荷最重。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "note",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": "news-microplastics-health-2026-g3",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "Researchers at the University of New Mexico"
+        },
+        {
+          "key": "B",
+          "text": "The authors of the New England Journal of Medicine study"
+        },
+        {
+          "key": "C",
+          "text": "Researchers at Zhengzhou University"
+        },
+        {
+          "key": "D",
+          "text": "Researchers at Fuzhou University"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "Which researchers compared the concentration of plastic in the brain with that in other organs?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "Researchers at the University of New Mexico analysed brain, liver and kidney samples taken from donors who died between 2016 and 2024",
+              "start": 607,
+              "end": 740,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段新墨西哥大学团队做脑/肝/肾配对比较。NEJM 研究只测颈动脉斑块，不涉及器官间比较。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Which researchers followed patients for nearly three years after an operation to remove arterial plaque?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "A study published in the New England Journal of Medicine followed 257 patients who had undergone surgery to remove plaque from the carotid arteries supplying the brain.",
+              "start": 1309,
+              "end": 1477,
+              "paragraph_label": "C",
+              "is_core": true
+            },
+            {
+              "quote": "Over nearly 34 months of follow-up",
+              "start": 1594,
+              "end": 1628,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "34 个月接近三年，对应 C 段的 NEJM 研究。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Which researchers estimated the share of plastic intake that enters the body through breathing?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "Researchers at Zhengzhou University estimate that inhalation alone may account for close to half of total intake",
+              "start": 3166,
+              "end": 3278,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段末句郑州大学的吸入占比估计。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Which researchers investigated a technique for breaking plastic down rather than its effects on health?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "researchers at Fuzhou University found that when perfluorooctanoic acid is present alongside the plastic, the efficiency of electrochemical breakdown falls by more than half",
+              "start": 4695,
+              "end": 4868,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段福州大学研究的是电化学降解效率，属治理技术而非健康效应。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

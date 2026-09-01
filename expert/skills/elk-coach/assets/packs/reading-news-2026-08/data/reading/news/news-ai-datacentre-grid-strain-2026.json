@@ -1,0 +1,537 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-ai-datacentre-grid-strain-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-ai-datacentre-grid-strain-2026",
+    "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-06-10-gartner-says-data-center-electricity-demand-to-grow-26-percent-in-2026",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。事实来源见 page_refs：Gartner（565/447 TWh、AI 服务器占比、2030 超 1200 TWh）、IEA Electricity 2026（2500 GW 并网排队、5-15 年 vs 1-3 年、4000 亿美元投资）、Ember 与 CBRE/DC Byte（FLAP-D 等待 7-10 年、都柏林占比）、EirGrid Group Strategy 2026（189 亿欧元、381 个输电项目）、NextEra/S&P Global（Duane Arnold 615 MW、25 年 PPA、2029 年初）、Irish LEAP 与 Friends of the Earth（80% 自备、7.15 亿欧元）、KPMG（22 亿欧元 GVA）。"
+    },
+    "retrieved_at": "2026-08-30T22:50:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "基于公开新闻事实由模型改写成雅思学术体并命题 信源: https://www.gartner.com/en/newsroom/press-releases/2026-06-10-gartner-says-data-center-electricity-demand-to-grow-26-percent-in-2026 | https://www.iea.org/reports/electricity-2026/grids | https://www.meed.com/ai-is-creating-a-grid-capacity-problem | https://www.uzenergynews.com/ | https://www.eirgrid.ie//news/eirgrid-launches-new-5-year-strategy-transform-irelands-electricity-grid | https://www.spglobal.com/commodity-insights/en/news-research/latest-news/electric-power/102725-nextera-deals-with-google-power-co-ops-allow-for-restart-of-iowa-nuclear-plant | https://www.ans.org/news/2025-10-28/article-7501/nextera-and-google-ink-a-deal-to-restart-duane-arnold | https://www.pandwsolar.com/irelands-leap-of-faith-to-power-data-centers | https://www.sourcebyspec.com/news/global-transformer-shortage-2026-lead-times-capacity-adds-and-sourcing-levers.html | https://marketbusinessnews.com/ai-needs-more-electricity-why-are-data-centres-waiting-years-to-connect-to-the-grid/450748"
+  },
+  "passage": {
+    "id": "news-ai-datacentre-grid-strain-2026-text",
+    "title": "The Grid as the New Constraint on Artificial Intelligence",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Until recently, the pace of artificial intelligence was set largely by silicon: the supply of advanced processors and the speed at which new models could be trained. By 2026 the binding constraint had shifted. Expansion was limited less by chips than by the electricity behind them, and by the wires and substations needed to deliver it. Research published by Gartner in June 2026 projected that global data centre electricity consumption would reach 565 terawatt hours during the year, up 26 per cent from 447 terawatt hours in 2025, and would exceed 1,200 terawatt hours by 2030. Gartner concluded that, on present plans, grid supply would be insufficient to meet the demands of future data centre construction."
+      },
+      {
+        "label": "B",
+        "text": "The composition of that growth matters as much as its scale. Gartner estimated that AI-optimised servers would account for 31 per cent of data centre power consumption in 2026, up from roughly 20 per cent a year earlier, and would overtake conventional servers by 2027. Cooling and other infrastructure, strained by denser hardware, was forecast to consume a further 195 terawatt hours, about 22.6 per cent more than in 2025. Measured as capacity rather than energy delivered over time, demand was expected to rise from 104 gigawatts in 2025 to 132 gigawatts in 2026 and to 290 gigawatts by the end of the decade. Linglan Wang, an analyst at Gartner, noted that AI capacity had become constrained by power availability."
+      },
+      {
+        "label": "C",
+        "text": "Whether such demand can be met depends less on generation than on connection. The International Energy Agency's Electricity 2026 report found that more than 2,500 gigawatts of renewable generation, storage and large-load projects were stalled in grid connection queues worldwide. The agency attributed the backlog partly to a mismatch in timescales: a data centre can typically be built in one to three years, whereas planning, permitting and completing new grid infrastructure requires between five and fifteen years. Annual global grid investment, currently around 400 billion US dollars, would need to rise by roughly 50 per cent by 2030. Prices for key grid components have nearly doubled over the past five years."
+      },
+      {
+        "label": "D",
+        "text": "Nowhere is this clearer than in Europe's principal data centre hubs, the FLAP-D markets of Frankfurt, London, Amsterdam, Paris and Dublin. Analysts put typical waits for a large new connection there at seven to ten years, and at up to thirteen years in the most congested locations. Data centres already accounted for between 33 and 42 per cent of local electricity demand in Amsterdam, London and Frankfurt in 2023, and for close to 80 per cent in Dublin. The Netherlands and Frankfurt have effectively closed the door on new large connections until at least 2030, and several operators have paused investment rather than wait."
+      },
+      {
+        "label": "E",
+        "text": "Equipment supply compounds the delay. Large power transformers, which reduce transmission voltages to levels a campus can use, are engineered items built in batches, and capacity cannot be expanded quickly. Industry procurement data for 2026 put lead times for such units at 120 weeks or more, against a historical norm closer to 50 weeks; standard units averaged about 128 weeks and generator step-up transformers were quoted beyond 160 weeks. Medium-voltage switchgear was reported sold out through 2028 in several markets. Manufacturers have begun to respond: Hitachi Energy committed a further 250 million US dollars to transformer capacity in October 2025."
+      },
+      {
+        "label": "F",
+        "text": "Operators have therefore started to secure supply for themselves. In October 2025 Google agreed to buy the output of the 615-megawatt Duane Arnold nuclear plant in Iowa under a 25-year power purchase agreement, funding a restart by NextEra Energy, which had acquired full ownership of the plant by July 2026. NextEra's chief executive, John Ketchum, confirmed a target of early 2029 for generation to resume, subject to regulatory approval. Such projects remain exceptional: no commercial reactor in the United States that has been fully shut down has yet returned to service. Grid operators have adapted too, with PJM Interconnection adopting rules allowing large data centres to be curtailed first to protect household supply."
+      },
+      {
+        "label": "G",
+        "text": "States have intervened on a comparable scale. Following approval of an 18.9 billion euro programme covering 2026 to 2030, EirGrid, Ireland's transmission operator, set out plans to deliver 381 transmission projects and to expand its workforce beyond 2,000. Ireland illustrates the underlying pressure: data centres account for almost a quarter of metered national electricity demand, up from 5 per cent in 2015, and the operator projects 31 per cent by 2034. Under the Large Energy User Action Plan introduced in January 2026, facilities above 10 megawatts were required to supply at least 80 per cent of annual demand from new on-site renewable generation and storage."
+      },
+      {
+        "label": "H",
+        "text": "Such policies remain contested. Friends of the Earth argued that Irish households had already paid 715 million euro in additional bills because of the strain data centres place on the grid, and called for a temporary moratorium. Philip Connolly, a policy manager at the utility ESB, countered that any shortfall would be met from the market, depending on the generation mix at the time. A KPMG report for the Irish government in March 2026 noted that data centres contributed roughly 2.2 billion euro in gross value added in 2024. Forecasts also carry wide margins of error, since the electricity required for each AI task is falling quickly even as the number of tasks grows."
+      }
+    ],
+    "word_count": 883,
+    "topic_tags": [
+      "technology",
+      "energy",
+      "environment"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-ai-datacentre-grid-strain-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage?",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Gartner's figures show that data centres worldwide used 447 terawatt hours of electricity in 2025.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "up 26 per cent from 447 terawatt hours in 2025",
+              "start": 487,
+              "end": 533,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "Gartner's figures show",
+              "to": "Research published by Gartner",
+              "kind": "synonym"
+            },
+            {
+              "from": "data centres worldwide used",
+              "to": "global data centre electricity consumption",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段明确：2026 年将达 565 TWh，比 2025 年的 447 TWh 上升 26%，故 2025 年数值为 447 TWh。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "AI-optimised servers are expected to consume more electricity than conventional servers by 2027.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Gartner estimated that AI-optimised servers would account for 31 per cent of data centre power consumption in 2026, up from roughly 20 per cent a year earlier, and would overtake conventional servers by 2027.",
+              "start": 775,
+              "end": 983,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "consume more electricity than",
+              "to": "overtake",
+              "kind": "synonym"
+            },
+            {
+              "from": "are expected to",
+              "to": "estimated that ... would",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段说 AI 优化服务器将在 2027 年 overtake（超过）传统服务器用电量。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Gartner expects the grid to keep pace with the expansion of data centres over the rest of the decade.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Gartner concluded that, on present plans, grid supply would be insufficient to meet the demands of future data centre construction.",
+              "start": 582,
+              "end": 713,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "keep pace with the expansion",
+              "to": "be insufficient to meet the demands",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段末句说按现行规划电网供应将不足以（insufficient）满足未来数据中心建设需求，与题干「跟得上」直接矛盾。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The majority of the capacity held in global grid connection queues consists of data centre projects.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "The International Energy Agency's Electricity 2026 report found that more than 2,500 gigawatts of renewable generation, storage and large-load projects were stalled in grid connection queues worldwide.",
+              "start": 1512,
+              "end": 1713,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "capacity held in",
+              "to": "projects ... stalled in",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段只列出队列包含可再生能源、储能和大负荷项目，未给出数据中心在其中的占比，因此「占多数」无法证实也无法否定。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "New grid infrastructure can generally be completed more quickly than a new data centre.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "a data centre can typically be built in one to three years, whereas planning, permitting and completing new grid infrastructure requires between five and fifteen years",
+              "start": 1784,
+              "end": 1951,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "more quickly",
+              "to": "one to three years ... whereas ... five and fifteen years",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段对比：数据中心 1-3 年，电网 5-15 年，题干把快慢说反了。",
+          "skill_tag": [
+            "detail",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ai-datacentre-grid-strain-2026-g2",
+      "type": "summary_completion",
+      "subtype": "note",
+      "instruction": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.\n\nDelays in connecting new data centre capacity",
+      "word_limit": "ONE WORD ONLY",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Building a data centre takes one to three years, whereas new grid infrastructure requires between ______ and fifteen years.",
+          "answer": "five",
+          "acceptable_answers": [
+            "five"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "whereas planning, permitting and completing new grid infrastructure requires between five and fifteen years",
+              "start": 1844,
+              "end": 1951,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "Building a data centre takes",
+              "to": "a data centre can typically be built in",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段：数据中心 1-3 年，电网 5-15 年，空格填 five。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "In the FLAP-D markets, developers typically wait seven to ______ years for a large connection.",
+          "answer": "ten",
+          "acceptable_answers": [
+            "ten"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "Analysts put typical waits for a large new connection there at seven to ten years, and at up to thirteen years in the most congested locations.",
+              "start": 2292,
+              "end": 2435,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "developers typically wait",
+              "to": "typical waits",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段：FLAP-D 市场大型新接入通常等待 seven to ten years。thirteen 只用于「最拥堵地点」，非典型值。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The Netherlands and Frankfurt have effectively closed the door on new large connections until at least ______.",
+          "answer": "2030",
+          "acceptable_answers": [
+            "2030"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "The Netherlands and Frankfurt have effectively closed the door on new large connections until at least 2030, and several operators have paused investment rather than wait.",
+              "start": 2610,
+              "end": 2781,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "closed the door on",
+              "to": "closed the door on",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段原句直接给出 until at least 2030。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Lead times for large power transformers have risen from a historical norm of about 50 weeks to ______ weeks or more.",
+          "answer": "120",
+          "acceptable_answers": [
+            "120"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "Industry procurement data for 2026 put lead times for such units at 120 weeks or more, against a historical norm closer to 50 weeks; standard units averaged about 128 weeks and generator step-up transformers were quoted beyond 160 weeks.",
+              "start": 2989,
+              "end": 3226,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "Lead times ... have risen",
+              "to": "put lead times ... at 120 weeks or more",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "E 段：大型变压器交期 120 周以上，历史常态接近 50 周；128 周是「标准型号」均值，160 周是升压变压器，均不匹配题干。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ai-datacentre-grid-strain-2026-g3",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "Gartner"
+        },
+        {
+          "key": "B",
+          "text": "The International Energy Agency"
+        },
+        {
+          "key": "C",
+          "text": "EirGrid"
+        },
+        {
+          "key": "D",
+          "text": "Friends of the Earth"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "Which organisation projected that global data centre electricity consumption would reach 565 terawatt hours in 2026?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Research published by Gartner in June 2026 projected that global data centre electricity consumption would reach 565 terawatt hours during the year, up 26 per cent from 447 terawatt hours in 2025, and would exceed 1,200 terawatt hours by 2030.",
+              "start": 338,
+              "end": 581,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "projected",
+              "to": "projected",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "565 TWh / 447 TWh / 2030 年超 1,200 TWh 均出自 Gartner 2026 年 6 月研究；IEA 的口径是 485 TWh（2025）到 950 TWh（2030）。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Which organisation identified the mismatch between the time needed to build grid infrastructure and the time needed to build the facilities it serves?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "The agency attributed the backlog partly to a mismatch in timescales: a data centre can typically be built in one to three years, whereas planning, permitting and completing new grid infrastructure requires between five and fifteen years.",
+              "start": 1714,
+              "end": 1952,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "identified the mismatch",
+              "to": "attributed the backlog partly to a mismatch in timescales",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段的 the agency 回指前一句的 International Energy Agency（Electricity 2026 报告）。",
+          "skill_tag": [
+            "inference",
+            "cohesion"
+          ],
+          "acceptable_answers": [
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Which organisation is responsible for delivering 381 transmission projects in Ireland?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Following approval of an 18.9 billion euro programme covering 2026 to 2030, EirGrid, Ireland's transmission operator, set out plans to deliver 381 transmission projects and to expand its workforce beyond 2,000.",
+              "start": 4219,
+              "end": 4429,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "responsible for delivering",
+              "to": "set out plans to deliver",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "G 段：EirGrid 是爱尔兰输电运营商，计划交付 381 个输电项目。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Which organisation claimed that data centres had already added 715 million euro to Irish household electricity bills?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Friends of the Earth argued that Irish households had already paid 715 million euro in additional bills because of the strain data centres place on the grid, and called for a temporary moratorium.",
+              "start": 4875,
+              "end": 5071,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "claimed",
+              "to": "argued",
+              "kind": "synonym"
+            },
+            {
+              "from": "added ... to household electricity bills",
+              "to": "households had already paid ... in additional bills",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "7.15 亿欧元额外账单是环保组织 Friends of the Earth 的说法；Philip Connolly（ESB）持相反意见，KPMG 谈的是经济贡献，均不匹配。",
+          "skill_tag": [
+            "detail",
+            "writer_attitude"
+          ],
+          "acceptable_answers": [
+            "D"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-30T22:50:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

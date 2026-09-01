@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-gut-microbiome-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-gut-microbiome-2026",
+    "source_url": "https://www.gutmicrobiotaforhealth.com/species-level-food-specific-associations-predicted-in-a-cohort-of-10068-people-may-guide-personalized-nutrition",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实核自 Human Phenotype Project/Nature Medicine 2026 Segev et al.(10068 人、发现队列 7998、测试集 2070、随访 2 年 1654/4 年 1412、饮食预测 92% 物种(669/724)与 98% 通路(313/320)、加工程度>动植物结构、超加工食品为最强负向预测、咖啡↔L.asaccharolyticus、酸奶↔S.thermophilus、乳/面包↔Bifidobacterium、坚果/香蕉↔Lachnospiraceae、Akkermansia/F.prausnitzii 最常随饮食改变、需随机试验|Penn 综述 Nature Reviews Microbiology 2026-08-03(Hyun Koo、Gary Wu、Charlene Compher、Jeonbuk 国立大学: 固态发酵植物食物>液态益生菌、纤维结构保护活菌、三步征途-建数据库/分析工具/定义产品、强调严谨测试)"
+  },
+  "passage": {
+    "id": "news-gut-microbiome-2026-text",
+    "title": "Reading the Community in Your Gut",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In the past two decades the trillions of bacteria that live inside the human gut have moved from a medical curiosity to a central character in the story of health. The community, collectively known as the gut microbiome, has been linked to digestion, immunity, mood and even the response to cancer treatment. Yet for all this attention, one question has proved stubbornly hard to answer: if the bacteria in our intestines are shaped by what we eat, why can we not simply read a person's gut and prescribe a diet?"
+      },
+      {
+        "label": "B",
+        "text": "A study published in Nature Medicine in 2026 brought the field closer to an answer. Researchers working with a cohort of more than ten thousand adults in Israel drew on app-based food diaries and shotgun metagenomic sequencing, which reads the genetic material of every organism in a sample at once. Rather than looking at broad categories of bacteria, they worked at the level of individual species, the finest point at which a microbe can be identified. Accounting for age, sex, body-mass index and underlying illness, diet predicted the abundance of nine in ten of the gut species they tested, and of ninety-eight per cent of the metabolic pathways they measured."
+      },
+      {
+        "label": "C",
+        "text": "The most striking finding concerned what mattered most. The researchers did not find that the split between a plant-rich and an animal-rich diet was the dominant influence on microbial diversity. Instead, the degree to which a food had been processed predicted diversity more strongly. Minimally processed, nutrient-dense food was the strongest positive predictor of the range of species present, while ultra-processed food was the strongest negative predictor. In practical terms, this means that cutting back on industrially refined products may do more for the gut than swapping meat for vegetables."
+      },
+      {
+        "label": "D",
+        "text": "The same study mapped the diet onto the members of the community in a way that had previously been impossible. Coffee appeared to be linked to the abundance of a species that produces butyrate, a short-chain fatty acid associated with a healthy gut lining. Yogurt was associated with a species common in fermented dairy, while dairy products and bread were tied to two closely related members of a genus that dominates the gut in infancy. Nuts and bananas were strong predictors of the abundance of particular species within two families of fibre-fermenting bacteria. Among the gut bacteria most often predicted to change with a shift in one or two foods were Akkermansia muciniphila and Faecalibacterium prausnitzii, both of which have been linked to cardiometabolic markers. These links are associations rather than proof of cause, but they are specific enough to begin guiding advice."
+      },
+      {
+        "label": "E",
+        "text": "A separate strand of research asks how such knowledge might be turned into a product rather than an abstract guideline. A review led by investigators at a university dental school in Philadelphia, published in August 2026, examined fermented plant-based foods such as kimchi and sauerkraut. These foods, the authors argue, differ from the liquid probiotic drinks already on the market. A yogurt typically carries a small number of bacterial strains from a defined starter culture; a fermented vegetable carries a much wider community of native microbes, together with the metabolites they have produced."
+      },
+      {
+        "label": "F",
+        "text": "The review also pointed to a physical reason why solid fermented food may behave differently. Its fibrous structure protects the microorganisms it carries and lets them remain longer on the moist surfaces of the mouth and gut, creating more opportunities for interaction than a drink, which passes through quickly. Beyond the live bacteria themselves, plant-based fermented food brings dietary fibre and bioactive plant compounds in the same package. The authors are careful to stress that these foods are not being proposed as treatments, but as candidates for controlled testing."
+      },
+      {
+        "label": "G",
+        "text": "To move from either line of research to actual advice, the authors of the Nature Medicine study argue that randomised trials are the essential next step. Observation can show that certain foods and certain microbes move together; only an experiment can show whether changing one changes the other in a predictable way. In the meantime, several practical priorities have been set out: building more comprehensive databases of the organisms present in fermented foods, developing better tools for profiling microbial strains and metabolites, and designing products with a defined microbial and chemical composition."
+      },
+      {
+        "label": "H",
+        "text": "These ambitions, however, carry a caution. The specificity that makes microbiome research exciting also makes its findings fragile. A link between one food and one species in a large cohort may not hold for a single individual, whose microbiome differs from every other person's. And associations, however precisely measured, cannot distinguish a food that supports a microbe from one that merely happens to be eaten alongside it. The gap between a promising observation and a dependable recommendation remains wide, and both groups of researchers acknowledge it."
+      }
+    ],
+    "word_count": 793,
+    "topic_tags": [
+      "health",
+      "science",
+      "nutrition"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-gut-microbiome-2026-g1",
+      "type": "matching_headings",
+      "instruction": "The reading passage has eight paragraphs, A-H. Choose the correct heading for each paragraph from the list of headings below.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "i",
+          "text": "Why the animal-versus-plant question is not the decisive factor"
+        },
+        {
+          "key": "ii",
+          "text": "A large study that links diet to individual species of bacteria"
+        },
+        {
+          "key": "iii",
+          "text": "The limits of what observational evidence can establish"
+        },
+        {
+          "key": "iv",
+          "text": "A physical reason why fermented vegetables behave differently"
+        },
+        {
+          "key": "v",
+          "text": "The case for a whole food over a drinkable supplement"
+        },
+        {
+          "key": "vi",
+          "text": "The measurements that made the study possible"
+        },
+        {
+          "key": "vii",
+          "text": "A note of caution about applying the findings"
+        },
+        {
+          "key": "viii",
+          "text": "The first step that will be needed to turn observation into prescription"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Paragraph B",
+          "answer": "ii",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "ii"
+          ],
+          "evidence": [
+            {
+              "quote": "Rather than looking at broad categories of bacteria, they worked at the level of individual species",
+              "start": 813,
+              "end": 912,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "B 段核心是这项把饮食与\"物种级\"菌群关联起来的大型研究，ii 的主旨最贴切。vi 描述的只是研究手段的一部分，不能概括全段。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Paragraph C",
+          "answer": "i",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "i"
+          ],
+          "evidence": [
+            {
+              "quote": "The researchers did not find that the split between a plant-rich and an animal-rich diet was the dominant influence on microbial diversity",
+              "start": 1236,
+              "end": 1374,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段的落点是\"加工程度比动植物结构更重要\"，即动植物之别并非决定因素，i 准确。注意与\"vi 测量方法\"区分。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Paragraph E",
+          "answer": "v",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "v"
+          ],
+          "evidence": [
+            {
+              "quote": "These foods, the authors argue, differ from the liquid probiotic drinks already on the market",
+              "start": 2962,
+              "end": 3055,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段讲泡菜/酸菜这类固态发酵食物优于液态益生菌饮料，v 是\"以固态食物替代可饮用补充剂\"的主张。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Paragraph F",
+          "answer": "iv",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "iv"
+          ],
+          "evidence": [
+            {
+              "quote": "Its fibrous structure protects the microorganisms it carries and lets them remain longer on the moist surfaces of the mouth and gut",
+              "start": 3369,
+              "end": 3500,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段的重点是纤维结构为何使发酵植物食物行为不同，iv 直接对应。v 已用于 E 段。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Paragraph G",
+          "answer": "viii",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "viii"
+          ],
+          "evidence": [
+            {
+              "quote": "the authors of the Nature Medicine study argue that randomised trials are the essential next step",
+              "start": 3912,
+              "end": 4009,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段指出从观察到处方需要随机试验，即\"把观察变成处方所需的第一个步骤\"，viii 贴合。vii 是 H 段的警示，勿混用。",
+          "skill_tag": [
+            "main_idea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-gut-microbiome-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "In the 2026 study, diet predicted the abundance of nine in ten of the gut species that were tested.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "diet predicted the abundance of nine in ten of the gut species they tested",
+              "start": 1034,
+              "end": 1108,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "nine in ten of the gut species",
+              "to": "nine in ten of the gut species they tested",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "九成（nine in ten）即题干所说，且限定于\"所测物种\"，与原句吻合。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "The study's authors found that plant-rich diets were the strongest predictor of microbial diversity.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "Minimally processed, nutrient-dense food was the strongest positive predictor of the range of species present, while ultra-processed food was the strongest negative predictor",
+              "start": 1466,
+              "end": 1640,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "plant-rich diets were the strongest",
+              "to": "Minimally processed ... was the strongest positive predictor | diversity >>> range of species present",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文明确说加工程度（最低加工/超加工）比动植物结构更重要，植物性饮食并非最强预测因子，题干与此相反。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "The researchers provided a personalised dietary plan to every participant in the 2026 study.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "the authors of the Nature Medicine study argue that randomised trials are the essential next step",
+              "start": 3912,
+              "end": 4009,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "provided a personalised dietary plan",
+              "to": "randomised trials are the essential next step | every participant >>> next step",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文只说作者认为下一步需要随机试验、尚未给出处方，全文没有任何\"为参与者提供个性化饮食方案\"的表述，属于「未提及」而非 FALSE（原文并未否定有提供，只是没提）。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "The fermented vegetable review proposed fermented foods as treatments for specific digestive conditions.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "The authors are careful to stress that these foods are not being proposed as treatments, but as candidates for controlled testing",
+              "start": 3726,
+              "end": 3855,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "proposed ... as treatments",
+              "to": "not being proposed as treatments",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文明确说这些食物\"不是被当作治疗手段提出，而是作为受控测试的候选\"，题干与之矛盾。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-gut-microbiome-2026-g3",
+      "type": "short_answer",
+      "instruction": "Answer the questions below. Write your answers in boxes 10-13 on your answer sheet. Use NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "In the 2026 study, what quality of a food did the researchers find to be a stronger predictor of microbial diversity than the plant-versus-animal split?",
+          "answer": "processed",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "processed",
+            "the degree of processing | how processed"
+          ],
+          "evidence": [
+            {
+              "quote": "the degree to which a food had been processed predicted diversity more strongly",
+              "start": 1385,
+              "end": 1464,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "what quality",
+              "to": "the degree to which a food had been processed",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段指出\"食物被加工的程度\"比动植物结构更能预测多样性，故答案核心词是 processed（加工程度）。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "What share of the microbial metabolic pathways measured in the study were predicted by diet?",
+          "answer": "ninety-eight per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "ninety-eight per cent",
+            "98 per cent | 98%"
+          ],
+          "evidence": [
+            {
+              "quote": "diet predicted the abundance of nine in ten of the gut species they tested, and of ninety-eight per cent of the metabolic pathways they measured",
+              "start": 1034,
+              "end": 1178,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "98 per cent",
+              "to": "ninety-eight per cent",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段原文说饮食预测了所测代谢通路的 98%（ninety-eight per cent）。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "Which short-chain fatty acid is associated with a healthy gut lining?",
+          "answer": "butyrate",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "butyrate"
+          ],
+          "evidence": [
+            {
+              "quote": "butyrate, a short-chain fatty acid associated with a healthy gut lining",
+              "start": 1967,
+              "end": 2038,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段明确 butyrate（丁酸）与健康肠壁相关。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Which two bacterial species were most often predicted to change with a shift in one or two foods?",
+          "answer": "Akkermansia muciniphila and Faecalibacterium prausnitzii",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "Akkermansia muciniphila and Faecalibacterium prausnitzii",
+            "Akkermansia muciniphila, Faecalibacterium prausnitzii | Akkermansia muciniphila and F. prausnitzii"
+          ],
+          "evidence": [
+            {
+              "quote": "Among the gut bacteria most often predicted to change with a shift in one or two foods were Akkermansia muciniphila and Faecalibacterium prausnitzii",
+              "start": 2351,
+              "end": 2499,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "most often predicted to change",
+              "to": "Among the gut bacteria most often predicted to change",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段末句给出这两个物种名。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

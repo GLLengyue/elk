@@ -74,15 +74,16 @@ assets/
 ├── schemas/          # 10 个 JSON Schema 契约（pack/reading-test/writing-essay/speaking-topic/...）
 ├── rubrics/          # writing-task2.v1 + speaking.v1（JSON 化，无需 YAML 依赖）
 ├── prompts/          # 5 个 prompt 模板（writing/score、writing/tag-question-type、speaking/score、speaking/generate-part3、reading/label-evidence）+ prompts.json
-└── packs/            # reading-official-sample 官方样题包（redistributable: true，可随包分发）
-    └── reading-official-sample/
+└── packs/            # 两个数据包：自建新闻阅读包 + 官方口语话题包
+    ├── reading-news-2026-08/       # 自建：公开新闻事实原创改写（redistributable: true）
+    │   ├── pack.json
+    │   └── data/reading/news/...   # 每篇 13 题 / 3 题组，答案均带原文 evidence
+    └── speaking-official-sample/   # 官方口语 Part 1-3 话题快照
         ├── pack.json
-        └── data/reading/official/...  # 25 篇阅读真题 + 15 类题型 taskbank
-        └── data/speaking/...          # 口语题库快照
+        └── data/speaking/...
 ```
 
-数据包合规状态：`reading-official-sample` 在 pack.json 中声明 `redistributable: true`
-（所有者筛选整理的合法数据，可随专家分发）。`elk fetch` 抓取的官方源内容仅限个人使用、不入仓。
+数据包合规状态：两个包均在 pack.json 中声明 `redistributable: true`。阅读包为**基于公开新闻事实的原创改写**（事实不受版权保护，句式与结构全部重写，每篇标注 `meta.not_official=true`）；口语包为官方公开话题快照。`elk fetch` 抓取的官方源内容仅限个人使用、不入仓。
 
 ## 评分流程（写作 Task 2）
 
@@ -108,7 +109,7 @@ python3 scripts/elk_core.py search "archaeology"          # 阅读主题检索
 python3 scripts/elk_core.py search "hometown" --limit 5   # 口语话题检索
 ```
 
-检索命中后，按 `id` 定位到 `assets/packs/reading-official-sample/data/` 下对应文件，
+检索命中后，按 `id` 定位到 `assets/packs/` 下对应数据包的对应文件，
 把原文注入给 LLM 使用（索引只存检索字段，不含完整正文，命中后再按需读原文）。
 
 ## 数据扩充（自包含模式）
@@ -116,7 +117,7 @@ python3 scripts/elk_core.py search "hometown" --limit 5   # 口语话题检索
 用户自备数据可通过以下方式纳入（全程只读，不修改内置 assets）：
 
 - **标准数据包**：按 `assets/schemas/pack.schema.json` 契约组织目录 + `pack.json`，
-  放入任意位置，参考 `assets/packs/reading-official-sample/` 的结构
+  放入任意位置，参考 `assets/packs/reading-news-2026-08/` 的结构
 - **示例数据**：`assets/examples/`（如存在）展示最小可用的 pack 形态
 - 契约校验：`python3 scripts/elk_core.py validate <file> <schema>`
 

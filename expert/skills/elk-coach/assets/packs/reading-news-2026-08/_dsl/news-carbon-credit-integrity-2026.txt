@@ -1,0 +1,104 @@
+ID: news-carbon-credit-integrity-2026
+TAGS: climate,policy,business
+TITLE: The Market Behind the Certificate
+URL: https://theplanetbrief.com/carbon/voluntary-carbon-market-2026/
+NOTES: 事实取自 The Planet Brief 自愿碳市场 2026 综述(碳信用定义为经核证的一吨 CO2e 减排或移除、登记并在用于声明时注销；2023 年 1 月卫报 + Die Zeit + SourceMaterial 联合调查质疑 Verra REDD+ 雨林信用，Verra 反驳并质疑方法学；2026 年市场裂为高诚信与遗留低信心两个重叠市场；ICVCM 核心碳原则、VCMI 声明准则、Article 6 授权与相应调整、CORSIA 航空资格各自回答不同问题；独立评级机构 Sylvera / BeZero Carbon / Calyx) | Angel Investors Network 2026 投资指南(Kariba 项目 VCS 902 位于津巴布韦，2025 年 Verra 注销逾 1,500 万信用；巴西 Ecomapuá VCS 1094 暂停新签发；印尼 Katingan 遭额外性审查；Verra 在 VCM 注销量份额 2026 年初跌破 60%，为 2015 年以来最低；BBB+ 档由 $18.10 升至 $20.10/吨，同期 B 档由 $8.50 跌至 $7.80) | 登记机构结构性利益冲突(Verra 与 Gold Standard 为两家最大登记机构、非营利、核证费由项目开发方支付) | 监管收紧(欧盟 ECGT 指令、英国广告标准收紧、ISO 14068-1 要求先减排后抵消)
+
+--- A
+A carbon credit represents a verified reduction or removal of one tonne of carbon dioxide equivalent, recorded in a registry and cancelled, or retired, when it is used to support a claim. Companies buy them voluntarily, without being required by law to do so, usually because of a net zero commitment, pressure from investors, or a wish to finance mitigation beyond their own operations. The system is only as good as the word verified, which raises the questions that matter: which standard, which methodology, which auditor, which baseline, and which guarantee that the carbon stays out of the atmosphere.
+--- B
+Those questions became unavoidable in January 2023, when a joint investigation by The Guardian, the German weekly Die Zeit and the research organisation SourceMaterial alleged that many rainforest credits issued under Verra's methodologies for reducing emissions from deforestation did not represent the reductions claimed. Verra disputed the conclusions and challenged the methodology behind them. The scientific argument about baselines and counterfactual deforestation has never been settled, but the commercial reaction was immediate: corporate buyers grew cautious, claims of carbon-neutral products attracted scrutiny, and cheap avoidance credits lost much of the confidence that had carried them through the boom of 2020 and 2021.
+--- C
+Part of the difficulty is structural. The two largest registries, Verra and Gold Standard, between them issue the great majority of credits in the voluntary market. Both are non-profit organisations, which sounds neutral, but their certification fees are paid by the project developers whose projects they are certifying, and a developer cannot sell a credit until it has been certified. The payer and the certifier therefore want the same outcome. This does not prove that any particular credit is worthless; it does mean that certification is an interest-bearing judgement rather than an audit conducted on behalf of the buyer.
+--- D
+Events since have given buyers reason to look behind the certificate. In 2025 Verra cancelled more than 15 million credits linked to Kariba, a large forest project in Zimbabwe registered as VCS 902, after governance and integrity failures emerged, and suspended new issuances at a second project, Ecomapuá in Brazil. Katingan, a long-running project in Indonesia, has faced its own scrutiny over additionality, the question of whether the project would have happened anyway. Verra's share of retirements in the voluntary market fell below 60 per cent by early 2026, its lowest level since 2015, as buyers spread their purchases across other registries.
+--- E
+The market that has emerged from this is better understood as two overlapping ones. On one side sit higher-integrity credits: removal rather than avoidance, approved under stricter methodologies, sometimes authorised under Article 6 of the Paris Agreement, and often carrying an independent rating. On the other sit legacy credits that may still be valid under a private standard but cannot safely support the same claim. Removal projects, which physically extract carbon dioxide and store it, are increasingly preferred to avoidance projects, which rest on a counterfactual guess about what would otherwise have happened. Buyers are also advised to look at permanence, at buffer arrangements that replace lost carbon, and at vintage, since credits issued under a decade-old methodology may reflect standards long since abandoned.
+--- F
+A further source of confusion is that several systems answer different questions, and are routinely mistaken for one another. The Integrity Council for the Voluntary Carbon Market assesses whether a programme or category meets its Core Carbon Principles. The Voluntary Carbon Markets Integrity Initiative is concerned with something else: what claim a company can credibly make when it uses credits. Article 6 of the Paris Agreement deals with whether a host country has authorised a credit for international use and adjusted its own accounts to avoid double counting. CORSIA, the aviation scheme, decides whether an airline may use a unit against its covered emissions. Independent raters such as Sylvera, BeZero Carbon and Calyx offer a separate view again, on additionality and project risk.
+--- G
+Prices reflect the resulting sorting. Over a recent period in 2026, credits in the BBB+ tier rose from $18.10 to $20.10 a tonne, while B-rated credits fell from $8.50 to $7.80 over the same window. A premium credit, in other words, is not one that has passed a single combined test; it is one whose buyer knows which of these frameworks it has passed and which it has not, and therefore what claim it can bear.
+--- H
+Regulation is now reinforcing the distinction. The European Union's Empowering Consumers for the Green Transition Directive and tightening British advertising standards both bear on vague climate claims, and standards such as ISO 14068-1 require that emissions be reduced first and only the remainder offset. None of this makes credit purchase pointless: high-integrity strategies still use removal credits to neutralise the emissions that remain. But approval by a registry is the floor, not the ceiling, and the most important question in procurement is no longer whether a credit was certified. It is which of the two markets it came from.
+
+### GROUP matching_information
+INSTR: Look at the following statements. Match each statement with the paragraph in which the information can be found. Write the correct letter, A-H, in boxes 1-5 on your answer sheet.
+ORDERED: false
+Q1 An explanation of the conflict of interest built into how registries are funded.
+ANS: C
+EV: C | their certification fees are paid by the project developers whose projects they are certifying
+SKILL: skimming
+EXP: C 段说明核证费由开发方支付、付费方与核证方目标一致。B 段讲的是媒体调查，不是结构性利益。
+Q2 An account of a particular project whose credits were withdrawn in large numbers.
+ANS: D
+EV: D | Verra cancelled more than 15 million credits linked to Kariba, a large forest project in Zimbabwe registered as VCS 902
+SKILL: skimming
+EXP: D 段 Kariba 案例。
+Q3 A comparison between credits that prevent emissions and credits that extract carbon.
+ANS: E
+EV: E | Removal projects, which physically extract carbon dioxide and store it, are increasingly preferred to avoidance projects
+SKILL: skimming
+EXP: E 段中段对 avoid 与 remove 的区分。
+Q4 A reference to a joint investigation published in 2023.
+ANS: B
+EV: B | a joint investigation by The Guardian, the German weekly Die Zeit and the research organisation SourceMaterial
+SKILL: skimming
+EXP: B 段首句。
+Q5 Figures showing that prices of differently rated credits moved in opposite directions.
+ANS: G
+EV: G | credits in the BBB+ tier rose from $18.10 to $20.10 a tonne, while B-rated credits fell from $8.50 to $7.80 over the same window
+SKILL: skimming
+EXP: G 段一涨一跌的价格对比。
+
+### GROUP identifying_writers_views
+INSTR: Do the following statements agree with the claims of the writer? In boxes 6-9 on your answer sheet, write YES, NO or NOT GIVEN.
+ORDERED: true
+Q6 Being listed by a well-known registry is by itself sufficient to establish that a credit is of good quality.
+ANS: NO
+EV: H | approval by a registry is the floor, not the ceiling
+SKILL: writer_attitude
+EXP: 作者明确把登记机构批准定位为「底线而非上限」，并强调还要看评级、Article 6 等，题干与之相反。
+Q7 The voluntary market should now be understood as divided into two tiers of credit.
+ANS: YES
+EV: E | The market that has emerged from this is better understood as two overlapping ones.
+SKILL: writer_attitude
+EXP: E 段首句即作者的市场分层判断。
+Q8 The writer's view is that companies ought to stop buying carbon credits altogether.
+ANS: NO
+EV: H | high-integrity strategies still use removal credits to neutralise the emissions that remain
+SKILL: writer_attitude
+EXP: 作者认为抵消对残余排放仍有作用，反对的是低质量信用与含糊声明，不是购买行为本身。
+Q9 The writer expects the price gap between the highest and lowest rated credits to disappear within a year.
+ANS: NOT GIVEN
+EV: G | credits in the BBB+ tier rose from $18.10 to $20.10 a tonne, while B-rated credits fell from $8.50 to $7.80 over the same window
+SKILL: writer_attitude
+EXP: G 段只给出同一窗口内一涨一跌的事实，并未预测价差未来会收敛，更没有「一年」的时间框架，属未提及。
+
+### GROUP multiple_choice single_answer
+INSTR: Choose the correct letter, A, B, C or D.
+ORDERED: true
+OPTIONS:
+    A | Verra
+    B | Gold Standard
+    C | The Integrity Council for the Voluntary Carbon Market
+    D | The Voluntary Carbon Markets Integrity Initiative
+Q10 Which organisation cancelled more than 15 million credits linked to a project in Zimbabwe?
+ANS: A
+EV: D | In 2025 Verra cancelled more than 15 million credits linked to Kariba, a large forest project in Zimbabwe registered as VCS 902
+SKILL: scanning
+EXP: D 段明确为 Verra 注销 Kariba 信用。
+Q11 Which organisation assesses whether a crediting programme meets a voluntary quality benchmark?
+ANS: C
+EV: F | The Integrity Council for the Voluntary Carbon Market assesses whether a programme or category meets its Core Carbon Principles.
+SKILL: scanning
+EXP: F 段首句。注意与 D 区分：D 管的是企业能做什么声明。
+Q12 Which organisation is concerned with the claims a company can credibly make?
+ANS: D
+EV: F | The Voluntary Carbon Markets Integrity Initiative is concerned with something else: what claim a company can credibly make when it uses credits.
+SKILL: scanning
+EXP: F 段第二句。
+Q13 Which organisation is named alongside Verra as one of the two largest registries in the voluntary carbon market?
+ANS: B
+EV: C | The two largest registries, Verra and Gold Standard, between them issue the great majority of credits in the voluntary market.
+SKILL: scanning
+EXP: C 段对照：「The two largest registries, Verra and Gold Standard, between them issue the great majority of credits」。题干要求「与 Verra 并列的两家最大登记机构之一」，只有 Gold Standard 满足该限定；Verra 自身(选项 A)已在 Q10 中被问及，且本题题干明确用「alongside Verra」排除了它。

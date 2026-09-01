@@ -1,0 +1,422 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-soil-carbon-farming-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-soil-carbon-farming-2026",
+    "source_url": "https://www.ccarbon.info/news/isometric-launched-a-new-certified-protocol-for-improved-soil-management/",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 Isometric 改良土壤管理(ISM)方法学(土壤含近 3 万亿吨碳约为大气三倍、改良管理每年可移除至多 4.3 亿吨二氧化碳超过英国年排放总量、措施为减少耕作/覆盖作物/有益微生物;MRV 要求直接土壤采样或配合已验证建模、须核算全部相关排放、项目承诺期 40-100 年、证书耐久性为承诺期一半、土地所有者最低 20% 收益分成、缓冲区缴付随逆转风险调整、FPIC) | Soil and Tillage Research: 长期免耕十年使表层 30 厘米土壤有机碳浓度平均提高 10-30% | 覆盖作物根系分泌糖分供养微生物转化为腐殖质、并防止侵蚀带走表土 | Sustainability Atlas 2026: 卫星核查使土壤碳测量成本较传统田间采样降低约 40%,2025 年数字 MRV 投资达 23 亿美元 | AgreenaCarbon(Verra VCS 项目 4022、方法学 VM0042):跨 20 个市场 450 万公顷、信用销售额至多 85% 返还农场;乌克兰 Agrain 在 500 多块农田应用 | Carbonsafe 保加利亚:100 个农业经营主体、47,824 公顷、南北项目分别核证 45,480 与 423,411 个信用;土壤监测分 0-30/30-60/60-90 厘米三层;BeZero Carbon 8 月实地评级"
+  },
+  "passage": {
+    "id": "news-soil-carbon-farming-2026-text",
+    "title": "The Difficulty of Counting Carbon in Soil",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Agriculture is usually discussed as a source of emissions, but the ground beneath it is the largest store of carbon on land. The world's soils hold close to three trillion tonnes of carbon, roughly three times the amount present in the atmosphere, and they accumulate it naturally as plants draw carbon dioxide from the air and pass it below ground through their roots. The question now occupying researchers and carbon markets alike is whether management can accelerate that process. Estimates suggest that better management of croplands and grasslands could remove up to 430 million tonnes of carbon dioxide from the air each year, which is more than the United Kingdom's total annual greenhouse gas emissions."
+      },
+      {
+        "label": "B",
+        "text": "The practices involved are not new. Ploughing exposes organic matter to the air and oxidises it, so reducing tillage slows that loss. Long-term trials compiled in the journal Soil and Tillage Research found that sustained no-till farming raised the concentration of soil organic carbon in the top 30 centimetres by an average of 10 to 30 per cent over ten years, compared with conventional cultivation. Cover crops, sown between harvests, keep living roots in the ground; those roots release sugars that feed microbes, which convert organic material into humus, a form of carbon that persists. Cover crops also hold the soil in place, since erosion physically carries away the topsoil and the carbon inside it."
+      },
+      {
+        "label": "C",
+        "text": "What makes soil carbon awkward as a commodity is that it cannot be seen. A tonne of carbon stored in a field looks exactly like a tonne that was never stored, it is distributed unevenly within a single field, and the annual change is small relative to the total stock. Buyers of credits therefore depend on measurement, reporting and verification, usually abbreviated to MRV, and the credibility of the entire market rests on how well that work is done."
+      },
+      {
+        "label": "D",
+        "text": "Protocols have become stricter as a result. The Improved Soil Management protocol certified by Isometric requires removals to be measured by direct soil sampling on its own or together with validated modelling, and obliges projects to account for every associated emission, from tractor fuel to the manufacture of fertiliser. Each project must commit for between 40 and 100 years, and the certificates it issues are given a durability equal to half that commitment period. Landowners enrolled in a project must receive a minimum 20 per cent share of the revenue, and contributions to buffer pools, which exist to compensate for carbon lost elsewhere, vary with the reversal risk a project actually faces."
+      },
+      {
+        "label": "E",
+        "text": "Measurement is also getting cheaper. A 2026 assessment by Sustainability Atlas concluded that satellite-based verification reduced the cost of measuring soil carbon by about 40 per cent relative to conventional field sampling, and investment in digital MRV reached 2.3 billion dollars in 2025. Optical sensors estimate biomass from reflected light, radar sees through cloud, and laser altimetry builds a three-dimensional picture of vegetation structure. None of these instruments measures carbon directly; they infer it from proxies, which is why registries still require them to be tied to samples taken from the ground."
+      },
+      {
+        "label": "F",
+        "text": "Programmes are now operating at scale. AgreenaCarbon, registered under Verra's Verified Carbon Standard as project 4022 and using methodology VM0042, spans 4.5 million hectares across twenty markets and directs up to 85 per cent of the value of each credit sold back to the farms that produced it. In Ukraine, where war has disrupted ordinary agriculture, the enterprise Agrain applies the same model across more than 500 fields, using the income to keep production going and to protect the topsoil."
+      },
+      {
+        "label": "G",
+        "text": "Bulgaria offers a detailed example of what verification involves. Carbonsafe's two projects there enrol 100 agricultural holdings covering 47,824 hectares, and had 45,480 and 423,411 credits respectively verified after soil monitoring at three depth intervals: 0 to 30, 30 to 60 and 60 to 90 centimetres. Removals are quantified by a measure-and-remeasure method based on laboratory analysis of field samples, with satellite data used to confirm that practices have been maintained. In August the rating agency BeZero Carbon visited the country to assess the methodology and the durability of the removals, a step that is routine for projects judged in advance but rare for ones backed by results that have already been measured."
+      },
+      {
+        "label": "H",
+        "text": "The obstacle that remains is economic rather than scientific. Farmers must buy unfamiliar equipment, adjust established routines and accept uncertain yields for several years before soil fertility and income recover, and without carbon finance the transition may simply not be affordable. Permanence raises a second difficulty: soil carbon is not locked away for good, and a field that is ploughed again can release in a single season what a decade of careful management had added. The long commitment periods and the buffer pools written into current protocols are attempts to price that risk rather than to remove it."
+      }
+    ],
+    "word_count": 804,
+    "topic_tags": [
+      "environment",
+      "agriculture",
+      "climate"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-soil-carbon-farming-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The amount of carbon stored in the world's soils is approximately three times the amount in the atmosphere.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "close to three trillion tonnes of carbon, roughly three times the amount present in the atmosphere",
+              "start": 148,
+              "end": 246,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段首段直接给出三倍关系。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Research suggests that no-till farming raises soil organic carbon near the surface by at least half over a decade.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "raised the concentration of soil organic carbon in the top 30 centimetres by an average of 10 to 30 per cent over ten years",
+              "start": 951,
+              "end": 1074,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "实测为 10-30%，远低于「至少一半」，题干夸大了幅度。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Isometric requires every project to monitor its fields using satellite imagery.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "requires removals to be measured by direct soil sampling on its own or together with validated modelling",
+              "start": 1983,
+              "end": 2087,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "方法学只规定土壤采样或建模，完全没有提及卫星影像是否属于强制要求。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Certificates issued under the Isometric protocol remain valid for half the length of the project's commitment period.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "the certificates it issues are given a durability equal to half that commitment period",
+              "start": 2263,
+              "end": 2349,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "remain valid = durability，half the length = half that period。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Satellite-based verification has been shown to be more expensive than sampling fields by hand.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "satellite-based verification reduced the cost of measuring soil carbon by about 40 per cent relative to conventional field sampling",
+              "start": 2677,
+              "end": 2808,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "卫星核查使成本下降约 40%，与题干「更贵」相反。",
+          "skill_tag": [
+            "detail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-soil-carbon-farming-2026-g2",
+      "type": "matching_features",
+      "instruction": "Match each description with the correct project, programme or study. Write the correct letter, A-D, in boxes 6-9 on your answer sheet.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "The Improved Soil Management protocol"
+        },
+        {
+          "key": "B",
+          "text": "The AgreenaCarbon programme"
+        },
+        {
+          "key": "C",
+          "text": "Carbonsafe's projects in Bulgaria"
+        },
+        {
+          "key": "D",
+          "text": "Research summarised in Soil and Tillage Research"
+        }
+      ],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "It specifies how a change in land management must be measured and how long the resulting certificates endure.",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "The Improved Soil Management protocol certified by Isometric requires removals to be measured by direct soil sampling on its own or together with validated modelling",
+              "start": 1922,
+              "end": 2087,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段整段讲测量要求，后文接着给出证书耐久性。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "It reports the effect of one technique on carbon concentrations over a ten-year period.",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "Long-term trials compiled in the journal Soil and Tillage Research found that sustained no-till farming raised the concentration of soil organic carbon in the top 30 centimetres by an average of 10 to 30 per cent over ten years",
+              "start": 847,
+              "end": 1074,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "「长期试验 + 免耕十年 + 10-30%」唯一对应期刊研究。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "It operates in twenty markets and passes most of the revenue from credit sales to farmers.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "spans 4.5 million hectares across twenty markets and directs up to 85 per cent of the value of each credit sold back to the farms that produced it",
+              "start": 3356,
+              "end": 3502,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "二十个市场 + 85%（大部分）返还农场。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "It assesses carbon at three separate levels below the ground surface.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "soil monitoring at three depth intervals: 0 to 30, 30 to 60 and 60 to 90 centimetres",
+              "start": 3925,
+              "end": 4009,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "three depth intervals = three separate levels。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-soil-carbon-farming-2026-g3",
+      "type": "summary_completion",
+      "instruction": "Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Soils hold far more carbon than the atmosphere does, and improved land management could remove up to 430 million tonnes of carbon dioxide annually. The techniques themselves are well understood, but adopting them obliges farmers to purchase new 10. ______ and to tolerate uncertain yields for several years. Carbon finance is meant to bridge that gap, yet buyers will only pay if removals can be verified, either through samples taken from the soil or through 11. ______ that has been validated. Permanence presents a further problem, since a field that is 12. ______ again can lose in a single season what ten years of careful management had stored. Protocols address this by imposing long commitment periods and by maintaining 13. ______, which are intended to offset carbon lost elsewhere.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "(summary blank 10)",
+          "answer": "equipment",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "equipment"
+          ],
+          "evidence": [
+            {
+              "quote": "Farmers must buy unfamiliar equipment",
+              "start": 4498,
+              "end": 4535,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 purchase = 原文 buy。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "(summary blank 11)",
+          "answer": "modelling",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "modelling",
+            "modeling"
+          ],
+          "evidence": [
+            {
+              "quote": "together with validated modelling",
+              "start": 2054,
+              "end": 2087,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "与 soil sampling 并列的另一种验证路径。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "(summary blank 12)",
+          "answer": "ploughed",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "ploughed",
+            "plowed"
+          ],
+          "evidence": [
+            {
+              "quote": "a field that is ploughed again can release in a single season",
+              "start": 4809,
+              "end": 4870,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "注意拼写与原文一致为 ploughed。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "(summary blank 13)",
+          "answer": "buffer pools",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "buffer pools"
+          ],
+          "evidence": [
+            {
+              "quote": "contributions to buffer pools, which exist to compensate for carbon lost elsewhere",
+              "start": 2445,
+              "end": 2527,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 offset carbon lost elsewhere = 原文 compensate for carbon lost elsewhere。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "summary",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

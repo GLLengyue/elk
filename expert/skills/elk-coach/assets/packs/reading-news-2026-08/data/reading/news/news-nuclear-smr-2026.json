@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-nuclear-smr-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-nuclear-smr-2026",
+    "source_url": "https://winssolutions.org/small-modular-reactors-explained",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 WINSS SMR 项目进展综述(2026: NuScale US460 标准设计批准 2025-05-29、罗马尼亚 Doicesti 2026-02-13 FID 六模块 462 MWe 60-70 亿美元、英国 Wylfa 三台 Rolls-Royce 共 1,440 MWe 25 亿英镑) | Axis Intelligence SMR 数据中心统计(IEA 定义 <300 MWe、NuScale CFPP 从 $55 涨至 $89/MWh 造价 53→93 亿美元 2023-11 终止、Darlington BWRX-300 首台 77 亿加元约 $25,000/kW 四台 209 亿加元、Linglong One 2026 上半年商运、Natrium 2024-06 破土) | Lazard 首代 SMR 约 $214/MWh、SMR Intel FOAK $80-150/MWh | 柏林工业大学 £163/MWh 研究、Rolls-Royce 第十台 £40-75/MWh | ADVANCE Act 2024-07 与 18 个月审查令 | 世界核工业现状报告 2025「仅为假说」"
+  },
+  "passage": {
+    "id": "news-nuclear-smr-2026-text",
+    "title": "Small Reactors, Large Promises",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A small modular reactor is, in the definition used by the International Energy Agency, a fission plant rated at under 300 megawatts of electrical output, compared with 1,000 to 1,700 megawatts for the conventional reactors built in the 1970s and 1980s. The appeal rests on three claims. Because the units are smaller, they can in principle be assembled in a factory rather than poured on site. Because they are modular, capacity can be added in increments of 80 to 300 megawatts rather than in one enormous commitment. And because the footprint is modest, they can be sited closer to where the power is actually needed."
+      },
+      {
+        "label": "B",
+        "text": "What has turned this from an engineering curiosity into a commercial proposition is demand from computing. The IEA counts plans of varying maturity for up to 25 gigawatts of SMR capacity worldwide, and its World Energy Outlook for 2025 recorded agreements and expressions of interest covering 30 gigawatts, most of it intended to run data centres. Google has signed for up to seven reactors from Kairos Power, together providing about 500 megawatts. For operators facing grid connection queues measured in years, a reactor next door solves an urgent problem that wind and solar, however cheap, do not."
+      },
+      {
+        "label": "C",
+        "text": "The difficulty is price. Lazard's analysis puts first-generation SMR electricity at about $214 per megawatt-hour, while benchmarking by SMR Intel suggests a first-of-a-kind range of $80-150. The most instructive precedent is the Carbon Free Power Project in Idaho. When NuScale and a consortium of municipal utilities proposed it in 2016, the target price was $55 per megawatt-hour. By July 2023 it had reached $89, after an increase in construction cost of 75 per cent, from $5.3 billion to $9.3 billion. The partners terminated the scheme that November."
+      },
+      {
+        "label": "D",
+        "text": "Several projects are now further advanced. Ontario Power Generation has approved the first BWRX-300 at Darlington at a cost of 7.7 billion Canadian dollars for 300 megawatts, an overnight figure of roughly $25,000 per kilowatt, with four units in total priced at 20.9 billion Canadian dollars. TerraPower's Natrium reactor, rated at 345 megawatts, broke ground in Wyoming in June 2024 with completion targeted for 2030. In Britain, the government selected the Rolls-Royce design in June 2025, named Wylfa in Wales as the site for three units totalling 1,440 megawatts, and pledged 2.5 billion pounds towards the programme."
+      },
+      {
+        "label": "E",
+        "text": "Every one of these projections rests on the assumption that costs fall with repetition, the learning curve that transformed solar panels and lithium batteries. Rolls-Royce argues that its tenth reactor would produce power at between 40 and 75 pounds per megawatt-hour, comparable to British wind, but concedes that its own factory economics depend on winning substantial export orders. A study at the Technical University of Berlin, modelling uncertainty in production costs, put the mean levelised cost of a factory-built Rolls-Royce unit at approximately £163 per megawatt-hour, against £30-50 for British wind and solar today."
+      },
+      {
+        "label": "F",
+        "text": "The export record offers little comfort. As of 2025, no SMR had been exported and operated commercially anywhere outside its country of origin. South Korea spent several hundred million dollars developing the 100-megawatt SMART reactor and found no international buyers. Argentina's CAREM project was abandoned in 2024 after a decade of construction. Russia's floating Akademik Lomonosov has been running since 2020, and China's Linglong One, a 125-megawatt unit built by CNNC, reached commercial operation in the first half of 2026, making it the only land-based SMR close to operating at scale."
+      },
+      {
+        "label": "G",
+        "text": "Regulation has become faster without becoming simple. The ADVANCE Act of July 2024 streamlined licensing at the Nuclear Regulatory Commission and cut fees, and a subsequent executive order requires the agency to assess new applications within 18 months, a fraction of the decade such reviews once took. Design approval is not the same as permission to build, however: NuScale, the only developer with a certified American design, still has to clear separate construction-permit and operating-licence steps that can each take 30 months or more. No Generation III+ SMR in the United States has yet been delivered on time and to budget."
+      },
+      {
+        "label": "H",
+        "text": "The gap between the two positions is really about what counts as evidence. The World Nuclear Industry Status Report for 2025 described the technology as a hypothesis with very uncertain timescales and costs. Jacopo Buongiorno of the Massachusetts Institute of Technology observed in 2025 that the capital needed to deploy even a single unit exceeds what most developers can raise. What would settle the argument is not another agreement but a finished reactor whose final bill can be compared with the estimate that preceded it."
+      }
+    ],
+    "word_count": 757,
+    "topic_tags": [
+      "energy",
+      "technology",
+      "nuclear"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-nuclear-smr-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "An SMR is defined by the International Energy Agency as a reactor producing less than 300 megawatts of electricity.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "a fission plant rated at under 300 megawatts of electrical output, compared with 1,000 to 1,700 megawatts for the conventional reactors",
+              "start": 87,
+              "end": 222,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "A 段首句直接给出定义。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "The Carbon Free Power Project was abandoned because the design failed to win regulatory approval.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "after an increase in construction cost of 75 per cent, from $5.3 billion to $9.3 billion. The partners terminated the scheme that November.",
+              "start": 1638,
+              "end": 1777,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "终止原因是造价上涨 75%，与「监管未批准」无关；且 D、G 段说明 NuScale 的设计确已获批。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Linglong One is the only land-based SMR described as having come close to operating at scale.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "China's Linglong One, a 125-megawatt unit built by CNNC, reached commercial operation in the first half of 2026, making it the only land-based SMR close to operating at scale",
+              "start": 3452,
+              "end": 3626,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段末句原文照应。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Rolls-Royce has so far secured firm orders for ten reactors.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "concedes that its own factory economics depend on winning substantial export orders",
+              "start": 2702,
+              "end": 2785,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "secured firm orders",
+              "to": "depend on winning",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文说出口订单仍是「有待争取」的前提，与「已获得十台确定订单」矛盾。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The Nuclear Regulatory Commission aims to license at least five SMR designs before 2030.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "a subsequent executive order requires the agency to assess new applications within 18 months, a fraction of the decade such reviews once took",
+              "start": 3788,
+              "end": 3929,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只提到 18 个月的审查时限，完全没有「五种设计」或「2030 年前」这类数量与期限目标，属未提及。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-nuclear-smr-2026-g2",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "The BWRX-300 at Darlington"
+        },
+        {
+          "key": "B",
+          "text": "The Natrium reactor"
+        },
+        {
+          "key": "C",
+          "text": "Linglong One"
+        },
+        {
+          "key": "D",
+          "text": "The Carbon Free Power Project"
+        }
+      ],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Which project was terminated before it could be built?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "The partners terminated the scheme that November.",
+              "start": 1728,
+              "end": 1777,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "C 段明确爱达荷项目 2023 年 11 月被终止。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Which project is described as having reached commercial operation?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "China's Linglong One, a 125-megawatt unit built by CNNC, reached commercial operation in the first half of 2026",
+              "start": 3452,
+              "end": 3563,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "F 段点名玲龙一号于 2026 年上半年商运。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Which project was approved at an overnight cost of roughly $25,000 per kilowatt for its first unit?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "approved the first BWRX-300 at Darlington at a cost of 7.7 billion Canadian dollars for 300 megawatts, an overnight figure of roughly $25,000 per kilowatt",
+              "start": 1850,
+              "end": 2004,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "D 段给出每千瓦隔夜造价。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Which project began construction in Wyoming in June 2024?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "TerraPower's Natrium reactor, rated at 345 megawatts, broke ground in Wyoming in June 2024 with completion targeted for 2030.",
+              "start": 2072,
+              "end": 2197,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "explanation": "broke ground = began construction。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    },
+    {
+      "id": "news-nuclear-smr-2026-g3",
+      "type": "summary_completion",
+      "instruction": "Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Estimates of future costs vary widely: Lazard puts first-generation output at about 10. ______ per megawatt-hour, whereas SMR Intel suggests a first-of-a-kind range of $80-150. Rolls-Royce expects its own costs to fall once 11. ______ reactors have been built, though this depends on large export sales; a Berlin study put the mean levelised cost of a factory-built unit at approximately 12. ______ per megawatt-hour. None of these figures has been tested in practice, because by 2025 no SMR had been both 13. ______ and run commercially outside its country of origin.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "(summary blank 10)",
+          "answer": "$214",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "$214",
+            "214 dollars"
+          ],
+          "evidence": [
+            {
+              "quote": "Lazard's analysis puts first-generation SMR electricity at about $214 per megawatt-hour",
+              "start": 1247,
+              "end": 1334,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "摘要题干已含 per megawatt-hour，填数字即可。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "(summary blank 11)",
+          "answer": "ten",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "ten",
+            "10"
+          ],
+          "evidence": [
+            {
+              "quote": "Rolls-Royce argues that its tenth reactor would produce power at between 40 and 75 pounds per megawatt-hour",
+              "start": 2561,
+              "end": 2668,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "「第十台」= 已建成十台之后。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "(summary blank 12)",
+          "answer": "£163",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "£163",
+            "163 pounds"
+          ],
+          "evidence": [
+            {
+              "quote": "put the mean levelised cost of a factory-built Rolls-Royce unit at approximately £163 per megawatt-hour",
+              "start": 2877,
+              "end": 2980,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "柏林工业大学研究的均值。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "(summary blank 13)",
+          "answer": "exported",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "exported"
+          ],
+          "evidence": [
+            {
+              "quote": "As of 2025, no SMR had been exported and operated commercially anywhere outside its country of origin.",
+              "start": 3072,
+              "end": 3174,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 run commercially = 原文 operated commercially。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "summary",
+      "word_limit": "NO MORE THAN THREE WORDS"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

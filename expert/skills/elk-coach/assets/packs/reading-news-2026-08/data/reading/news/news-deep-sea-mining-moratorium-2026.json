@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-deep-sea-mining-moratorium-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-deep-sea-mining-moratorium-2026",
+    "source_url": "https://sdg.iisd.org/news/complexity-and-controversy-dominate-talks-on-deep-seabed-exploitation-rules/",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文，URL 仅作事实溯源。事实归属：ISA 第31届年会2026年7月牙买加金斯敦召开、46国呼吁暂停、Vanuatu 提案未获采纳、下轮谈判2027年3月（sdg.iisd.org / theewastecolumn.com）；ISA 172 个成员国、CCZ 勘探合同覆盖约150万平方公里（theewastecolumn.com / skymineral.com）；CCZ 结核成分 25-30% 锰、1-2% 镍铜、0.2-0.3% 钴、约210亿干吨（USGS，terradaily.com / timesofindia.indiatimes.com 转引）；刚果（金）钴约70%、印尼镍约60%、中国精炼产能约90%（timesofindia.indiatimes.com）；镍生产碳排 6.2 vs 20-100 kg CO2/kg（The Metals Company 主张，globalminingreview.com / discoveryalert.com.au 转引）；2023 Current Biology 清单 5578种/436种命名/估计6000-8000种（Natural History Museum，terradaily.com / discoveryalert.com.au）；2026 Current Biology 综述、1979年试验44年后痕迹仍可见、多年未能恢复（Glover 等，earth.com / nora.nerc.ac.uk）；IUCN 红皮书2026年7月 125/201 种喷口软体动物受威胁（mining.com / miningweekly.com）；CCZ 大规模试验 3000吨结核、4280米、大型动物密度-37%/丰富度-32%（mining.com）；挪威2024年开放大陆架、2025年12月推迟至2029年（everycrsreport.com / autonocion.com）；日本2026年2月地球号约6000米提取稀土泥、2027年试验（miningfrontier.com / bssnews.net）；太平洋岛国立场分歧（issblog.nl / usfijitimes.org）；非洲六国支持暂停（miningreporting.com）"
+    },
+    "retrieved_at": "2026-08-31T10:00:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "基于公开新闻事实由模型改写成雅思学术体并命题 信源: https://sdg.iisd.org/news/complexity-and-controversy-dominate-talks-on-deep-seabed-exploitation-rules/ | https://www.miningreporting.com/articles/six-african-nations-now-back-deep-sea-mining-pause-as-isa-talks-stall | https://www.theewastecolumn.com/post/the-e-waste-column-no-210 | https://www.earth.com/news/a-major-review-warns-the-ocean-may-not-recover-from-deep-sea-mining-the-way-we-think | https://m.miningweekly.com/article/deep-sea-mining-threatens-molluscs-holding-promise-for-science-red-list-shows-2026-07-10 | https://www.mining.com/?p=1210192/ | https://timesofindia.indiatimes.com/science/billions-under-the-pacific-ocean-apple-sized-metal-rich-rocks-that-could-power-the-future-of-electric-cars/articleshow/131627107.cms | https://www.everycrsreport.com/reports/R48302.html | https://www.autonocion.com/us/norwegian-drone-submarine-volcanic-ridge-arctic/ | https://issblog.nl/2026/08/03/the-shifting-geopolitics-of-deep-sea-mining-in-the-pacific-islands-region-an-industry-poised-to-merge/ | https://terradaily.com/m-rocks-the-size-of-apples-lying-four-kilometres-down-in-the-central-pacific-hold-more-manganese-and-cobalt-than-every-known-land-deposit | https://energy-solutions.co/reports/deep-sea-mining-ccz-intelligence"
+  },
+  "passage": {
+    "id": "news-deep-sea-mining-moratorium-2026-text",
+    "title": "Deep-Sea Mining and the Limits of Regulation",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Four kilometres beneath the central Pacific, between Hawaii and Mexico, an abyssal plain called the Clarion-Clipperton Zone (CCZ) is littered with dark, potato-sized rocks. These are polymetallic nodules, formed over millions of years as dissolved metals accumulate around fragments of shell or bone, and they now sit at the centre of a divisive international debate. The nodules are rich in the metals battery manufacturers require: roughly 25 to 30 per cent manganese, 1 to 2 per cent each of nickel and copper, and 0.2 to 0.3 per cent cobalt. The United States Geological Survey estimates that the zone holds more than 21 billion dry tonnes of nodules, possibly more cobalt and manganese than all known land reserves combined. This abundance explains the new interest in the seabed as a source of critical minerals."
+      },
+      {
+        "label": "B",
+        "text": "Who may extract these minerals is decided by the International Seabed Authority (ISA), a United Nations body in Kingston, Jamaica that administers the seabed beyond national jurisdiction. Its 172 members met in July 2026 for their 31st annual session, but again closed without agreement on the Mining Code, the rules that would govern commercial extraction. Negotiations stall repeatedly over the same questions: how much environmental data is sufficient, who would pay for damage, whether permits should wait for a moratorium, and how royalties would be shared. By the close of the Assembly, 46 countries, over a quarter of members, had called for a moratorium or precautionary pause. Exploration contracts now cover roughly 1.5 million square kilometres of the CCZ, yet a Vanuatu proposal to create a mechanism for identifying gaps in scientific knowledge was not adopted, and talks will not resume until March 2027."
+      },
+      {
+        "label": "C",
+        "text": "Supporters of extraction point to the pressure of demand. Around 70 per cent of the world's cobalt is mined in the Democratic Republic of the Congo, about 60 per cent of nickel comes from Indonesia, and China refines roughly 90 per cent of global cobalt and nickel capacity. Advocates argue that ocean-floor recovery would diversify these supply chains and carry a smaller footprint than some land mines; one developer claims that producing a kilogram of nickel from nodules emits about 6.2 kilograms of carbon dioxide, against 20 to 100 kilograms for conventional mining. Critics reply that such figures ignore the energy used in processing and transport, and that even a mature nodule industry would satisfy only a fraction of the projected supply gap."
+      },
+      {
+        "label": "D",
+        "text": "The most frequently cited obstacle is the gap between exploration and ecological knowledge. A 2023 checklist in the journal Current Biology, compiled by researchers at the Natural History Museum in London, recorded 5,578 species from CCZ samples, but only 436 had formal scientific names, leaving roughly 92 per cent of recorded species undescribed; the true total may be between 6,000 and 8,000 species. A review published in 2026 by the same museum and the National Oceanography Centre examined fifty years of mining tests. It found that geophysical scars persist for decades: tracks left by a 1979 trial were still visible 44 years later, and although small, mobile animals recolonised some areas within months, few communities had returned to undisturbed conditions even two decades on."
+      },
+      {
+        "label": "E",
+        "text": "Scientists judge the danger greater still at the two other target habitats: seafloor massive sulphides around hydrothermal vents, and cobalt-rich crusts on seamounts. Vent animals depend entirely on the chemistry their vents produce, so crushing a vent removes their only home. In July 2026 the International Union for Conservation of Nature updated its Red List, classifying 125 of the 201 known vent-dwelling mollusc species as threatened, about 62 per cent of the total. Data from the CCZ are equally sobering: in the largest trial so far, which removed 3,000 tonnes of nodules at a depth of 4,280 metres, macrofaunal density fell by 37 per cent and species richness by 32 per cent within two years. The 2026 review concludes that major disturbance at active vents and seamounts would not be compatible with the biodiversity policies most governments have signed."
+      },
+      {
+        "label": "F",
+        "text": "National positions remain deeply split. France, Germany, the United Kingdom and Canada support a moratorium, while the United States, which never ratified the Law of the Sea treaty, has proposed leasing seabed areas near American Samoa. China is expanding its exploration programme and India is seeking more licences. Two wealthy economies illustrate the divergence. Norway, which opened part of its Arctic shelf in 2024, agreed in December 2025 to issue no licences during the current parliamentary term, postponing its first round until at least 2029. Japan, by contrast, reported in February 2026 that its drilling vessel Chikyu had recovered rare-earth-bearing mud from about 6,000 metres near the island of Minamitorishima, and a larger trial is planned for 2027."
+      },
+      {
+        "label": "G",
+        "text": "The industry has also divided Pacific neighbours. Nauru, the Cook Islands, Tonga and Kiribati see seabed minerals as a route to economic diversification and sponsor exploration in the CCZ, whereas Palau, Fiji and Vanuatu have joined the calls for a pause, citing the ocean's central place in their culture and economies. Africa has shifted too: six countries, among them Mauritius and Mozambique, now back a precautionary pause. Some researchers argue that recycling deserves a larger role, since much already-extracted metal remains locked in discarded products. With the ISA unable to set a timeline and baselines still incomplete, the future of the deep seabed and the species that depend on it will be settled only when negotiations resume in 2027."
+      }
+    ],
+    "word_count": 899,
+    "topic_tags": [
+      "environment",
+      "technology",
+      "energy",
+      "politics"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-deep-sea-mining-moratorium-2026-g1",
+      "type": "identifying_writers_views",
+      "instruction": "Do the following statements agree with the claims of the writer in the reading passage? Write YES if the statement agrees with the claims of the writer, NO if it contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The writer argues that limited scientific knowledge of deep-sea ecosystems is a central reason why the mining regulations remain unfinished.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "The most frequently cited obstacle is the gap between exploration and ecological knowledge.",
+              "start": 2493,
+              "end": 2584,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "limited scientific knowledge of deep-sea ecosystems",
+              "to": "the gap between exploration and ecological knowledge",
+              "kind": "synonym"
+            },
+            {
+              "from": "a central reason why the mining regulations remain unfinished",
+              "to": "The most frequently cited obstacle",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段开篇即称「最常被引用的障碍是勘探与生态知识之间的差距」，与题干主张一致，故 YES。",
+          "skill_tag": [
+            "inference",
+            "main_idea"
+          ],
+          "acceptable_answers": [
+            "YES"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "The writer claims that deep-sea mining will fully replace terrestrial mining and make recycling unnecessary.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "even a mature nodule industry would satisfy only a fraction of the projected supply gap",
+              "start": 2404,
+              "end": 2491,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "fully replace terrestrial mining",
+              "to": "satisfy only a fraction of the projected supply gap",
+              "kind": "antonym"
+            },
+            {
+              "from": "make recycling unnecessary",
+              "to": "recycling deserves a larger role",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "C 段明确即便海底结核产业成熟也只能满足预计供应缺口的一小部分，G 段还主张回收应发挥更大作用，与题干相反，故 NO。",
+          "skill_tag": [
+            "inference",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "NO"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "The writer states that Norway's seabed mineral deposits are larger than Japan's.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Norway, which opened part of its Arctic shelf in 2024, agreed in December 2025 to issue no licences during the current parliamentary term, postponing its first round until at least 2029.",
+              "start": 4518,
+              "end": 4704,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "seabed mineral deposits are larger than Japan's",
+              "to": "（原文未提及两国资源量比较）",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段分别介绍挪威推迟许可和日本在约 6000 米深处提取稀土泥，但全文没有任何对两国海底资源储量的直接比较，故 NOT GIVEN。",
+          "skill_tag": [
+            "scanning",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The writer believes that mining at hydrothermal vents and seamounts carries a higher risk of biodiversity loss than extraction of nodules.",
+          "answer": "YES",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Scientists judge the danger greater still at the two other target habitats: seafloor massive sulphides around hydrothermal vents, and cobalt-rich crusts on seamounts.",
+              "start": 3284,
+              "end": 3450,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "higher risk of biodiversity loss",
+              "to": "the danger greater still",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "E 段明确科学家认为喷口与海山这两类目标的危险性比结核矿区更大，与题干一致，故 YES。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "YES"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The writer suggests that the international community has made decisive progress towards regulating commercial deep-sea mining.",
+          "answer": "NO",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Its 172 members met in July 2026 for their 31st annual session, but again closed without agreement on the Mining Code, the rules that would govern commercial extraction.",
+              "start": 1007,
+              "end": 1176,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "made decisive progress towards regulating",
+              "to": "again closed without agreement on the Mining Code",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "B 段显示第 31 届年会再次无协议收场、谈判推迟至 2027 年 3 月，与「取得决定性进展」相反，故 NO。",
+          "skill_tag": [
+            "detail",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-deep-sea-mining-moratorium-2026-g2",
+      "type": "matching_information",
+      "instruction": "The reading passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G, in boxes on your answer sheet.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": false,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "a comparison of carbon emissions from seabed and land-based production of one metal",
+          "answer": "C",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "one developer claims that producing a kilogram of nickel from nodules emits about 6.2 kilograms of carbon dioxide, against 20 to 100 kilograms for conventional mining",
+              "start": 2143,
+              "end": 2309,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a comparison of carbon emissions",
+              "to": "emits about 6.2 kilograms of carbon dioxide, against 20 to 100 kilograms",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段对比了结核镍与陆地传统采矿的碳排放（6.2 vs 20-100 kg CO2/kg）。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "the number of countries that had called for a pause by the close of a major meeting",
+          "answer": "B",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "By the close of the Assembly, 46 countries, over a quarter of members, had called for a moratorium or precautionary pause.",
+              "start": 1382,
+              "end": 1504,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "the number of countries that had called for a pause",
+              "to": "46 countries ... had called for a moratorium or precautionary pause",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段报道第 31 届大会结束时已有 46 国呼吁暂停或预防性暂停。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "the slow geological process by which the nodules are created",
+          "answer": "A",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "formed over millions of years as dissolved metals accumulate around fragments of shell or bone",
+              "start": 205,
+              "end": 299,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "the slow geological process by which the nodules are created",
+              "to": "formed over millions of years as dissolved metals accumulate",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段说明结核是溶解金属围绕贝壳或骨骼碎片、历经数百万年缓慢累积而成。",
+          "skill_tag": [
+            "scanning",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "the cultural and economic importance of the ocean to certain Pacific communities",
+          "answer": "G",
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "citing the ocean's central place in their culture and economies",
+              "start": 5176,
+              "end": 5239,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "the cultural and economic importance of the ocean",
+              "to": "the ocean's central place in their culture and economies",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "G 段提到帕劳、斐济、万那杜等国因海洋在其文化与经济中的核心地位而支持暂停。",
+          "skill_tag": [
+            "scanning",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-deep-sea-mining-moratorium-2026-g3",
+      "type": "short_answer",
+      "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+      "word_limit": "THREE WORDS AND/OR A NUMBER",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "In which zone of the Pacific are the polymetallic nodules described located?",
+          "answer": "Clarion-Clipperton Zone",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "Clarion-Clipperton Zone",
+            "Clarion-Clipperton",
+            "CCZ",
+            "the Clarion-Clipperton Zone"
+          ],
+          "evidence": [
+            {
+              "quote": "an abyssal plain called the Clarion-Clipperton Zone (CCZ)",
+              "start": 72,
+              "end": 129,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "In which zone of the Pacific",
+              "to": "an abyssal plain called the Clarion-Clipperton Zone",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段明确夏威夷与墨西哥之间的深海平原叫 Clarion-Clipperton Zone（CCZ）。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "According to the IUCN, how many vent-dwelling mollusc species are now classified as threatened?",
+          "answer": "125",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "125",
+            "125 of 201"
+          ],
+          "evidence": [
+            {
+              "quote": "classifying 125 of the 201 known vent-dwelling mollusc species as threatened",
+              "start": 3648,
+              "end": 3724,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "classified as threatened",
+              "to": "classifying 125 of the 201 known vent-dwelling mollusc species as threatened",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "E 段：IUCN 红皮书将 201 种喷口软体动物中的 125 种列为受威胁。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "From approximately what depth did Japan's drilling vessel recover rare-earth-bearing mud?",
+          "answer": "6,000 metres",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "6,000 metres",
+            "6,000",
+            "6,000 m",
+            "six thousand metres"
+          ],
+          "evidence": [
+            {
+              "quote": "had recovered rare-earth-bearing mud from about 6,000 metres near the island of Minamitorishima",
+              "start": 4783,
+              "end": 4878,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "approximately what depth",
+              "to": "from about 6,000 metres",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：日本地球号在约 6000 米深处提取了富含稀土的泥。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Until what year has Norway postponed issuing its first deep-sea mining licences?",
+          "answer": "2029",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "2029",
+            "at least 2029"
+          ],
+          "evidence": [
+            {
+              "quote": "postponing its first round until at least 2029",
+              "start": 4657,
+              "end": 4703,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "Until what year has Norway postponed",
+              "to": "postponing its first round until at least 2029",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：挪威 2025 年 12 月同意在本届议会任期内不发许可，首轮推迟至至少 2029 年。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-31T10:00:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

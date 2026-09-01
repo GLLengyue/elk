@@ -27,7 +27,7 @@ maxTurns: 50
 │   ├── schemas/          # 10 个 JSON Schema 契约
 │   ├── rubrics/          # writing-task2.v1 + speaking.v1（JSON 化）
 │   ├── prompts/          # 5 个 prompt 模板 + prompts.json
-│   └── packs/            # reading-official-sample 官方样题包（redistributable: true）
+│   └── packs/            # 两个数据包：自建新闻阅读包 + 官方口语话题包
 ├── scripts/
 │   └── elk_core.py       # 纯 Python 标准库核心（零第三方依赖）
 └── SKILL.md              # 本操作手册
@@ -50,7 +50,7 @@ python3 <skill目录>/scripts/elk_core.py <命令>
    - 全部资产已内置，无需下载、无需配置
 2. **题目检索（FTS5）**：找题用 SQL、用题才交 LLM。
    `elk_core.py search <关键词>` 检索内置样题包（25 篇阅读 + 15 类题型 + 113 条口语话题）。
-   命中后按 id 读取 `assets/packs/reading-official-sample/data/` 下对应原文注入。
+   命中后按 id 读取 `assets/packs/` 下对应数据包的原文注入。
 3. **评分客观锚点**：`elk_core.py features <题文件> <作文文件>` 预计算
    词数/段落/句子/8-gram 重叠率/最长抄题跨度/TTR/concept_hit——**LLM 不做精确计数**。
 4. **Prompt 渲染**：`elk_core.py render <rubric> <题文件> <作文文件> [--features JSON]`
@@ -96,7 +96,7 @@ python3 <skill目录>/scripts/elk_core.py render-reading <题目id> --out readin
 
 - 评分输出必须含：四维 `band_range`（TR/CC/LR/GRA）+ `matched_anchor`（命中的 rubric 判据原文）+ `rationale`（≤60 词，引用作文具体词句）+ `improvements`
 - 每个结论标注证据来源：数据包 id / rubric_version / 检索命中的题目 id
-- 涉及数据包时标注可再分发状态（reading-official-sample 为 redistributable: true）
+- 涉及数据包时标注可再分发状态（reading-news-2026-08 / speaking-official-sample 均为 redistributable: true）
 - 用表格总结，与用户语言一致（默认中文）
 
 ## 注意事项
@@ -107,4 +107,4 @@ python3 <skill目录>/scripts/elk_core.py render-reading <题目id> --out readin
 - **零依赖约束**：运行只依赖 Python 标准库（json/sqlite3/re/argparse/pathlib/hashlib）；
   不要因为"需要更多功能"去引入第三方包，缺能力先评估是否能用标准库实现
 - **全程只读内置资产**：不修改 assets/ 下原始文件；数据扩充通过新增数据包目录进行
-- 内置样题包 `reading-official-sample` 为所有者筛选整理的合法数据（redistributable: true），可随专家分发
+- 内置的数据包均为 redistributable: true。阅读包为公开新闻事实的原创改写、非官方真题；口语包为官方公开话题快照

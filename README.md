@@ -163,6 +163,16 @@ python3 scripts/release.py
 **关键**：BBC / Guardian / Economist / Nature 等全版权来源禁止改写入库；
 The Conversation 是 CC BY-**ND**，ND 明确禁止演绎，同样不可用。
 
+### 已交付数据包
+
+- **`reading-news-2026-08`**：34 篇 / 442 题，基于 2026-06~08 公开新闻事实原创改写的
+  synthetic 阅读题，全部过 `verify.py`（0 错误 0 警告）并逐篇人工复核。
+- **命题流水线**（`capability/scripts/pack_authoring/`）：`build.py`（DSL→JSON）、
+  `verify.py`（校验）、`regen.py`（DSL 全量重现）、`check_all.py`（机械质检）、
+  `refresh_pack_json.py`（重算计数）、`build_index.py`（练习目录页）。
+- **DSL 中间层**：每篇题目由 `_dsl/*.txt` 编写，JSON 可完整重现，DSL 为唯一可编辑真相源。
+  规范见 `capability/docs/pack-authoring.md` 与包内 `BUILD.md`。
+
 ---
 
 ## 开发

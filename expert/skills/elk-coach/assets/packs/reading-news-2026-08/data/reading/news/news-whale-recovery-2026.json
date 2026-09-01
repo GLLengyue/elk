@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-whale-recovery-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-whale-recovery-2026",
+    "source_url": "https://www.fisheries.noaa.gov/species/north-atlantic-right-whale/spotlight",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-09-01T22:47:39+08:00",
+    "verified_on": "2026-09-01",
+    "derivation": "事实取自 NOAA 北大西洋露脊鲸专题(最新丰度约 380 头、较 2020 年多约 20 头且连续第三次评估显示增长、可繁殖雌性约 70 头) | 2025-26 产仔季记录 23 头幼鲸、为 2009 年以来最高且二十年来首次创季节纪录;NOAA 在美国东南沿海记录 129 头不同个体、逾 500 次目击、逾总数四分之一、同比 +29% | 20 头母鲸中 13 头上一次产仔在 2021 或 2022 季(约四年间隔)、健康种群 3-4 年、2010 年代曾拉长到 7-10 年 | 2011 年峰值约 484 头 → 2020 年约 359 头 | 2017 年宣布的异常死亡事件(UME)至 2026-07 涉及 176 头(43 死亡 + 41 重伤 + 92 亚致死),111 起(约 63%)归因于渔具缠绕,逾 85% 个体带缠绕疤痕 | PBR 0.73 头/年 | 恢复目标为连续 35 年年均增长约 2%,尚未达成 | 座头鲸 1986 年全球商业捕鲸禁令后约 84,000 头、2016 年美国东北海域除名;东太平洋灰鲸 1947 年 IWC 保护、1994 年从美国濒危名录除名、2016 年约 27,000 头 | 纽约港座头鲸(Gotham Whale 2012 年建库时 5 头、现已识别第 500 头、每年 80-100 头、成体日食约 1,360 公斤鱼、归因于水质改善+大西洋油鲱恢复+气候变化改变饵鱼分布)"
+  },
+  "passage": {
+    "id": "news-whale-recovery-2026-text",
+    "title": "Counting the Survivors",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few conservation stories are as closely watched, or as fragile, as that of the North Atlantic right whale. The latest abundance estimate puts the population at roughly 380 animals, about twenty more than in 2020 and the third consecutive assessment to suggest an increase. Set against that modest good news is a harder number: only around seventy of those animals are females capable of breeding. For a species that once numbered in the tens of thousands, recovery at this scale is measured in individual births rather than in percentages."
+      },
+      {
+        "label": "B",
+        "text": "The 2025-26 calving season offered the clearest encouragement in nearly two decades. Researchers recorded 23 newborn calves, the highest seasonal total since 2009 and the first time in twenty years that a season has set a record of this kind. Survey teams working off the south-eastern coast of the United States, where the animals gather in winter, logged more than 500 sightings involving 129 distinct individuals. That single figure represents more than a quarter of the entire population, and sightings were up about 29 per cent on the previous season."
+      },
+      {
+        "label": "C",
+        "text": "Biologists pay closer attention to the gap between calves than to the number of them. Of the twenty mothers seen with calves this season, thirteen had last given birth in 2021 or 2022, which implies an interval of roughly four years. In a healthy right whale population females calve every three to four years. Through much of the 2010s the interval stretched to seven or even ten years, a pattern researchers read as a sign that the animals were not finding enough food. The shortening of that gap therefore matters more than the headcount does."
+      },
+      {
+        "label": "D",
+        "text": "The recent history of the population explains why caution prevails. Numbers peaked at about 484 animals in 2011 before sliding to roughly 359 by 2020, and the current estimate of around 380 still leaves the species far below its size before commercial whaling. Where recovery has happened elsewhere, it has taken generations rather than years."
+      },
+      {
+        "label": "E",
+        "text": "Mortality remains the binding constraint. The unusual mortality event declared in 2017 is still active: by July 2026 it had involved 176 individual whales, comprising 43 known deaths, 41 serious injuries and 92 cases classified as sub-lethal. Entanglement in fishing gear is the single largest identified cause, implicated in 111 of the cases, or about 63 per cent, with vessel strikes accounting for most of the remainder. More than 85 per cent of all right whales carry scars from entanglement, and many carry them more than once. Regulators have responded with seasonal restrictions on fishing and on vessel speed in areas where the animals are known to congregate."
+      },
+      {
+        "label": "F",
+        "text": "The arithmetic of recovery is unforgiving. Federal scientists calculate a potential biological removal level of 0.73 animals per year, which means that fewer than one whale annually may be killed or seriously injured by human activity if the population is to grow at all. Because the figure is so low, a single additional death can cancel out a season of births. The formal recovery goal requires average annual growth of about 2 per cent sustained for 35 consecutive years, a threshold the population has not yet reached."
+      },
+      {
+        "label": "G",
+        "text": "Other species show that the trajectory can be reversed. Humpback whales, hunted intensively until a global moratorium on commercial whaling took effect in 1986, now number roughly 84,000 worldwide, and the population feeding off the north-eastern United States was removed from the endangered list in 2016. The eastern Pacific grey whale, protected by the International Whaling Commission from 1947, was taken off the United States endangered species list in 1994 and had recovered to about 27,000 animals by 2016. Both recoveries took decades of near-total protection."
+      },
+      {
+        "label": "H",
+        "text": "The return of humpbacks to New York harbour is the most visible illustration. When Gotham Whale began its catalogue in 2012, researchers identified five individuals; the project has now recorded its five hundredth. Between eighty and a hundred distinct animals are seen in the harbour each year. An adult humpback, roughly the length of a bus, can consume about 1,360 kilograms of fish a day. Researchers attribute the return to cleaner water, the recovery of Atlantic menhaden stocks and shifts in the distribution of other forage fish linked to climate change. The sightings are genuine good news, but the unusual mortality event affecting humpbacks has never been closed. Recovery, the evidence suggests, is real, uneven and reversible."
+      }
+    ],
+    "word_count": 727,
+    "topic_tags": [
+      "environment",
+      "wildlife",
+      "conservation"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-whale-recovery-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The current estimate of the North Atlantic right whale population is higher than the figure for 2020.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "roughly 380 animals, about twenty more than in 2020",
+              "start": 160,
+              "end": 211,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "explanation": "380 高于 2020 年水平，原文直接给出「多约二十头」。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "More calves were recorded in the 2025-26 season than in any season since records began.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "the highest seasonal total since 2009 and the first time in twenty years that a season has set a record of this kind",
+              "start": 665,
+              "end": 781,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文限定为「2009 年以来最高」，并非有记录以来最高，题干扩大了范围。",
+          "skill_tag": [
+            "inference"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Right whale females are currently calving at shorter intervals than they did through much of the 2010s.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "TRUE"
+          ],
+          "evidence": [
+            {
+              "quote": "Through much of the 2010s the interval stretched to seven or even ten years",
+              "start": 1408,
+              "end": 1483,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "现在约四年，2010 年代为七至十年，故间隔确实缩短了。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Vessel strikes have been identified in more of the recorded cases than entanglement has.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "FALSE"
+          ],
+          "evidence": [
+            {
+              "quote": "Entanglement in fishing gear is the single largest identified cause, implicated in 111 of the cases, or about 63 per cent, with vessel strikes accounting for most of the remainder",
+              "start": 2231,
+              "end": 2410,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "缠绕占 111 起、约 63%，为最大成因；船舶撞击只是剩余部分中的多数。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Ropeless fishing equipment has been made compulsory throughout the range of the right whale.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ],
+          "evidence": [
+            {
+              "quote": "Regulators have responded with seasonal restrictions on fishing and on vessel speed in areas where the animals are known to congregate.",
+              "start": 2521,
+              "end": 2656,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "原文只说在特定区域实施季节性限制，未提无绳渔具，也未说强制或全覆盖。",
+          "skill_tag": [
+            "inference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-whale-recovery-2026-g2",
+      "type": "sentence_completion",
+      "instruction": "Complete each sentence with a word or phrase from the passage. Write your answers in boxes 6-9 on your answer sheet.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Thirteen of the twenty mothers seen with calves had last given birth in 2021 or 2022, suggesting a calving interval of approximately 6. ______.",
+          "answer": "four years",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "four years",
+            "4 years"
+          ],
+          "evidence": [
+            {
+              "quote": "thirteen had last given birth in 2021 or 2022, which implies an interval of roughly four years",
+              "start": 1235,
+              "end": 1329,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 suggesting = 原文 implies，approximately = roughly。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "By July 2026 the unusual mortality event had affected 7. ______ individual right whales.",
+          "answer": "176",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "176"
+          ],
+          "evidence": [
+            {
+              "quote": "by July 2026 it had involved 176 individual whales",
+              "start": 2092,
+              "end": 2142,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "E 段直接给出 176 这个总数，注意不要误取 43 或 111。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Researchers report that over 8. ______ of right whales bear scars left by fishing gear.",
+          "answer": "85 per cent",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "85 per cent",
+            "85%"
+          ],
+          "evidence": [
+            {
+              "quote": "More than 85 per cent of all right whales carry scars from entanglement",
+              "start": 2412,
+              "end": 2483,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "bear scars = carry scars，fishing gear = entanglement。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "An adult humpback is capable of eating about 9. ______ of fish in a single day.",
+          "answer": "1,360 kilograms",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "1,360 kilograms",
+            "1360 kg"
+          ],
+          "evidence": [
+            {
+              "quote": "can consume about 1,360 kilograms of fish a day",
+              "start": 4094,
+              "end": 4141,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "explanation": "题干 eating = consume，in a single day = a day。",
+          "skill_tag": [
+            "scanning"
+          ]
+        }
+      ],
+      "word_limit": "NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": "news-whale-recovery-2026-g3",
+      "type": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "1986"
+        },
+        {
+          "key": "B",
+          "text": "1994"
+        },
+        {
+          "key": "C",
+          "text": "2016"
+        },
+        {
+          "key": "D",
+          "text": "2017"
+        }
+      ],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "In which year did the global moratorium on commercial whaling take effect?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "A"
+          ],
+          "evidence": [
+            {
+              "quote": "until a global moratorium on commercial whaling took effect in 1986",
+              "start": 3272,
+              "end": 3339,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "G 段明确商业捕鲸禁令于 1986 年生效。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "In which year did the unusual mortality event affecting right whales begin?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "D"
+          ],
+          "evidence": [
+            {
+              "quote": "The unusual mortality event declared in 2017 is still active",
+              "start": 2030,
+              "end": 2090,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "explanation": "事件于 2017 年宣布，且至今仍然有效。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "In which year was the eastern Pacific grey whale taken off the United States list of endangered species?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "B"
+          ],
+          "evidence": [
+            {
+              "quote": "was taken off the United States endangered species list in 1994",
+              "start": 3580,
+              "end": 3643,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "注意区分灰鲸(1994)与座头鲸(2016)。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "In which year did humpbacks feeding off the north-eastern United States cease to be classified as endangered?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "acceptable_answers": [
+            "C"
+          ],
+          "evidence": [
+            {
+              "quote": "the population feeding off the north-eastern United States was removed from the endangered list in 2016",
+              "start": 3382,
+              "end": 3485,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "explanation": "cease to be classified = was removed from。",
+          "skill_tag": [
+            "paraphrase"
+          ]
+        }
+      ],
+      "subtype": "single_answer"
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.1",
+    "created_at": "2026-09-01T22:47:39+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，结构/偏移由脚本构建；答案未经人工复核。",
+    "not_official": true
+  }
+}

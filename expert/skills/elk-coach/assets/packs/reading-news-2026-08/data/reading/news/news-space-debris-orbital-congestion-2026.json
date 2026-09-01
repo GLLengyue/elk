@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-space-debris-orbital-congestion-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-space-debris-orbital-congestion-2026",
+    "source_url": "https://spacedaily.com/sd-v-the-kessler-syndrome-predicts-that-a-single-collision-in-low-earth-orbit-could-trigger-a-cascade-rendering-entire-altitudes-unusable-for-generations-and-current-satellite-density-has-already-cro",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news sources",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-08-30T16:00:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "https://spacetoday.net/getarticle.php3?id=492642 | https://fodnews.com?p=4769/ | https://www.engadget.com/2212810/ | https://www.world-today-journal.com?p=2294009/"
+  },
+  "passage": {
+    "id": "news-space-debris-orbital-congestion-2026-text",
+    "title": "The Crowding of Low Earth Orbit",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Low Earth orbit, the band of space extending to roughly 2,000 kilometres above the planet, has become the most congested region in human history. Global surveillance networks currently track more than 43,000 objects larger than ten centimetres, and by mid-2026 more than 16,000 operational satellites were in orbit. A single commercial network, SpaceX's Starlink, accounted for more than 10,000 of them — roughly two of every three working spacecraft. Behind this activity lies a darker catalogue of derelict hardware, spent rocket stages and collision fragments, moving at velocities of around seven kilometres per second, fast enough for even a tiny fleck of paint to disable a functioning satellite."
+      },
+      {
+        "label": "B",
+        "text": "The danger of this accumulation was described as early as 1978, when NASA astrophysicist Donald Kessler argued that once the density of objects passed a certain threshold, collisions would generate debris faster than atmospheric drag could remove it, triggering a self-sustaining cascade. Kessler's model was not about a sudden catastrophe but a tipping point playing out over decades. The bands most at risk, roughly 700 to 1,000 kilometres up, were already considered unstable by the mid-2000s. Two events sharpened the picture: in 2007 China destroyed its Fengyun-1C weather satellite in an anti-satellite test, scattering more than 3,000 trackable fragments, and in 2009 the defunct Russian Kosmos 2251 collided with the active Iridium 33, generating roughly 2,000 more. Together they raised the trackable debris population by about a third."
+      },
+      {
+        "label": "C",
+        "text": "The constellation era has dramatically accelerated this trend. Beyond Starlink, rival networks such as China's Qianfan and Guowang projects and Amazon's Kuiper are adding further density to the same bands. The burden of avoiding collisions now falls largely on the operators themselves: SpaceX reported performing more than 355,000 collision-avoidance manoeuvres between June 2025 and May 2026, nearly triple the figure for the previous year. A metric known as the CRASH Clock, developed by researchers including Sarah Thiele of Princeton University, indicates that satellites across all low-orbit megaconstellations now pass within a kilometre of one another roughly every 22 seconds. Modelling by Hugh Lewis of the University of Birmingham concluded that six of sixteen proposed or operational constellations already exceed the runaway threshold, and that altitude, rather than sheer numbers, is the decisive risk factor."
+      },
+      {
+        "label": "D",
+        "text": "Regulation has struggled to keep pace. The 1967 Outer Space Treaty, which established the founding principles of peaceful space activity, contains no enforceable provisions governing orbital debris, space traffic management or collision avoidance. Instead, the most widely applied rules are voluntary: guidelines issued by the United Nations Office for Outer Space Affairs ask operators to remove satellites within 25 years of completing their missions. The United States has gone further, with the Federal Communications Commission adopting a rule in 2022 requiring low-orbit operators to deorbit satellites within five years of mission completion. Critics, however, note that no international body currently has the authority to force compliance on operators beyond any single jurisdiction, leaving the effectiveness of such measures dependent on the goodwill of individual nations."
+      },
+      {
+        "label": "E",
+        "text": "Commercial operators defend their approach with an argument about altitude. SpaceX has announced that during 2026 it is lowering satellites from around 550 to 480 kilometres, on the grounds that debris is significantly rarer below 500 kilometres and that a failed satellite there will naturally re-enter and burn up within months rather than years. Its engineers argue that a constellation at such low altitude is effectively self-cleaning, and a semi-annual report to the FCC recorded 260 controlled deorbits between December 2025 and May 2026. Critics respond that self-cleaning only works if every operator plays by the same rules, and that none currently has to. They also point to side-effects of disposal itself: each re-entry vaporises satellite aluminium into oxide particles, and researchers such as John Dykema of Harvard warn that their accumulation could slow the recovery of the ozone layer."
+      },
+      {
+        "label": "F",
+        "text": "Given the limits of prevention, attention has turned to active debris removal, the deliberate capture and disposal of existing hardware. The most prominent demonstration mission is ClearSpace-1, funded by the European Space Agency and led by the Swiss company ClearSpace, which plans to grasp a defunct rocket upper stage called VESPA and drag it into a destructive re-entry. Japan's commercial sector has moved earlier, with the Astroscale-built ADRAS-J probe approaching and inspecting an abandoned upper stage in 2024. NASA, meanwhile, has developed a prototype vehicle designed to match the speed and rotation of larger fragments before removing them. Yet the field remains forbidding: targets are often tumbling, uncooperative and owned by other nations, so that clearing one object can raise questions of liability and permission that no treaty yet resolves."
+      },
+      {
+        "label": "G",
+        "text": "Opinion remains divided on how close the orbital environment is to irreversible collapse. Some analysts maintain that the threshold Kessler described has already been crossed, pointing to the European Space Agency's 2026 environment report, which put the rise in low-orbit collision risk at roughly 20 per cent since 2024, driven principally by megaconstellation growth. Others contend that the situation, while serious, is still manageable through improved tracking, stricter disposal rules and the gradual adoption of active removal. What unites both camps is the conviction that voluntary guidelines and fragmented national enforcement are inadequate for the scale of traffic now being launched, and that some form of internationally binding framework will eventually be needed."
+      }
+    ],
+    "word_count": 878,
+    "topic_tags": [
+      "technology",
+      "space",
+      "environment"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-space-debris-orbital-congestion-2026-g1",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage?",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "More than half of the active satellites in Earth orbit belong to a single commercial operator.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "A single commercial network, SpaceX's Starlink, accounted for more than 10,000 of them — roughly two of every three working spacecraft",
+              "start": 316,
+              "end": 450,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "More than half",
+              "to": "roughly two of every three",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文 A 段说明约三分之二的活跃卫星属于 Starlink 一家公司，因此「超过一半」为 TRUE。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Donald Kessler predicted that a cascade of collisions would begin almost immediately after the density threshold was crossed.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Kessler's model was not about a sudden catastrophe but a tipping point playing out over decades",
+              "start": 992,
+              "end": 1087,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "begin almost immediately",
+              "to": "a tipping point playing out over decades",
+              "kind": "contrast"
+            }
+          ],
+          "explanation": "原文 B 段明确 Kessler 模型不是突发灾难而是数十年间逐步发生，与「几乎立即开始」矛盾，故为 FALSE。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "By 2026, Amazon's Kuiper network had placed more satellites in orbit than China's Qianfan project.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "rival networks such as China's Qianfan and Guowang projects and Amazon's Kuiper are adding further density to the same bands",
+              "start": 1629,
+              "end": 1753,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "had placed more satellites than",
+              "to": "are adding further density to the same bands",
+              "kind": "not_mentioned"
+            }
+          ],
+          "explanation": "文章 C 段只提到这些网络都在增加轨道密度，并未比较各自部署数量，因此无法判断，为 NOT GIVEN。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "The 1967 Outer Space Treaty contains detailed rules about how quickly satellites must be removed from orbit.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "contains no enforceable provisions governing orbital debris, space traffic management or collision avoidance",
+              "start": 2611,
+              "end": 2719,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "detailed rules",
+              "to": "no enforceable provisions",
+              "kind": "contrast"
+            }
+          ],
+          "explanation": "原文 D 段指出该条约没有关于轨道碎片、空间交通管理等问题的可执行条款，与「包含详细规则」矛盾，故为 FALSE。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "The Federal Communications Commission requires low-orbit satellite operators to deorbit their satellites within five years of mission completion.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "the Federal Communications Commission adopting a rule in 2022 requiring low-orbit operators to deorbit satellites within five years of mission completion",
+              "start": 2968,
+              "end": 3121,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "requires",
+              "to": "a rule in 2022 requiring",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "原文 D 段直接说明 FCC 于 2022 年采纳规则，要求低轨运营者五年内离轨，故为 TRUE。",
+          "skill_tag": [
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-space-debris-orbital-congestion-2026-g2",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "The 2007 destruction of the Fengyun-1C satellite"
+        },
+        {
+          "key": "B",
+          "text": "The 2009 collision between Kosmos 2251 and Iridium 33"
+        },
+        {
+          "key": "C",
+          "text": "The CRASH Clock metric developed by Princeton researchers"
+        },
+        {
+          "key": "D",
+          "text": "The ClearSpace-1 mission led by the European Space Agency"
+        }
+      ],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Which of the following is mentioned as creating more than 3,000 trackable fragments?",
+          "answer": "A",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "China destroyed its Fengyun-1C weather satellite in an anti-satellite test, scattering more than 3,000 trackable fragments",
+              "start": 1242,
+              "end": 1364,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "creating more than 3,000 trackable fragments",
+              "to": "scattering more than 3,000 trackable fragments",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段提到 2007 年中国反卫星试验摧毁 Fengyun-1C，产生了 3,000 多个可追踪碎片，对应选项 A。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "Which of the following is an example of a tool for measuring congestion in low Earth orbit?",
+          "answer": "C",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "A metric known as the CRASH Clock, developed by researchers including Sarah Thiele of Princeton University, indicates that satellites across all low-orbit megaconstellations now pass within a kilometre of one another roughly every 22 seconds",
+              "start": 1992,
+              "end": 2233,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a tool for measuring congestion",
+              "to": "A metric known as the CRASH Clock",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段描述 CRASH Clock 衡量卫星之间的近距离接近频率，是测量轨道拥堵的工具，对应选项 C。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Which of the following is described as an active debris removal mission?",
+          "answer": "D",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "The most prominent demonstration mission is ClearSpace-1, funded by the European Space Agency and led by the Swiss company ClearSpace, which plans to grasp a defunct rocket upper stage called VESPA and drag it into a destructive re-entry",
+              "start": 4400,
+              "end": 4637,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "an active debris removal mission",
+              "to": "The most prominent demonstration mission is ClearSpace-1",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段描述 ClearSpace-1 任务为捕获并拖拽废弃火箭上面级进行销毁的主动碎片清除示范，对应选项 D。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Which of the following is mentioned as having generated roughly 2,000 fragments?",
+          "answer": "B",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "the defunct Russian Kosmos 2251 collided with the active Iridium 33, generating roughly 2,000 more",
+              "start": 1378,
+              "end": 1476,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "having generated roughly 2,000 fragments",
+              "to": "generating roughly 2,000 more",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段提到 2009 年 Kosmos 2251 与 Iridium 33 碰撞产生了约 2,000 个碎片，对应选项 B。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ],
+          "acceptable_answers": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-space-debris-orbital-congestion-2026-g3",
+      "type": "summary_completion",
+      "subtype": "summary",
+      "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "The 1967 Outer Space Treaty contains no (10) ______ provisions concerning orbital debris.",
+          "answer": "enforceable",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "enforceable"
+          ],
+          "evidence": [
+            {
+              "quote": "no enforceable provisions governing orbital debris",
+              "start": 2620,
+              "end": 2670,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "contains no ______ provisions",
+              "to": "no enforceable provisions",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段指出外空条约没有关于轨道碎片的可执行条款，空格填 enforceable。",
+          "skill_tag": [
+            "scanning",
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Most of the existing rules on space debris removal are merely (11) ______ guidelines.",
+          "answer": "voluntary",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "voluntary"
+          ],
+          "evidence": [
+            {
+              "quote": "the most widely applied rules are voluntary",
+              "start": 2730,
+              "end": 2773,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "merely ______ guidelines",
+              "to": "the most widely applied rules are voluntary",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段说明目前最广泛应用的规则是自愿性的，空格填 voluntary。",
+          "skill_tag": [
+            "scanning",
+            "paraphrase"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "The FCC requires that satellites be deorbited within (12) ______ years of completing their missions.",
+          "answer": "five",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "five",
+            "5"
+          ],
+          "evidence": [
+            {
+              "quote": "requiring low-orbit operators to deorbit satellites within five years of mission completion",
+              "start": 3030,
+              "end": 3121,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "within ______ years",
+              "to": "within five years",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段说明 FCC 规则要求低轨卫星在任务完成后五年内离轨，空格填 five。",
+          "skill_tag": [
+            "scanning"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "Beyond prevention, some proposals involve the (13) ______ of existing debris through capture and disposal.",
+          "answer": "active removal",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "active removal"
+          ],
+          "evidence": [
+            {
+              "quote": "the gradual adoption of active removal",
+              "start": 5624,
+              "end": 5662,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "the ______ of existing debris",
+              "to": "the gradual adoption of active removal",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "G 段提到通过逐步采用主动清除来管理轨道碎片，空格填 active removal。",
+          "skill_tag": [
+            "paraphrase",
+            "scanning"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-30T16:00:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

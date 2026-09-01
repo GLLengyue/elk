@@ -1,0 +1,29 @@
+{
+  "pack_id": "reading-news-2026-08",
+  "pack_version": "0.2.0",
+  "schema_version": "1.0.0",
+  "title": "Recent News-based Academic Reading Items (2026-08)",
+  "modules": [
+    "reading"
+  ],
+  "licence": {
+    "name": "Original paraphrase, factual grounding from cited news sources",
+    "redistributable": true
+  },
+  "redistributable": true,
+  "contents": {
+    "counts": {
+      "reading_items": 34,
+      "reading_questions": 442,
+      "speaking_topics": 0,
+      "speaking_questions": 0,
+      "writing_prompts": 0,
+      "writing_essays": 0
+    },
+    "seasons": [],
+    "source_types": [
+      "synthetic"
+    ]
+  },
+  "notes": "基于 2026-06~08 公开新闻事实的原创改写，命题初稿为 synthetic（LLM 生成），全部 34 篇已通过 verify.py 机械层校验 + 逐篇人工语义复核（答案唯一性、证据逐字命中、判断题 TRUE/FALSE/NOT GIVEN 三种齐备、填空命中原文且在词限内）。证据偏移由脚本重算。24/34 篇保留可重生成 DSL 源（pack 内 _dsl/），10 篇为 JSON-native（早期已复核，待回填 DSL）。信源 URL 见各条目 source.derivation。"
+}

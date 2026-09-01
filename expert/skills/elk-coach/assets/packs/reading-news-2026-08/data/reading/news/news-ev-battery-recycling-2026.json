@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-ev-battery-recycling-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-ev-battery-recycling-2026",
+    "source_url": "https://greentechlead.com/energy-news/iea-warns-critical-mineral-supply-risks-intensify-as-copper-lithium-and-rare-earth-shortages-threaten-global-energy-security-54236",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。事实来源见 derivation。"
+    },
+    "retrieved_at": "2026-08-30T22:00:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "基于公开新闻事实由模型改写成雅思学术体并命题。信源: https://greentechlead.com/energy-news/iea-warns-critical-mineral-supply-risks-intensify-as-copper-lithium-and-rare-earth-shortages-threaten-global-energy-security-54236 | https://energy-solutions.co/articles/sub/ev-battery-recycling-what-happens | https://m.inwwin.com.cn/1192/view-1174707-1.html | https://auto.sina.cn/2026-08-29/detail-inipxkci9630490.d.html | https://www.esgnow.co.za/article/critical-mineral-risks-intensify-as-supply-concentration-collides-with-surging-demand | https://energiesmedia.com/720-worn-ev-batteries-plugged-san/ | https://www.ecoticias.com/en/an-electric-cars-used-battery-does-not-stop-working-when-the-car-is-no-longer-in-use-and-a-megafactory-in-vancouver-wants-to-give-it-a-second-life-to-power-hospitals-data-centers-and-microgrids/34431 | https://euromining.news/trafigura-glencore-and-nth-cycle-expand-battery-materials-recycling-supply-chains"
+  },
+  "passage": {
+    "id": "news-ev-battery-recycling-2026-text",
+    "title": "The Race to Reclaim Battery Metals",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The electric vehicle (EV) transition was built on the premise of cleaner transport, but it has given rise to a new problem: what to do with the batteries once they can no longer power a car. As the first generation of EVs approaches retirement, the industry is finding that a lithium-ion battery is less a disposable component than a concentrated bundle of scarce metals such as nickel, cobalt, lithium, copper and graphite. Managing this material is no longer a marginal environmental concern but a question of resource security. The emerging answer is a circular economy in which spent batteries are treated as 'urban mines', with recycling and reuse seen as strategic priorities for governments and manufacturers alike."
+      },
+      {
+        "label": "B",
+        "text": "The scale of the challenge is considerable. One industry report estimates that retired EV batteries worldwide exceeded 280,000 tonnes in 2026, while the global recycling market was valued at roughly 12.99 billion US dollars in 2025 and is projected to reach 16.44 billion dollars in 2026. In China alone, around 43 GWh of EV batteries are expected to reach the end of their useful life in 2026, rising to 171 GWh by 2030. The wave has been slower to arrive in other regions, partly because many batteries remain in service for eight to twelve years. As a result, manufacturing scrap from gigafactories already supplies much of the current feedstock, while most end-of-life packs are still years away."
+      },
+      {
+        "label": "C",
+        "text": "Three broad technical routes dominate commercial recycling. Pyrometallurgical processing, essentially smelting in a high-temperature furnace, is flexible and robust but weak on lithium, recovering less than 60 percent of that metal while capturing 90 to 98 percent of nickel and cobalt. Hydrometallurgical processing, which involves leaching shredded 'black mass' with chemical solutions, achieves higher overall performance, with nickel and cobalt recovery of 95 to 99 percent and lithium recovery of 85 to 95 percent. A newer route, direct recycling, restores the structure of cathode materials rather than breaking them down. It promises the lowest energy consumption and highest material yield, but requires tightly controlled feedstock and remains at an earlier stage of commercialisation."
+      },
+      {
+        "label": "D",
+        "text": "A handful of companies now operate at commercial scale. Redwood Materials, founded by a former Tesla executive, reported in late 2025 that it had raised 350 million US dollars and was recovering roughly 95 percent of lithium, nickel, cobalt and other materials at its South Carolina facility. Belgium's Umicore runs a 150,000-tonne plant at Hoboken that combines smelting with hydrometallurgical refining. China's CATL Brunp, described as the world's largest recycler, claims combined recovery rates of 99.6 percent for nickel, cobalt and manganese and 96.5 percent for lithium. In August 2025 the mining and trading giant Glencore completed its acquisition of Li-Cycle, folding the Canadian firm's hydrometallurgical technology into its global refining network."
+      },
+      {
+        "label": "E",
+        "text": "Regulation is now a powerful driver. The European Union's Battery Regulation, in force since 2023, requires that at least 65 percent of a lithium-ion battery be recycled by 2025 and 70 percent by 2030. It also sets material-specific targets: lithium recovery must reach 50 percent by 2027 and 80 percent by 2031, while cobalt and nickel must reach 90 percent and 95 percent respectively on the same timetable. From 2031, new batteries sold in the EU must contain minimum recycled content, including 16 percent for cobalt and 6 percent for lithium. A digital battery passport, mandatory from February 2027, will record material origin and carbon footprint, linking recyclers and manufacturers in a single documented chain."
+      },
+      {
+        "label": "F",
+        "text": "Recycling has also acquired a geopolitical rationale. In its Global Critical Minerals Outlook 2026, the International Energy Agency warned that China accounts for roughly 72 percent of global refined supply of critical minerals, including virtually all spherical graphite used in battery anodes. The report noted that lithium prices more than doubled between January 2025 and April 2026, while cobalt prices surged by around 130 percent after the Democratic Republic of the Congo imposed export quotas. It projected persistent deficits for lithium, cobalt and graphite through 2035, and estimated that sources outside China would meet only about 10 percent of graphite demand in 2030. In this context, recycled material is increasingly framed as a hedge against supply disruption."
+      },
+      {
+        "label": "G",
+        "text": "Not every retired battery goes straight to the shredder. A pack that can no longer provide the range a driver expects typically retains 70 to 80 percent of its original capacity, often enough for stationary energy storage. In British Columbia, Moment Energy opened what it calls the world's largest EV battery repurposing facility in June 2026, aiming to produce one gigawatt-hour of storage systems by 2030. In Texas, B2U Storage Solutions operates a ten-megawatt project built from more than 720 repurposed EV batteries, and has agreed to receive packs from Waymo's autonomous vehicle fleet. Such projects store cheap midday solar power and release it when prices rise, extending the useful life of materials before eventual recycling."
+      },
+      {
+        "label": "H",
+        "text": "Despite the momentum, obstacles remain. Feedstock quality varies widely, since different chemistries require different processing, and a facility designed for one mix can face margin pressure when the supply changes. Pretreatment and logistics are costly, and the economics depend on metal prices that remain volatile. Moreover, recycled-content mandates do not yet exist in every market, leaving some producers to wait for regulation rather than lead it. Nevertheless, with supply security, environmental pressure and regulatory deadlines converging, most analysts expect battery recycling to become a permanent feature of the automotive and energy landscape."
+      }
+    ],
+    "word_count": 900,
+    "topic_tags": [
+      "technology",
+      "energy",
+      "environment"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-ev-battery-recycling-2026-g1",
+      "type": "matching_features",
+      "instruction": "Look at the following descriptions (Questions 1-5) and the list of companies below. Match each description with the correct company, A-G.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "Redwood Materials"
+        },
+        {
+          "key": "B",
+          "text": "Umicore"
+        },
+        {
+          "key": "C",
+          "text": "CATL Brunp"
+        },
+        {
+          "key": "D",
+          "text": "Glencore"
+        },
+        {
+          "key": "E",
+          "text": "Li-Cycle"
+        },
+        {
+          "key": "F",
+          "text": "Moment Energy"
+        },
+        {
+          "key": "G",
+          "text": "B2U Storage Solutions"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "This company was acquired by a major commodity trader in 2025.",
+          "answer": "E",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "In August 2025 the mining and trading giant Glencore completed its acquisition of Li-Cycle, folding the Canadian firm's hydrometallurgical technology into its global refining network.",
+              "start": 2798,
+              "end": 2981,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "was acquired by a major commodity trader",
+              "to": "Glencore completed its acquisition of Li-Cycle",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段：Glencore 在 2025 年 8 月完成了对 Li-Cycle 的收购。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "E"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "This company has reported recovering about 95 percent of materials at a facility in South Carolina.",
+          "answer": "A",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Redwood Materials, founded by a former Tesla executive, reported in late 2025 that it had raised 350 million US dollars and was recovering roughly 95 percent of lithium, nickel, cobalt and other materials at its South Carolina facility.",
+              "start": 2275,
+              "end": 2511,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "recovering about 95 percent of materials",
+              "to": "recovering roughly 95 percent of lithium, nickel, cobalt and other materials",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段：Redwood Materials 在南卡罗来纳州工厂实现约 95% 的材料回收率。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "This company operates a 150,000-tonne recycling plant in Belgium.",
+          "answer": "B",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Belgium's Umicore runs a 150,000-tonne plant at Hoboken that combines smelting with hydrometallurgical refining.",
+              "start": 2512,
+              "end": 2624,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "operates a 150,000-tonne recycling plant in Belgium",
+              "to": "Belgium's Umicore runs a 150,000-tonne plant at Hoboken",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段：比利时 Umicore 在 Hoboken 运营 15 万吨产能的工厂。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "This company is described as the world's largest recycler of battery materials.",
+          "answer": "C",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "China's CATL Brunp, described as the world's largest recycler, claims combined recovery rates of 99.6 percent for nickel, cobalt and manganese and 96.5 percent for lithium.",
+              "start": 2625,
+              "end": 2797,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "described as the world's largest recycler",
+              "to": "described as the world's largest recycler",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段：CATL Brunp 被描述为全球最大的回收商。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "This company opened a facility that it describes as the world's largest battery repurposing plant.",
+          "answer": "F",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "In British Columbia, Moment Energy opened what it calls the world's largest EV battery repurposing facility in June 2026, aiming to produce one gigawatt-hour of storage systems by 2030.",
+              "start": 4708,
+              "end": 4893,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "opened a facility ... described as the world's largest battery repurposing plant",
+              "to": "opened what it calls the world's largest EV battery repurposing facility",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "G 段：Moment Energy 在温哥华开设了自称全球最大的电池重利用工厂。",
+          "skill_tag": [
+            "detail",
+            "scanning"
+          ],
+          "acceptable_answers": [
+            "F"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ev-battery-recycling-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage?",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "Pyrometallurgical recycling recovers a smaller proportion of lithium than hydrometallurgical recycling does.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Pyrometallurgical processing, essentially smelting in a high-temperature furnace, is flexible and robust but weak on lithium, recovering less than 60 percent of that metal while capturing 90 to 98 percent of nickel and cobalt.",
+              "start": 1484,
+              "end": 1710,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "Pyrometallurgical recycling recovers a smaller proportion of lithium",
+              "to": "weak on lithium, recovering less than 60 percent of that metal",
+              "kind": "synonym"
+            },
+            {
+              "from": "than hydrometallurgical recycling does",
+              "to": "Hydrometallurgical processing ... achieves ... lithium recovery of 85 to 95 percent",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段：火法锂回收率低于 60%，湿法锂回收率 85-95%，因此火法回收比例更低，题目正确。",
+          "skill_tag": [
+            "detail",
+            "paraphrase",
+            "inference"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "The EU Battery Regulation requires that lithium recovery reach 90 percent by 2031.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "It also sets material-specific targets: lithium recovery must reach 50 percent by 2027 and 80 percent by 2031, while cobalt and nickel must reach 90 percent and 95 percent respectively on the same timetable.",
+              "start": 3184,
+              "end": 3391,
+              "paragraph_label": "E",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "lithium recovery reach 90 percent by 2031",
+              "to": "lithium recovery must reach ... 80 percent by 2031",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "E 段：欧盟规定锂回收率到 2031 年为 80%，不是 90%。90% 是钴和镍的目标。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "Most retired EV batteries in Europe are currently collected through official channels.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "The wave has been slower to arrive in other regions, partly because many batteries remain in service for eight to twelve years.",
+              "start": 1145,
+              "end": 1272,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "collected through official channels",
+              "to": "batteries remain in service",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "文章提及欧洲等地区退役潮来得较慢，但并未讨论退役电池是否通过官方渠道收集，因此 Not Given。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "According to the IEA, recycled material is increasingly seen as a way to guard against supply disruption.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "In this context, recycled material is increasingly framed as a hedge against supply disruption.",
+              "start": 4389,
+              "end": 4484,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a way to guard against supply disruption",
+              "to": "a hedge against supply disruption",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：IEA 的背景下，回收材料被定位为应对供应中断的对冲工具。",
+          "skill_tag": [
+            "detail",
+            "paraphrase"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ev-battery-recycling-2026-g3",
+      "type": "summary_completion",
+      "subtype": "note",
+      "instruction": "Complete the notes below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\n\nCritical minerals and the role of recycling",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 10,
+          "stem": "According to the IEA, China accounts for approximately ____ percent of the world's refined supply of critical minerals.",
+          "answer": "72",
+          "acceptable_answers": [
+            "72",
+            "72 percent"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "China accounts for roughly 72 percent of global refined supply of critical minerals",
+              "start": 3848,
+              "end": 3931,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "approximately",
+              "to": "roughly",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：IEA 报告指出中国约占全球精炼矿产供应的 72%。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "Between January 2025 and April 2026, cobalt prices rose by around ____ percent.",
+          "answer": "130",
+          "acceptable_answers": [
+            "130",
+            "130 percent"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "cobalt prices surged by around 130 percent after the Democratic Republic of the Congo imposed export quotas",
+              "start": 4098,
+              "end": 4205,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "rose by around",
+              "to": "surged by around",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：刚果（金）实施出口配额后，钴价上涨约 130%。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "The IEA projected that deficits for lithium, cobalt and graphite would persist until ____.",
+          "answer": "2035",
+          "acceptable_answers": [
+            "2035"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "It projected persistent deficits for lithium, cobalt and graphite through 2035",
+              "start": 4207,
+              "end": 4285,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "persist until",
+              "to": "persistent deficits ... through",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：IEA 预测锂、钴、石墨的短缺将持续到 2035 年。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "In this context, recycled material is described as a ____ against supply disruption.",
+          "answer": "hedge",
+          "acceptable_answers": [
+            "hedge"
+          ],
+          "answer_form": "free_text",
+          "evidence": [
+            {
+              "quote": "recycled material is increasingly framed as a hedge against supply disruption",
+              "start": 4406,
+              "end": 4483,
+              "paragraph_label": "F",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "described as a ... against",
+              "to": "framed as a ... against",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "F 段：回收材料被定位为应对供应中断的对冲工具（hedge）。",
+          "skill_tag": [
+            "scanning",
+            "detail"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-31T01:00:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}

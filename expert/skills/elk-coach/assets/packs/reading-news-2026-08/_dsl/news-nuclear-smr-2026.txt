@@ -1,0 +1,113 @@
+ID: news-nuclear-smr-2026
+TITLE: Small Reactors, Large Promises
+TAGS: energy,technology,nuclear
+URL: https://winssolutions.org/small-modular-reactors-explained
+NOTES: 事实取自 WINSS SMR 项目进展综述(2026: NuScale US460 标准设计批准 2025-05-29、罗马尼亚 Doicesti 2026-02-13 FID 六模块 462 MWe 60-70 亿美元、英国 Wylfa 三台 Rolls-Royce 共 1,440 MWe 25 亿英镑) | Axis Intelligence SMR 数据中心统计(IEA 定义 <300 MWe、NuScale CFPP 从 $55 涨至 $89/MWh 造价 53→93 亿美元 2023-11 终止、Darlington BWRX-300 首台 77 亿加元约 $25,000/kW 四台 209 亿加元、Linglong One 2026 上半年商运、Natrium 2024-06 破土) | Lazard 首代 SMR 约 $214/MWh、SMR Intel FOAK $80-150/MWh | 柏林工业大学 £163/MWh 研究、Rolls-Royce 第十台 £40-75/MWh | ADVANCE Act 2024-07 与 18 个月审查令 | 世界核工业现状报告 2025「仅为假说」
+
+--- A
+A small modular reactor is, in the definition used by the International Energy Agency, a fission plant rated at under 300 megawatts of electrical output, compared with 1,000 to 1,700 megawatts for the conventional reactors built in the 1970s and 1980s. The appeal rests on three claims. Because the units are smaller, they can in principle be assembled in a factory rather than poured on site. Because they are modular, capacity can be added in increments of 80 to 300 megawatts rather than in one enormous commitment. And because the footprint is modest, they can be sited closer to where the power is actually needed.
+--- B
+What has turned this from an engineering curiosity into a commercial proposition is demand from computing. The IEA counts plans of varying maturity for up to 25 gigawatts of SMR capacity worldwide, and its World Energy Outlook for 2025 recorded agreements and expressions of interest covering 30 gigawatts, most of it intended to run data centres. Google has signed for up to seven reactors from Kairos Power, together providing about 500 megawatts. For operators facing grid connection queues measured in years, a reactor next door solves an urgent problem that wind and solar, however cheap, do not.
+--- C
+The difficulty is price. Lazard's analysis puts first-generation SMR electricity at about $214 per megawatt-hour, while benchmarking by SMR Intel suggests a first-of-a-kind range of $80-150. The most instructive precedent is the Carbon Free Power Project in Idaho. When NuScale and a consortium of municipal utilities proposed it in 2016, the target price was $55 per megawatt-hour. By July 2023 it had reached $89, after an increase in construction cost of 75 per cent, from $5.3 billion to $9.3 billion. The partners terminated the scheme that November.
+--- D
+Several projects are now further advanced. Ontario Power Generation has approved the first BWRX-300 at Darlington at a cost of 7.7 billion Canadian dollars for 300 megawatts, an overnight figure of roughly $25,000 per kilowatt, with four units in total priced at 20.9 billion Canadian dollars. TerraPower's Natrium reactor, rated at 345 megawatts, broke ground in Wyoming in June 2024 with completion targeted for 2030. In Britain, the government selected the Rolls-Royce design in June 2025, named Wylfa in Wales as the site for three units totalling 1,440 megawatts, and pledged 2.5 billion pounds towards the programme.
+--- E
+Every one of these projections rests on the assumption that costs fall with repetition, the learning curve that transformed solar panels and lithium batteries. Rolls-Royce argues that its tenth reactor would produce power at between 40 and 75 pounds per megawatt-hour, comparable to British wind, but concedes that its own factory economics depend on winning substantial export orders. A study at the Technical University of Berlin, modelling uncertainty in production costs, put the mean levelised cost of a factory-built Rolls-Royce unit at approximately £163 per megawatt-hour, against £30-50 for British wind and solar today.
+--- F
+The export record offers little comfort. As of 2025, no SMR had been exported and operated commercially anywhere outside its country of origin. South Korea spent several hundred million dollars developing the 100-megawatt SMART reactor and found no international buyers. Argentina's CAREM project was abandoned in 2024 after a decade of construction. Russia's floating Akademik Lomonosov has been running since 2020, and China's Linglong One, a 125-megawatt unit built by CNNC, reached commercial operation in the first half of 2026, making it the only land-based SMR close to operating at scale.
+--- G
+Regulation has become faster without becoming simple. The ADVANCE Act of July 2024 streamlined licensing at the Nuclear Regulatory Commission and cut fees, and a subsequent executive order requires the agency to assess new applications within 18 months, a fraction of the decade such reviews once took. Design approval is not the same as permission to build, however: NuScale, the only developer with a certified American design, still has to clear separate construction-permit and operating-licence steps that can each take 30 months or more. No Generation III+ SMR in the United States has yet been delivered on time and to budget.
+--- H
+The gap between the two positions is really about what counts as evidence. The World Nuclear Industry Status Report for 2025 described the technology as a hypothesis with very uncertain timescales and costs. Jacopo Buongiorno of the Massachusetts Institute of Technology observed in 2025 that the capital needed to deploy even a single unit exceeds what most developers can raise. What would settle the argument is not another agreement but a finished reactor whose final bill can be compared with the estimate that preceded it.
+
+### GROUP identifying_information
+INSTR: Do the following statements agree with the information given in the reading passage? In boxes 1-5 on your answer sheet, write TRUE, FALSE or NOT GIVEN.
+ORDERED: true
+Q1 An SMR is defined by the International Energy Agency as a reactor producing less than 300 megawatts of electricity.
+ANS: TRUE
+EV: A | a fission plant rated at under 300 megawatts of electrical output, compared with 1,000 to 1,700 megawatts for the conventional reactors
+SKILL: detail
+EXP: A 段首句直接给出定义。
+Q2 The Carbon Free Power Project was abandoned because the design failed to win regulatory approval.
+ANS: FALSE
+EV: C | after an increase in construction cost of 75 per cent, from $5.3 billion to $9.3 billion. The partners terminated the scheme that November.
+SKILL: inference
+EXP: 终止原因是造价上涨 75%，与「监管未批准」无关；且 D、G 段说明 NuScale 的设计确已获批。
+Q3 Linglong One is the only land-based SMR described as having come close to operating at scale.
+ANS: TRUE
+EV: F | China's Linglong One, a 125-megawatt unit built by CNNC, reached commercial operation in the first half of 2026, making it the only land-based SMR close to operating at scale
+SKILL: detail
+EXP: F 段末句原文照应。
+Q4 Rolls-Royce has so far secured firm orders for ten reactors.
+ANS: FALSE
+EV: E | concedes that its own factory economics depend on winning substantial export orders
+PARA: secured firm orders >>> depend on winning
+SKILL: inference
+EXP: 原文说出口订单仍是「有待争取」的前提，与「已获得十台确定订单」矛盾。
+Q5 The Nuclear Regulatory Commission aims to license at least five SMR designs before 2030.
+ANS: NOT GIVEN
+EV: G | a subsequent executive order requires the agency to assess new applications within 18 months, a fraction of the decade such reviews once took
+SKILL: inference
+EXP: 原文只提到 18 个月的审查时限，完全没有「五种设计」或「2030 年前」这类数量与期限目标，属未提及。
+
+### GROUP multiple_choice single_answer
+INSTR: Choose the correct letter, A, B, C or D.
+ORDERED: true
+OPTIONS:
+    A | The BWRX-300 at Darlington
+    B | The Natrium reactor
+    C | Linglong One
+    D | The Carbon Free Power Project
+Q6 Which project was terminated before it could be built?
+ANS: D
+EV: C | The partners terminated the scheme that November.
+SKILL: scanning
+EXP: C 段明确爱达荷项目 2023 年 11 月被终止。
+Q7 Which project is described as having reached commercial operation?
+ANS: C
+EV: F | China's Linglong One, a 125-megawatt unit built by CNNC, reached commercial operation in the first half of 2026
+SKILL: scanning
+EXP: F 段点名玲龙一号于 2026 年上半年商运。
+Q8 Which project was approved at an overnight cost of roughly $25,000 per kilowatt for its first unit?
+ANS: A
+EV: D | approved the first BWRX-300 at Darlington at a cost of 7.7 billion Canadian dollars for 300 megawatts, an overnight figure of roughly $25,000 per kilowatt
+SKILL: scanning
+EXP: D 段给出每千瓦隔夜造价。
+Q9 Which project began construction in Wyoming in June 2024?
+ANS: B
+EV: D | TerraPower's Natrium reactor, rated at 345 megawatts, broke ground in Wyoming in June 2024 with completion targeted for 2030.
+SKILL: scanning
+EXP: broke ground = began construction。
+
+### GROUP summary_completion summary
+INSTR: Complete the summary below using words from the passage. Write your answers in boxes 10-13 on your answer sheet. Estimates of future costs vary widely: Lazard puts first-generation output at about 10. ______ per megawatt-hour, whereas SMR Intel suggests a first-of-a-kind range of $80-150. Rolls-Royce expects its own costs to fall once 11. ______ reactors have been built, though this depends on large export sales; a Berlin study put the mean levelised cost of a factory-built unit at approximately 12. ______ per megawatt-hour. None of these figures has been tested in practice, because by 2025 no SMR had been both 13. ______ and run commercially outside its country of origin.
+ORDERED: true
+WORD_LIMIT: NO MORE THAN THREE WORDS
+Q10 (summary blank 10)
+ANS: $214
+ACC: 214 dollars
+FORM: free_text
+EV: C | Lazard's analysis puts first-generation SMR electricity at about $214 per megawatt-hour
+SKILL: scanning
+EXP: 摘要题干已含 per megawatt-hour，填数字即可。
+Q11 (summary blank 11)
+ANS: ten
+ACC: 10
+FORM: free_text
+EV: E | Rolls-Royce argues that its tenth reactor would produce power at between 40 and 75 pounds per megawatt-hour
+SKILL: paraphrase
+EXP: 「第十台」= 已建成十台之后。
+Q12 (summary blank 12)
+ANS: £163
+ACC: 163 pounds
+FORM: free_text
+EV: E | put the mean levelised cost of a factory-built Rolls-Royce unit at approximately £163 per megawatt-hour
+SKILL: scanning
+EXP: 柏林工业大学研究的均值。
+Q13 (summary blank 13)
+ANS: exported
+FORM: free_text
+EV: F | As of 2025, no SMR had been exported and operated commercially anywhere outside its country of origin.
+SKILL: paraphrase
+EXP: 题干 run commercially = 原文 operated commercially。

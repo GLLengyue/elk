@@ -1,0 +1,531 @@
+{
+  "schema_version": "1.0.0",
+  "id": "news-ancient-dna-archaeology-2026",
+  "module": "academic",
+  "set_name": "reading-news-2026-08",
+  "source": {
+    "source_type": "synthetic",
+    "source_id": "news-ancient-dna-archaeology-2026",
+    "source_url": "https://phys.org/news/2026-07-scientists-recover-saharan-africa-oldest.html",
+    "licence": {
+      "name": "Original paraphrase, factual grounding from cited news source",
+      "redistributable": true,
+      "notes": "文章为基于公开新闻事实的原创改写，不含源文连续原文。URL 仅作事实溯源。"
+    },
+    "retrieved_at": "2026-08-31T00:00:00+08:00",
+    "verified_on": "2026-08-30",
+    "derivation": "https://phys.org/news/2026-07-scientists-recover-saharan-africa-oldest.html | https://www.sciencenewstoday.org/ancient-dna-recovered-from-50000-year-old-south-african-tooth-pushes-back-genetic-record-for-sub-saharan-africa | https://m2.mtmt.hu/api/publication/37122394 | https://m2.mtmt.hu/api/publication/37079228 | https://www.ikcest.org/articleS-715574.htm | https://www.smithsonianmag.com/smart-news/traces-of-two-extinct-ghost-ancestors-were-found-hiding-in-modern-human-dna-hinting-at-our-extremely-complex-family-tree-180989250/ | https://artdaily.com/news/140543/Researchers-of-ancient-DNA-set-ethics-guidelines-for-their-work"
+  },
+  "passage": {
+    "id": "news-ancient-dna-archaeology-2026-text",
+    "title": "Ancient DNA and the Rewriting of Human History",
+    "subtitle": null,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For much of its short history, the field of palaeogenomics — the study of genetic material recovered from ancient remains — was effectively confined to cold places. Low temperatures slow the chemical processes that destroy DNA after death, so the best-preserved samples tended to come from permafrost, northern caves and high-altitude sites. Warmer regions such as Africa and Southeast Asia, despite their rich fossil deposits, were widely assumed to be genetic graveyards in which no usable DNA could survive for long. A series of studies published in recent months has overturned this assumption, pushed the recovery of ancient DNA deeper into the past, and forced archaeologists to rethink long-established narratives about how human populations moved, mixed and adapted."
+      },
+      {
+        "label": "B",
+        "text": "A striking example comes from South Africa. Writing in Quaternary Science Reviews, an international team led by Deon de Jager screened 144 fossil teeth and bones drawn from 320 specimens collected at six cave and rock-shelter sites along the country's southern coast. The material spanned roughly 110,000 years and belonged to six species of wild bovids — the mammal family that includes antelope and buffalo. Ancient DNA was successfully recovered from 65 of the samples, a success rate of 45 percent, and one tooth from a mountain reedbuck yielded genetic material estimated to be around 50,000 years old, the oldest yet retrieved from sub-Saharan Africa. Before this study, the record holder was a 9,300-year-old extinct blue antelope."
+      },
+      {
+        "label": "C",
+        "text": "The key to this result lay as much in the laboratory as in the fossils. The team compared a conventional method that targets intact double-stranded DNA with a newer single-stranded approach, which effectively unzips damaged molecules and recovers tiny fragments that standard protocols miss. Using the newer technique, they obtained up to 6.7 times more animal DNA. Even so, the authors remain cautious: the reedbuck sample had been contaminated with human DNA, although this was corrected, and they recommend that future projects concentrate on Holocene specimens, which consistently yielded the highest recovery rates. The success suggests that warm-climate preservation is less hopeless than once believed, but it also exposes the fragility of the evidence."
+      },
+      {
+        "label": "D",
+        "text": "Palaeogenomics is also redrawing the map of East Asian prehistory. In Science Advances, a team including Guanglin He reported a resource of more than 1,000 newly sequenced Y chromosomes from previously underrepresented groups. Their time-calibrated family tree traces early paternal lineages back to the Paleolithic, pointing to migrations out of the southern Himalayas, followed by Neolithic expansions linked to the spread of millet and rice farming. The data reveal both inland and coastal routes connecting South China with Southeast Asia, and suggest that distinct hunter-gatherer and farming groups, including the ancestors of Tibeto-Burman speakers, moved south in successive waves. These later movements appear to have shaped the paternal landscape observed in the region today."
+      },
+      {
+        "label": "E",
+        "text": "A companion study in the same journal examined the consequences of those movements. By analysing 1,507 high-coverage Y-chromosome sequences from China alongside 780 ancient genomes and 1,748 low-coverage sequences from Southeast Asia, researchers reconstructed a high-resolution phylogeny that points to repeated, male-biased expansions out of Neolithic South China. Founding lineages associated with Hmong-Mien and Tai-Kadai speakers grew markedly during the Middle Neolithic, and their descendants remain prominent in the paternal ancestry of South China and mainland Southeast Asia. The picture that emerges is not one of a single migration, but of recurrent waves that together built the region's genetic landscape."
+      },
+      {
+        "label": "F",
+        "text": "These genetic findings sometimes clash with long-standing archaeological assumptions. A team led by Wang Chuanchao of Fudan University recovered 112 high-quality genomes from eight sites in the middle reaches of the Yellow River, spanning more than 6,200 years of continuous ancestry traceable to the Yangshao culture. Contrary to what written records suggest, the researchers detected no significant genetic contribution from steppe nomadic groups to the main population of the Central Plains. Wang argues that the entry of nomadic peoples was reflected mainly in political and cultural integration, with incoming groups rapidly assimilated into a much larger local population. The result challenges migration-based explanations for cultural change."
+      },
+      {
+        "label": "G",
+        "text": "The broader picture of human origins is becoming more tangled as well. Most non-Africans carry roughly two percent Neanderthal DNA, although the proportion varies — about 2.3 percent in East Asians and 1.8 percent in Europeans — and Denisovan ancestry reaches four to six percent in island Southeast Asia and Oceania. Using a computational method called TRACE on 503 present-day genomes, researchers at the University of California, Berkeley identified a 'ghost' lineage that diverged from the ancestors of modern humans around 800,000 years ago and still contributes up to one percent of every human genome, with a second, older lineage entering through the Denisovans. Human evolution resembles a braided network rather than a branching tree."
+      },
+      {
+        "label": "H",
+        "text": "With such power comes responsibility, and the field has had to confront its own record. A 2017 study of ancient DNA from Chaco Canyon in New Mexico was criticised for referring to a tribal ancestor as 'cranium 14' and for failing to consult local communities. In response, an international group of 64 researchers from 31 countries published guidelines in Nature urging colleagues to follow local regulations, plan carefully, minimise damage to bones, make data available for re-examination and engage with all stakeholders. Even this effort drew criticism: Indigenous geneticists such as Nanibaa' Garrison and Krystal Tsosie argued that the guidelines did not go far enough on consent and data sovereignty. The debate underlines that studying ancient lives now depends as much on trust as on technology."
+      }
+    ],
+    "word_count": 893,
+    "topic_tags": [
+      "archaeology",
+      "genetics",
+      "history"
+    ],
+    "cefr": "B2-C1",
+    "has_diagram": false
+  },
+  "question_groups": [
+    {
+      "id": "news-ancient-dna-archaeology-2026-g1",
+      "type": "matching_headings",
+      "instruction": "The reading passage has eight paragraphs, labelled A-H. Choose the correct heading for paragraphs A, B, D, G and H from the list of headings below.",
+      "question_range": {
+        "from": 1,
+        "to": 5
+      },
+      "ordered": false,
+      "options": [
+        {
+          "key": "i",
+          "text": "A method that unlocks the genetic past in warm climates"
+        },
+        {
+          "key": "ii",
+          "text": "An assumption about DNA survival overturned"
+        },
+        {
+          "key": "iii",
+          "text": "The oldest human DNA ever recovered"
+        },
+        {
+          "key": "iv",
+          "text": "Genetic continuity challenges migration-based accounts"
+        },
+        {
+          "key": "v",
+          "text": "Cold storage: the essential condition for ancient remains"
+        },
+        {
+          "key": "vi",
+          "text": "A record-breaking recovery in an unexpected region"
+        },
+        {
+          "key": "vii",
+          "text": "Rewriting the migrations of East Asia"
+        },
+        {
+          "key": "viii",
+          "text": "A tangled, rather than branching, human history"
+        },
+        {
+          "key": "ix",
+          "text": "New rules for studying the dead"
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Paragraph A",
+          "answer": "ii",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "A series of studies published in recent months has overturned this assumption, pushed the recovery of ancient DNA deeper into the past, and forced archaeologists to rethink long-established narratives about how human populations moved, mixed and adapted.",
+              "start": 520,
+              "end": 774,
+              "paragraph_label": "A",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "an assumption about DNA survival overturned",
+              "to": "overturned this assumption",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "A 段末句直接点出「推翻假设」（overturned this assumption），对应标题 ii。",
+          "skill_tag": [
+            "main_idea"
+          ],
+          "acceptable_answers": [
+            "ii"
+          ]
+        },
+        {
+          "number": 2,
+          "stem": "Paragraph B",
+          "answer": "vi",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Ancient DNA was successfully recovered from 65 of the samples, a success rate of 45 percent, and one tooth from a mountain reedbuck yielded genetic material estimated to be around 50,000 years old, the oldest yet retrieved from sub-Saharan Africa.",
+              "start": 1185,
+              "end": 1432,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a record-breaking recovery in an unexpected region",
+              "to": "the oldest yet retrieved from sub-Saharan Africa",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段记录了撒哈拉以南非洲最古老 DNA 的发现，对应标题 vi（破纪录在非预期区域）。",
+          "skill_tag": [
+            "main_idea"
+          ],
+          "acceptable_answers": [
+            "vi"
+          ]
+        },
+        {
+          "number": 3,
+          "stem": "Paragraph D",
+          "answer": "vii",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Their time-calibrated family tree traces early paternal lineages back to the Paleolithic, pointing to migrations out of the southern Himalayas, followed by Neolithic expansions linked to the spread of millet and rice farming.",
+              "start": 2502,
+              "end": 2727,
+              "paragraph_label": "D",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "rewriting the migrations of East Asia",
+              "to": "traces early paternal lineages back to the Paleolithic, pointing to migrations out of the southern Himalayas",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "D 段描述 Y 染色体谱系如何改写东亚人群迁徙史，对应标题 vii。",
+          "skill_tag": [
+            "main_idea"
+          ],
+          "acceptable_answers": [
+            "vii"
+          ]
+        },
+        {
+          "number": 4,
+          "stem": "Paragraph G",
+          "answer": "viii",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "Human evolution resembles a braided network rather than a branching tree.",
+              "start": 5204,
+              "end": 5277,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a tangled, rather than branching, human history",
+              "to": "a braided network rather than a branching tree",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "G 段末句总结人类进化是网状而非树状，对应标题 viii。",
+          "skill_tag": [
+            "main_idea"
+          ],
+          "acceptable_answers": [
+            "viii"
+          ]
+        },
+        {
+          "number": 5,
+          "stem": "Paragraph H",
+          "answer": "ix",
+          "answer_form": "option_key",
+          "evidence": [
+            {
+              "quote": "In response, an international group of 64 researchers from 31 countries published guidelines in Nature urging colleagues to follow local regulations, plan carefully, minimise damage to bones, make data available for re-examination and engage with all stakeholders.",
+              "start": 5538,
+              "end": 5802,
+              "paragraph_label": "H",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "new rules for studying the dead",
+              "to": "published guidelines in Nature urging colleagues to follow local regulations, plan carefully, minimise damage to bones",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "H 段讨论古 DNA 研究倫理准则，对应标题 ix。",
+          "skill_tag": [
+            "main_idea"
+          ],
+          "acceptable_answers": [
+            "ix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ancient-dna-archaeology-2026-g2",
+      "type": "identifying_information",
+      "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 6-9 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "question_range": {
+        "from": 6,
+        "to": 9
+      },
+      "ordered": true,
+      "options": [],
+      "questions": [
+        {
+          "number": 6,
+          "stem": "The tooth from a mountain reedbuck provided the oldest ancient DNA yet recovered from sub-Saharan Africa.",
+          "answer": "TRUE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "one tooth from a mountain reedbuck yielded genetic material estimated to be around 50,000 years old, the oldest yet retrieved from sub-Saharan Africa",
+              "start": 1282,
+              "end": 1431,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "the oldest ancient DNA yet recovered from sub-Saharan Africa",
+              "to": "the oldest yet retrieved from sub-Saharan Africa",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段明确说明该样本是撒哈拉以南非洲迄今最古老的 DNA 回收。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "TRUE"
+          ]
+        },
+        {
+          "number": 7,
+          "stem": "In the South African study, the conventional double-stranded method recovered more DNA than the single-stranded technique.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Using the newer technique, they obtained up to 6.7 times more animal DNA.",
+              "start": 1806,
+              "end": 1879,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "conventional double-stranded method recovered more DNA",
+              "to": "the newer technique...obtained up to 6.7 times more animal DNA",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "C 段指出单链新方法获得的 DNA 量是传统双链法的 6.7 倍，题干说反了。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 8,
+          "stem": "European populations carry a higher proportion of Neanderthal DNA than East Asian populations.",
+          "answer": "FALSE",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "about 2.3 percent in East Asians and 1.8 percent in Europeans",
+              "start": 4698,
+              "end": 4759,
+              "paragraph_label": "G",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "European populations carry a higher proportion of Neanderthal DNA",
+              "to": "about 2.3 percent in East Asians and 1.8 percent in Europeans",
+              "kind": "antonym"
+            }
+          ],
+          "explanation": "G 段给出东亚 2.3% 而欧洲 1.8%，东亚高于欧洲，题干相反。",
+          "skill_tag": [
+            "detail"
+          ],
+          "acceptable_answers": [
+            "FALSE"
+          ]
+        },
+        {
+          "number": 9,
+          "stem": "Deon de Jager's team also succeeded in extracting ancient DNA from a fossil discovered in Ethiopia.",
+          "answer": "NOT GIVEN",
+          "answer_form": "boolean3",
+          "evidence": [
+            {
+              "quote": "Writing in Quaternary Science Reviews, an international team led by Deon de Jager screened 144 fossil teeth and bones drawn from 320 specimens collected at six cave and rock-shelter sites along the country's southern coast.",
+              "start": 819,
+              "end": 1042,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "also succeeded in extracting ancient DNA from a fossil discovered in Ethiopia",
+              "to": "the passage only describes collections from South Africa's southern coast, with no mention of Ethiopia",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "文章对 Deon de Jager 团队的描述仅限于南非南海岸的样本，未提及在埃塞俄比亚的任何工作。",
+          "skill_tag": [
+            "inference"
+          ],
+          "acceptable_answers": [
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news-ancient-dna-archaeology-2026-g3",
+      "type": "summary_completion",
+      "subtype": "note",
+      "instruction": "Complete the notes below. Choose NO MORE THAN ONE WORD AND/OR A NUMBER from the passage for each answer.",
+      "question_range": {
+        "from": 10,
+        "to": 13
+      },
+      "ordered": true,
+      "options": [],
+      "word_limit": 1,
+      "questions": [
+        {
+          "number": 10,
+          "stem": "fossils from more than 300 specimens, belonging to six species of wild ______",
+          "answer": "bovids",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "bovids"
+          ],
+          "evidence": [
+            {
+              "quote": "The material spanned roughly 110,000 years and belonged to six species of wild bovids — the mammal family that includes antelope and buffalo.",
+              "start": 1043,
+              "end": 1184,
+              "paragraph_label": "B",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "belonging to six species of wild",
+              "to": "belonged to six species of wild",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "B 段列出六种野生 bovids。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 11,
+          "stem": "a ______-stranded DNA technique recovered up to 6.7 times more genetic material than the standard approach",
+          "answer": "single",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "single"
+          ],
+          "evidence": [
+            {
+              "quote": "The team compared a conventional method that targets intact double-stranded DNA with a newer single-stranded approach, which effectively unzips damaged molecules and recovers tiny fragments that standard protocols miss.",
+              "start": 1586,
+              "end": 1805,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "a single-stranded DNA technique",
+              "to": "a newer single-stranded approach",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段提到单链（single-stranded）方法。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 12,
+          "stem": "the authors advise future researchers to target ______ specimens in order to maximise the chances of success",
+          "answer": "Holocene",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "Holocene"
+          ],
+          "evidence": [
+            {
+              "quote": "they recommend that future projects concentrate on Holocene specimens, which consistently yielded the highest recovery rates",
+              "start": 2009,
+              "end": 2133,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "target Holocene specimens",
+              "to": "concentrate on Holocene specimens",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段末建议未来研究聚焦全新世（Holocene）样本。",
+          "skill_tag": [
+            "detail"
+          ]
+        },
+        {
+          "number": 13,
+          "stem": "one sample had been contaminated with human DNA, but this contamination was ______",
+          "answer": "corrected",
+          "answer_form": "free_text",
+          "acceptable_answers": [
+            "corrected"
+          ],
+          "evidence": [
+            {
+              "quote": "the reedbuck sample had been contaminated with human DNA, although this was corrected",
+              "start": 1918,
+              "end": 2003,
+              "paragraph_label": "C",
+              "is_core": true
+            }
+          ],
+          "paraphrase": [
+            {
+              "from": "this contamination was corrected",
+              "to": "this was corrected",
+              "kind": "synonym"
+            }
+          ],
+          "explanation": "C 段提到 reedbuck 样本被人类 DNA 污染，但已修正（corrected）。",
+          "skill_tag": [
+            "detail"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "quality_status": "synthetic_passed",
+    "build_version": "news-to-ielts@1.0",
+    "created_at": "2026-08-31T00:00:00+08:00",
+    "reviewed_by": "auto",
+    "review_note": "模型命题初稿，证据偏移由脚本重算；答案未经人工复核。",
+    "not_official": true
+  }
+}
